@@ -186,16 +186,11 @@ h3 {
 }
 
 .footer {
-  padding-top: 19px;
+  padding-top: 10px;
   color: #777;
   border-top: 1px solid #e5e5e5;
   margin-top: 80px;
   text-align: center;
-}
-
-.footer .divider {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 /* Grow from hover.css */
@@ -238,3 +233,10 @@ h3 {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+/*
+.share-button {
+  display: block;
+  float: left;
+  width: 95px;
+  height: 25px;
+}*/
