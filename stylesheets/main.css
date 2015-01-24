@@ -1,0 +1,240 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: #e7e9e9;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.jumbotron p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jumbotron h5 {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.headings h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.headings h1 a {
+  color: #333;
+}
+
+.headings h1 a:hover {
+  text-decoration: none;
+  color: #009604;
+}
+
+.headings h2 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.jumbotron .get-the-book {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.jumbotron .get-the-book h5 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.jumbotron .get-the-book .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.buy-link {
+  display: block;
+}
+
+.buy-button {
+  padding: 4px 6px;
+  background-color: #fff;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;  
+  margin: 10px 0;
+  animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -webkit-animation-delay: 500ms;  
+}
+
+.book-3d {
+  text-align: center;
+}
+
+.author-image {
+  text-align: center;
+}
+
+.author-about {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.connect-buttons {
+  text-align: center;
+}
+
+.twitter-button {
+  margin-top: 20px;
+}
+
+.linkedin-button {
+  text-align: left;
+  display: inline-block;
+  background-color: #0077b5;
+  height: 21px;
+  line-height: 21px;
+  width: 112px;
+  background: -webkit-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
+  background: -moz-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
+  background: linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
+}
+
+.linkedin-button:hover {
+  background: -webkit-linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
+  background: -moz-linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
+  background: linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
+}
+
+.linkedin-button a {
+  display: block;
+  color: #fff;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;  
+  text-shadow: #005887 0px -1px 0px;
+}
+
+.linkedin-button a:hover {
+  text-decoration: none;
+}
+
+.linkedin-button a .in {
+  font-family: Arial;
+  padding: 0 5px 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 1px solid #066094;
+  line-height: 22px;
+  height: 21px;
+  margin-right: 16px;  
+}
+
+.linkedin-button a .connect {
+  position: relative;
+  top: -2px;
+}
+
+.blogger-button a {
+  text-align: left;
+  display: inline-block;  
+  background-color: #fd8f2c;
+  color: #fff;
+  margin: 5px 0;
+  width: 112px;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;  
+}
+
+.blogger-button a:hover {
+  text-decoration: none;
+}
+
+.blogger-button a .blogger-logo {
+  border-right: 1px solid #de6900;
+  padding: 0 4px;
+  margin-right: 20px;
+}
+
+.blogger-button a .follow {
+  position: relative;
+  top: 2px;
+}
+
+.get-book-buttons {
+  text-align: center;
+}
+
+.get-book-buttons .buy-button {
+  padding: 4px 50px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.footer .divider {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Grow from hover.css */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Grow Shadow from hover.css */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
