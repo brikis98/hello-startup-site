@@ -3,10 +3,8 @@ body {
   padding-bottom: 20px;
 }
 
-.jumbotron {
+.container .jumbotron {
   background-color: #e7e9e9;
-  padding-top: 40px;
-  padding-bottom: 10px;
 }
 
 .jumbotron p {
@@ -15,8 +13,11 @@ body {
 }
 
 h3 {
-  text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
 }
 
 .jumbotron h5 {
@@ -24,9 +25,13 @@ h3 {
   text-align: justify;
 }
 
+.headings {
+  padding-right: 60px;
+  text-align: right;
+}
+
 .headings h1 {
   font-size: 48px;
-  text-align: center;
 }
 
 .headings h1 a {
@@ -41,7 +46,6 @@ h3 {
 .headings h2 {
   font-size: 18px;
   font-weight: normal;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -52,7 +56,8 @@ h3 {
 }
 
 .jumbotron .get-the-book h5 {
-  text-align: center;
+  text-align: right;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 
@@ -63,25 +68,27 @@ h3 {
 
 .buy-link {
   display: block;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;  
+  margin: 10px 0 0;
 }
 
 .buy-button {
   padding: 4px 6px;
   background-color: #fff;
-  border: 1px solid #CCC;
-  -webkit-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;  
-  margin: 10px 0;
   animation-delay: 500ms;
   -moz-animation-delay: 500ms;
   -webkit-animation-delay: 500ms;  
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;  
+}
+
+.more-info {
+
 }
 
 .book-3d {
-  text-align: center;
-}
-
-.author-image {
   text-align: center;
 }
 
@@ -89,18 +96,45 @@ h3 {
   margin-top: 20px;
 }
 
+.connect-buttons {
+  text-align: right;
+}
+
+.connect-buttons h4 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .headings {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .jumbotron {
+    padding: 30px 20px;    
+  }
+
+  .author-image {
+    text-align: center;
+  }
+
+  .connect-buttons {
+    text-align: center;
+  }  
+
+  .jumbotron .get-the-book h5 {
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
   }
-}
 
-.connect-buttons {
-  text-align: center;
-}
-
-.twitter-button {
-  margin-top: 20px;
+  .container .jumbotron {
+    padding: 30px 45px 20px 10px;    
+  }
 }
 
 .linkedin-button {
@@ -113,12 +147,6 @@ h3 {
   background: -webkit-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
   background: -moz-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
   background: linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
-}
-
-.linkedin-button:hover {
-  background: -webkit-linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
-  background: -moz-linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
-  background: linear-gradient(top, rgb(3, 105, 160) 0%, rgb(3, 105, 160) 100%);
 }
 
 .linkedin-button a {
@@ -168,7 +196,6 @@ h3 {
 
 .blogger-button a .blogger-logo {
   border-right: 1px solid #de6900;
-  padding: 0 4px;
   margin-right: 20px;
 }
 
@@ -177,12 +204,10 @@ h3 {
   top: 2px;
 }
 
-.get-book-buttons {
+.get-book-buttons .buy-link {
+  width: 100%;
   text-align: center;
-}
-
-.get-book-buttons .buy-button {
-  padding: 4px 50px;
+  margin: 0;
 }
 
 .footer {
@@ -233,10 +258,12 @@ h3 {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-/*
-.share-button {
-  display: block;
-  float: left;
-  width: 95px;
-  height: 25px;
-}*/
+
+.outline ol {
+  padding-left: 0;
+  margin-left: 20;
+}
+
+.outline li {
+  list-style-position:inside;
+}
