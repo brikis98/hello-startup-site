@@ -26,8 +26,7 @@ p {
 }
 
 .headings {
-  padding-right: 60px;
-  text-align: right;
+  text-align: left;
 }
 
 .headings h1 {
@@ -56,7 +55,6 @@ p {
 }
 
 .jumbotron .get-the-book h5 {
-  text-align: right;
   margin-top: 30px;
   margin-bottom: 0;
 }
@@ -94,10 +92,6 @@ p {
 
 .author-about {
   margin-top: 20px;
-}
-
-.connect-buttons {
-  text-align: right;
 }
 
 .connect-buttons h4 {
