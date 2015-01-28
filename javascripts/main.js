@@ -1,4 +1,4 @@
-(function($, googleAnalytics) {
+(function() {
   "use strict";
 
   var trackOutboundLink = function(event) {
@@ -21,10 +21,10 @@
       };
     }
 
-    console.log(googleAnalytics);
+    console.log(ga);
     console.log(props);
-    googleAnalytics('send', props);
+    ga('send', props);
   };
 
   $('.tracked').on('click', trackOutboundLink);
-})($, ga);
+})();
