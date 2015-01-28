@@ -21,8 +21,6 @@
       };
     }
 
-    console.log(ga);
-    console.log(props);
     ga('send', props);
   };
 
