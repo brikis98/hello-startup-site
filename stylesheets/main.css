@@ -30,7 +30,8 @@ p {
 }
 
 .headings h1 {
-  font-size: 48px;
+  font-size: 100px;
+  font-weight: 100;
 }
 
 .headings h1 a {
@@ -43,10 +44,11 @@ p {
 }
 
 .headings h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 30px;
+  font-weight: 200;
 }
 
 .jumbotron .get-the-book {
