@@ -7,15 +7,16 @@
     var trk = anchor.attr('data-trk');
     var target = anchor.attr('target');
 
-    googleAnalytics.push(['_trackEvent', 'outbound-link', trk, url]);
-
+    var props = {};
     if (target !== "_blank") {
       event.preventDefault();
-      googleAnalytics.push(function() {
+      props['hitCallback'] = function() {
         window.location = url;
-      });
+      };
     }
+
+    googleAnalytics('send', 'event', 'outbound-link', trk, url, props);
   };
 
   $('.tracked').on('click', trackOutboundLink);
-})($, _gaq);
+})($, ga);
