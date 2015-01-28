@@ -7,7 +7,13 @@
     var trk = anchor.attr('data-trk');
     var target = anchor.attr('target');
 
-    var props = {};
+    var props = {
+      'hitType': 'event',
+      'eventCategory': 'outbound',
+      'eventAction': 'click-' + trk,
+      'eventLabel': url
+    };
+
     if (target !== "_blank") {
       event.preventDefault();
       props['hitCallback'] = function() {
@@ -15,8 +21,7 @@
       };
     }
 
-    console.log('Sending tracking info for trk=' + trk + ", url=" + url);
-    googleAnalytics('send', 'event', 'outbound-link', trk, url, props);
+    googleAnalytics('send', props);
   };
 
   $('.tracked').on('click', trackOutboundLink);
