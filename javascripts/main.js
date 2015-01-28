@@ -15,6 +15,7 @@
       };
     }
 
+    console.log('Sending tracking info for trk=' + trk + ", url=" + url);
     googleAnalytics('send', 'event', 'outbound-link', trk, url, props);
   };
 
