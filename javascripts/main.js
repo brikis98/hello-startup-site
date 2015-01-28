@@ -21,6 +21,8 @@
       };
     }
 
+    console.log(googleAnalytics);
+    console.log(props);
     googleAnalytics('send', props);
   };
 
