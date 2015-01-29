@@ -1,5 +1,4 @@
 body {
-  padding-bottom: 20px;
   position: relative;
 }
 
@@ -198,10 +197,14 @@ section {
 }
 
 footer {
-  padding-top: 10px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
   margin-top: 80px;
+}
+
+footer .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #e5e5e5;
 }
 
 /* Grow from hover.css */
