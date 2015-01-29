@@ -1,71 +1,148 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 
-.container .jumbotron {
-  background-color: #e7e9e9;
+a {
+  color: #2D9615;
 }
 
-.jumbotron p {
-  font-size: 12px;
-  text-align: justify;
+a:hover {
+  color: #42E71C;
+  text-decoration: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 h3 {
-  margin-bottom: 15px;
-  font-size: 32px;
-  font-weight: 200;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #777;
+  text-align: justify;
+}
+
+h4 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
 p {
   text-align: justify;
 }
 
-.jumbotron h5 {
-  margin-bottom: 20px;
+.navbar-default {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-right {
+  background: #E7E9E9;
+}
+
+.navbar-default .navbar-brand {
+  display: none;
+}
+
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Lato', monospace;
+  font-size: 28px;
+  text-transform: lowercase;
+  color: #5BBA45;
+}
+
+.navbar-right a.page-scroll {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar a.page-scroll {
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  line-height: 10px;
+}
+
+header {
+  background-color: #e7e9e9;
+}
+
+header .container {
+  max-width: none;
+  padding: 40px 80px;
+}
+
+header .img-responsive {
+  max-height: 115vh;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+header h1 a {
+  display: inline-block;
+}
+
+header .book-3d {
+  text-align: center;
+}
+
+header p {
+  font-size: 14px;
+  font-weight: 200;
   text-align: justify;
 }
 
-.headings {
-  text-align: left;
+header blockquote {
+  display:block;
+  padding: 0;
+  margin: 0 0 20px;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  text-align: justify;
+  border: 0;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  font-weight: 700;
 }
 
-.headings h1 {
-  font-size: 100px;
-  font-weight: 100;
+/*
+header blockquote::before {
+  content: open-quote;
+  font-family: Georgia, serif;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  color: #BBB;  
 }
+*/
 
-.headings h1 a {
-  color: #333;
-}
-
-.headings h1 a:hover {
-  text-decoration: none;
-  color: #009604;
-}
-
-.headings h2 {
-  font-size: 20px;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-weight: 200;
-}
-
-.jumbotron .get-the-book {
-  text-align: center;
-  margin-top: 5px;
-}
-
-.jumbotron .get-the-book h5 {
+header .get-the-book h5 {
   margin-top: 30px;
   margin-bottom: 0;
+  color: #000;
+  font-size: 16px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;  
+  font-weight: 700;
 }
 
-.jumbotron .get-the-book .col-md-6 {
-  padding-left: 0;
-  padding-right: 0;
+section {
+  padding: 60px 60px 20px;
 }
 
 .buy-link {
@@ -74,10 +151,13 @@ p {
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;  
   margin: 10px 0 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
 }
 
 .buy-button {
-  padding: 4px 6px;
+  padding: 4px;
   background-color: #fff;
   animation-delay: 500ms;
   -moz-animation-delay: 500ms;
@@ -86,12 +166,27 @@ p {
   border-radius: 5px 5px 5px 5px;  
 }
 
-.more-info {
-
+.buy-buttons {
+  margin-bottom: 25px;
 }
 
-.book-3d {
+.circle-icon {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #fff;
+  border: 1px solid #555;
+  background-color: #555;
+  padding: 30px;
+  margin-top: 35px;
+}
+
+.book-parts {
   text-align: center;
+}
+
+.book-parts ol {
+  margin-top: 20px;
+  text-align: left;
 }
 
 .author-about {
@@ -102,118 +197,19 @@ p {
   margin-top: 0;
 }
 
-@media (max-width: 768px) {
-  .headings {
-    padding-right: 0;
-    text-align: center;
-  }
-
-  .jumbotron {
-    padding: 30px 20px;    
-  }
-
-  .author-image {
-    text-align: center;
-  }
-
-  .connect-buttons {
-    text-align: center;
-  }  
-
-  .jumbotron .get-the-book h5 {
-    text-align: center;
-  }
+.follow-button i {
+  margin-right: 5px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  .container .jumbotron {
-    padding: 30px 45px 20px 10px;    
-  }
+.more-about-author {
+  margin-top: 15px;
 }
 
-.linkedin-button {
-  text-align: left;
-  display: inline-block;
-  background-color: #0077b5;
-  height: 21px;
-  line-height: 21px;
-  width: 112px;
-  background: -webkit-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
-  background: -moz-linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
-  background: linear-gradient(top, rgb(0, 119, 181) 0%, rgb(0, 119, 181) 100%);
-}
-
-.linkedin-button a {
-  display: block;
-  color: #fff;
-  font-family: Arial;
-  font-size: 10px;
-  font-weight: bold;  
-  text-shadow: #005887 0px -1px 0px;
-}
-
-.linkedin-button a:hover {
-  text-decoration: none;
-}
-
-.linkedin-button a .in {
-  font-family: Arial;
-  padding: 0 5px 0 8px;
-  font-size: 18px;
-  font-weight: bold;
-  border-right: 1px solid #066094;
-  line-height: 22px;
-  height: 21px;
-  margin-right: 16px;  
-}
-
-.linkedin-button a .connect {
-  position: relative;
-  top: -2px;
-}
-
-.blogger-button a {
-  text-align: left;
-  display: inline-block;  
-  background-color: #fd8f2c;
-  color: #fff;
-  margin: 5px 0;
-  width: 112px;
-  font-family: Arial;
-  font-size: 10px;
-  font-weight: bold;  
-}
-
-.blogger-button a:hover {
-  text-decoration: none;
-}
-
-.blogger-button a .blogger-logo {
-  border-right: 1px solid #de6900;
-  margin-right: 20px;
-}
-
-.blogger-button a .follow {
-  position: relative;
-  top: 2px;
-}
-
-.get-book-buttons .buy-link {
-  width: 100%;
-  text-align: center;
-  margin: 0;
-}
-
-.footer {
+footer {
   padding-top: 10px;
   color: #777;
   border-top: 1px solid #e5e5e5;
   margin-top: 80px;
-  text-align: center;
 }
 
 /* Grow from hover.css */
@@ -264,4 +260,32 @@ p {
 
 .outline li {
   list-style-position:inside;
+}
+
+.author-image {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .container {
+    padding: 40px 20px 0;
+  }
+
+  header .blurb {
+    margin-left: -64px;
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .share-button {
+    margin: 10px auto;
+    width: 90px;
+  }  
 }

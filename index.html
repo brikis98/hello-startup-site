@@ -11,8 +11,10 @@
     <meta name="og:image" content="images/hello-startup.png">    
     <meta name="google-site-verification" content="T103vmhtiZESWgyOxiqIfKOd2RL-BJKvx6AsBNYr4UM" />
     <title>Hello, Startup: A Programmer's Guide to Building Products, Technology, and Teams -- an O'Reilly book by Yevgeniy Brikman.</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif|Lato" rel="stylesheet" type="text/css">    
     <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/animate.min.css">
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -21,23 +23,52 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->    
   </head>
-  <body>
-    <div class="container">
-      <div class="headings">
-        <h1><a href="http://www.hello-startup.net" class="tracked" data-trk="home-header">Hello, Startup</a></h1>
-        <h2>A programmer's guide to building products, technology, and teams</h2>
+  <body data-spy="scroll" data-target=".top-navbar" id="page-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-hidden">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Hello, Startup</a>
+        </div>
+        <div class="collapse navbar-collapse top-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#whats-in-the-book">The Book</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about-author">The Author</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#buy-now">Buy Now</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="jumbotron">
+    </nav> 
+    <header>
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6 book-3d">
-            <a href="#" class="hvr-grow tracked" data-trk="buy-oreilly-book-3d"><img src="images/hello-startup.png" alt="Hello, Startup Book"/></a>
+          <div class="col-lg-6 col-lg-offset-1 book-3d">
+            <h1>
+              <a href="http://www.hello-startup.net" class="tracked" data-trk="home-book-3d" title="Hello, Startup: A Programmer's Guide to Building Products, Technology, and Teams -- an O'Reilly book by Yevgeniy Brikman.">
+                <img src="images/hello-startup-large.png" alt="Hello, Startup: A Programmer's Guide to Building Products, Technology, and Teams -- an O'Reilly book by Yevgeniy Brikman." class="img-responsive"/>
+              </a>
+            </h1>
           </div>
-          <div class="col-sm-6">
-            <h5>
+          <div class="col-lg-4 blurb">
+            <blockquote>
               At this very moment, somewhere in the world, two programmers are sitting 
               in a garage and creating our future, one line of code at a time. We are
               in the era of the high tech startup.
-            </h5>
+            </blockquote>
             <p>
               This book is the "Hello, World" tutorial for building products, technology,
               and teams in a startup environment. It's based on the experiences of the author, Yevgeniy Brikman, 
@@ -55,275 +86,291 @@
             <div class="get-the-book">
               <h5 class="animated bounceInDown">Get the book!</h5>              
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                   <a href="#" class="buy-link hvr-grow hvr-grow-shadow tracked" data-trk="buy-oreilly-button-jumbotron"><img src="images/oreilly-store-small.gif" alt="O'Reilly Store" class="buy-button animated bounceInDown" target="_blank"/></a>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-lg-6">
                   <a href="#" class="buy-link hvr-grow hvr-grow-shadow tracked" data-trk="buy-safari-button-jumbotron"><img src="images/safari-store-small.gif" alt="Safari Books Online" class="buy-button animated bounceInDown" target="_blank"/></a>
                 </div>
               </div>
             </div>
           </div>
+        </div>        
+      </div>
+    </header>
+    <section id="whats-in-the-book">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>The book</h2>
+            <h3>
+              <em>Hello, Startup</em> consists of three parts: Products, Technology, and Teams. Although at its core, 
+              this is a book for programmers, by programmers, only Part II, Technology, is significantly technical. 
+              Parts I and III should be accessible to technical and non-technical audiences alike.
+            </h3>  
+          </div>
+        </div>
+        <div class="row book-parts">
+          <div class="col-md-4">
+            <div class="fa fa-shopping-cart fa-5x circle-icon"></div>
+            <h4>Part I: Products</h4>
+            <ol>
+              <li>
+                <a href="#whyStartups" aria-controls="whyStartups" data-toggle="collapse" aria-expanded="false">Why Startups</a>
+                <ul class="collapse" id="whyStartups">
+                  <li>What is a tech startup?</li>
+                  <li>Why you should work at a startup</li>
+                  <li>Why you shouldn't work at a startup</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#principlesProducts" aria-controls="principlesProducts" data-toggle="collapse" aria-expanded="false">Principles of Building Great Products</a>
+                <ul class="collapse" id="principlesProducts">
+                  <li>Startup ideas</li>
+                  <li>Prioritization</li>
+                  <li>Product design</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#practicesProducts" aria-controls="practicesProducts" data-toggle="collapse" aria-expanded="false">Practices of Building Great Products</a>
+                <ul class="collapse" id="practicesProducts">
+                  <li>Customer development</li>
+                  <li>Data driven development</li>
+                  <li>Distribution</li>
+                </ul>
+              </li>
+            </ol>            
+          </div>
+          <div class="col-md-4">
+            <div class="fa fa-gears fa-5x circle-icon"></div>
+            <h4>Part II: Technology</h4>
+            <ol start="4">
+              <li>
+                <a href="#pickingTech" aria-controls="pickingTech" data-toggle="collapse" aria-expanded="false">Picking a Tech Stack</a>
+                <ul class="collapse" id="pickingTech">
+                  <li>Build in-house, buy commercial, or use open source</li>
+                  <li>Picking a programming language</li>
+                  <li>Picking a server-side framework</li>
+                  <li>Picking a database</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#principlesCode" aria-controls="principlesCode" data-toggle="collapse" aria-expanded="false">Principles of Clean Code</a>
+                <ul class="collapse" id="principlesCode">
+                  <li>Code layout</li>
+                  <li>Naming</li>
+                  <li>Error handling</li>
+                  <li>Don't Repeat Yourself</li>
+                  <li>Single Responsibility Principle</li>
+                  <li>Functional Programming</li>
+                  <li>Loose coupling</li>
+                  <li>High cohesion</li>
+                  <li>Refactoring</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#practicesCode" aria-controls="practicesCode" data-toggle="collapse" aria-expanded="false">Practices of Clean Code</a>
+                <ul class="collapse" id="practicesCode">
+                  <li>Automated tests</li>
+                  <li>Code reviews</li>
+                  <li>Documentation</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#softwareDelivery" aria-controls="softwareDelivery" data-toggle="collapse" aria-expanded="false">Software Delivery</a>
+                <ul class="collapse" id="softwareDelivery">
+                  <li>Build</li>
+                  <li>Deployment</li>
+                  <li>Monitoring</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#scalability" aria-controls="scalability" data-toggle="collapse" aria-expanded="false">Scalability</a>
+                <ul class="collapse" id="scalability">
+                  <li>Simplicity</li>
+                  <li>Scaling teams</li>
+                  <li>Scaling systems</li>
+                </ul>
+              </li>
+            </ol>            
+          </div>
+          <div class="col-md-4">
+            <div class="fa fa-users fa-5x circle-icon"></div>
+            <h4>Part III: Teams</h4>
+            <ol start="9">
+              <li>
+                <a href="#startupCulture" aria-controls="startupCulture" data-toggle="collapse" aria-expanded="false">Startup Culture</a>
+                <ul class="collapse" id="startupCulture">
+                  <li>Mission and values</li>
+                  <li>Organizational design</li>
+                  <li>Hiring and promotions</li>
+                  <li>Motivation</li>
+                  <li>Working in the office or remotely</li>
+                  <li>Process and methodology</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#gettingJob" aria-controls="gettingJob" data-toggle="collapse" aria-expanded="false">Getting a Job at a Startup</a>
+                <ul class="collapse" id="gettingJob">
+                  <li>Finding a startup job</li>
+                  <li>Nailing the interview</li>
+                  <li>Salary and equity</li>
+                  <li>Negotiating</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#hiring" aria-controls="hiring" data-toggle="collapse" aria-expanded="false">Hiring for your Startup</a>
+                <ul class="collapse" id="hiring">
+                  <li>Who to hire</li>
+                  <li>Finding great candidates</li>
+                  <li>The interview</li>
+                  <li>Making an offer</li>
+                </ul>
+              </li>
+              <li>
+                <a href="#learning" aria-controls="learning" data-toggle="collapse" aria-expanded="false">Learning and Teaching</a>
+                <ul class="collapse" id="learning">
+                  <li>Blogs, talks, and open source</li>
+                  <li>How to build a great startup</li>
+                  <li>How to become a great startup programmer</li>
+                </ul>
+              </li>
+            </ol>            
+          </div>
         </div>
       </div>
-      <div class="row more-info">
-        <div class="col-sm-6">
-          <h3>What's in the book?</h3>
-          <p>
-            <em>Hello, Startup</em> consists of three parts: Products, Technology, and Teams. Although at its core, 
-            this is a book for programmers, by programmers, only Part II, Technology, is significantly technical. 
-            Parts I and III should be accessible to technical and non-technical audiences alike.
-          </p>  
-          <dl class="outline">
-            <dt>Part I: Products</dt>
-            <dd>
-              <ol>
-                <li>
-                  <a href="#whyStartups" aria-controls="whyStartups" data-toggle="collapse" aria-expanded="false">Why Startups</a>
-                  <ul class="collapse" id="whyStartups">
-                    <li>What is a tech startup?</li>
-                    <li>Why you should work at a startup</li>
-                    <li>Why you shouldn't work at a startup</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#principlesProducts" aria-controls="principlesProducts" data-toggle="collapse" aria-expanded="false">Principles of Building Great Products</a>
-                  <ul class="collapse" id="principlesProducts">
-                    <li>Startup ideas</li>
-                    <li>Prioritization</li>
-                    <li>Product design</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#practicesProducts" aria-controls="practicesProducts" data-toggle="collapse" aria-expanded="false">Practices of Building Great Products</a>
-                  <ul class="collapse" id="practicesProducts">
-                    <li>Customer development</li>
-                    <li>Data driven development</li>
-                    <li>Distribution</li>
-                  </ul>
-                </li>
-              </ol>
-            </dd>
-            <dt>Part II: Technology</dt>
-            <dd>
-              <ol start="4">
-                <li>
-                  <a href="#pickingTech" aria-controls="pickingTech" data-toggle="collapse" aria-expanded="false">Picking a Tech Stack</a>
-                  <ul class="collapse" id="pickingTech">
-                    <li>Build in-house, buy commercial, or use open source</li>
-                    <li>Picking a programming language</li>
-                    <li>Picking a server-side framework</li>
-                    <li>Picking a database</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#principlesCode" aria-controls="principlesCode" data-toggle="collapse" aria-expanded="false">Principles of Clean Code</a>
-                  <ul class="collapse" id="principlesCode">
-                    <li>Code layout</li>
-                    <li>Naming</li>
-                    <li>Error handling</li>
-                    <li>Don't Repeat Yourself</li>
-                    <li>Single Responsibility Principle</li>
-                    <li>Functional Programming</li>
-                    <li>Loose coupling</li>
-                    <li>High cohesion</li>
-                    <li>Refactoring</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#practicesCode" aria-controls="practicesCode" data-toggle="collapse" aria-expanded="false">Practices of Clean Code</a>
-                  <ul class="collapse" id="practicesCode">
-                    <li>Automated tests</li>
-                    <li>Code reviews</li>
-                    <li>Documentation</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#softwareDelivery" aria-controls="softwareDelivery" data-toggle="collapse" aria-expanded="false">Software Delivery</a>
-                  <ul class="collapse" id="softwareDelivery">
-                    <li>Build</li>
-                    <li>Deployment</li>
-                    <li>Monitoring</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#scalability" aria-controls="scalability" data-toggle="collapse" aria-expanded="false">Scalability</a>
-                  <ul class="collapse" id="scalability">
-                    <li>Simplicity</li>
-                    <li>Scaling teams</li>
-                    <li>Scaling systems</li>
-                  </ul>
-                </li>
-              </ol>
-            </dd>
-            <dt>Part III: Teams</dt>
-            <dd>
-              <ol start="9">
-                <li>
-                  <a href="#startupCulture" aria-controls="startupCulture" data-toggle="collapse" aria-expanded="false">Startup Culture</a>
-                  <ul class="collapse" id="startupCulture">
-                    <li>Mission and values</li>
-                    <li>Organizational design</li>
-                    <li>Hiring and promotions</li>
-                    <li>Motivation</li>
-                    <li>Working in the office or remotely</li>
-                    <li>Process and methodology</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#gettingJob" aria-controls="gettingJob" data-toggle="collapse" aria-expanded="false">Getting a Job at a Startup</a>
-                  <ul class="collapse" id="gettingJob">
-                    <li>Finding a startup job</li>
-                    <li>Nailing the interview</li>
-                    <li>Salary and equity</li>
-                    <li>Negotiating</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#hiring" aria-controls="hiring" data-toggle="collapse" aria-expanded="false">Hiring for your Startup</a>
-                  <ul class="collapse" id="hiring">
-                    <li>Who to hire</li>
-                    <li>Finding great candidates</li>
-                    <li>The interview</li>
-                    <li>Making an offer</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#learning" aria-controls="learning" data-toggle="collapse" aria-expanded="false">Learning and Teaching</a>
-                  <ul class="collapse" id="learning">
-                    <li>Blogs, talks, and open source</li>
-                    <li>How to build a great startup</li>
-                    <li>How to become a great startup programmer</li>
-                  </ul>
-                </li>
-              </ol>
-            </dd>
-          </dl>
-        </div>
-        <div class="col-sm-6">
-          <h3>About the author</h3>
-          <div class="row">
-            <div class="col-sm-6 author-image">
-              <a href="http://www.ybrikman.com" class="hvr-grow tracked" data-trk="homepage-author-image"><img src="images/yevgeniy-brikman.jpg" class="img-thumbnail"/></a>
-            </div>
-            <div class="col-sm-6 connect-buttons">
-              <div><a href="http://www.ybrikman.com" class="tracked" data-trk="homepage-author-name"><h4>Yevgeniy Brikman</h4></a></div>
-              <div class="twitter-button hvr-grow"><a href="https://twitter.com/brikis98" class="twitter-follow-button tracked" data-trk="twitter-follow-button" data-show-count="false">Follow @brikis98</a></div>
-              <div class="linkedin-button hvr-grow"><a href="http://www.linkedin.com/in/jbrikman" target="_blank" class="tracked" data-trk="linkedin-connect-button"><span class="in">in</span> <span class="connect">Connect</span></a></div>
-              <div class="blogger-button hvr-grow"><a href="http://brikis98.blogspot.com/" target="_blank" class="tracked" data-trk="blogger-follow-button"><image src="images/blogger-logo.gif" class="blogger-logo"/> <span class="follow">Follow</span></a></div>
-            </div>
+    </section>   
+    <section id="about-author">
+      <div class="container">
+        <h2>The author</h2>
+        <h3>
+          Hello there! I'm <a href="http://www.ybrikman.com" class="tracked" data-trk="homepage-author-name">Yevgeniy (Jim) Brikman</a>.
+          I'm a <a href="https://github.com/brikis98" target="_blank">programmer</a>,
+          <a href="http://brikis98.blogspot.com/" target="_blank">writer</a>, 
+          <a href="http://ybrikman.com/talks" target="_blank">speaker</a>, and 
+          <a href="http://ybrikman.com/photos" target="_blank">traveler</a>. You can find me on 
+          Twitter (<a href="https://twitter.com/brikis98" target="_blank" class="tracked" data-trk="twitter-follow-button">@brikis98</a>), 
+          LinkedIn (<a href="https://www.linkedin.com/in/jbrikman" target="_blank" class="tracked" data-trk="linkedin-follow-button">in/jbrikman</a>), 
+          Blogger (<a href="http://brikis98.blogspot.com" target="_blank" class="tracked" data-trk="blog-follow-button">Don't Panic</a>), 
+          and my Homepage (<a href="http://www.ybrikman.com" target="_blank" class="tracked" data-trk="ybrikman-follow-button">ybrikman.com</a>).
+        </h3>
+        <div class="row">
+          <div class="col-sm-3 more-about-author author-image">
+            <a href="http://www.ybrikman.com" class="hvr-grow tracked" data-trk="homepage-author-image"><img src="images/yevgeniy-brikman.jpg" class="img-thumbnail"/></a>
           </div>
-          <div class="row author-about">
-            <div class="col-sm-12">
+          <div class="col-sm-9 more-about-author">
+            <p>
+              I got my BS and Masters in Computer Science at 
+              Cornell University, started my career at a couple big companies 
+              (Cisco Systems, Thomson Financial), and then made the jump into the startup world 
+              (LinkedIn, TripAdvisor). Along the way, I got the chance to work on
+              <a href="https://business.linkedin.com/talent-solutions/products/recruiter" target="_blank">enterprise products</a>,
+              <a href="http://resume.linkedinlabs.com/" target="_blank">hiring tools</a>,
+              <a href="https://engineering.linkedin.com/play/play-framework-linkedin" target="_blank">scalable infrastructure</a>,
+              <a href="http://hackday.linkedin.com/" target="_blank">company culture</a>,
+              <a href="http://engineering.linkedin.com/" target="_blank">engineering branding</a>, 
+              <a href="http://www.tripadvisor.com/" target="_blank">travel apps</a>,
+              <a href="http://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-customer-voice-por tal/data_sheet_c78-454119.html" target="_blank">VoIP software</a>, 
+              <a href="http://www.wired.com/2012/12/llinkedin-20-percent-time/" target="_blank">innovation programs</a>, and much more.          
+            </p>            
+            <p>
+              I wish I had a book like <em>Hello, Startup</em> back when I was in college. By the time I 
+              graduated, I had a BS, a Masters, a bunch of internship 
+              experiences&mdash;and absolutely no idea what I was doing... 
+              (<a href="#moreAboutAuthor" aria-controls="moreAboutAuthor" data-toggle="collapse" aria-expanded="false">more</a>)
+            </p>
+            <div class="collapse" id="moreAboutAuthor">
               <p>
-                I'm a <a href="https://github.com/brikis98" target="_blank">programmer</a>,
-                <a href="http://brikis98.blogspot.com/" target="_blank">writer</a>, 
-                <a href="http://ybrikman.com/talks" target="_blank">speaker</a>, and 
-                <a href="http://ybrikman.com/photos" target="_blank">traveler</a>. I got my BS 
-                and Masters in Computer Science at <a href="http://www.cornell.edu/" target="_blank">Cornell University</a>, 
-                started my career at a few big companies (<a href="http://www.cisco.com/" target="_blank">Cisco Systems</a>, 
-                <a href="http://thomsonreuters.com/financial/" target="_blank">Thomson Financial</a>), and then
-                made the jump into the startup world (<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>, 
-                <a href="http://www.tripadvisor.com/" target="_blank">TripAdvisor</a>). Along the way, I got the chance to work on
-                <a href="https://business.linkedin.com/talent-solutions/products/recruiter" target="_blank">enterprise products</a>,
-                <a href="http://resume.linkedinlabs.com/" target="_blank">hiring tools</a>,
-                <a href="https://engineering.linkedin.com/play/play-framework-linkedin" target="_blank">scalable infrastructure</a>,
-                <a href="http://hackday.linkedin.com/" target="_blank">company culture</a>,
-                <a href="http://engineering.linkedin.com/" target="_blank">engineering branding</a>, 
-                <a href="http://www.tripadvisor.com/" target="_blank">travel apps</a>,
-                <a href="http://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-customer-voice-por tal/data_sheet_c78-454119.html" target="_blank">VoIP software</a>, 
-                <a href="http://www.wired.com/2012/12/llinkedin-20-percent-time/" target="_blank">innovation programs</a>, and much more.
-              </p>            
-              <p>
-                I wish I had a book like this back when I was in college. By the time I 
-                graduated, I had a BS, a Masters, a bunch of internship 
-                experiences&mdash;and absolutely no idea what I was doing... 
-                 
-                (<a href="#moreAboutAuthor" aria-controls="moreAboutAuthor" data-toggle="collapse" aria-expanded="false">more</a>)                
+                What technologies should I learn and use? Why should I spend time writing automated tests?                 
+                How do I build a user interface that doesn't look like crap?  
+                How do I get people to use my crappy interface?
+                How do I negotiate a job offer? Should I negotiate for 
+                more salary or more equity? What the hell is equity, anyway? And most 
+                importantly, should I work at a large company or join a startup?                 
               </p>
-              <div class="collapse" id="moreAboutAuthor">
-                <p>
-                  What technologies should I learn and use? Why should I spend time writing automated 
-                  tests? How do I build a user interface that doesn't look like crap? How do I get people 
-                  to use my crappy interface? How do I negotiate a job offer? Should I negotiate for 
-                  more salary or more equity? What the hell is equity, anyway? And most 
-                  importantly, what kind of company should I work at? Should I work at a large
-                  company or join a startup?
-                </p>
-                <p>
-                  I learned the answers to these questions, and many others, the hard way&mdash;through trial
-                  and error. I also learned that thousands of other developers before me went through the same 
-                  inefficient trial and error process. It doesn't have to be this way. While there are a small
-                  number of lessons that you can only learn by making your own mistakes, my hope is that you can
-                  learn everything else by studying the successes, failures, and stories in <em>Hello, Startup</em>.
-                  (<a href="#moreAboutAuthor" aria-controls="moreAboutAuthor" data-toggle="collapse" aria-expanded="false">less</a>)
-                </p>
-              </div>
-            </div>
+              <p>
+                I learned the answers to these questions, and many others, the hard way&mdash;through trial
+                and error. I also learned that thousands of other developers before me went through the same 
+                inefficient trial and error process. It doesn't have to be this way. While there are a small
+                number of lessons that you can only learn by making your own mistakes, my hope is that you can
+                learn everything else by studying the successes, failures, and stories in <em>Hello, Startup</em>.
+              </p> 
+            </div>           
           </div>          
         </div>
-      </div>   
-      <div class="row buy-early">
-        <div class="col-sm-6">
-          <h3>Get the book</h3>
-          <p>
-            You can buy an <em>early release</em> version of the book 
-            in the <a href="#" class="tracked" data-trk="buy-oreilly-link-get-the-book">O'Reilly Store</a> and <a href="#" class="tracked"  data-trk="buy-safari-link-get-the-book">Safari Books Online</a>:
-          </p>
-          <p class="get-book-buttons">
+      </div>
+    </section>   
+    <section id="buy-now">
+      <div class="container">
+        <h2>Buy now</h2>
+        <h3>
+          <em>Hello, Startup</em> is part of the O'Reilly <em>early release program</em>,
+          which means you can buy an unfinished version of the book in the 
+          <a href="#" class="tracked" data-trk="buy-oreilly-link-early-release">O'Reilly Store</a> and 
+          <a href="#" class="tracked" data-trk="buy-safari-link-early-release">Safari Books Online</a>.
+        </h3>
+        <div class="row buy-buttons">
+          <div class="col-sm-6">
             <a href="#" class="buy-link hvr-grow hvr-grow-shadow tracked" data-trk="buy-oreilly-button-get-the-book"><img src="images/oreilly-store-small.gif" alt="O'Reilly Store" class="buy-button" target="_blank"/></a>
-          </p>
-          <p class="get-book-buttons">
+          </div>
+          <div class="col-sm-6">
             <a href="#" class="buy-link hvr-grow hvr-grow-shadow tracked" data-trk="buy-oreilly-button-get-the-book"><img src="images/safari-store-small.gif" alt="Safari Books Online" class="buy-button" target="_blank"/></a>
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <h3>Early release status</h3>
-          <p>
-            <em>Hello, Startup</em> is part of the O'Reilly <em>early release program</em>,
-            which means you can buy an unfinished version of the book in the 
-            <a href="#" class="tracked" data-trk="buy-oreilly-link-early-release">O'Reilly Store</a> and 
-            <a href="#" class="tracked" data-trk="buy-safari-link-early-release">Safari Books Online</a>. Just like a startup, I believe in releasing early and 
-            often, so that I can get your feedback <em>before</em> all the writing and editing is done. 
-          </p>
-          <p>
-            That means you have a chance to shape this book with your feedback.
-            Please send your comments, questions, ideas, compliments, and complaints to 
-            <a href="mailto:feedback@hello-startup.net" class="tracked"  data-trk="feedback-early-release"><strong>feedback@hello-startup.net</strong></a>.
-          </p>
+          </div>          
+        </div>          
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              Just like a startup, I believe in releasing early and 
+              often, so that I can get your feedback <em>before</em> all the writing and editing is done. 
+              That means you have a chance to shape this book with your feedback.
+              Please send your comments, questions, ideas, compliments, and complaints to 
+              <a href="mailto:feedback@hello-startup.net" class="tracked"  data-trk="feedback-early-release"><strong>feedback@hello-startup.net</strong></a>.
+            </p>  
+          </div>
         </div>
       </div>
-      <footer class="footer">
+    </section>
+    <footer>
+      <div class="container">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-7">
             <a href="mailto:feedback@hello-startup.net" class="tracked" data-trk="feedback-footer">feedback@hello-startup.net</a>
           </div>
-          <div class="col-sm-7 col-sm-offset-1">
+          <div class="col-sm-5">
             <div class="share row">
-              <div class="twitter share-button col-sm-2 col-sm-offset-4">
+              <div class="twitter share-button col-sm-3">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.hello-startup.net" data-count="none" data-text="Hello, Startup: A Programmer's Guide to Building Products, Technology, and Teams -- an O'Reilly book by @brikis98.">Tweet</a>
               </div>
-              <div class="linkedin share-button col-sm-2">
+              <div class="linkedin share-button col-sm-3">
                 <script type="IN/Share" data-url="http://www.hello-startup.net" data-url="http://www.hello-startup.net"></script>          
               </div>
-              <div class="facebook share-button col-sm-2">
-                <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fwww.hello-startup.net&amp;layout=button&amp;appId=180189308723492" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:20px" allowTransparency="true"></iframe>          
+              <div class="facebook share-button col-sm-3">
+                <div id="fb-root"></div>                
               </div>
-              <div class="google share-button col-sm-2">
+              <div class="google share-button col-sm-3">
                 <div class="g-plusone" data-href="http://www.hello-startup.net/" data-size="medium" data-annotation="none"></div>          
               </div>
             </div>
           </div>
         </div>
-      </footer>       
-    </div>
+      </div>
+    </footer>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="javascripts/main.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>  
   <script src="https://platform.linkedin.com/in.js" type="text/javascript">
     lang: en_US
   </script>    
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=180189308723492&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>  
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -333,7 +380,5 @@
 
     ga('create', 'UA-57853211-1', 'auto');
     ga('send', 'pageview');
-
   </script>  
-  <script src="javascripts/main.js"></script>
 </html>
