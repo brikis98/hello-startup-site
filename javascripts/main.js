@@ -30,7 +30,7 @@
     ga('send', props);
   };
 
-  var changeHeaderOn = 50;
+  var changeHeaderOn = 90;
   var nav = $('.navbar');
   var navCollapse = $('.navbar-collapse');
   var NAVBAR_CLASS_DEFAULT = "navbar-default";

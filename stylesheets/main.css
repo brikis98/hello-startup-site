@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-  color: #42E71C;
+  color: #6DBD5A;
   text-decoration: none;
 }
 
@@ -44,7 +44,6 @@ p {
 }
 
 .navbar-default .navbar-right {
-  background: #E7E9E9;
 }
 
 .navbar-default .navbar-brand {
