@@ -133,7 +133,7 @@ header .get-the-book h5 {
 }
 
 section {
-  padding: 60px;
+  padding: 80px;
 }
 
 .buy-link {
@@ -201,7 +201,7 @@ footer {
   margin-top: 80px;
 }
 
-footer .foot {
+footer .container {
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid #e5e5e5;
