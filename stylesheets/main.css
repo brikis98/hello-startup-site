@@ -25,7 +25,6 @@ h3 {
   line-height: 22px;
   font-weight: 400;
   color: #777;
-  text-align: justify;
 }
 
 h4 {
@@ -33,7 +32,7 @@ h4 {
   font-weight: 700;
 }
 
-p {
+p, blockquote, h3 {
   text-align: justify;
 }
 
@@ -94,7 +93,6 @@ header .book-3d {
 header p {
   font-size: 14px;
   font-weight: 200;
-  text-align: justify;
 }
 
 header blockquote {
@@ -105,7 +103,6 @@ header blockquote {
   font-size: 16px;
   line-height: 22px;
   color: #000;
-  text-align: justify;
   border: 0;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-style: italic;
@@ -286,5 +283,9 @@ footer {
   footer .share-button {
     margin: 10px auto;
     width: 90px;
+  }  
+
+  p, blockquote, h3 {
+    text-align: left;
   }  
 }
