@@ -284,6 +284,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
   footer .share-button {
     margin: 10px auto;
     width: 90px;
