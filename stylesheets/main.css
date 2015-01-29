@@ -43,13 +43,9 @@ p {
   box-shadow: none;
 }
 
-.navbar-default .navbar-right {
-}
-
 .navbar-default .navbar-brand {
   display: none;
 }
-
 
 .navbar-inverse .navbar-brand {
   font-family: 'Lato', monospace;
@@ -80,7 +76,7 @@ header .container {
 }
 
 header .img-responsive {
-  max-height: 115vh;
+  max-height: 760px;
 }
 
 header h1 {
@@ -271,7 +267,7 @@ footer {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   header .container {
     padding: 40px 20px 0;
   }
