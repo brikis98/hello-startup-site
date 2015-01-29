@@ -199,12 +199,9 @@ section {
 footer {
   color: #777;
   margin-top: 80px;
-}
-
-footer .container {
-  padding-top: 10px;
+  background-color: #e7e9e9;
+  padding-top: 14px;
   padding-bottom: 10px;
-  border-top: 1px solid #e5e5e5;
 }
 
 /* Grow from hover.css */
@@ -259,6 +256,10 @@ footer .container {
 
 .author-image {
   text-align: center;
+}
+
+#about-author {
+  background-color: #e7e9e9;
 }
 
 @media (min-width: 768px) {
