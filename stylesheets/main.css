@@ -64,11 +64,6 @@ p, blockquote, h3 {
   line-height: 10px;
 }
 
-header {
-  background-color: #e7e9e9;
-  border-bottom: 1px solid #CCC;
-}
-
 header .container {
   max-width: none;
   padding: 40px 80px;
@@ -139,15 +134,18 @@ section {
 
 .gray-section {
   background: #e7e9e9;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.gray-gradient {
   background: -moz-radial-gradient(center, ellipse cover,  #ffffff 40%, #e7e9e9 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,#ffffff), color-stop(100%,#e7e9e9));
   background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
   background: -o-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
   background: -ms-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
   background: radial-gradient(ellipse at center,  #ffffff 40%,#e7e9e9 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e9e9',GradientType=1 );
-  border-top: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e9e9',GradientType=1 );  
 }
 
 .buy-link {
