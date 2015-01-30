@@ -275,7 +275,7 @@ footer {
 
   header .blurb {
     margin-left: -64px;
-    padding-top: 90px;
+    padding-top: 80px;
   }
 }
 
@@ -289,7 +289,11 @@ footer {
     width: 90px;
   }  
 
-  p, blockquote, h3 {
-    text-align: left;
-  }  
+  header .container {
+    padding: 40px;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
 }
