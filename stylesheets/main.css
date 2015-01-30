@@ -66,6 +66,7 @@ p, blockquote, h3 {
 
 header {
   background-color: #e7e9e9;
+  border-bottom: 1px solid #CCC;
 }
 
 header .container {
@@ -133,7 +134,20 @@ header .get-the-book h5 {
 }
 
 section {
-  padding: 80px;
+  padding: 80px;  
+}
+
+.gray-section {
+  background: #e7e9e9;
+  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 40%, #e7e9e9 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,#ffffff), color-stop(100%,#e7e9e9));
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #ffffff 40%,#e7e9e9 100%);
+  background: radial-gradient(ellipse at center,  #ffffff 40%,#e7e9e9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e9e9',GradientType=1 );
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
 }
 
 .buy-link {
@@ -199,7 +213,6 @@ section {
 footer {
   color: #777;
   margin-top: 80px;
-  background-color: #e7e9e9;
   padding-top: 14px;
   padding-bottom: 10px;
 }
@@ -256,10 +269,6 @@ footer {
 
 .author-image {
   text-align: center;
-}
-
-#about-author {
-  background-color: #e7e9e9;
 }
 
 @media (min-width: 768px) {
