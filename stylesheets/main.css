@@ -118,7 +118,7 @@ header blockquote::before {
 }
 */
 
-header .get-the-book h5 {
+.get-buttons h5 {
   margin-top: 30px;
   margin-bottom: 0;
   color: #000;
@@ -155,8 +155,15 @@ section {
   border-radius: 5px 5px 5px 5px;  
   margin: 10px 0 0;
   width: 100%;
+  height: 64px;
+  line-height: 60px;
   background-color: #fff;
   text-align: center;
+}
+
+.black-link {
+  background-color: #000;
+  border: 1px solid #fff;
 }
 
 .buy-button {
@@ -210,7 +217,6 @@ section {
 
 footer {
   color: #777;
-  margin-top: 80px;
   padding-top: 14px;
   padding-bottom: 10px;
 }
