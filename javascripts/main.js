@@ -128,11 +128,20 @@
     ga('send', 'pageview');
   };
 
+  var truncateText = function() {
+    $('.book-outline dd').jTruncate({
+      length: 200, 
+      moreText: " (more)", 
+      lessText: " (less)"
+    });
+  };
+
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
   navCollapse.on('shown.bs.collapse', invertNav);
   navCollapse.on('hidden.bs.collapse', invertNav);
   $(window).on('scroll', invertNav);
+  truncateText();
   loadShareButtons();
   loadGoogleAnalytics();
 })();

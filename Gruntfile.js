@@ -16,6 +16,7 @@ module.exports = function(grunt) {
           'javascripts/jquery.min.js',
           'javascripts/bootstrap.min.js',
           'javascripts/jquery.easing.min.js',
+          'javascripts/jquery.jtruncate.js',
           'javascripts/main.js'
         ],
         dest: 'dist/all.js'

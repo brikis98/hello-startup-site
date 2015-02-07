@@ -49,6 +49,7 @@ h3 {
 h4 {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 p, blockquote, h3 {
@@ -149,7 +150,7 @@ header blockquote::before {
 }
 
 section {
-  padding: 80px;  
+  padding: 120px 80px;  
 }
 
 .gray-section {
@@ -207,7 +208,15 @@ section {
   border: 1px solid #555;
   background-color: #555;
   padding: 30px;
-  margin-top: 35px;
+}
+
+.book-outline {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.truncate_more, .clearboth {
+  display: inline;
 }
 
 .book-parts {
@@ -233,6 +242,31 @@ section {
 
 .more-about-author {
   margin-top: 15px;
+}
+
+.learn-more {
+  margin-top: 30px;
+}
+
+.btn {
+  background-image: none;
+  margin-top: 10px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.list-group-item.media {
+  margin-top: 0;
+}
+
+.media-left {
+  min-width: 26px;
+}
+
+.resource-lists {
+  margin-top: 30px;
 }
 
 footer {
@@ -327,6 +361,6 @@ footer {
   }
 
   section {
-    padding: 80px 20px;
+    padding: 120px 20px;
   }
 }
