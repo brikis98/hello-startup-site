@@ -1,8 +1,5 @@
 body {
   position: relative;
-}
-
-body.dynamic-nav {
   padding-top: 80px;
 }
 
@@ -13,6 +10,10 @@ a {
 a:hover {
   color: #6DBD5A;
   text-decoration: none;
+}
+
+.blurb h1 {
+  margin-bottom: 30px;
 }
 
 h2 {

@@ -1,0 +1,46 @@
+---
+layout: default
+inverse_nav: true
+---
+
+<header class="gray-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-1 book-3d">
+        <a href="{{ site.url }}" class="tracked" data-trk="home-book-3d" title="{{ site.title }}">
+          <img src="/images/hello-startup-large.jpg" alt="{{ site.title }}" class="img-responsive"/>
+        </a>
+      </div>
+      <div class="col-lg-4 blurb">
+        <h1>{{ site.data[page.resource_key].name }}</h1>
+        {% if page.blurb_include %}
+          {% include {{ page.blurb_include }} %}
+        {% elsif page.blurb %}
+          {{ page.blurb }}          
+        {% endif %}
+        <p>
+          These startup resources are based on the book 
+          <a href="/">{{ site.medium_title }}</a> by 
+          <a href="{{ site.homepage }}">{{ site.author }}</a>. 
+          {% if page.see_more %}
+            {{ page.see_more }}
+          {% else %}
+            {{ site.data[page.resource_key].see_more }}
+          {% endif %}
+        </p> 
+        <div class="learn-more">
+          <div class="row">
+            <div class="col-lg-6">
+              <a href="/" class="btn btn-default btn-lg btn-block page-scroll">The book &raquo;</a>
+            </div>
+            <div class="col-lg-6">
+              <a href="#first-resource" class="btn btn-primary btn-lg btn-block page-scroll">The resources &raquo;</a>
+            </div>
+          </div>
+        </div>                            
+      </div>
+    </div>        
+  </div>  
+</header>
+<a name="first-resource" id="first-resource"></a>
+{{ content }}

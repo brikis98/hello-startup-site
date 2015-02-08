@@ -121,6 +121,8 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
+    console.log($anchor);
+    console.log($anchor.attr('href'));
     $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500, 'easeInOutExpo');
     event.preventDefault();
   };
