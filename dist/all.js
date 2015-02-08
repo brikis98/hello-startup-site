@@ -252,6 +252,12 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
       moreText: " (more)", 
       lessText: " (less)"
     });
+
+    $('p.truncate').jTruncate({
+      length: 224,
+      moreText: " (more)",
+      lessText: " (less)"
+    });
   };
 
   $('.tracked').on('click', trackOutboundLink);

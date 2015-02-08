@@ -134,6 +134,12 @@
       moreText: " (more)", 
       lessText: " (less)"
     });
+
+    $('p.truncate').jTruncate({
+      length: 224,
+      moreText: " (more)",
+      lessText: " (less)"
+    });
   };
 
   $('.tracked').on('click', trackOutboundLink);
