@@ -2,11 +2,16 @@
   {% if page.blurb %} 
     {{ page.blurb }}
   {% else %}
-    {{ site.data[page.resource_key].description }}
+    {{ site.data.resources[page.resource_key].description }}
   {% endif %}
+  {% if page.see_more %}
+    {{ page.see_more }}
+  {% else %}
+    {{ site.data.resources[page.resource_key].see_more }}
+  {% endif %}          
 </p>
 <ol>
-  {% for category in site.data[page.resource_key].categories %}
+  {% for category in site.data.resources[page.resource_key].categories %}
     <li><a href="#{{ category.id }}" class="page-scroll">{{ category.name }}</a></li>
   {% endfor %}
 </ol>

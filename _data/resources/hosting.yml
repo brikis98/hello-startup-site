@@ -1,0 +1,7 @@
+name: "Hosting"
+description: "Compare racking your own servers versus using services such as Amazon EC2, Heroku, Rackspace, and Digital Ocean."
+disabled: true
+icon: "cloud"
+type: "technologies"
+see_more:
+categories:

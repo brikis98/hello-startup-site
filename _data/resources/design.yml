@@ -1,6 +1,7 @@
 name: "Design Resources"
 description: "Everything you need to design a user experience for your startup, including templates, fonts, wireframing tools, tutorials, and a community."
 icon: "paint-brush"
+type: "products"
 see_more: |
   See the "Idea, Design, MVP" chapter in 
   <a href="/#part-1-products">Part I, Products</a> for more info.

@@ -1,0 +1,7 @@
+name: "Collaboration"
+description: "Tools that help your team work together productively, such as GitHub, Slack, Google Docs, and DropBox."
+disabled: true
+icon: "users"
+type: "teams"
+see_more:
+categories:

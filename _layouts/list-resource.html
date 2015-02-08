@@ -7,7 +7,7 @@ nav_include: "list-nav-include.html"
 
 {{ content }}
 
-{% for category in site.data[page.resource_key].categories %}
+{% for category in site.data.resources[page.resource_key].categories %}
   {% assign remainder = forloop.index0 | modulo:2 %}
   <section id="{{ category.id }}"{% if remainder == 1 %}class="gray-section gray-gradient"{% endif %}>
     <div class="container">

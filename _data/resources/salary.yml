@@ -1,0 +1,7 @@
+name: "Salary"
+description: "How to figure out if you're being paid a fair salary."
+disabled: true
+icon: "money"
+type: "teams"
+see_more:
+categories:

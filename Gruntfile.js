@@ -63,7 +63,7 @@ module.exports = function(grunt) {
         files: [
           '*.html',
           'resources/**/*.html',
-          '_data/*.yml',
+          '_data/**/*.yml',
           '_includes/*.html',
           '_layouts/*.html',
           '_config.yml',

@@ -1,6 +1,7 @@
 name: "Job Resources"
 description: "This is a list of websites where a candidate can find a startup job or a startup can find a candidate."
 icon: "briefcase"
+type: "teams"
 see_more: |
   See the "Getting a Job at a Startup" and "Hiring for your Startup" chapters
   in <a href="/#part-3-teams">Part III, Teams</a> for more info.

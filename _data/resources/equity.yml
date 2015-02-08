@@ -1,0 +1,7 @@
+name: "Equity"
+description: "How much is your equity worth? Use these tools to figure it out."
+disabled: true
+icon: "calculator"
+type: "teams"
+see_more:
+categories:

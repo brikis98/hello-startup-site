@@ -1,6 +1,7 @@
 name: "Validation Resources"
 description: "Quick and cheap ways to do some market research to find out if you have a big idea or a complete bust."
 icon: "check"
+type: "products"
 see_more: |
   See the "Idea, Design, MVP" chapter in 
   <a href="/#part-1-products">Part I, Products</a> for more info.

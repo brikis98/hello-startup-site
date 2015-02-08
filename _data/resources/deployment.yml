@@ -1,0 +1,7 @@
+name: "Deployment"
+description: "Instead of deploying code manually, learn about tools such as Chef, Puppet, Ansible, and Docker."
+disabled: true
+icon: "cloud-upload"
+type: "technologies"
+see_more:
+categories:

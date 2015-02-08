@@ -4,134 +4,32 @@
       <h2>Startup Resources</h2>
       <h3>
         Based on the contents of <em>{{ site.short_title }}</em>, I have put together a number of tools, links, and checklists
-        to help you build a startup.
-      </h3>
+        to help you build a startup. 
+        {% include resources-open-source.html %}
+      </h3>      
       <div class="row resource-lists">
         <div class="col-sm-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">Products</div>
-            <div class="list-group">
-              <a href="/resources/startup-ideas" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.ideas }}">
-                <div class="media-left"><i class="fa fa-lightbulb-o"></i></div>
-                <div class="media-body">Startup ideas</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.validate }}">
-                <div class="media-left"><i class="fa fa-check"></i></div>
-                <div class="media-body">Validate your ideas</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.templates }}">
-                <div class="media-left"><i class="fa fa-paint-brush"></i></div>
-                <div class="media-body">Templates</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.images }}">
-                <div class="media-left"><i class="fa fa-image"></i></div>
-                <div class="media-body">Photos, Graphics, Icons</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.mvp }}">
-                <div class="media-left"><i class="fa fa-bolt"></i></div>
-                <div class="media-body">Build an MVP</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.monetization }}">
-                <div class="media-left"><i class="fa fa-dollar"></i></div>
-                <div class="media-body">Monetization</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.distribution }}">
-                <div class="media-left"><i class="fa fa-microphone"></i></div>
-                <div class="media-body">Distribution</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.data }}">
-                <div class="media-left"><i class="fa fa-bar-chart"></i></div>
-                <div class="media-body">Data sets</div>
-              </a>
-            </div>
-          </div>  
-        </div>                          
+          {% assign type = "products" %}
+          {% include resource-panel.html %}
+        </div>
         <div class="col-sm-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">Technologies</div>
-            <div class="list-group">
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.languages }}">
-                <div class="media-left"><i class="fa fa-language"></i></div>
-                <div class="media-body">Language comparison</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.frameworks }}">
-                <div class="media-left"><i class="fa fa-building"></i></div>
-                <div class="media-body">Framework comparison</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.databases }}">
-                <div class="media-left"><i class="fa fa-database"></i></div>
-                <div class="media-body">Database comparison</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.code }}">
-                <div class="media-left"><i class="fa fa-code"></i></div>
-                <div class="media-body">Clean code resources</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.review }}">
-                <div class="media-left"><i class="fa fa-list"></i></div>
-                <div class="media-body">Code review checklist</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.hosting }}">
-                <div class="media-left"><i class="fa fa-cloud"></i></div>
-                <div class="media-body">Hosting options</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.deploy }}">
-                <div class="media-left"><i class="fa fa-cloud-upload"></i></div>
-                <div class="media-body">Deployment tools</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.monitor }}">
-                <div class="media-left"><i class="fa fa-heartbeat"></i></div>
-                <div class="media-body">Monitoring tools</div>
-              </a>
-            </div>
-          </div>   
+          {% assign type = "technologies" %}
+          {% include resource-panel.html %}
         </div>
-        <div class="col-sm-4">         
-          <div class="panel panel-default">
-            <div class="panel-heading">Teams</div>
-            <div class="list-group">
-              <a href="/resources/jobs" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.jobs }}">
-                <div class="media-left"><i class="fa fa-briefcase"></i></div>
-                <div class="media-body">Job resources</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.interview }}">
-                <div class="media-left"><i class="fa fa-question-circle"></i></div>
-                <div class="media-body">Interview preparation</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.salary }}">
-                <div class="media-left"><i class="fa fa-money"></i></div>
-                <div class="media-body">Salary tools</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.equity }}">
-                <div class="media-left"><i class="fa fa-calculator"></i></div>
-                <div class="media-body">Equity tools</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.collaboration }}">
-                <div class="media-left"><i class="fa fa-users"></i></div>
-                <div class="media-body">Collaboration tools</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.reading }}">
-                <div class="media-left"><i class="fa fa-book"></i></div>
-                <div class="media-body">Recommended reading</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.community }}">
-                <div class="media-left"><i class="fa fa-institution"></i></div>
-                <div class="media-body">Community</div>
-              </a>
-              <a href="#" class="list-group-item media" data-toggle="tooltip" data-placement="left" title="{{ site.resources.other }}">
-                <div class="media-left"><i class="fa fa-external-link"></i></div>
-                <div class="media-body">Other startup resources</div>
-              </a>
-            </div>
-          </div>            
-        </div>
+        <div class="col-sm-4">
+          {% assign type = "teams" %}
+          {% include resource-panel.html %}
+        </div>                                          
       </div>
+      <!-- 
+        TODO: When these apps are available, re-enable this section and update the
+              screenshots.
       <h3>
         All of these resources are also available in the <em>{{ site.mobile_app_name }}</em>, available for 
         <a href="{{ site.ios_link }}" class="tracked" data-trk="get-app-apple-store-link-resources" target="_blank" title="{{ site.ios_text }}">iOS</a> 
         and 
         <a href="{{ site.android_link }}" class="tracked" data-trk="get-app-play-store-link-resources" target="_blank" title="{{ site.android_text }}">Android</a>!
       </h3>
-      <!-- TODO: update screenshot and add an Android screenshot -->
       <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
           <img src="images/app-screenshot.gif" alt="{{ site.mobile_app_name }}" class="img-responsive"/>
@@ -149,6 +47,7 @@
           </a>
         </div>
       </div> 
+      -->
     </div>
   </div>
 </div>
