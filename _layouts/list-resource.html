@@ -2,6 +2,7 @@
 layout: resource
 inverse_nav: true
 blurb_include: "list-blurb.html"
+nav_include: "list-nav-include.html"
 ---
 
 {{ content }}
@@ -13,6 +14,9 @@ blurb_include: "list-blurb.html"
       <div class="row">
         <div class="col-sm-12">
           <h2>{{ category.name }}</h2>
+          {% if category.description %}
+            <h3>{{ category.description }}</h3>
+          {% endif %}
           <div class="list-group">
             {% for site in category.sites %}
               <a href="{{ site.url }}" class="list-group-item" target="_blank">

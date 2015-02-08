@@ -1,0 +1,90 @@
+name: "Validation Resources"
+description: "Quick and cheap ways to do some market research to find out if you have a big idea or a complete bust."
+icon: "check"
+see_more: |
+  See the "Idea, Design, MVP" chapter in 
+  <a href="/#part-1-products">Part I, Products</a> for more info.
+categories:
+  - id: "ads"
+    name: "Advertising Sites"
+    description: |
+      You can validate an idea by using the tools from advertising networks to
+      research their userbase. For example, you can use Google's Keyword Planner 
+      to see how many people search for specific terms or Facebook's Ad Design 
+      to see how many people have a specific interest. Optionally, you can even
+      purchase some ads and guage interest in your idea by seeing how many 
+      clicks you get.
+    sites:
+      - name: "Google AdWords Keyword Planner"
+        url: "https://adwords.google.com/ko/KeywordPlanner/Home"
+      - name: "Facebook Ads"
+        url: "https://www.facebook.com/ads"
+      - name: "Twitter Ads"
+        url: "https://ads.twitter.com"
+      - name: "LinkedIn Ads"
+        url: "https://www.linkedin.com/ads/"
+      - name: "Yahoo / Bing Ads"
+        url: "http://advertise.bingads.microsoft.com/"
+      - name: "Craigslist Ads"
+        url: "http://craigslist.org/"
+  - id: "events"
+    name: "Events"
+    description: |
+      You can validate an idea by seeing how big of a community there is
+      for it. How many meetups, conferences, and talks are there? How many
+      people participate? If you go to one of these events, can you get some
+      of the attendees to be interested in your idea?
+    sites:
+      - name: "Meetup - the world's largest network of local groups"
+        url: "http://www.meetup.com/"
+      - name: "Lanyrd - the social conference directory"
+        url: "http://lanyrd.com/"
+      - name: "Eventbrite - discover great events or create your own"
+        url: "https://www.eventbrite.com/"
+  - id: "surveys"
+    name: "Surveys"
+    sites:
+      - name: "AYTM Market Research"
+        url: "http://aytm.com/"
+      - name: "SurveyMonkey"
+        url: "https://www.surveymonkey.com/"
+      - name: "Google consumer surveys"
+        url: "http://www.google.com/insights/consumersurveys/home"
+  - id: "web-analytics"
+    name: "Website Analytics"
+    description: |
+      If there are competitors or similar products, you can research their 
+      website traffic and usage to guage the size of the market.
+    sites:
+      - name: "comScore"
+        url: "http://www.comscore.com/"
+      - name: "Quantcast"
+        url: "https://www.quantcast.com/"
+      - name: "Alexa"
+        url: "http://www.alexa.com/"
+  - id: "mobile-analytics"
+    name: "Mobile Analytics"
+    description: |
+      If there are competitors or similar products, you can research their 
+      mobile traffic and usage to guage the size of the market.
+    sites:
+      - name: "Xyo - apps to the people"
+        url: "http://xyo.net/"
+      - name: "App Annie - App Ranking, Analytics, Market Intelligence"
+        url: "http://www.appannie.com/"
+      - name: "Distimo - App Analytics, Conversion Tracking, App Download &amp; Revenue Data"
+        url: "http://www.distimo.com/"
+  - id: "research"
+    name: "Market Research and Reports"
+    sites:
+      - name: "Think With Google"
+        url: "https://www.thinkwithgoogle.com/"
+      - name: "MarketResearch.com"
+        url: "http://www.marketresearch.com/"
+      - name: "Standard & Poor's Ratings Services"
+        url: "https://www.spratings.com/"
+      - name: "The U.S. Small Business Administration - Do Your Market Research"
+        url: "https://www.sba.gov/content/do-your-market-research"
+
+
+

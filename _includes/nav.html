@@ -16,11 +16,13 @@
             <li class="hidden">
               <a href="#page-top"></a>
             </li>
-            {% if page.nav %}
+            {% if page.nav_include %}
+              {% include {{ page.nav_include }} %}
+            {% elsif page.nav %}
               {% for item in page.nav %}
                 <li><a class="page-scroll" href="{{ item[0] }}">{{ item[1] }}</a></li>
               {% endfor %}
-            {% endif %}
+            {% endif %}                       
           </ul>
         </div>
       </div>

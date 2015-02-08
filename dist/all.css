@@ -85,7 +85,7 @@ p, blockquote, h3 {
   color: #5BBA45;
 }
 
-.navbar-right a.page-scroll {
+.navbar-right li a {
   text-transform: uppercase;
   font-weight: 400;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
