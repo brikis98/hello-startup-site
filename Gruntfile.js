@@ -34,14 +34,26 @@ module.exports = function(grunt) {
         }
       }
     },
+    shell: {
+      jekyllBuild : {
+        command : 'jekyll build'
+      },
+      jekyllServe : {
+        command : 'jekyll serve'
+      }
+    },
     watch: {
       js: {
         files: ['javascripts/*.js'],
-        tasks: ['concat', 'uglify']
+        tasks: ['concat', 'uglify', 'shell:jekyllBuild']
       },
       css: {
         files: ['stylesheets/*.css'],
-        tasks: ['concat', 'cssmin']
+        tasks: ['concat', 'cssmin', 'shell:jekyllBuild']
+      },
+      jekyll: {
+        files: ['*.html', '_includes/*.html', '_layouts/*.html', '_config.yml', 'images/*.*'],
+        tasks: ['shell:jekyllBuild']
       }
     }
   });
@@ -50,6 +62,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('default', ['watch']);
 };

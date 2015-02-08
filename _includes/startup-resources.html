@@ -127,7 +127,9 @@
       </div>
       <h3>
         All of these resources are also available in the <em>{{ site.mobile_app_name }}</em>, available for 
-        <a href="{{ site.ios_link }}">iOS</a> and <a href="{{ site.android_link }}">Android</a>!
+        <a href="{{ site.ios_link }}" class="tracked" data-trk="get-app-apple-store-link-resources" target="_blank" title="{{ site.ios_text }}">iOS</a> 
+        and 
+        <a href="{{ site.android_link }}" class="tracked" data-trk="get-app-play-store-link-resources" target="_blank" title="{{ site.android_text }}">Android</a>!
       </h3>
       <!-- TODO: update screenshot and add an Android screenshot -->
       <div class="row">
@@ -137,12 +139,12 @@
       </div>
       <div class="row buy-buttons">
         <div class="col-sm-6">
-          <a href="{{ site.ios_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-apple-store-button-jumbotron" target="_blank" title="{{ site.ios_text }}">
+          <a href="{{ site.ios_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-apple-store-button-resources" target="_blank" title="{{ site.ios_text }}">
             <img src="images/download-app-store.png" alt="{{ site.ios_text }}"/>
           </a>
         </div>
         <div class="col-sm-6">
-          <a href="{{ site.android_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-play-store-button-jumbotron" target="_blank" title="{{ site.android_text }}">
+          <a href="{{ site.android_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-play-store-button-resources" target="_blank" title="{{ site.android_text }}">
             <img src="images/download-play-store.png" alt="{{ site.android_text }}"/>
           </a>
         </div>
