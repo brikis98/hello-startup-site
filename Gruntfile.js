@@ -42,6 +42,14 @@ module.exports = function(grunt) {
         command : 'jekyll serve'
       }
     },
+    connect: {
+      server: {
+        options: {
+          base: '_site/',
+          port: 4000
+        }
+      }
+    },
     watch: {
       js: {
         files: ['javascripts/*.js'],
@@ -52,7 +60,7 @@ module.exports = function(grunt) {
         tasks: ['concat', 'cssmin', 'shell:jekyllBuild']
       },
       jekyll: {
-        files: ['*.html', '_includes/*.html', '_layouts/*.html', '_config.yml', 'images/*.*'],
+        files: ['**/*.html', '_config.yml', 'images/*.*', '!dist/*.*', '!_site/*.*', '!node_modules/*.*'],
         tasks: ['shell:jekyllBuild']
       }
     }
@@ -63,6 +71,13 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('serve', [
+    'shell:jekyllBuild',
+    'connect:server',
+    'watch'
+  ]);
+
+  grunt.registerTask('default', ['serve']);
 };

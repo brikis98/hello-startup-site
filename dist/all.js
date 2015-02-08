@@ -149,6 +149,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
   };
 
   var changeHeaderOn = 90;
+  var enableDynamicNav = $('body').hasClass('dynamic-nav');
   var nav = $('.navbar');
   var navCollapse = $('.navbar-collapse');
   var NAVBAR_CLASS_DEFAULT = "navbar-default";
@@ -248,8 +249,8 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
   var truncateText = function() {
     $('.book-outline dd').jTruncate({
-      length: 200, 
-      moreText: " (more)", 
+      length: 200,
+      moreText: " (more)",
       lessText: " (less)"
     });
 
@@ -260,12 +261,18 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
     });
   };
 
+  var dynamicNav = function() {
+    if (enableDynamicNav) {
+      navCollapse.on('shown.bs.collapse', invertNav);
+      navCollapse.on('hidden.bs.collapse', invertNav);
+      $(window).on('scroll', invertNav);
+    }
+  };
+
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
-  navCollapse.on('shown.bs.collapse', invertNav);
-  navCollapse.on('hidden.bs.collapse', invertNav);
-  $(window).on('scroll', invertNav);
   $('[data-toggle="tooltip"]').tooltip();
+  dynamicNav();
   truncateText();
   loadShareButtons();
   loadGoogleAnalytics();
