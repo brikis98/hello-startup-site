@@ -225,7 +225,11 @@ section {
 }
 
 .learn-more {
-  margin-top: 30px;
+  margin-top: 90px;
+}
+
+.tooltip-inner {
+  text-align: left;
 }
 
 .btn {

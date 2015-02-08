@@ -141,6 +141,7 @@
   navCollapse.on('shown.bs.collapse', invertNav);
   navCollapse.on('hidden.bs.collapse', invertNav);
   $(window).on('scroll', invertNav);
+  $('[data-toggle="tooltip"]').tooltip();
   truncateText();
   loadShareButtons();
   loadGoogleAnalytics();
