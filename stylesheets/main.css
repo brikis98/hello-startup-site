@@ -2,6 +2,10 @@ body {
   position: relative;
 }
 
+body.dynamic-nav {
+  padding-top: 80px;
+}
+
 a {
   color: #2D9615;
 }
@@ -15,6 +19,7 @@ h2 {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -36,8 +41,14 @@ p, blockquote, h3 {
   text-align: justify;
 }
 
+.nav-wrapper {
+  height: 80px;
+  background-color: #e7e9e9;
+  margin-top: -80px;
+}
+
 .navbar-default {
-  background: transparent;
+  background: #e7e9e9;
   border: 0;
   box-shadow: none;
 }
@@ -65,9 +76,13 @@ p, blockquote, h3 {
   line-height: 10px;
 }
 
+header.gray-section {
+  border-top: none;
+}
+
 header .container {
   max-width: none;
-  padding: 40px 80px;
+  padding: 0 80px 40px;
 }
 
 header .img-responsive {
@@ -191,8 +206,8 @@ section {
 }
 
 .book-outline {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .truncate_more, .clearboth {
@@ -313,6 +328,10 @@ footer {
   text-align: center;
 }
 
+.resource-panel {
+  width: 300px;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
@@ -320,13 +339,17 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  .navbar-right {
+    margin-right: -27px;
+  }
+
   header .container {
-    padding: 40px 20px 0;
+    padding: 0 20px 0;
   }
 
   header .blurb {
     margin-left: -64px;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 

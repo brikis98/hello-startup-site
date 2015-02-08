@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         tasks: ['concat', 'cssmin', 'shell:jekyllBuild']
       },
       jekyll: {
-        files: ['**/*.html', '_config.yml', 'images/*.*', '!dist/*.*', '!_site/*.*', '!node_modules/*.*'],
+        files: ['!**/dist/**', '!**/_site/**', '!**/node_modules/**', '**/*.html', '_config.yml', 'images/*.*', '!**/dist/**', '!**/_site/**', '!**/node_modules/**'],
         tasks: ['shell:jekyllBuild']
       }
     }
