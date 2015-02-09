@@ -9,59 +9,103 @@ categories:
   - id: "business-models"
     name: "Startup Business Models"
     sites: 
-      - name: "List of all startup business models, with examples"
+      - name: "Startup Business Models"
         url: "https://gist.github.com/ndarville/4295324"
+        image: "business-models.jpg"
+        description: |
+          A list of a huge variety of business models, with an example
+          company for each one.
       - name: "The Business Model Canvas"
         url: "http://www.businessmodelgeneration.com/canvas/bmc"
-      - name: "Business Model vs Business Plan (Steve Blank)"
+        image: "business-model-canvas.jpg"
+        description: |
+          The Business Model Canvas, is a strategic management and 
+          entrepreneurial tool. It allows you to describe, design, challenge, 
+          invent, and pivot your business model. It's based on the book
+          <em>Business Model Generation</em>.
+      - name: "Business Model vs Business Plan"
         url: "http://steveblank.com/category/business-model-versus-business-plan/"
-      - name: "Business Model Generation"
-        url: "http://www.businessmodelgeneration.com/downloads/businessmodelgeneration_preview.pdf"
+        description: "By Steve Blank"
   - id: "payment"
     name: "Payment Tools"
     sites:
-      - name: "Stripe - Payments infrastructure for the Internet"
+      - name: "Stripe"
         url: "https://stripe.com/"
+        image: "stripe.jpg"
+        description: "Payments infrastructure for the Internet"
       - name: "Paypal"
         url: "https://www.paypal.com/webapps/mpp/merchant"
-      - name: "Square - Credit Card Processing and Business Solutions"
+        image: "paypal.jpg"
+      - name: "Square"
         url: "https://squareup.com/"
+        image: "square.jpg"
+        description: |
+          Credit Card Processing and Business Solutions. The Square Reader 
+          attaches to your mobile phone and allows you to accept credit card 
+          payments.
       - name: "Amazon Payments"
         url: "https://payments.amazon.com/merchant"
-      - name: "Cratejoy - All-In-One Subscription Commerce Platform"
+        image: "amazon-payments.jpg"
+      - name: "Cratejoy"
         url: "http://cratejoy.com/"
-      - name: "Ballpark - Online Invoicing, Time Tracking, and CRM Software"
+        image: "cratejoy.jpg"
+        description: "All-In-One Subscription Commerce Platform"
+      - name: "Ballpark"
         url: "http://www.getballpark.com/"
-      - name: "ChargeBee - Subscription and Recurring Billing Management Software"
+        image: "ballpark.jpg"
+        description: "Online Invoicing, Time Tracking, and CRM Software"
+      - name: "ChargeBee"
         url: "https://www.chargebee.com/"
-      - name: "Recurly - Subscription Billing and Recurring Billing Experts"
+        image: "charge-bee.jpg"
+        description: "Subscription and Recurring Billing Management Software"
+      - name: "Recurly"
         url: "https://recurly.com/"
+        image: "recurly.jpg"
+        description: "Subscription Billing and Recurring Billing Experts"
   - id: "ads"
     name: "Advertising"
     sites:
       - name: "Google AdSense"
         url: "https://www.google.com/adsense/app"
+        image: "adsense.jpg"
       - name: "Chitika"
         url: "https://www.chitika.com/"
+        image: "chitika.jpg"
       - name: "Yahoo Bing Contextual Ads"
         url: "http://contextualads.yahoo.net/"
+        image: "yahoo-bing.jpg"
       - name: "RevenueHits"
         url: "http://www.revenuehits.com/"
+        image: "revenue-hits.jpg"
       - name: "AdMob"
         url: "https://www.google.com/admob/"
       - name: "Airpush"
         url: "http://www.airpush.com/"
+        image: "airpush.jpg"
       - name: "InMobi"
         url: "http://www.inmobi.com/"
+        image: "inmobi.jpg"
   - id: "ecommerce"
     name: "eCommerce"
     sites:
       - name: "Amazon Web Store"
         url: "http://webstore.amazon.com/"
+        image: "amazon-webstore.jpg"
+        description: |
+          Take your business to a whole new level with your own customized 
+          eCommerce site, on your owndomain—backed by Amazon technology and 
+          expertise.
       - name: "Shopify"
         url: "http://www.shopify.com/"
+        image: "shopify.jpg"
+        description: |
+          Ecommerce Software, Online Store Builder, POS
       - name: "estoreify"
         url: 'https://estoreify.com/'
+        image: "estoreify.jpg"
+        description: |
+          Everything you need to create your own white label store in just 5 
+          minutes.
   - id: "ipo-acquisition"
     name: "IPO's and Acquisitions"
     sites:
@@ -71,3 +115,4 @@ categories:
         url: "https://www.rocketlawyer.com/article/how-the-ipo-process-for-startups-works.rl"
       - name: "What’s in an IPO? My experiences through GrubHub’s offering from start to finish"
         url: "http://mevans314.com/2015/02/09/whats-an-ipo-my-experiences-of-grubhubs-initial-offering/"
+        image: "grubhub-ipo.jpg"
