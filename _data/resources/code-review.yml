@@ -11,7 +11,7 @@ categories:
     sites:
       - name: "Stop More Bugs with our Code Review Checklist (Fog Creek)"
         url: "http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/"
-      - name: "Typesafe Project & Developer Guidelines"
+      - name: "Typesafe Project &amp; Developer Guidelines"
         url: "https://gist.github.com/jboner/3864996"
       - name: "HTML/CSS/JS Code Review Checklist"
         url: "https://gist.github.com/justinhillsjohnson/5503121"

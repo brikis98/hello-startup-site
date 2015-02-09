@@ -1857,7 +1857,7 @@ h3 {
 h4 {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  margin-bottom: 30px;
+  color: #333;
 }
 
 p, blockquote, h3 {
@@ -2033,6 +2033,10 @@ section {
   padding-bottom: 50px;
 }
 
+.book-outline h4 {
+  margin-bottom: 30px;
+}
+
 .truncate_more, .clearboth {
   display: inline;
 }
@@ -2153,6 +2157,27 @@ footer {
 
 .resource-panel {
   width: 300px;
+}
+
+.resouce-item h4 {
+  margin-bottom: 0px;
+}
+
+.resouce-item .site-url {
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.no-screenshot {
+  color: #CCC;
+  text-align: center;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 @media (min-width: 768px) {

@@ -9,7 +9,7 @@ categories:
   - id: "salary-calculators"
     name: "Salary Calculators"
     sites:
-      - name: "Wealthfront Startup Salary & Equity Compensation"
+      - name: "Wealthfront Startup Salary &amp; Equity Compensation"
         url: "https://www.wealthfront.com/tools/startup-salary-equity-compensation"
       - name: "AngelList Salary and Equity Data"
         url: "https://angel.co/salaries"

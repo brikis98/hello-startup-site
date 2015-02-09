@@ -19,6 +19,7 @@ module.exports = function(grunt) {
           'javascripts/bootstrap.min.js',
           'javascripts/jquery.easing.min.js',
           'javascripts/jquery.jtruncate.js',
+          'javascripts/jquery.unveil.js',
           'javascripts/main.js'
         ],
         dest: 'dist/all.js'
@@ -70,7 +71,7 @@ module.exports = function(grunt) {
           '_layouts/*.html',
           '_config.yml',
           'mobile/index.html',
-          'images/*.*'
+          'images/**/*.*'
         ],
         tasks: ['shell:jekyllBuild']
       }

@@ -155,6 +155,7 @@
 
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
+  $("img").unveil();
   $('[data-toggle="tooltip"]').tooltip();
   dynamicNav();
   truncateText();
