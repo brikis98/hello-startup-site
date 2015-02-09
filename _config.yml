@@ -1,0 +1,31 @@
+# Site settings
+author: Yevgeniy Brikman
+title: "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams -- an O'Reilly book by Yevgeniy Brikman."
+twitter_title: "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams -- an O'Reilly book by @brikis98."
+short_title: "Hello, Startup"
+medium_title: "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams"
+email: feedback@hello-startup.net
+image: "http://www.hello-startup.net/images/hello-startup-large.jpg"
+baseurl: ""
+url: "http://www.hello-startup.net"
+twitter_username: brikis98
+twitter_url: "https://twitter.com/brikis98"
+homepage: "http://www.ybrikman.com"
+github: "https://github.com/brikis98"
+site_github: "https://github.com/brikis98/hello-startup-site"
+blog: "http://brikis98.blogspot.com/"
+talks: "http://ybrikman.com/talks"
+photos: "http://ybrikman.com/photos"
+linkedin: "https://www.linkedin.com/in/jbrikman"
+buy_oreilly_link: "http://www.jdoqocy.com/click-7745743-11290546?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920034360.do%3Fcmp%3Daf-code-books-video-product_cj_0636920034360_%25zp&amp;cjsku=0636920034360"
+buy_safari_link: "https://www.safaribooksonline.com/library/view/hello-startup/9781491910016/"
+buy_oreilly_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from the O'Reilly Store."
+buy_safari_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from Safari Books Online."
+mobile_app_name: "Hello, Startup App"
+ios_link: "#"
+android_link: "#"
+ios_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from the Apple App Store."
+android_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from the Google Play Store."
+
+# Build settings
+markdown: kramdown

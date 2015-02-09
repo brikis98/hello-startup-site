@@ -1,0 +1,7 @@
+name: "Recommended Reading"
+description: "Other books, articles, and talks you should check out to learn about startups."
+disabled: true
+icon: "book"
+type: "teams"
+see_more:
+categories:

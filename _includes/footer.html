@@ -1,0 +1,31 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <a href="mailto:{{ site.email }}" class="tracked" data-trk="feedback-footer">{{ site.email }}</a>
+      </div>
+      <div class="col-sm-5">
+        <div class="share row">
+          <div class="twitter share-button col-sm-3">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}" data-count="none" data-text="{{ site.twitter_title }}">Tweet</a>
+          </div>
+          <div class="linkedin share-button col-sm-3">
+            <script type="IN/Share" data-url="{{ site.url }}"></script>          
+          </div>
+          <div class="facebook share-button col-sm-3">
+            <div id="fb-root"></div>  
+            <div class="fb-share-button" data-href="{{ site.url }}" data-layout="button"></div>
+          </div>
+          <div class="google share-button col-sm-3">
+            <div class="g-plusone" data-href="{{ site.url }}" data-size="medium" data-annotation="none"></div>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->      
+<script src="/dist/all.min.js"></script>

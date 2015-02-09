@@ -1,0 +1,32 @@
+---
+layout: resource
+inverse_nav: true
+blurb_include: "list-blurb.html"
+nav_include: "list-nav-include.html"
+---
+
+{{ content }}
+
+{% for category in site.data.resources[page.resource_key].categories %}
+  {% assign remainder = forloop.index0 | modulo:2 %}
+  <section id="{{ category.id }}"{% if remainder == 1 %}class="gray-section gray-gradient"{% endif %}>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>{{ category.name }}</h2>
+          {% if category.description %}
+            <h3>{{ category.description }}</h3>
+          {% endif %}
+          <div class="list-group">
+            {% for site in category.sites %}
+              <a href="{{ site.url }}" class="list-group-item" target="_blank">
+                <h4 class="list-group-item-heading">{{ site.name }}</h4>
+                <p class="list-group-item-text">{{ site.url }}</p>
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endfor %}

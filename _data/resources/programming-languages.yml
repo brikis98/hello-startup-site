@@ -1,0 +1,7 @@
+name: "Programming Languages"
+description: "Should you use Ruby, Python, Java, or PHP at your startup? Compare programming languages across many dimensions."
+disabled: true
+icon: "language"
+type: "technologies"
+see_more:
+categories:

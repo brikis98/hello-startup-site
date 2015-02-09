@@ -1,0 +1,7 @@
+name: "Clean Code"
+description: "Learn how to write code that's easy to understand, test, and modify."
+disabled: true
+icon: "code"
+type: "technologies"
+see_more:
+categories:

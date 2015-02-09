@@ -55,11 +55,74 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 */
 jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeOutQuad",swing:function(e,f,a,h,g){return jQuery.easing[jQuery.easing.def](e,f,a,h,g)},easeInQuad:function(e,f,a,h,g){return h*(f/=g)*f+a},easeOutQuad:function(e,f,a,h,g){return -h*(f/=g)*(f-2)+a},easeInOutQuad:function(e,f,a,h,g){if((f/=g/2)<1){return h/2*f*f+a}return -h/2*((--f)*(f-2)-1)+a},easeInCubic:function(e,f,a,h,g){return h*(f/=g)*f*f+a},easeOutCubic:function(e,f,a,h,g){return h*((f=f/g-1)*f*f+1)+a},easeInOutCubic:function(e,f,a,h,g){if((f/=g/2)<1){return h/2*f*f*f+a}return h/2*((f-=2)*f*f+2)+a},easeInQuart:function(e,f,a,h,g){return h*(f/=g)*f*f*f+a},easeOutQuart:function(e,f,a,h,g){return -h*((f=f/g-1)*f*f*f-1)+a},easeInOutQuart:function(e,f,a,h,g){if((f/=g/2)<1){return h/2*f*f*f*f+a}return -h/2*((f-=2)*f*f*f-2)+a},easeInQuint:function(e,f,a,h,g){return h*(f/=g)*f*f*f*f+a},easeOutQuint:function(e,f,a,h,g){return h*((f=f/g-1)*f*f*f*f+1)+a},easeInOutQuint:function(e,f,a,h,g){if((f/=g/2)<1){return h/2*f*f*f*f*f+a}return h/2*((f-=2)*f*f*f*f+2)+a},easeInSine:function(e,f,a,h,g){return -h*Math.cos(f/g*(Math.PI/2))+h+a},easeOutSine:function(e,f,a,h,g){return h*Math.sin(f/g*(Math.PI/2))+a},easeInOutSine:function(e,f,a,h,g){return -h/2*(Math.cos(Math.PI*f/g)-1)+a},easeInExpo:function(e,f,a,h,g){return(f==0)?a:h*Math.pow(2,10*(f/g-1))+a},easeOutExpo:function(e,f,a,h,g){return(f==g)?a+h:h*(-Math.pow(2,-10*f/g)+1)+a},easeInOutExpo:function(e,f,a,h,g){if(f==0){return a}if(f==g){return a+h}if((f/=g/2)<1){return h/2*Math.pow(2,10*(f-1))+a}return h/2*(-Math.pow(2,-10*--f)+2)+a},easeInCirc:function(e,f,a,h,g){return -h*(Math.sqrt(1-(f/=g)*f)-1)+a},easeOutCirc:function(e,f,a,h,g){return h*Math.sqrt(1-(f=f/g-1)*f)+a},easeInOutCirc:function(e,f,a,h,g){if((f/=g/2)<1){return -h/2*(Math.sqrt(1-f*f)-1)+a}return h/2*(Math.sqrt(1-(f-=2)*f)+1)+a},easeInElastic:function(f,h,e,l,k){var i=1.70158;var j=0;var g=l;if(h==0){return e}if((h/=k)==1){return e+l}if(!j){j=k*0.3}if(g<Math.abs(l)){g=l;var i=j/4}else{var i=j/(2*Math.PI)*Math.asin(l/g)}return -(g*Math.pow(2,10*(h-=1))*Math.sin((h*k-i)*(2*Math.PI)/j))+e},easeOutElastic:function(f,h,e,l,k){var i=1.70158;var j=0;var g=l;if(h==0){return e}if((h/=k)==1){return e+l}if(!j){j=k*0.3}if(g<Math.abs(l)){g=l;var i=j/4}else{var i=j/(2*Math.PI)*Math.asin(l/g)}return g*Math.pow(2,-10*h)*Math.sin((h*k-i)*(2*Math.PI)/j)+l+e},easeInOutElastic:function(f,h,e,l,k){var i=1.70158;var j=0;var g=l;if(h==0){return e}if((h/=k/2)==2){return e+l}if(!j){j=k*(0.3*1.5)}if(g<Math.abs(l)){g=l;var i=j/4}else{var i=j/(2*Math.PI)*Math.asin(l/g)}if(h<1){return -0.5*(g*Math.pow(2,10*(h-=1))*Math.sin((h*k-i)*(2*Math.PI)/j))+e}return g*Math.pow(2,-10*(h-=1))*Math.sin((h*k-i)*(2*Math.PI)/j)*0.5+l+e},easeInBack:function(e,f,a,i,h,g){if(g==undefined){g=1.70158}return i*(f/=h)*f*((g+1)*f-g)+a},easeOutBack:function(e,f,a,i,h,g){if(g==undefined){g=1.70158}return i*((f=f/h-1)*f*((g+1)*f+g)+1)+a},easeInOutBack:function(e,f,a,i,h,g){if(g==undefined){g=1.70158}if((f/=h/2)<1){return i/2*(f*f*(((g*=(1.525))+1)*f-g))+a}return i/2*((f-=2)*f*(((g*=(1.525))+1)*f+g)+2)+a},easeInBounce:function(e,f,a,h,g){return h-jQuery.easing.easeOutBounce(e,g-f,0,h,g)+a},easeOutBounce:function(e,f,a,h,g){if((f/=g)<(1/2.75)){return h*(7.5625*f*f)+a}else{if(f<(2/2.75)){return h*(7.5625*(f-=(1.5/2.75))*f+0.75)+a}else{if(f<(2.5/2.75)){return h*(7.5625*(f-=(2.25/2.75))*f+0.9375)+a}else{return h*(7.5625*(f-=(2.625/2.75))*f+0.984375)+a}}}},easeInOutBounce:function(e,f,a,h,g){if(f<g/2){return jQuery.easing.easeInBounce(e,f*2,0,h,g)*0.5+a}return jQuery.easing.easeOutBounce(e,f*2-g,0,h,g)*0.5+h*0.5+a}});
 
+(function($){
+  $.fn.jTruncate = function(options) {
+     
+    var defaults = {
+      length: 300,
+      minTrail: 20,
+      moreText: "more",
+      lessText: "less",
+      ellipsisText: "...",
+      moreAni: "",
+      lessAni: ""
+    };
+    
+    var options = $.extend(defaults, options);
+     
+    return this.each(function() {
+      obj = $(this);
+      var body = obj.html();
+      
+      if(body.length > options.length + options.minTrail) {
+        var splitLocation = body.indexOf(' ', options.length);
+        if(splitLocation != -1) {
+          // truncate tip
+          var splitLocation = body.indexOf(' ', options.length);
+          var str1 = body.substring(0, splitLocation);
+          var str2 = body.substring(splitLocation, body.length - 1);
+          obj.html(str1 + '<span class="truncate_ellipsis">' + options.ellipsisText + 
+            '</span>' + '<span class="truncate_more">' + str2 + '</span>');
+          
+          // insert more link
+          obj.append(
+            '<div class="clearboth">' +
+              '<a href="#" class="truncate_more_link">' + options.moreText + '</a>' +
+            '</div>'
+          );
+
+          // set onclick event for more/less link
+          var moreLink = $('.truncate_more_link', obj);
+          var moreContent = $('.truncate_more', obj);
+          var ellipsis = $('.truncate_ellipsis', obj);
+          
+          moreContent.hide();
+
+          moreLink.click(function() {
+            if(moreLink.text() == options.moreText) {
+              moreContent.show();
+              moreLink.text(options.lessText);
+              ellipsis.css("display", "none");
+            } else {
+              moreContent.hide();
+              moreLink.text(options.moreText);
+              ellipsis.css("display", "inline");
+            }
+            return false;
+            });
+        }
+      } // end if
+      
+    });
+  };
+})(jQuery);
 (function() {
   "use strict";
 
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
+    console.log($anchor);
+    console.log($anchor.attr('href'));
     $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500, 'easeInOutExpo');
     event.preventDefault();
   };
@@ -88,6 +151,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
   };
 
   var changeHeaderOn = 90;
+  var enableDynamicNav = $('body').hasClass('dynamic-nav');
   var nav = $('.navbar');
   var navCollapse = $('.navbar-collapse');
   var NAVBAR_CLASS_DEFAULT = "navbar-default";
@@ -185,11 +249,33 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
     ga('send', 'pageview');
   };
 
+  var truncateText = function() {
+    $('.book-outline dd').jTruncate({
+      length: 200,
+      moreText: " (more)",
+      lessText: " (less)"
+    });
+
+    $('p.truncate').jTruncate({
+      length: 224,
+      moreText: " (more)",
+      lessText: " (less)"
+    });
+  };
+
+  var dynamicNav = function() {
+    if (enableDynamicNav) {
+      navCollapse.on('shown.bs.collapse', invertNav);
+      navCollapse.on('hidden.bs.collapse', invertNav);
+      $(window).on('scroll', invertNav);
+    }
+  };
+
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
-  navCollapse.on('shown.bs.collapse', invertNav);
-  navCollapse.on('hidden.bs.collapse', invertNav);
-  $(window).on('scroll', invertNav);
+  $('[data-toggle="tooltip"]').tooltip();
+  dynamicNav();
+  truncateText();
   loadShareButtons();
   loadGoogleAnalytics();
 })();

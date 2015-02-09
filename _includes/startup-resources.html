@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Startup Resources</h2>
+      <h3>
+        Based on the contents of <em>{{ site.short_title }}</em>, I have put together a number of tools, links, and checklists
+        to help you build a startup. 
+        {% include resources-open-source.html %}
+      </h3>      
+      <div class="row resource-lists">
+        <div class="col-sm-4">
+          {% assign type = "products" %}
+          {% include resource-panel.html %}
+        </div>
+        <div class="col-sm-4">
+          {% assign type = "technologies" %}
+          {% include resource-panel.html %}
+        </div>
+        <div class="col-sm-4">
+          {% assign type = "teams" %}
+          {% include resource-panel.html %}
+        </div>                                          
+      </div>
+      <!-- 
+        TODO: When these apps are available, re-enable this section and update the
+              screenshots.
+      <h3>
+        All of these resources are also available in the <em>{{ site.mobile_app_name }}</em>, available for 
+        <a href="{{ site.ios_link }}" class="tracked" data-trk="get-app-apple-store-link-resources" target="_blank" title="{{ site.ios_text }}">iOS</a> 
+        and 
+        <a href="{{ site.android_link }}" class="tracked" data-trk="get-app-play-store-link-resources" target="_blank" title="{{ site.android_text }}">Android</a>!
+      </h3>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <img src="images/app-screenshot.gif" alt="{{ site.mobile_app_name }}" class="img-responsive"/>
+        </div>
+      </div>
+      <div class="row buy-buttons">
+        <div class="col-sm-6">
+          <a href="{{ site.ios_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-apple-store-button-resources" target="_blank" title="{{ site.ios_text }}">
+            <img src="images/download-app-store.png" alt="{{ site.ios_text }}"/>
+          </a>
+        </div>
+        <div class="col-sm-6">
+          <a href="{{ site.android_link }}" class="buy-link black-link hvr-grow hvr-grow-shadow tracked" data-trk="get-app-play-store-button-resources" target="_blank" title="{{ site.android_text }}">
+            <img src="images/download-play-store.png" alt="{{ site.android_text }}"/>
+          </a>
+        </div>
+      </div> 
+      -->
+    </div>
+  </div>
+</div>

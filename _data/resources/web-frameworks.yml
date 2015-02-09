@@ -1,0 +1,7 @@
+name: "Web Frameworks"
+description: "Should you use a Ruby on Rails or Django? SpringMVC or Play? Compare server-side frameworks across many dimensions."
+disabled: true
+icon: "building"
+type: "technologies"
+see_more:
+categories:
