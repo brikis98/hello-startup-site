@@ -102,7 +102,7 @@ header .book-3d {
   text-align: center;
 }
 
-header p {
+header p, a {
   font-size: 14px;
   font-weight: 200;
 }

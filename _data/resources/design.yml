@@ -11,52 +11,52 @@ categories:
     sites:
       - name: "Bootstrap"
         url: "http://getbootstrap.com/"
-        image: "bootstrap.png"
+        image: "bootstrap.jpg"
         description: |
           Bootstrap is the most popular HTML, CSS, and JS framework for 
           developing responsive, mobile first projects on the web.
       - name: "Start Bootstrap"
         url: "http://startbootstrap.com/"
-        image: "start-bootstrap.png"
+        image: "start-bootstrap.jpg"
         description: "Free Bootstrap Themes &amp; Templates"
       - name: "The big badass list of 319 useful Twitter Bootstrap resources"
         url: "http://bootstraphero.com/the-big-badass-list-of-twitter-bootstrap-resources"
-        image: "bootstrap-hero.png"
+        image: "bootstrap-hero.jpg"
       - name: "Foundation"
         url: "http://foundation.zurb.com/index.html"
-        image: "foundation.png"
+        image: "foundation.jpg"
         description: "The most advanced responsive front-end framework in the world."
       - name: "Foundation Templates"
         url: "http://foundation.zurb.com/templates.html"
-        image: "foundation-templates.png"
+        image: "foundation-templates.jpg"
       - name: "Google Web Starter Kit"
         url: "https://developers.google.com/web/starter-kit/"
-        image: "google-web-starter.png"
+        image: "google-web-starter.jpg"
         description: "Boilerplate &amp; Tooling for Multi-Device Development"
       - name: "HTML5 UP"
         url: "http://html5up.net/"
-        image: "html5up.png"
+        image: "html5up.jpg"
   - id: "mobile-templates"
     name: "Mobile templates"
     sites: 
       - name: "Ratchet"
         url: "http://goratchet.com/"
-        image: "ratchet.png"
+        image: "ratchet.jpg"
         description: "Build mobile apps with simple HTML‚ CSS‚ and JS components."
       - name: "Inspired UI"
         url: "http://inspired-ui.com/"
-        image: "inspired-ui.png"
+        image: "inspired-ui.jpg"
         description: "Mobile Apps Design Patterns"
       - name: "Pttrns"
         url: "http://www.pttrns.com/"
-        image: "pttrns.png"
+        image: "pttrns.jpg"
         description: "Mobile User Interface Patterns"
       - name: "Mobile Patterns"
         url: "http://www.mobile-patterns.com/"
-        image: "mobile-patterns.png"
+        image: "mobile-patterns.jpg"
       - name: "10 Pure CSS (Mostly) Flat Mobile Devices"
         url: "http://marvelapp.github.io/devices.css/"
-        image: "css-flat-mobile-devices.png"
+        image: "css-flat-mobile-devices.jpg"
         description: |
           We've created several minimal iPhone, Android, Lumia and iPad devices 
           in pure CSS to showcase the prototypes our users make on Marvel. 
@@ -66,26 +66,26 @@ categories:
     sites:
       - name: "Open Source Email Templates"
         url: "https://www.sendwithus.com/resources/templates"
-        image: "sendwithus-email-templates.png"
+        image: "sendwithus-email-templates.jpg"
         description: "Responsive, free, and community driven email templates from Sendwithus"
       - name: "Email Templates"
         url: "http://mailchimp.com/features/email-templates/"
-        image: "mailchimp-email-templates.png"
+        image: "mailchimp-email-templates.jpg"
         description: "Email templates from MailChimp"
       - name: "HTML Email Templates"
         url: "https://www.campaignmonitor.com/email-templates/#gallery"
-        image: "campaign-monitor-email-templates.png"
+        image: "campaign-monitor-email-templates.jpg"
         description: "Email templates from Campaign Monitor"
   - id: "fonts"
     name: "Fonts"
     sites:
       - name: "Google Fonts"
         url: "https://www.google.com/fonts"
-        image: "google-fonts.png"
+        image: "google-fonts.jpg"
         description: "Free, open source fonts with CDN hosting by Google."
       - name: "typ.io: What font goes with what?"
         url: "http://www.typ.io/"
-        image: "typ.io.png"
+        image: "typ.io.jpg"
         description: |
           We're revealing designers' decisions for all to see; peeking under 
           the hood of beautiful websites to find out what fonts they're using 
@@ -96,45 +96,33 @@ categories:
     sites: 
       - name: "Balsamiq"
         url: "http://balsamiq.com/"
-        image: "balsamiq.png"
+        image: "balsamiq.jpg"
         description: |
           Balsamiq Mockups is a rapid wireframing tool that helps you Work 
           Faster &amp; Smarter. It reproduces the experience of sketching on a 
           whiteboard, but using a computer.
       - name: "OmniGraffle"
         url: "http://www.omnigroup.com/omnigraffle/"
-        image: "omnigraffle.png"
+        image: "omnigraffle.jpg"
         description: |
           OmniGraffle is for creating precise, beautiful graphics. Like website 
           wireframes, an electrical system design, a family tree, or mapping 
           out software classes.
       - name: "mockingbird"
         url: "https://gomockingbird.com/"
-        image: "mockingbird.png"
+        image: "mockingbird.jpg"
       - name: "Justinmind"
         url: "http://justinmind.com/"
-        image: "justinmind.png"
+        image: "justinmind.jpg"
       - name: "Fluid"
         url: "https://www.fluidui.com/"
-        image: "fluid.png"
-  - id: "design-tutorials"
-    name: "Design tutorials"
-    sites:
-      - name: "UX Basics for Startups"
-        url: "http://www.adub.net/post/43944830969/ux-basics-for-startups"
-      - name: "Google Web Fundamentals"
-        url: "https://developers.google.com/web/fundamentals/"
-        image: "google-web-fundamentals.png"
-      - name: "Principles of mobile site design"
-        url: "http://www.google.com/think/multiscreen/whitepaper-sitedesign.html"
-      - name: "7 Rules for Creating Gorgeous UI"
-        url: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
+        image: "fluid.jpg"
   - id: "design-services"
     name: "Design services and community"
     sites:
       - name: "Dribbble"
         url: "https://dribbble.com/"
-        image: "dribbble.png"
+        image: "dribbble.jpg"
         description: |
           What are you working on? Dribbble is a community of designers 
           answering that question each day. Web designers, graphic designers, 
@@ -143,20 +131,32 @@ categories:
           process, and current projects.
       - name: "DesignCrowd"
         url: "http://www.designcrowd.com/"
-        image: "design-crowd.png"
+        image: "design-crowd.jpg"
         description: |
           DesignCrowd is an online marketplace providing logo, website, print 
           and graphic design services by providing access to freelance graphic 
           designers and design studios around the world. 
       - name: "99designs"
         url: "http://99designs.com/"
-        image: "99designs.png"
+        image: "99designs.jpg"
         description: |
           99designs pioneered the design contest, where designers submit 
           competing designs in response to a customer’s design brief—and the 
           winner receives a cash payment for their work. Through more than 
           371,806 design contests, we’ve paid out $93,422,757 to our designer 
           community to date.
+  - id: "design-tutorials"
+    name: "Design tutorials"
+    sites:
+      - name: "UX Basics for Startups"
+        url: "http://www.adub.net/post/43944830969/ux-basics-for-startups"
+      - name: "Google Web Fundamentals"
+        url: "https://developers.google.com/web/fundamentals/"
+        image: "google-web-fundamentals.jpg"
+      - name: "Principles of mobile site design"
+        url: "http://www.google.com/think/multiscreen/whitepaper-sitedesign.html"
+      - name: "7 Rules for Creating Gorgeous UI"
+        url: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
 
 
 
