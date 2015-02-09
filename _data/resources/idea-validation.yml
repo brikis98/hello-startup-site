@@ -18,16 +18,26 @@ categories:
     sites:
       - name: "Google AdWords Keyword Planner"
         url: "https://adwords.google.com/ko/KeywordPlanner/Home"
+        image: "adwords.jpg"
+        description: |
+          Plan your Search Network campaigns and learn what your customers are 
+          looking for
       - name: "Facebook Ads"
         url: "https://www.facebook.com/ads"
+        image: "facebook-ads.jpg"
+        description: |
+          Explore the demographics and interests of Facebook's 1B+ members
       - name: "Twitter Ads"
         url: "https://ads.twitter.com"
+        image: "twitter-ads.jpg"
       - name: "LinkedIn Ads"
         url: "https://www.linkedin.com/ads/"
+        image: "linkedin-ads.jpg"
+        description: |
+          Slice and dice the 340M+ members on LinkedIn by company, job title,
+          school, field of study, skills, etc.
       - name: "Yahoo / Bing Ads"
         url: "http://advertise.bingads.microsoft.com/"
-      - name: "Craigslist Ads"
-        url: "http://craigslist.org/"
   - id: "events"
     name: "Events"
     description: |
@@ -36,21 +46,39 @@ categories:
       people participate? If you go to one of these events, can you get some
       of the attendees to be interested in your idea?
     sites:
-      - name: "Meetup - the world's largest network of local groups"
+      - name: "Meetup"
         url: "http://www.meetup.com/"
-      - name: "Lanyrd - the social conference directory"
+        image: "meetup.jpg"
+        description: "The world's largest network of local groups"
+      - name: "Lanyrd"
         url: "http://lanyrd.com/"
-      - name: "Eventbrite - discover great events or create your own"
+        image: "lanyrd.jpg"
+        description: "The social conference directory"
+      - name: "Eventbrite"
         url: "https://www.eventbrite.com/"
+        description: "Discover great events or create your own"
   - id: "surveys"
     name: "Surveys"
     sites:
       - name: "AYTM Market Research"
         url: "http://aytm.com/"
+        image: "aytm.jpg"
+        description: |
+          AYTM.com - Ask Your Target Market - is the leading innovator in 
+          online Market Research. Our survey tool with built-in experts and a 
+          20MM+ worldwide panel helps brands and agencies gain insights from 
+          their precise target markets.
       - name: "SurveyMonkey"
         url: "https://www.surveymonkey.com/"
+        image: "survey-monkey.jpg"
       - name: "Google consumer surveys"
         url: "http://www.google.com/insights/consumersurveys/home"
+        image: "google-surveys.jpg"
+        description: |
+          Imagine surveying the web with a tool so precise it could predict the 
+          2012 presidential election. With Google Consumer Surveys, you choose 
+          your target audience, type your question and watch the results roll 
+          in within hours.
   - id: "web-analytics"
     name: "Website Analytics"
     description: |
@@ -59,35 +87,47 @@ categories:
     sites:
       - name: "comScore"
         url: "http://www.comscore.com/"
+        image: "comscore.jpg"
       - name: "Quantcast"
         url: "https://www.quantcast.com/"
+        image: "quantcast.jpg"
       - name: "Alexa"
         url: "http://www.alexa.com/"
+        image: "alexa.jpg"
   - id: "mobile-analytics"
     name: "Mobile Analytics"
     description: |
       If there are competitors or similar products, you can research their 
       mobile traffic and usage to guage the size of the market.
     sites:
-      - name: "Xyo - apps to the people"
+      - name: "Xyo"
         url: "http://xyo.net/"
-      - name: "App Annie - App Ranking, Analytics, Market Intelligence"
+        image: "xyo.jpg"
+      - name: "App Annie"
         url: "http://www.appannie.com/"
-      - name: "Distimo - App Analytics, Conversion Tracking, App Download &amp; Revenue Data"
+        image: "app-annie.jpg"
+        description: "App Ranking, Analytics, Market Intelligence"
+      - name: "Distimo"
         url: "http://www.distimo.com/"
+        image: "distimo.jpg"
+        description: "App Analytics, Conversion Tracking, App Download &amp; Revenue Data"
   - id: "research"
     name: "Market Research and Reports"
     sites:
       - name: "Think With Google"
         url: "https://www.thinkwithgoogle.com/"
+        image: "think-with-google.jpg"
       - name: "MarketResearch.com"
         url: "http://www.marketresearch.com/"
+        image: "market-research.jpg"
       - name: "Standard &amp; Poor's Ratings Services"
         url: "https://www.spratings.com/"
+        image: "s-p-ratings.jpg"
       - name: "The U.S. Small Business Administration - Do Your Market Research"
         url: "https://www.sba.gov/content/do-your-market-research"
       - name: "AngelList Markets"
         url: "https://angel.co/markets"
+        image: "angel-list-markets.jpg"
 
 
 
