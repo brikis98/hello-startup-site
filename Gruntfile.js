@@ -7,6 +7,8 @@ module.exports = function(grunt) {
         src: [
           'stylesheets/bootstrap.min.css',
           'stylesheets/bootstrap-theme.min.css',
+          'stylesheets/font-awesome.css',
+          'stylesheets/google-fonts.css',
           'stylesheets/main.css'
         ],
         dest: 'dist/all.css'
@@ -67,6 +69,7 @@ module.exports = function(grunt) {
           '_includes/*.html',
           '_layouts/*.html',
           '_config.yml',
+          'mobile/index.html',
           'images/*.*'
         ],
         tasks: ['shell:jekyllBuild']
