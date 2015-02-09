@@ -1,4 +1,4 @@
-name: "Code Review"
+name: "Code Review Tools"
 description: "How and why to setup a code review process at your startup, including design reviews, pre-commit reviews, and static analysis."
 icon: "list"
 type: "technologies"

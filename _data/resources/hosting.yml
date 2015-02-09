@@ -1,4 +1,4 @@
-name: "Hosting"
+name: "Hosting Options"
 description: "Compare racking your own servers versus using services such as Amazon EC2, Heroku, Rackspace, and Digital Ocean."
 icon: "cloud"
 type: "technologies"

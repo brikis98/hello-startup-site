@@ -1,4 +1,4 @@
-name: "Deployment"
+name: "Deployment Tools"
 description: "Instead of deploying code manually, learn about tools such as Chef, Puppet, Ansible, and Docker."
 icon: "cloud-upload"
 type: "technologies"
