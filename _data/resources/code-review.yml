@@ -9,16 +9,20 @@ categories:
   - id: "code-review-checklist"
     name: "Code Review Checklist"
     sites:
-      - name: "Stop More Bugs with our Code Review Checklist (Fog Creek)"
+      - name: "Stop More Bugs with our Code Review Checklist"
         url: "http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/"
+        image: "fog-creek.jpg"
+        description: "From Fog Creek"
       - name: "Typesafe Project &amp; Developer Guidelines"
         url: "https://gist.github.com/jboner/3864996"
       - name: "HTML/CSS/JS Code Review Checklist"
         url: "https://gist.github.com/justinhillsjohnson/5503121"
       - name: "Java Code Review Checklist"
         url: "http://java.dzone.com/articles/java-code-review-checklist"
+        image: "java-code-review.jpg"
       - name: "Code Review Checklist and Guidelines for C# Developers"
         url: "http://www.codeproject.com/Articles/593751/Code-Review-Checklist-and-Guidelines-for-Csharp-De"
+        image: "c-code-review.jpg"
       - name: "Embedded System Code Review Checklist"
         url: "http://users.ece.cmu.edu/~koopman/pubs/code_review_checklist_v1_00.pdf"      
   - id: "pre-commit-tools"
@@ -26,45 +30,63 @@ categories:
     sites:
       - name: "Review Review"
         url: "https://www.reviewboard.org/"
+        image: "review-board.jpg"
       - name: "Phabricator"
         url: "http://phabricator.org/"
+        image: "phabricator.jpg"
       - name: "GitHub (pull requests)"
         url: "https://github.com/"
+        image: "github-pr.jpg"
       - name: "Gerrit"
         url: "https://code.google.com/p/gerrit/"
       - name: "Atlassian Crucible"
         url: "https://www.atlassian.com/software/crucible/overview"
+        image: "crucible.jpg"
       - name: "JetBrains Upsource"
         url: "https://www.jetbrains.com/upsource/"
+        image: "upsource.jpg"
       - name: "Barkeep"
         url: "http://getbarkeep.org/"
+        image: "barkeep.jpg"
       - name: "Collaborator"
         url: "http://smartbear.com/product/collaborator/overview/"
+        image: "smartbear.jpg"
   - id: "pair-programming"
     name: "Pair Programming"
     sites:
-      - name: "Remote Pair Programming"
-        url: "http://remotepairprogramming.com/"
-      - name: "Pair Program with Me"
-        url: "http://www.pairprogramwith.me/"
-      - name: "Screenhero"
-        url: "https://screenhero.com/"
       - name: "MadEye"
         url: "https://madeye.io/"
+        image: "mad-eye.jpg"
+        description: |
+          MadEye is a collaborative web editor backed by your filesystem.
       - name: "The Costs and Benefits of Pair Programming"
         url: "http://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF"
       - name: "Pair Programming vs. Code Reviews"
         url: "http://blog.codinghorror.com/pair-programming-vs-code-reviews/"
+      - name: "Remote Pair Programming"
+        url: "http://remotepairprogramming.com/"        
   - id: "static-analysis"
     name: "Static Analysis"
     sites:
       - name: "List of tools for static code analysis"
         url: "http://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis"
-      - name: "Security Source Code Analysis Tools from OWASP"
+        description: |
+          Great list on Wikipedia, broken down by language.
+      - name: "Security Source Code Analysis Tools"
         url: "https://www.owasp.org/index.php/Source_Code_Analysis_Tools"
-      - name: "Coverity - Software Testing and Static Analysis Tools"
+        description: |
+          From the Open Web Application Security Project (OWASP).
+      - name: "Coverity"
         url: "http://www.coverity.com/"
+        description: |
+          Software Testing and Static Analysis Tools
       - name: "Code Climate"
         url: "https://codeclimate.com/"
+        image: "code-climate.jpg"
+        description: |
+          Automated code review for Ruby, JS, and PHP.
       - name: "Codacy"
         url: "https://www.codacy.com/"      
+        image: "codacy.jpg"
+        description: |
+          Continuous Static Analysis designed to complement your unit tests
