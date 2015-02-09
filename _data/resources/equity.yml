@@ -3,5 +3,18 @@ description: "How much is your equity worth? Use these tools to figure it out."
 disabled: true
 icon: "calculator"
 type: "teams"
-see_more:
+see_more: |
+  See the "Getting a Job at a Startup" chapter in 
+  <a href="/#part-3-teams">Part III, Teams</a> for more info.
 categories:
+  id: "further-reading"
+  name: "Further Reading"
+  sites:
+    - name: "An Introduction to Stock & Options for the Tech Entrepreneur or Startup Employee"
+      url: "http://www.scribd.com/doc/55945011/An-Introduction-to-Stock-Options-for-the-Tech-Entrepreneur-or-Startup-Employee"
+    - name: "Startup Equity for Employees"
+      url: "http://www.payne.org/index.php/Startup_Equity_For_Employees"
+    - name: "An Engineer's Guide to Stock Options"
+      url: "http://blog.alexmaccaw.com/an-engineers-guide-to-stock-options"
+    - name: "The Impact of Dilution"
+      url: "https://blog.wealthfront.com/impact-of-dilution/"

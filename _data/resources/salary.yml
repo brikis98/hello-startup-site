@@ -1,7 +1,30 @@
 name: "Salary"
 description: "How to figure out if you're being paid a fair salary."
-disabled: true
 icon: "money"
 type: "teams"
-see_more:
+see_more: |
+  See the "Getting a Job at a Startup" chapter in 
+  <a href="/#part-3-teams">Part III, Teams</a> for more info.
 categories:
+  - id: "salary-calculators"
+    name: "Salary Calculators"
+    sites:
+      - name: "Wealthfront Startup Salary & Equity Compensation"
+        url: "https://www.wealthfront.com/tools/startup-salary-equity-compensation"
+      - name: "AngelList Salary and Equity Data"
+        url: "https://angel.co/salaries"
+      - name: "Salary.com"
+        url: "http://www.salary.com/"
+      - name: "PayScale Salary Calculator"
+        url: "http://www.payscale.com/salary-calculator"
+      - name: "CareerBuilder Salary Calculator"
+        url: "http://salary.careerbuilder.com/"
+      - name: "Wolfram Alpha Salary Comparison"
+        url: "http://www.wolframalpha.com/examples/SalariesWages.html"
+  - id: "cost-of-living"
+    name: "Cost of Living Calculators"
+    sites:
+      - name: "PayScale Cost of Living Calculator"
+        url: "http://www.payscale.com/cost-of-living-calculator"
+      - name: "CNN Money Cost of Living Calculator"
+        url: "http://money.cnn.com/calculator/pf/cost-of-living/"

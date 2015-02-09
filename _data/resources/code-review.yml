@@ -64,3 +64,7 @@ categories:
         url: "https://www.owasp.org/index.php/Source_Code_Analysis_Tools"
       - name: "Coverity - Software Testing and Static Analysis Tools"
         url: "http://www.coverity.com/"
+      - name: "Code Climate"
+        url: "https://codeclimate.com/"
+      - name: "Codacy"
+        url: "https://www.codacy.com/"      

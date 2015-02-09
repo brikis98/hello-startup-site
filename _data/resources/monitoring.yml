@@ -1,7 +1,161 @@
 name: "Monitoring"
 description: "Learn how to keep track all of your server metrics, business metrics, and alerts."
-disabled: true
 icon: "heartbeat"
 type: "technologies"
-see_more:
+see_more: |
+  See the "Software Delivery" chapter in 
+  <a href="/#part-2-technologies">Part II, Technologies</a> for more info.
 categories:
+  - id: "logging"
+    name: "Logging Tools"
+    description: |
+      Logging is your first layer of monitoring. Make sure you understand log 
+      levels, log formats, and log aggregation.
+    sites:
+      - name: "Apache Logging Services (log4j, log4php, log4net, etc)" 
+        url: "http://logging.apache.org/"
+      - name: "logstash - open source log management"
+        url: "http://logstash.net/"
+      - name: "Loggly - Cloud Log Management Service"
+        url: "https://www.loggly.com/"
+      - name: "Papertrail - cloud-hosted log management"
+        url: "https://papertrailapp.com/"
+      - name: "Sumo Logic - Next Generation Log Management &amp; Analytics"
+        url: "http://www.sumologic.com/"
+      - name: "Common Log Format"
+        url: "http://en.wikipedia.org/wiki/Common_Log_Format"
+  - id: "availability-metrics"
+    name: "Availability Metrics"
+    description: |
+      The most basic metric: can a user access your site / product or not?
+    sites:
+      - name: "Keynote - Testing, Monitoring and Analytics for Mobile Apps and Websites"
+        url: "http://www.keynote.com/"
+      - name: "Pingdom - Website Monitoring"
+        url: "https://www.pingdom.com/"
+      - name: "Uptime Robot"
+        url: "http://uptimerobot.com/"
+      - name: "Monitority - FREE Website Monitoring (Alerts via Email, SMS, Twitter)"
+        url: "http://monitority.com/"
+  - id: "business-metrics"
+    name: "Business Metrics"
+    description: |
+      Tools to monitor what are your users are actually doing in the product. 
+      These are the metrics the CEO and product team look at.
+    sites:  
+      - name: "Google Analytics"
+        url: "http://www.google.com/analytics/"
+      - name: "KISSmetrics"
+        url: "https://www.kissmetrics.com/"
+      - name: "Mixpanel"
+        url: "https://mixpanel.com/"
+      - name: "Clicky"
+        url: "http://clicky.com/"
+      - name: "Keen IO"
+        url: "https://keen.io/"
+      - name: "Open Web Analytics"
+        url: "http://www.openwebanalytics.com/"
+      - name: "Piwik"
+        url: "http://piwik.org/"
+      - name: "Chartbeat"
+        url: "https://chartbeat.com/"
+  - id: "application-metrics"
+    name: "Application Metrics"
+    description: |
+      Tools to monitor what your application code, both on the server-side (QPS,
+      latency, through put, error counts) and on the client-side (load time, 
+      payload size, crashes).
+    sites:  
+      - name: "New Relic"
+        url: "https://newrelic.com/"
+      - name: "AppDynamics"
+        url: "http://www.appdynamics.com/"
+      - name: "ruxit"
+        url: "https://www.ruxit.com/"
+      - name: "Flight Recorder"
+        url: "http://www.flightrecorder.co/"
+      - name: "Datadog"
+        url: "https://www.datadoghq.com/"
+      - name: "Stacify"
+        url: "http://stackify.com"
+      - name: "Localytics"
+        url: "http://www.localytics.com/"
+      - name: "boomerang"
+        url: "http://www.lognormal.com/boomerang/doc/"
+  - id: "process-monitoring"
+    name: "Process Monitoring"
+    description: |
+      Tools to keep processes up and running after a crash or reboot.
+    sites:  
+      - name: "Monit"
+        url: "http://mmonit.com/monit/"
+      - name: "God"
+        url: "http://godrb.com/"
+      - name: "supervisor"
+        url: "http://supervisord.org/"
+      - name: "Upstart"
+        url: "http://upstart.ubuntu.com/"
+      - name: "bluepill"
+        url: "https://github.com/bluepill-rb/bluepill"
+  - id: "code-metrics"
+    name: "Code Metrics"
+    description: |
+      Tools to measure code coverage, bug counts, lines of code, etc.
+    sites:  
+      - name: "Jenkins"
+        url: "http://jenkins-ci.org/"
+      - name: "Travis CI"
+        url: "https://travis-ci.com/"
+      - name: "Circle CI"
+        url: "https://circleci.com/"
+      - name: "Code Climate"
+        url: "https://codeclimate.com/"
+      - name: "Codacy"
+        url: "https://www.codacy.com/"
+  - id: "server-metrics"
+    name: "Server Metrics"
+    description: |
+      Tools to measure how the hardware is doing: CPU usage, memory usage, hard
+      drive usage, and network traffic.
+    sites:  
+      - name: "Nagios"
+        url: "http://www.nagios.org/"
+      - name: "Icinga"
+        url: "https://www.icinga.org/"
+      - name: "Munin"
+        url: "http://munin-monitoring.org/"
+      - name: "Ganglia"
+        url: "http://ganglia.sourceforge.net/"
+      - name: "collectd"
+        url: "https://collectd.org/"
+      - name: "cacti"
+        url: "http://www.cacti.net/"
+      - name: "sensu"
+        url: "http://sensuapp.org/"
+  - id: "alerting"
+    name: "Alerting"
+    description: |
+      Tools to alert you when your metrics are out of line.
+    sites:
+      - name: "PagerDuty"
+        url: "http://www.pagerduty.com/" 
+      - name: "VictorOps"
+        url: "http://victorops.com/" 
+      - name: "pingability"
+        url: "http://pingability.com/" 
+      - name: "Mist.io"
+        url: "https://mist.io/" 
+      - name: "BigPanda"
+        url: "http://bigpanda.io/" 
+      - name: "OpsGenie"
+        url: "http://www.opsgenie.com/" 
+  - id: "further-reading"
+    name: "Further Reading"
+    description: |
+      More reading on monitoring and why it's such a fragmented eco-system.
+    sites:
+      - name: "#monitoringsucks"
+        url: "https://github.com/monitoringsucks" 
+      - name: "The Virtues of Monitoring"
+        url: "http://www.paperplanes.de/2011/1/5/the_virtues_of_monitoring.html" 
+
