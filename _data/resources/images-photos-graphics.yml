@@ -9,88 +9,168 @@ categories:
   - id: "free-stock-photos"
     name: "Free Stock Photography"
     sites:
-      - name: "splashbase: find free, public domain, hi res photos"
+      - name: "splashbase"
         url: "http://www.splashbase.co/"
+        image: "splashbase.png"
+        description: "Find free, public domain, hi res photos"
       - name: "Wikimedia Commons"
         url: "https://commons.wikimedia.org/wiki/Main_Page"
-      - name: "Flickr Advanced Search (select Creative Commons)"
+        image: "wikimedia.png"
+        description: |
+          Wikimedia Commons is a media file repository making available public 
+          domain and freely-licensed educational media content (images, sound 
+            and video clips) to everyone, in their own language.
+      - name: "Flickr"
         url: "https://www.flickr.com/search/advanced/"
-      - name: "Unsplash - Free High-Resolution Photos"
+        image: "flickr.png"
+        description: "Use the advanced search feature and select Creative Commons"
+      - name: "Unsplash"
         url: "https://unsplash.com/"
-      - name: "picjumbo — totally free photos for your commercial &amp; personal works"
+        image: "unsplash.png"
+        description: "Free High-Resolution Photos"
+      - name: "picjumbo"
         url: "http://picjumbo.com/"        
-      - name: "Little Visuals - Sign up to get 7 hi-res images zipped up in your inbox every 7 days."
+        image: "picjumbo.png"
+        description: "Totally free photos for your commercial &amp; personal works"
+      - name: "Little Visuals"
         url: "http://littlevisuals.co/"
-      - name: "Gratisography: Free, use as you please, high-resolution pictures"
+        image: "little-visuals.png"
+        description: "Sign up to get 7 hi-res images zipped up in your inbox every 7 days."
+      - name: "Gratisography"
         url: "http://www.gratisography.com/"        
-      - name: "Morguefile.com free stock photos"
+        description: "Free, use as you please, high-resolution pictures"
+      - name: "Morguefile.com"
         url: "http://www.morguefile.com/"
-      - name: "Death to the Stock Photo - Free photos for creative use"
+        image: "morguefile.png"
+        description: "Free stock photos"
+      - name: "Death to the Stock Photo"
         url: "http://join.deathtothestockphoto.com/"
+        image: "deathtothestockphoto.png"
+        description: "Free photos for creative use"
       - name: "New Old Stock"
         url: "http://nos.twnsnd.co/"
-      - name: "StockSnap.io - Beautiful Free Stock Photos"
+        image: "new-old-stock.png"
+        description: |
+          Vintage photos from the public archives free of known copyright 
+          restrictions.
+      - name: "StockSnap.io"
         url: "https://stocksnap.io/"
-      - name: "Stockvault.net - Free Photos, Free Images"
+        image: "stocksnap.png"
+        description: "Beautiful Free Stock Photos"
+      - name: "Stockvault.net"
         url: "http://www.stockvault.net/"
-      - name: "Superfamous - CC Attribution 3.0 license photos"
+        image: "stock-vault.png"
+        description: "Free Photos, Free Images"
+      - name: "Superfamous"
         url: "http://superfamous.com/"
+        image: "superfamous.png"
+        description: "CC Attribution 3.0 license photos"
       - name: "The Pattern Library"
         url: "http://thepatternlibrary.com/"
-      - name: "IM Free - Free Design Resources"
+      - name: "IM Free"
         url: "http://www.imcreator.com/free"
+        image: "im-free.png"
+        description: |
+          A curated collection of free resources, all for commercial use.
   - id: "paid-stock-photos"
     name: "Paid Stock Photography"
     sites:
       - name: "iStock"
         url: "http://www.istockphoto.com/"
+        image: "istock.png"
+        description: |
+          Explore millions of royalty-free images, illustrations, videos, and 
+          music clips at ridiculously great prices
       - name: "Creative Market - Handcrafted Fonts, Graphics, Themes and More"
         url: "https://creativemarket.com/"
+        image: "creative-market.png"
+        description: |
+          Ready-to-use design assets from 6,748 independent creators
       - name: "Bigstock"
         url: "http://www.bigstockphoto.com/"
+        image: "big-stock.png"
       - name: "Shutterstock"
-        url: "http://www.shutterstock.com/"        
-      - name: "Stocksy United - Royalty-Free Stock Photos"
+        url: "http://www.shutterstock.com/"
+        image: "shutter-stock.png"        
+      - name: "Stocksy United"
         url: "http://www.stocksy.com/"
+        image: "stocksy.png"
+        description: "Royalty-Free Stock Photos"
       - name: "Snapwire - Authentic royalty free photos created just for you"
         url: "https://www.snapwi.re/"
+        image: "snapwire.png"
       - name: "Getty Images"
         url: "http://www.gettyimages.com/"
+        image: "getty-images.png"
   - id: "free-clip-art"
     name: "Free Clip Art and Icons"
     sites:
       - name: "Font Awesome, the iconic font and CSS toolkit"
         url: "http://fortawesome.github.io/Font-Awesome/"
+        image: "font-awesome.png"
+        description: |
+          Font Awesome gives you scalable vector icons that can instantly be 
+          customized — size, color, drop shadow, and anything that can be done 
+          with the power of CSS.
       - name: "glyphicons"
         url: "http://glyphicons.com/"
+        image: "glyphicons.png"
+        description: |
+          GLYPHICONS is a library of precisely prepared monochromatic icons and 
+          symbols, created with an emphasis on simplicity and easy orientation.
       - name: "FlatIcon"
         url: "http://www.flaticon.com/"
+        image: "flat-icon.png"
       - name: "Free Icons!"
         url: "https://www.iconfinder.com/free_icons"
+        image: "free-icons.png"
       - name: "Social Buttons for Bootstrap"
         url: "http://lipis.github.io/bootstrap-social/"
+        image: "social-buttons.png"
       - name: "Find Icons"
         url: "http://findicons.com/"
+        image: "find-icons.png"
       - name: "Openclipart"
         url: "https://openclipart.org/"
       - name: "clker - royalty free public domain clip art"
         url: "http://www.clker.com/"
+        image: "clker.png"
   - id: "image-editors"
     name: "Image Editors"
     sites:
       - name: "Adobe Photoshop"
         url: "http://www.adobe.com/products/photoshopfamily.html"
+        image: "photoshop.png"
+        description: |
+          The most famous image editor in the world. Very powerful, but 
+          expensive.
       - name: "GIMP"
         url: "http://www.gimp.org/"
+        image: "gimp.jpg"
+        description: |
+          GIMP is the GNU Image Manipulation Program. It is a freely 
+          distributed piece of software for such tasks as photo retouching, 
+          image composition and image authoring.
       - name: "Paint.net"
-        url: "http://www.getpaint.net/"      
+        url: "http://www.getpaint.net/"   
+        image: "paint-net.jpg"
+        description: |
+          Paint.NET is free image and photo editing software for PCs that run 
+          Windows.   
       - name: "Pixlr"
         url: "https://pixlr.com/"
+        image: "pixlr.png"
+        description: "An online, in-browser photo editor"
       - name: "Fotor"
         url: "http://www.fotor.com/"
       - name: "PicMonkey"
         url: "http://www.picmonkey.com/"
       - name: "SumoPaint"
         url: "http://www.sumopaint.com/home/"
+        image: "sumo-paint.png"
+        description: |
+          Sumo Paint is an online image editor, without need to install 
+          anything to your device. It's the most versatile photo editor and 
+          painting application that works in a browser.
       - name: "Photoshop Express"
         url: "http://www.photoshop.com/products/photoshopexpress"
