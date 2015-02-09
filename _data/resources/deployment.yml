@@ -11,47 +11,119 @@ categories:
     sites: 
       - name: "Chef"
         url: "https://www.chef.io/"
+        image: "chef.jpg"
       - name: "Puppet"
         url: "http://puppetlabs.com/"
+        image: "puppet.jpg"
+        description: |
+          Manage IT infrastructure as code across all environments.
       - name: "Ansible"
         url: "http://www.ansible.com/"
+        image: "ansible.jpg"
       - name: "SaltStack"
         url: "http://saltstack.com/"
+        image: "salt.jpg"
+        description: |
+          Extremely fast and scalable systems and configuration management 
+          software for predictive orchestration, cloud and data center 
+          automation, server provisioning, application deployment and more.
       - name: "CFEngine"
         url: "http://cfengine.com/"
+        image: "cf-engine.jpg"
+        description: |
+          Automate large-scale, complex and mission critical IT infrastructure
       - name: "Capistrano"
         url: "http://capistranorb.com/"
+        image: "capistrano.jpg"
+        description: |
+          A remote server automation and deployment tool written in Ruby.
       - name: "Mina"
         url: "http://nadarei.co/mina/"
+        image: "mina.jpg"
+        description: |
+          Really fast deployer and server automation tool
       - name: "juju"
         url: "https://juju.ubuntu.com/"
+        image: "juju.jpg"
+        description: |
+          Configure, manage, maintain, deploy and scale efficiently with 
+          best-practice Charms on any public, private or hybrid cloud from a 
+          powerful GUI or the command-line.
       - name: "Quattor"
         url: "http://www.quattor.org/"
+        image: "quattor.jpg"
+        description: |
+          A system administration toolkit providing a powerful, portable, and 
+          modular set of tools for the automated installation, configuration, 
+          and management of clusters, farms, grids and clouds.
       - name: "AWS CodeDeploy"
         url: "http://aws.amazon.com/codedeploy/"
+        image: "awes-code-deploy.jpg"
+        description: |
+          AWS CodeDeploy is a service that automates code deployments to Amazon 
+          EC2 instances
   - id: "virtualization"
     name: "Virtualization and Containers"
     sites: 
       - name: "Vagrant"
-        url: "https://www.vagrantup.com/"  
+        url: "https://www.vagrantup.com/" 
+        image: "vagrant.jpg"
+        description: |
+          Create and configure lightweight, reproducible, and portable 
+          development environments. 
       - name: "VMware"
         url: "http://www.vmware.com/"
+        image: "vmware.jpg"
       - name: "VirtualBox"
         url: "https://www.virtualbox.org/"
+        image: "virtual-box.jpg"
+        description: |
+          VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product 
+          for enterprise as well as home use.
       - name: "KVM"
         url: "http://www.linux-kvm.org/page/Main_Page"
+        image: "kvm.jpg"
+        description: |
+          KVM (for Kernel-based Virtual Machine) is a full virtualization 
+          solution for Linux on x86 hardware containing virtualization 
+          extensions (Intel VT or AMD-V).
       - name: "Docker"
         url: "https://www.docker.com/"
+        image: "docker.jpg"
+        description: |
+          Docker - An open platform for distributed applications for developers 
+          and sysadmins.
       - name: "Rocket"
         url: "https://github.com/coreos/rocket"
+        image: "rocket.jpg"
+        description: |
+          Rocket is a CLI for running App Containers. The goal of rocket is to 
+          be composable, secure, and fast.
       - name: "Amazon EC2 Container Service"
         url: "http://aws.amazon.com/ecs/"
+        description: |
+          Amazon EC2 Container Service is a highly scalable, high performance 
+          container management service that supports Docker containers and 
+          allows you to easily run distributed applications on a managed 
+          cluster of Amazon EC2 instances.
   - id: "further-reading"
     name: "Further Reading"
     sites: 
       - name: "Continuous Integration"
         url: "http://martinfowler.com/tags/continuous%20integration.html"
+        description: |
+          Continuous Integration is a software development practice where 
+          members of a team integrate their work frequently, usually each 
+          person integrates at least daily - leading to multiple integrations 
+          per day. Each integration is verified by an automated build 
+          (including test) to detect integration errors as quickly as possible. 
+          Many teams find that this approach leads to significantly reduced 
+          integration problems and allows a team to develop cohesive software 
+          more rapidly.
       - name: "Continuous Delivery"
         url: "http://continuousdelivery.com/"
+        image: "continuous-delivery.jpg"
+        description: |
+          
       - name: "What is Trunk Based Development?"  
         url: "http://paulhammant.com/2013/04/05/what-is-trunk-based-development/"
