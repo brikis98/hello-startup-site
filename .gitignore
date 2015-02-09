@@ -7,3 +7,11 @@ node_modules
 # Jekyll
 _site/
 .sass-cache/
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PhoneGap (i.e. Cordova)
+.cordova
