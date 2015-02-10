@@ -13,7 +13,12 @@ inverse_nav: true
         </a>
       </div>
       <div class="col-lg-4 blurb">
-        <h1>{{ site.data.resources[page.resource_key].name }}</h1>
+        <a href="/resources/{{ page.resource_key }}">
+          <h1>
+            <span class="startup-resources-header">Startup Resources:</span> 
+            <span class="startup-resources-resource">{{ site.data.resources[page.resource_key].name }}</span>
+          </h1>
+        </a>
         {% if page.blurb_include %}
           {% include {{ page.blurb_include }} %}
         {% elsif page.blurb %}

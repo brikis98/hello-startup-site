@@ -1838,6 +1838,10 @@ a:hover {
   margin-bottom: 30px;
 }
 
+h1 {
+  color: #333;
+}
+
 h2 {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -2178,6 +2182,15 @@ footer {
 
 .inline-block {
   display: inline-block;
+}
+
+.startup-resources-header {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  color: #888;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
