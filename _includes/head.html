@@ -1,4 +1,4 @@
-{% capture title %}{% if page.title %}{{ page.title }} | {% elsif page.resource_key %}{{ site.data.resources[page.resource_key].name }} | {% endif %}{{ site.title }}{% endcapture %}
+{% capture title %}{% if page.title %}{{ page.title }} | {% elsif page.resource_key %}Startup Resources: {{ site.data.resources[page.resource_key].name }} | {% endif %}{{ site.title }}{% endcapture %}
 {% capture description %}{% if page.description %}{{ page.description }}{% elsif page.resource_key %}{{ site.data.resources[page.resource_key].description }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
 
 <meta charset='utf-8'>
