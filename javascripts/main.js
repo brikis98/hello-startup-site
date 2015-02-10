@@ -164,7 +164,6 @@
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
   $("img").unveil();
-  $('#valuation-slider').slider();
   loadTooltips();
   dynamicNav();
   truncateText();

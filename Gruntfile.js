@@ -16,11 +16,14 @@ module.exports = function(grunt) {
       js: {
         src: [
           'javascripts/jquery.min.js',
+          'javascripts/underscore.js',
+          'javascripts/backbone.js',
           'javascripts/bootstrap.min.js',
           'javascripts/jquery.easing.min.js',
           'javascripts/jquery.jtruncate.js',
           'javascripts/jquery.unveil.js',
-          'javascripts/main.js'
+          'javascripts/main.js',
+          'javascripts/equity.js'
         ],
         dest: 'dist/all.js'
       }

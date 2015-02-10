@@ -12,11 +12,17 @@ categories:
     description: |
       How much are my stock options worth? Is it worth taking a lower salary for
       them? Use this calculator to answer this question. Note: this is a 
-      <em>very</em> rough estimate. It doesn't take into account taxes, 
-      dilution, and various investor tricks such as preference and 
-      participation. See the "Getting a Job at a Startup" chapter in 
-      <em>Hello, Startup</em> for more info.
+      <em>very</em> rough estimate. It doesn't take into account taxes, vesting, 
+      and dilution. See the "Getting a Job at a Startup" chapter in 
+      <em>Hello, Startup</em> and the 
+      <a href="#further-reading">further reading</a> below for more info.
     include: "equity-calculator.html"
+  - id: "equity-tables"
+    name: "Equity Tables"
+    description: |
+      These tables show how much equity the average startup employee gets, 
+      depending on when they join the company and their position.
+    include: "equity-tables.html"
   - id: "further-reading"
     name: "Further Reading"
     sites:
@@ -32,3 +38,17 @@ categories:
       - name: "The Impact of Dilution"
         url: "https://blog.wealthfront.com/impact-of-dilution/"
         image: "impact-of-dilution.jpg"
+      - name: "Term Sheet: Liquidation Preference"
+        url: "http://www.feld.com/archives/2005/01/term-sheet-liquidation-preference.html"
+      - name: "I have a job offer at a startup, am I getting a good deal?"
+        url: "http://venturehacks.com/articles/job-offer"
+      - name: "The 14 Crucial Questions About Stock Options"
+        url: "https://blog.wealthfront.com/stock-options-14-crucial-questions/"
+        image: "14-questions-about-stock-options.jpg"
+      - name: "How much are startup options worth?"
+        url: "http://www.danshapiro.com/blog/2010/11/how-much-are-startup-options-worth/"
+      - name: "The Equity Equation"
+        url: "http://paulgraham.com/equity.html"
+      - name: "How I negotiated my startup compensation"
+        url: "https://keen.io/blog/29904565692/how-i-negotiated-my-startup-compensation"
+        image: "how-i-negotiated-startup-compensation.jpg"
