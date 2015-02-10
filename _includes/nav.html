@@ -20,7 +20,7 @@
               {% include {{ page.nav_include }} %}
             {% elsif page.nav %}
               {% for item in page.nav %}
-                <li><a class="page-scroll" href="{{ item[0] }}">{{ item[1] }}</a></li>
+                <li><a class="page-scroll" href="{{ item.url }}" title="{{ item.title }}">{{ item.name }}</a></li>
               {% endfor %}
             {% endif %}                       
           </ul>

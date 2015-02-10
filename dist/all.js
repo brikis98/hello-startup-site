@@ -176,6 +176,8 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 (function() {
   "use strict";
 
+  var isMobile = $('body').hasClass('mobile');
+
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
     console.log($anchor);
@@ -328,10 +330,16 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
     }
   };
 
+  var loadTooltips = function() {
+    if (!isMobile) {
+      $('[data-toggle="tooltip"]').tooltip();
+    }
+  };
+
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
   $("img").unveil();
-  $('[data-toggle="tooltip"]').tooltip();
+  loadTooltips();
   dynamicNav();
   truncateText();
   loadShareButtons();
