@@ -371,6 +371,25 @@ footer {
   margin-bottom: 5px;
 }
 
+.form-horizontal.equity-form {
+  margin-top: 50px;
+}
+
+.form-horizontal.equity-form .form-group {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.form-horizontal.equity-form label {
+  padding-top: 0;
+}
+
+.form-horizontal.equity-form .help-block {
+  margin-top: 0;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;

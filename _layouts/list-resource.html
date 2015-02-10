@@ -18,31 +18,35 @@ nav_include: "list-nav-include.html"
           {% if category.description %}
             <h3>{{ category.description }}</h3>
           {% endif %}
-          {% for site in category.sites %}
-            <div class="row resouce-item">
-              <div class="col-sm-6">
-                {% if site.image %}
+          {% if category.include %}
+            {% include {{ category.include }} %}
+          {% else %}
+            {% for site in category.sites %}
+              <div class="row resouce-item">
+                <div class="col-sm-6">
+                  {% if site.image %}
+                    <a href="{{ site.url }}" target="_blank">
+                      <img src="/images/loading.gif" data-src="/images/resources/{{ page.resource_key }}/{{ site.image }}" alt="{{ site.name }}" class="img-responsive img-thumbnail"/>
+                    </a>
+                  {% else %}
+                    <div class="img-thumbnail no-screenshot">No screenshot available</div>
+                  {% endif %}
+                </div>
+                <div class="col-sm-6">
                   <a href="{{ site.url }}" target="_blank">
-                    <img src="/images/loading.gif" data-src="/images/resources/{{ page.resource_key }}/{{ site.image }}" alt="{{ site.name }}" class="img-responsive img-thumbnail"/>
+                    <h4>{{ site.name }}</h4>
                   </a>
-                {% else %}
-                  <div class="img-thumbnail no-screenshot">No screenshot available</div>
-                {% endif %}
+                  <a href="{{ site.url }}" target="_blank" class="site-url">
+                    {{ site.url }}
+                  </a>
+                  {% if site.description %}
+                    <p>{{ site.description }}</p>                
+                  {% endif %}
+                </div>
               </div>
-              <div class="col-sm-6">
-                <a href="{{ site.url }}" target="_blank">
-                  <h4>{{ site.name }}</h4>
-                </a>
-                <a href="{{ site.url }}" target="_blank" class="site-url">
-                  {{ site.url }}
-                </a>
-                {% if site.description %}
-                  <p>{{ site.description }}</p>                
-                {% endif %}
-              </div>
-            </div>
-            <hr>
-          {% endfor %}
+              <hr>
+            {% endfor %}
+          {% endif %}
         </div>
       </div>
     </div>

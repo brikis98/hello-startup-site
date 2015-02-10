@@ -1,4 +1,4 @@
-name: "Equity"
+name: "Equity and Stock"
 description: "How does equity work? How much are your stock options worth? Use these resources to figure it out."
 disabled: true
 icon: "calculator"
@@ -7,14 +7,28 @@ see_more: |
   See the "Getting a Job at a Startup" chapter in 
   <a href="/#part-3-teams">Part III, Teams</a> for more info.
 categories:
-  id: "further-reading"
-  name: "Further Reading"
-  sites:
-    - name: "An Introduction to Stock &amp; Options for the Tech Entrepreneur or Startup Employee"
-      url: "http://www.scribd.com/doc/55945011/An-Introduction-to-Stock-Options-for-the-Tech-Entrepreneur-or-Startup-Employee"
-    - name: "Startup Equity for Employees"
-      url: "http://www.payne.org/index.php/Startup_Equity_For_Employees"
-    - name: "An Engineer's Guide to Stock Options"
-      url: "http://blog.alexmaccaw.com/an-engineers-guide-to-stock-options"
-    - name: "The Impact of Dilution"
-      url: "https://blog.wealthfront.com/impact-of-dilution/"
+  - id: "equity-calculator"
+    name: "Equity Calculator"
+    description: |
+      How much are my stock options worth? Is it worth taking a lower salary for
+      them? Use this calculator to answer this question. Note: this is a 
+      <em>very</em> rough estimate. It doesn't take into account taxes, 
+      dilution, and various investor tricks such as preference and 
+      participation. See the "Getting a Job at a Startup" chapter in 
+      <em>Hello, Startup</em> for more info.
+    include: "equity-calculator.html"
+  - id: "further-reading"
+    name: "Further Reading"
+    sites:
+      - name: "An Introduction to Stock &amp; Options for the Tech Entrepreneur or Startup Employee"
+        url: "http://www.scribd.com/doc/55945011/An-Introduction-to-Stock-Options-for-the-Tech-Entrepreneur-or-Startup-Employee"
+        image: "intro-to-stock-for-tech.jpg"
+      - name: "Startup Equity for Employees"
+        url: "http://www.payne.org/index.php/Startup_Equity_For_Employees"
+        image: "startup-equity-for-employees.jpg"
+      - name: "An Engineer's Guide to Stock Options"
+        url: "http://blog.alexmaccaw.com/an-engineers-guide-to-stock-options"
+        image: "engineer-guide-to-stock.jpg"
+      - name: "The Impact of Dilution"
+        url: "https://blog.wealthfront.com/impact-of-dilution/"
+        image: "impact-of-dilution.jpg"

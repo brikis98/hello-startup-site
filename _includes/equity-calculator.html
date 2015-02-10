@@ -1,0 +1,91 @@
+<!--
+A = Difference between the salary in the offer and a fair market salary. 
+B = Number of years you expect to work at the startup. 
+C = Cost to exercise your shares. 
+D = Percentage of the company you own. 
+E = Investor take. 
+F = Value of the company in case of a successful exit. 
+
+Investment = (A * B) + C 
+Return = D * (F - E) 
+-->
+
+<form class="equity-form form-horizontal">
+  <div class="form-group">
+    <div class="col-sm-3">
+      <label for="pay-cut" class="control-label">(A) Pay cut</label>
+    </div>
+    <div class="col-sm-3">
+      <div class="input-group">
+        <div class="input-group-addon">$</div>
+        <input type="text" class="form-control" id="pay-cut" placeholder="10000" value="10000">
+      </div>      
+    </div>
+    <div class="help-block col-sm-5 col-sm-offset-1">
+      Difference between the salary in the offer and a fair market salary (see
+      <a href="/resources/salary">Startup Salary Resources</a>).
+    </div>          
+  </div>
+  <div class="form-group">
+    <div class="col-sm-3">
+      <label for="job-tenure" class="control-label">(B) Job tenure</label>
+    </div>
+    <div class="col-sm-3">
+      <div class="input-group">
+        <input type="text" class="form-control" id="job-tenure" placeholder="4" value="4">
+        <div class="input-group-addon">years</div>
+      </div>      
+    </div>      
+    <div class="help-block col-sm-5 col-sm-offset-1">
+      Number of years you expect to work at the startup. 
+    </div>  
+  </div>
+  <div class="form-group">
+    <div class="col-sm-3">
+      <label for="shares" class="control-label">(C) Number of shares</label>
+    </div>
+    <div class="col-sm-3">    
+      <div class="input-group">
+        <input type="text" class="form-control" id="shares" placeholder="1000" value="1000">
+        <div class="input-group-addon">shares</div>
+      </div>      
+    </div>
+    <div class="help-block col-sm-5 col-sm-offset-1">
+      How many shares of stock are in your offer?
+    </div>  
+  </div>
+  <div class="form-group">
+    <div class="col-sm-3">
+      <label for="shares-outstanding" class="control-label">(D) Shares outstanding</label>
+    </div>   
+    <div class="col-sm-3">
+      <div class="input-group">
+        <input type="text" class="form-control" id="shares-outstanding" placeholder="100000" value="100000">
+        <div class="input-group-addon">shares</div>
+      </div> 
+    </div>      
+    <div class="help-block col-sm-5 col-sm-offset-1">
+      How many shares of stock has the company issued, total? If it's not 
+      specified in your offer, you should ask, so you can figure out what 
+      percent of the company you own.
+    </div>          
+  </div>  
+  <div class="form-group">
+    <div class="col-sm-3">
+      <label for="valuation" class="control-label">(E) Company valuation</label> 
+    </div>      
+    <div class="col-sm-3">
+      <div class="input-group">
+        <div class="input-group-addon">$</div>
+        <input type="text" class="form-control" id="valuation" placeholder="5000000" value="5000000">
+      </div>      
+    </div>      
+    <div class="help-block col-sm-5 col-sm-offset-1">
+      How much is the company worth? Try a range of values, from the current
+      valuation (if it's not in the offer, ask), to possible acquisitions and
+      IPO's in the future (use the valuations of similar companies as a 
+      baseline). 
+    </div>     
+  </div>
+  <button type="submit" class="btn btn-lg btn-block btn-primary">Calculate</button>
+</form>    
