@@ -1,24 +1,22 @@
 Hello, Startup Website
 ==================
 
-This is the website for [Hello, Startup: A Programmer's Guide to Building 
-Products, Technologies, and Teams](http://www.hello-startup.net), an 
+This is the website and mobile app for [Hello, Startup: A Programmer's Guide to 
+Building Products, Technologies, and Teams](http://www.hello-startup.net), an 
 O'Reilly book by [Yevgeniy Brikman](http://www.ybrikman.com).
-
-The website includes information about the book, a variety of resources you
-can use to build a startup, and a mobile app that packages these resources using
-PhoneGap.
 
 Architecture
 ==================
 
-* [jekyll](http://jekyllrb.com/): used to assemble static HTML out of layouts, 
-  includes, and data files. 
+* [jekyll](http://jekyllrb.com/): used to assemble static HTML from the HTML 
+  fragments in `_layouts`, `_includes`, `_resources`, and `_data`. 
 * [grunt.js](http://gruntjs.com/): used to concatenate and minify CSS and
   JavaScript.
 * [PhoneGap](http://phonegap.com/): used to package up the static HTML as 
   iOS and Android apps.
 * [GitHub Pages](https://pages.github.com/): for hosting the website.
+. [Bootstrap](http://getbootstrap.com/): for CSS, layout, general theme.
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/): for icons.
 
 Running the website
 ==================
@@ -40,11 +38,12 @@ Running the mobile app
 2. Install the [PhoneGap Developer App](http://app.phonegap.com/) on your 
    computer and the mobile app for your phone.
 3. Run `grunt` as explained in the "Running the website" instructions. This will
-   assemble all of the HTML we need.
+   assemble all of the HTML.
 4. Add a new project to the PhoneGap Developer App by adding the `mobile` 
    folder (which has `config.xml`).
 5. At the bottom of the PhoneGap Developer App, it should tell you that the
-   project is running and the URL. Open this URL on your mobile phone.
+   project is running and the URL. Connect to this URL in the PhoneGap mobile 
+   app on your phone. 
 6. If you want to build the app for real, use 
    [PhoneGap Build](https://build.phonegap.com).
 
@@ -71,7 +70,34 @@ repo, I've used a bit of a hack with symlinks:
 The Startup Resources
 ==================
 
-The Startup Resources pages are completely generated from 
-[yaml](http://www.yaml.org/) data files in the `_data` folder (see the 
+The [Startup Resources](http://www.hello-startup.net/#resources) are generated 
+from [YAML](http://www.yaml.org/) data files in the `_data` folder (see the 
 [Jekyll Data Files](http://jekyllrb.com/docs/datafiles/) documentation for 
-more info) and the screenshots for them are in `images/resources`.
+more info). These resources are a work in progress and I welcome contributions
+via [pull request](https://help.github.com/articles/using-pull-requests/). 
+
+Each YAML file contains the information for one type of resource. For example, 
+`deployment.yml` contains all the resources related to deploying code. 
+
+The basic format is:
+
+```yaml
+name: "Name for this resource"
+description: "Brief description of this resource."
+icon: "The name of one of the Font Awesome icons to represent this resource."
+type: "one of: products, technologies, or teams"
+categories:
+  - id: "a-unique-id-for-this-category"
+    name: "Human readable name for the category"
+    sites: # List of websites for this category
+      - name: "Website #1"
+        url: "https://www.website-number-one.com/"
+        image: "screenshot1.jpg" # 800x400 screenshot under images/resources
+        description: "A brief description of website #1"
+      - name: "Website #2"
+        url: "https://www.website-number-two.com/"
+        image: "screenshot2.jpg" # 800x400 screenshot under images/resources
+        description: "A brief description of website #2"
+```
+
+See the `_data` folder for lots of examples.
