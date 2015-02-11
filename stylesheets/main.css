@@ -341,6 +341,10 @@ footer {
   width: 300px;
 }
 
+.resouce-item {
+  min-height: 150px;
+}
+
 .resouce-item h4 {
   margin-bottom: 0px;
 }

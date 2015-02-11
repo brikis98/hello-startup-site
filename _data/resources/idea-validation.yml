@@ -140,6 +140,9 @@ categories:
       - name: "The Lean Startup"
         url: "http://www.amazon.com/dp/0307887898/?tag=hello-startup-20"
         image: "lean-startup.jpg"
+      - name: "Running Lean"
+        url: "http://www.amazon.com/dp/1449305172/?tag=hello-startup-20"
+        image: "running-lean.jpg"
 
 
 
