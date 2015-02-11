@@ -2216,12 +2216,29 @@ footer {
 .math-symbol {
   font-family: Cambria, Georgia, 'Palatino Linotype', 'Bookman Old Style', serif;
   font-size: 24px;
-  padding-top: 24px;
   text-align: center;
 }
 
 .equity-form .popover {
-  max-width: inherit;
+  max-width: 500px;
+}
+
+.calculator-table tr:nth-of-type(odd) td {
+  border-top: 1px solid #CCC;
+  padding-top: 15px;
+}
+
+.calculator-table tr:nth-child(1) td {
+  border-top: none;
+}
+
+.calculator-table tr:nth-of-type(even) td {
+  padding-bottom: 15px;
+}
+
+input:required:invalid, input:focus:invalid {
+  color: red;
+  border: 1px solid red;
 }
 
 .profit {

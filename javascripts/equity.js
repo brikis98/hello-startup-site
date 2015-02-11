@@ -33,8 +33,8 @@
     var salaryLost = payCutPerYear * jobTenure;
     var exercisePrice = yourShares * strikePrice;
     var ownershipPercentage = yourShares / sharesOutstanding;
-    var investorTake = investorMultipler * funding;
-    var stockAfterInvestors = valuation - investorTake;
+    var investorTake = Math.min(investorMultipler * funding, valuation);
+    var stockAfterInvestors = Math.max(valuation - investorTake, 0);
     var stockValue = stockAfterInvestors * ownershipPercentage;
 
     var yourInvestment = salaryLost + exercisePrice;

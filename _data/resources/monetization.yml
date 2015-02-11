@@ -74,6 +74,12 @@ categories:
       - name: "Yahoo Bing Contextual Ads"
         url: "http://contextualads.yahoo.net/"
         image: "yahoo-bing.jpg"
+      - name: "Carbon"
+        url: "http://carbonads.net/"
+        image: "carbon.jpg"
+        description: |
+          The best way to reach designers and developers through a single, 
+          relevant, tasteful ad.
       - name: "RevenueHits"
         url: "http://www.revenuehits.com/"
         image: "revenue-hits.jpg"
