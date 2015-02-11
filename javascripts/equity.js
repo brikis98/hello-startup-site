@@ -38,6 +38,7 @@
     var stockValue = stockAfterInvestors * ownershipPercentage;
 
     var yourInvestment = salaryLost + exercisePrice;
+    var profitOrLoss = stockValue - yourInvestment;
     var roi = stockValue / yourInvestment;
 
     data.set('salary-lost', salaryLost);
@@ -47,27 +48,49 @@
     data.set('stock-after-investors', stockAfterInvestors);
     data.set('stock-value', stockValue);
     data.set('your-investment', yourInvestment);
+    data.set('profit-or-loss', profitOrLoss);
     data.set('roi', roi);
 
     console.log(data.attributes);
   };
 
+  var PROFIT_CLASS = "profit";
+  var LOSS_CLASS = "loss";
+
   var updateBoundUIElements = function() {
-    console.log('updateBoundUIElements method');
     $('.bound-field').each(function(index, element) {
       var el = $(element);
       var id = el.attr('data-source');
+      var format = el.attr('data-format');
       var value = data.get(id);
+      var numericValue = +value;
+
+      var formattedValue = format ? numeral(numericValue).format(format) : value;
+
       if (el.is('input')) {
-        el.val(value);
+        el.val(formattedValue);
       } else {
-        el.text(value);
+        el.text(formattedValue);
+      }
+
+      if (el.hasClass('profit-loss')) {
+        if (numericValue === 0) {
+          el.removeClass(PROFIT_CLASS);
+          el.removeClass(LOSS_CLASS);
+        } else if (numericValue > 0) {
+          el.removeClass(LOSS_CLASS);
+          el.addClass(PROFIT_CLASS);
+        } else if (numericValue < 0) {
+          el.removeClass(PROFIT_CLASS);
+          el.addClass(LOSS_CLASS);
+        }
       }
     });
   };
 
+  $('input').each(initializeData);
   data.on('change', calculateEquityValues);
   data.on('change', updateBoundUIElements);
-  $('input').each(initializeData);
   $('input').on('input keyup change', updateData);
+  data.trigger('change');
 })();

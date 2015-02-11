@@ -2220,6 +2220,25 @@ footer {
   text-align: center;
 }
 
+.equity-form .popover {
+  max-width: inherit;
+}
+
+.profit {
+  color: green;
+  font-weight: bold;
+}
+
+.loss {
+  color: red;
+  font-weight: bold;
+}
+
+.calculated-value {
+  display: inline-block;
+  padding: 6px 0;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 730px;

@@ -145,13 +145,6 @@
       moreText: " (more)",
       lessText: " (less)"
     });
-
-    $('.equity-form p.help-block').jTruncate({
-      length: 0,
-      moreText: "[explain]",
-      lessText: "[hide]",
-      ellipsisText: ""
-    });
   };
 
   var dynamicNav = function() {
@@ -163,9 +156,8 @@
   };
 
   var loadTooltips = function() {
-    if (!isMobile) {
-      $('[data-toggle="tooltip"]').tooltip();
-    }
+    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="popover"]').popover();
   };
 
   $('.tracked').on('click', trackOutboundLink);

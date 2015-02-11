@@ -4,14 +4,34 @@
       <label for="pay-cut-per-year">Pay cut per year</label>
       <div class="input-group">
         <div class="input-group-addon">$</div>
-        <input type="text" class="form-control" id="pay-cut-per-year" placeholder="10000" value="10000">
-      </div>     
+        <input type="text" 
+               class="form-control" 
+               id="pay-cut-per-year"
+               placeholder="10000" 
+               value="10000" 
+               data-toggle="popover" 
+               data-title="Pay cut per year" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="Startups sometimes offer a lower salary than big, established companies. Enter the difference between the salary in your offer and how much you might make at a different company.">
+      </div>  
     </div>
     <div class="col-xs-1 math-symbol">×</div>        
     <div class="col-xs-3">
       <label for="job-tenure">Job tenure</label>
       <div class="input-group">
-        <input type="text" class="form-control" id="job-tenure" placeholder="4" value="4">
+        <input type="text" 
+               class="form-control" 
+               id="job-tenure" 
+               placeholder="4" 
+               value="4"
+               data-toggle="popover" 
+               data-title="Job tenure" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How many years do you expect to work at this company?">
         <div class="input-group-addon">years</div>
       </div>      
     </div> 
@@ -19,8 +39,7 @@
     <div class="col-xs-3">
       <label for="salary-lost">Salary lost</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="salary-lost" id="salary-lost" readonly>
+        <span class="calculated-value bound-field" data-source="salary-lost" id="salary-lost" data-format="$0,0"></span>
       </div>      
     </div>     
   </div>  
@@ -29,14 +48,34 @@
       <label for="strike-price">Strike price</label>
       <div class="input-group">
         <div class="input-group-addon">$</div>
-        <input type="text" class="form-control" id="strike-price" placeholder="1.00" value="1.00">
+        <input type="text" 
+               class="form-control" 
+               id="strike-price" 
+               placeholder="1.00" 
+               value="1.00"
+               data-toggle="popover" 
+               data-title="Strike price" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How much does it cost you to exercise (i.e. buy) a share of your stock? This should be specified in the offer.">
       </div>       
     </div>    
     <div class="col-xs-1 math-symbol">×</div>        
     <div class="col-xs-3">
       <label for="your-shares">Your shares</label>
       <div class="input-group">
-        <input type="text" class="form-control" id="your-shares" placeholder="10000" value="10000">
+        <input type="text" 
+               class="form-control" 
+               id="your-shares" 
+               placeholder="10000" 
+               value="10000"
+               data-toggle="popover" 
+               data-title="Your shares" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How many shares of stock do you get in your offer?">
         <div class="input-group-addon">shares</div>
       </div>
     </div>      
@@ -44,8 +83,7 @@
     <div class="col-xs-3">
       <label for="exercise-price">Exercise price</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="exercise-price" id="exercise-price" readonly>
+        <span class="calculated-value bound-field" data-source="exercise-price" id="exercise-price" data-format="$0,0.00"></span>
       </div>      
     </div>         
   </div> 
@@ -53,24 +91,21 @@
     <div class="col-xs-3">
       <label for="salary-lost-copy">Salary lost</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" id="salary-lost-copy" data-source="salary-lost" readonly>
+        <span class="calculated-value bound-field" id="salary-lost-copy" data-source="salary-lost" data-format="$0,0"></span>
       </div>       
     </div>    
     <div class="col-xs-1 math-symbol">+</div>        
     <div class="col-xs-3">
       <label for="exercise-price-copy">Exercise price</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control" id="exercise-price-copy" data-source="exercise-price" readonly>
+        <span class="calculated-value bound-field" id="exercise-price-copy" data-source="exercise-price" data-format="$0,0.00"></span>
       </div>
     </div>      
     <div class="col-xs-1 math-symbol">=</div>             
     <div class="col-xs-3">
       <label for="your-investment">Your investment</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="your-investment" id="your-investment" readonly>
+        <span class="calculated-value bound-field" data-source="your-investment" id="your-investment" data-format="$0,0.00"></span>
       </div>      
     </div>         
   </div> 
@@ -78,15 +113,24 @@
     <div class="col-xs-3">
       <label for="your-shares-copy">Your shares</label> 
       <div class="input-group">
-        <input type="text" class="form-control bound-field" data-source="your-shares" id="your-shares-copy" readonly>
-        <div class="input-group-addon">shares</div>
+        <span class="calculated-value bound-field" data-source="your-shares" id="your-shares-copy" data-format="0,0"></span>
       </div>
     </div>               
     <div class="col-xs-1 math-symbol">&divide;</div>        
     <div class="col-xs-3">
       <label for="shares-outstanding">Total shares</label>
       <div class="input-group">
-        <input type="text" class="form-control" id="shares-outstanding" placeholder="10000000" value="10000000">
+        <input type="text" 
+               class="form-control" 
+               id="shares-outstanding" 
+               placeholder="10000000" 
+               value="10000000"
+               data-toggle="popover" 
+               data-title="Total shares" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How many shares of stock has the company issued, total (known as &quot;shares outstanding&quot;)? If it's not in your offer, ask.">
         <div class="input-group-addon">shares</div>
       </div>       
     </div>   
@@ -94,8 +138,7 @@
     <div class="col-xs-3">
       <label for="ownership-percentage">Ownership percentage</label>
       <div class="input-group">
-        <input type="text" class="form-control bound-field" data-source="ownership-percentage" id="ownership-percentage" readonly>
-        <div class="input-group-addon">%</div>
+        <span class="calculated-value bound-field" data-source="ownership-percentage" id="ownership-percentage" data-format="0.000%"></span>
       </div>      
     </div>                
   </div>    
@@ -104,14 +147,34 @@
       <label for="funding">Funding</label>
       <div class="input-group">
         <div class="input-group-addon">$</div>
-        <input type="text" class="form-control" id="funding" placeholder="100000" value="100000">
+        <input type="text" 
+               class="form-control" 
+               id="funding" 
+               placeholder="100000" 
+               value="100000"
+               data-toggle="popover" 
+               data-title="Funding" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How much money has this company raised from investors? How much more are they planning on raising? This is not going to be in the offer, so you'll have to ask. You can also look the company up on websites such as CrunchBase.">
       </div>       
     </div>
     <div class="col-xs-1 math-symbol">×</div>        
     <div class="col-xs-3">    
       <label for="investor-multiplier">Investor multiplier</label>
       <div class="input-group">
-        <input type="text" class="form-control" id="investor-multiplier" placeholder="3" value="3">
+        <input type="text" 
+               class="form-control" 
+               id="investor-multiplier" 
+               placeholder="3" 
+               value="3"
+               data-toggle="popover" 
+               data-title="Investor multiplier" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="Investors put money into a company in exchange for stock, but their stock is &quot;special&quot; due to terms such as &quot;liquidation preference&quot; and &quot;participation&quot;. What this boils down to is that, in the case of an acquisition or IPO, the investor usually gets a big take of the money before any of the other stock holders. You'd have to read all the term sheets for the company and do lots of math, so for this simplified calculation, try to estimate it with an average &quot;investor multiplier&quot;. Somewhere between 1x and 10x is probably a reasonable guess.">
         <div class="input-group-addon">x</div>
       </div>      
     </div>  
@@ -119,8 +182,7 @@
     <div class="col-xs-3">
       <label for="investor-take">Investor take</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="investor-take" id="investor-take" readonly>
+        <span class="calculated-value bound-field" data-source="investor-take" id="investor-take" data-format="$0,0"></span>
       </div>      
     </div>                     
   </div> 
@@ -129,23 +191,31 @@
       <label for="valuation">Company valuation</label> 
       <div class="input-group">
         <div class="input-group-addon">$</div>
-        <input type="text" class="form-control" id="valuation" placeholder="5000000" value="5000000">
+        <input type="text" 
+               class="form-control" 
+               id="valuation" 
+               placeholder="25000000" 
+               value="25000000"
+               data-toggle="popover" 
+               data-title="Company valuation" 
+               data-container=".equity-form"
+               data-trigger="focus" 
+               data-placement="top"
+               data-content="How much is the company worth? Try a range of values, from the current valuation (if it's not in the offer, ask), to possible acquisitions and IPO's in the future (use the valuations of similar companies as a baseline).">
       </div>
     </div>               
     <div class="col-xs-1 math-symbol">-</div>             
     <div class="col-xs-3">
       <label for="investor-take-copy">Investor take</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="investor-take" id="investor-take-copy" readonly>
+        <span class="calculated-value bound-field" data-source="investor-take" id="investor-take-copy" data-format="$0,0"></span>
       </div>       
     </div>   
     <div class="col-xs-1 math-symbol">=</div>   
     <div class="col-xs-3">
       <label for="stock-after-investors">Stock after investors</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="stock-after-investors" id="stock-after-investors" readonly>
+        <span class="calculated-value bound-field" data-source="stock-after-investors" id="stock-after-investors" data-format="$0,0"></span>
       </div>      
     </div>              
   </div> 
@@ -153,121 +223,45 @@
     <div class="col-xs-3">
       <label for="stock-after-investors-copy">Stock after investors</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="stock-after-investors" id="stock-after-investors-copy" readonly>
+        <span class="calculated-value bound-field" data-source="stock-after-investors" id="stock-after-investors-copy" data-format="$0,0"></span>
       </div>      
     </div>                             
     <div class="col-xs-1 math-symbol">×</div>             
     <div class="col-xs-3">
       <label for="ownership-percentage-copy">Ownership percentage</label>
       <div class="input-group">
-        <input type="text" class="form-control bound-field" data-source="ownership-percentage" id="ownership-percentage-copy" readonly>
-        <div class="input-group-addon">%</div>
+        <span class="calculated-value bound-field" data-source="ownership-percentage" id="ownership-percentage-copy" data-format="0.000%"></span>
       </div>       
     </div>   
     <div class="col-xs-1 math-symbol">=</div>   
     <div class="col-xs-3">
       <label for="stock-value">Value of your stock</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="stock-value" id="stock-value" readonly>
+        <span class="calculated-value bound-field" data-source="stock-value" id="stock-value" data-format="$0,0"></span>
       </div>      
     </div>              
   </div> 
-   <div class="form-group">
+  <div class="form-group">
     <div class="col-xs-3">
       <label for="stock-value-copy">Value of your stock</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="stock-value" id="stock-value-copy" readonly>
+        <span class="calculated-value bound-field" data-source="stock-value" id="stock-value-copy" data-format="$0,0"></span>
       </div>       
     </div>   
-    <div class="col-xs-1 math-symbol">&divide;</div>             
+    <div class="col-xs-1 math-symbol">-</div>             
     <div class="col-xs-3">
       <label for="your-investment-copy">Your investment</label>
       <div class="input-group">
-        <div class="input-group-addon">$</div>
-        <input type="text" class="form-control bound-field" data-source="your-investment" id="your-investment-copy" readonly>
+        <span class="calculated-value bound-field" data-source="your-investment" id="your-investment-copy" data-format="$0,0"></span>
       </div>      
     </div>                             
     <div class="col-xs-1 math-symbol">=</div>   
     <div class="col-xs-3">
-      <label for="roi">Return on investment</label>
+      <label for="profit-or-loss">Your profit or loss</label>
       <div class="input-group">
-        <input type="text" class="form-control bound-field" data-source="roi" id="roi" readonly>
-        <div class="input-group-addon">x</div>
+        <span class="calculated-value bound-field profit-loss" data-source="profit-or-loss" id="profit-or-loss" data-format="$0,0"></span>
+        <!-- (ROI: <span class="calculated-value bound-field" data-source="roi" id="roi"></span>x) -->
       </div>      
     </div>              
   </div> 
-  <div>
-    <p class="help-block">
-      Difference between the salary in the offer and a fair market salary (see
-      <a href="/resources/salary">Startup Salary Resources</a>).
-    </p>      
-    <p class="help-block">
-      Number of years you expect to work at the startup. 
-    </p>    
-    <p class="help-block">
-      How many shares of stock has the company issued, total (known as 
-      <em>shares outstanding</em>)? If it's not in your offer, ask.
-    </p>  
-    <p class="help-block">
-      How many shares of stock do you get in your offer?
-    </p>   
-    <p class="help-block">
-      How much does it cost you to exercise (i.e. buy) a share of your stock?
-      This should be specified in the offer.
-    </p>           
-  </div>    
-  <div class="form-group">
-    <div class="col-xs-3">
-     
-    </div>
-    <div class="col-xs-3">
-     
-    </div>          
-  </div>  
-  <div class="form-group">
-    <div class="col-xs-3">
-      <p class="help-block">
-        How much money has this company raised from investors? How much more are 
-        they planning on raising? This is not going to be in the offer, so you'll 
-        have to ask. You can also look the company up on websites such as 
-        <a href="https://www.crunchbase.com" target="_blank">CrunchBase</a>.
-      </p>      
-    </div>   
-    <div class="col-xs-4">
-
-    </div>                
-  </div>  
-  <div class="form-group">
-    <div class="col-xs-3">
-      <p class="help-block">
-        Investors put money into a company in exchange for stock, but their stock
-        is "special" due to terms such as "liquidation preference" and 
-        "participation". What this boils down to is that, in the case of an 
-        acquisition or IPO, the investor usually gets a big take of the money 
-        before any of the other stock holders. You'd have to read all the term
-        sheets for the company and do lots of math, so for this simplified 
-        calculation, try to estimate it with an average "investor multiplier". 
-        Somewhere between 1x and 10x is probably a reasonable guess.
-      </p>      
-    </div>   
-    <div class="col-xs-4">
- 
-    </div>                
-  </div>  
-  <div class="form-group">
-    <div class="col-xs-3">
-      <p class="help-block">
-        How much is the company worth? Try a range of values, from the current
-        valuation (if it's not in the offer, ask), to possible acquisitions and
-        IPO's in the future (use the valuations of similar companies as a 
-        baseline). 
-      </p>      
-    </div>      
-    <div class="col-xs-4">
-      
-    </div>           
-  </div>
 </form>  
