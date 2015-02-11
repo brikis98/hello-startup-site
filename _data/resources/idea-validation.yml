@@ -128,6 +128,18 @@ categories:
       - name: "AngelList Markets"
         url: "https://angel.co/markets"
         image: "angel-list-markets.jpg"
+  - id: "further-reading"
+    name: "Further Reading"
+    sites:
+      - name: "The Four Steps to the Epiphany"
+        url: "http://www.amazon.com/dp/0989200507/?tag=hello-startup-20"
+        image: "four-steps.jpg"
+      - name: "The Startup Owner's Manual"
+        url: "http://www.amazon.com/dp/0984999302/?tag=hello-startup-20"
+        image: "startup-owner-manual.jpg"
+      - name: "The Lean Startup"
+        url: "http://www.amazon.com/dp/0307887898/?tag=hello-startup-20"
+        image: "lean-startup.jpg"
 
 
 
