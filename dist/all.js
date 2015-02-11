@@ -4041,9 +4041,16 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
     $('[data-toggle="popover"]').popover();
   };
 
+  var toggleMobileNav = function(event) {
+    if ($('.navbar-toggle').is(':visible')) {
+      $('.navbar-collapse').collapse('toggle');
+    }
+  };
+
   $('.tracked').on('click', trackOutboundLink);
   $('a.page-scroll').on('click', scrollSmoothly);
   $("img").unveil();
+  $('.navbar-collapse a.page-scroll').on('click', toggleMobileNav);
   loadTooltips();
   dynamicNav();
   truncateText();
