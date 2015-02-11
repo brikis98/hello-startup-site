@@ -1,6 +1,5 @@
 name: "Equity and Stock"
 description: "How does equity work? How much are your stock options worth? Use these resources to figure it out."
-disabled: true
 icon: "calculator"
 type: "teams"
 see_more: |
@@ -10,12 +9,17 @@ categories:
   - id: "equity-calculator"
     name: "Equity Calculator"
     description: |
-      How much are my stock options worth? Is it worth taking a lower salary for
-      them? Use this calculator to answer this question. Note: this is a 
-      <em>very</em> rough estimate. It doesn't take into account taxes, vesting, 
-      and dilution. See the "Getting a Job at a Startup" chapter in 
-      <em>Hello, Startup</em> and the 
-      <a href="#further-reading">further reading</a> below for more info.
+      How much are your stock options worth? Is it worth taking a lower salary for
+      them? This calculator can help you answer that question. Note: this is no 
+      more than a <em>very</em> rough estimate. It doesn't take into account 
+      taxes, vesting, and dilution, and you have to guess at a lot of the 
+      numbers, so it's only useful to get a ballpark figure. Also, bear in mind 
+      that roughly 
+      <a href="http://www.wsj.com/articles/SB10000872396390443720204578004980476429190" target="_blank">3 out of 4 startups fail</a>,
+      so in many cases, the stock is worth nothing. See the "Getting a Job at a 
+      Startup" chapter in <em>Hello, Startup</em> and the 
+      <a href="#further-reading">further reading</a> section below for more 
+      info.
     include: "equity-calculator.html"
   - id: "equity-tables"
     name: "Equity Tables"

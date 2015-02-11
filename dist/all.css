@@ -1928,7 +1928,7 @@ header .book-3d {
   text-align: center;
 }
 
-header p, a {
+header p, header a {
   font-size: 14px;
   font-weight: 200;
 }
@@ -2254,6 +2254,10 @@ input:required:invalid, input:focus:invalid {
 .calculated-value {
   display: inline-block;
   padding: 6px 0;
+}
+
+.wide-column {
+  width: 85%;
 }
 
 @media (min-width: 768px) {
