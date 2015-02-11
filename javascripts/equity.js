@@ -4,10 +4,19 @@
   var DataBinding = Backbone.Model.extend();
   var data = new DataBinding();
 
+  var INVALID_VALUE_CLASS = "invalid-value";
   var handleInputValue = function(input) {
     var id = input.attr('id');
     var value = input.val();
-    data.set(id, value);
+    var min = +input.attr('min');
+    var max = +input.attr('max');
+
+    if (isNaN(value) || +value < min || +value > max) {
+      $(input).addClass(INVALID_VALUE_CLASS);
+    } else {
+      $(input).removeClass(INVALID_VALUE_CLASS);
+      data.set(id, value);
+    }
   };
 
   var initializeData = function(index, element) {

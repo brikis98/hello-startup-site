@@ -2236,7 +2236,7 @@ footer {
   padding-bottom: 15px;
 }
 
-input:required:invalid, input:focus:invalid {
+input:required:invalid, input:focus:invalid, .invalid-value {
   color: red;
   border: 1px solid red;
 }
