@@ -1,5 +1,5 @@
 name: "Design"
-description: "Everything you need to design a user experience for your startup, including templates, fonts, wireframing tools, tutorials, and a community."
+description: "Everything you need to design a user experience for your startup, including templates, fonts, wireframing tools, community resources, checklists, and further reading."
 icon: "paint-brush"
 type: "products"
 see_more: |
@@ -145,9 +145,56 @@ categories:
           winner receives a cash payment for their work. Through more than 
           371,806 design contests, we’ve paid out $93,422,757 to our designer 
           community to date.
-  - id: "design-tutorials"
-    name: "Design tutorials"
+  - id: "design-checklists"
+    name: "Design checklists"
     sites:
+      - name: "Quick Usability Checklist"
+        url: "http://www.uxbooth.com/articles/quick-usability-checklist/"
+        image: "usability-checklist.jpg"
+        description: |
+          After reviewing websites for a few months, I’ve begun to see general 
+          patterns emerge that make a site more or less usable. In this post, 
+          I’d like to highlight some of the more common problems designers 
+          should address on their own sites in a Usability checklist of sorts.
+      - name: "25-point Website Usability Checklist"
+        url: "http://drpete.co/topic/25-point-website-usability-checklist"
+        image: "25-point-usability-checklist.jpg"
+      - name: "15 Essential Checks Before Launching Your Website"
+        url: "http://www.smashingmagazine.com/2009/04/07/15-essential-checks-before-launching-your-website/"
+        image: "15-essential-checks.jpg"
+      - name: "Web standards checklist"
+        url: "http://www.maxdesign.com.au/articles/checklist/"
+        description: |
+          A site built to web standards should adhere to standards (HTML, 
+          XHTML, XML, CSS, XSLT, DOM, MathML, SVG etc) and pursue best 
+          practices (valid code, accessible code, semantically correct code, 
+          user-friendly URLs etc). In other words, a site built to web 
+          standards should ideally be lean, clean, CSS-based, accessible, 
+          usable and search engine friendly.
+      - name: "Aaron Cannon’s Web Accessibility Checklist"
+        url: "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+        description: |
+          When I wrote the below checklist, I attempted to answer the question, 
+          ‘What concise pieces of advice can I give to designers that will have 
+          the greatest impact on accessibility in the majority of cases?’ 
+  - id: "further-reading"
+    name: "Further Reading"
+    sites:
+      - name: "The Non-Designer's Design Book"
+        url: "http://www.amazon.com/dp/0133966151/?tag=hello-startup-20"
+        image: "non-designers-design-book.jpg"
+      - name: "The Design of Everyday Things"
+        url: "http://www.amazon.com/dp/0465050654/?tag=hello-startup-20"
+        image: "design-everday-things.jpg"
+      - name: "The Inmates Are Running the Asylum"
+        url: "http://www.amazon.com/dp/0672326140/?tag=hello-startup-20"
+        image: "inmates-running-asylum.jpg"
+      - name: "Don't Make Me Think"
+        url: "http://www.amazon.com/dp/0321965515/?tag=hello-startup-20"
+        image: "dont-make-me-think.jpg"
+      - name: "On Writing Well"
+        url: "http://www.amazon.com/dp/0060891548/?tag=hello-startup-20"
+        image: "on-writing-well.jpg"
       - name: "UX Basics for Startups"
         url: "http://www.adub.net/post/43944830969/ux-basics-for-startups"
       - name: "Google Web Fundamentals"
@@ -157,6 +204,14 @@ categories:
         url: "http://www.google.com/think/multiscreen/whitepaper-sitedesign.html"
       - name: "7 Rules for Creating Gorgeous UI"
         url: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
-
+      - name: "10 Principles Of Effective Web Design"
+        url: "http://www.smashingmagazine.com/2008/01/31/10-principles-of-effective-web-design/"
+        image: "principles-effective-web-design.jpg"
+      - name: "A List Apart"
+        url: "http://alistapart.com/topics/design"
+        image: "a-list-apart.jpg"
+        description: |
+          A List Apart explores the design, development, and meaning of web 
+          content, with a special focus on web standards and best practices.
 
 

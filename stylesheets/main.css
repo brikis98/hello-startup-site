@@ -345,6 +345,10 @@ footer {
   min-height: 150px;
 }
 
+.resouce-item .img-thumbnail {
+  max-height: 200px;
+}
+
 .resouce-item h4 {
   margin-bottom: 0px;
 }
