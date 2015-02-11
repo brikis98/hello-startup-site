@@ -162,6 +162,9 @@ categories:
       - name: "15 Essential Checks Before Launching Your Website"
         url: "http://www.smashingmagazine.com/2009/04/07/15-essential-checks-before-launching-your-website/"
         image: "15-essential-checks.jpg"
+      - name: "IxD (Interaction Design) Checklist"
+        url: "http://ixdchecklist.com/"
+        image: "ixd-checklist.jpg"
       - name: "Web standards checklist"
         url: "http://www.maxdesign.com.au/articles/checklist/"
         description: |
@@ -177,6 +180,40 @@ categories:
           When I wrote the below checklist, I attempted to answer the question, 
           ‘What concise pieces of advice can I give to designers that will have 
           the greatest impact on accessibility in the majority of cases?’ 
+  - id: "personas"
+    name: "User Personas"
+    sites:
+      - name: "Introduction to User Personas"
+        url: "http://www.ux-lady.com/introduction-to-user-personas/"
+        image: "intro-to-user-personas.jpg"
+        description: |
+          From all over the techniques and tools related to design process and 
+          User experience, only personas appears as a consistent common 
+          denominator, even in methods against the use of extensive 
+          “deliverables” as Lean UX. Most of the point of view agree in that 
+          the secret of a great user experiences strategy lies on this tool, 
+          even so the building process varies significantly.
+      - name: "Personas - Development Impact and You"
+        url: "http://diytoolkit.org/tools/personas-2/"
+        image: "personas-dev-impact.jpg"
+        description: |
+          Personas are portraits of fictional but realistic individuals that 
+          are used as a common reference point to communicate particular groups 
+          in your intended audience. Personas are created by drawing together 
+          the characteristics of similar people – their behaviours, motivations 
+          and the like – into one ‘archetype’ through which the group can be 
+          understood. By creating a fictional character to embody these 
+          characteristics, you don’t lose the little details that make someone 
+          the person they are. In this way, Personas help ensure that your 
+          work stays focused on people, rather than an abstract description 
+          of the group they are said to represent.
+      - name: "Personas"
+        url: "http://www.usability.gov/how-to-and-tools/methods/personas.html"
+        description: |
+          The purpose of personas is to create reliable and realistic 
+          representations of your key audience segments for reference. These 
+          representations should be based on qualitative and some quantitative 
+          user research and web analytics.
   - id: "further-reading"
     name: "Further Reading"
     sites:
@@ -202,6 +239,9 @@ categories:
         image: "google-web-fundamentals.jpg"
       - name: "Principles of mobile site design"
         url: "http://www.google.com/think/multiscreen/whitepaper-sitedesign.html"
+      - name: "8 Effective Web Design Principles You Should Know"
+        url: "http://conversionxl.com/8-universal-web-design-principles-you-should-to-know/"
+        image: "universal-web-design-principles.jpg"
       - name: "7 Rules for Creating Gorgeous UI"
         url: "https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda"
       - name: "10 Principles Of Effective Web Design"
