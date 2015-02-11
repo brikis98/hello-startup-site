@@ -376,10 +376,9 @@ footer {
 }
 
 .form-horizontal.equity-form .form-group {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
   margin-bottom: 10px;
-  padding-top: 10px;
-  margin-top: 10px;
 }
 
 .form-horizontal.equity-form label {
@@ -388,6 +387,15 @@ footer {
 
 .form-horizontal.equity-form .help-block {
   margin-top: 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.math-symbol {
+  font-family: Cambria, Georgia, 'Palatino Linotype', 'Bookman Old Style', serif;
+  font-size: 24px;
+  padding-top: 24px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {

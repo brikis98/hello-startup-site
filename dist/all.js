@@ -3346,6 +3346,13 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
       moreText: " (more)",
       lessText: " (less)"
     });
+
+    $('.equity-form p.help-block').jTruncate({
+      length: 0,
+      moreText: "[explain]",
+      lessText: "[hide]",
+      ellipsisText: ""
+    });
   };
 
   var dynamicNav = function() {
@@ -3405,19 +3412,21 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
     var salaryLost = payCutPerYear * jobTenure;
     var exercisePrice = yourShares * strikePrice;
-    var percentOwnership = yourShares / sharesOutstanding;
+    var ownershipPercentage = yourShares / sharesOutstanding;
     var investorTake = investorMultipler * funding;
-    var stockValue = (valuation - investorTake) * percentOwnership;
+    var stockAfterInvestors = valuation - investorTake;
+    var stockValue = stockAfterInvestors * ownershipPercentage;
 
-    var totalInvestment = salaryLost + exercisePrice;
-    var roi = stockValue / totalInvestment;
+    var yourInvestment = salaryLost + exercisePrice;
+    var roi = stockValue / yourInvestment;
 
     data.set('salary-lost', salaryLost);
     data.set('exercise-price', exercisePrice);
-    data.set('percent-ownership', percentOwnership);
+    data.set('ownership-percentage', ownershipPercentage);
     data.set('investor-take', investorTake);
+    data.set('stock-after-investors', stockAfterInvestors);
     data.set('stock-value', stockValue);
-    data.set('total-investment', totalInvestment);
+    data.set('your-investment', yourInvestment);
     data.set('roi', roi);
 
     console.log(data.attributes);
@@ -3426,11 +3435,14 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
   var updateBoundUIElements = function() {
     console.log('updateBoundUIElements method');
     $('.bound-field').each(function(index, element) {
-      console.log('updateBoundUIElements loop for ' + element);
-      var input = $(element);
-      var id = input.attr('data-source');
+      var el = $(element);
+      var id = el.attr('data-source');
       var value = data.get(id);
-      input.text(value);
+      if (el.is('input')) {
+        el.val(value);
+      } else {
+        el.text(value);
+      }
     });
   };
 

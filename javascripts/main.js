@@ -145,6 +145,13 @@
       moreText: " (more)",
       lessText: " (less)"
     });
+
+    $('.equity-form p.help-block').jTruncate({
+      length: 0,
+      moreText: "[explain]",
+      lessText: "[hide]",
+      ellipsisText: ""
+    });
   };
 
   var dynamicNav = function() {
