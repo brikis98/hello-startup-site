@@ -117,6 +117,9 @@ categories:
       - name: "Fluid"
         url: "https://www.fluidui.com/"
         image: "fluid.jpg"
+      - name: "UXPin"
+        url: "http://www.uxpin.com/"
+        image: "ux-pin.jpg"
   - id: "design-services"
     name: "Design services and community"
     sites:

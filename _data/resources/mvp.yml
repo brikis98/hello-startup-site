@@ -1,7 +1,19 @@
 name: "Minimum Viable Product"
-description: "How to define a minimal viable product; how to build prototypes quickly and cheaply."
+description: "How to define a minimum viable product (MVP); how to build prototypes quickly and cheaply."
 disabled: true
 icon: "bolt"
 type: "products"
-see_more:
+see_more: |
+  See the "Idea, Design, MVP" chapter in 
+  <a href="/#part-1-products">Part I, Products</a> for more info.  
 categories:
+  - id: "landing-pages"
+  # repl, hot reload, in-browser IDE, jsfiddle, tinkerbin, firebug, dev tools, IDE (lightable), node-dev, apigee
+  # design mockup tools (jetstrap, mobile ones), localtunnel, visual event, video creation
+  - id: "prototyping-tools" 
+  # open source libraries, Ruby toolbox, node modules, npm, 
+  - id: "libraries"
+  # a vertical slice, 3 things you do really well
+  - id: "defining-the-mvp"
+  # Brett Victor Inventing on Principle, my rapid prototyping talk
+  - id: "further-reading"

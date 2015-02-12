@@ -111,6 +111,19 @@ categories:
         url: "http://www.distimo.com/"
         image: "distimo.jpg"
         description: "App Analytics, Conversion Tracking, App Download &amp; Revenue Data"
+  - id: "trends"
+    name: "Trends"
+    sites:
+      - name: "Google Trends"
+        url: "http://www.google.com/trends/"
+        image: "google-trends.jpg"
+      - name: "Topsy"
+        url: "http://topsy.com/"
+        description: "Search and Analyze the Social Web."
+        image: "topsy.jpg"
+      - name: "Social Searcher"
+        url: "http://www.social-searcher.com/"
+        description: "Free Social Media Search Engine"
   - id: "research"
     name: "Market Research and Reports"
     sites:
@@ -143,6 +156,9 @@ categories:
       - name: "Running Lean"
         url: "http://www.amazon.com/dp/1449305172/?tag=hello-startup-20"
         image: "running-lean.jpg"
+      - name: "The 16-Step Guide to Evaluating the Viability of Any Product Idea"
+        url: "http://www.shopify.com/blog/13640265-the-16-step-guide-to-evaluating-the-viability-of-any-product-idea"
+        image: "16-step-guide-viability-product-idea.jpg"
 
 
 
