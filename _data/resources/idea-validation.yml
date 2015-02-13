@@ -127,6 +127,12 @@ categories:
   - id: "research"
     name: "Market Research and Reports"
     sites:
+      - name: "World Bank Data"
+        url: "http://data.worldbank.org/"
+        image: "world-bank.jpg"
+        description: |
+          World Bank Open Data: free and open access to data about development 
+          in countries around the globe.
       - name: "Think With Google"
         url: "https://www.thinkwithgoogle.com/"
         image: "think-with-google.jpg"
