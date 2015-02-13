@@ -5,18 +5,17 @@ This is the website and mobile app for [Hello, Startup: A Programmer's Guide to
 Building Products, Technologies, and Teams](http://www.hello-startup.net), an 
 O'Reilly book by [Yevgeniy Brikman](http://www.ybrikman.com).
 
-Architecture
+Status
 ==================
 
-* [jekyll](http://jekyllrb.com/): used to assemble static HTML from the HTML 
-  fragments in `_layouts`, `_includes`, `_resources`, and `_data`. 
-* [grunt.js](http://gruntjs.com/): used to concatenate and minify CSS and
-  JavaScript.
-* [PhoneGap](http://phonegap.com/): used to package up the static HTML as 
-  iOS and Android apps.
-* [GitHub Pages](https://pages.github.com/): for hosting the website.
-. [Bootstrap](http://getbootstrap.com/): for CSS, layout, general theme.
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome/): for icons.
+* The early release of *Hello, Startup* is available in the 
+  [O'Reilly Store](http://shop.oreilly.com/product/0636920034360.do) and 
+  [Safari Books Online](https://www.safaribooksonline.com/library/view/hello-startup/9781491910016/).
+* The *Hello, Startup* website has launched at http://www.hello-startup.net. 
+* The mobile app is still in the very early stages of development.
+* Contributions, especially to the list of 
+  [Startup Resources](http://www.hello-startup.net/#resources), are welcome via
+  pull request (see instructions below).
 
 Running the website
 ==================
@@ -46,6 +45,19 @@ Running the mobile app
    app on your phone. 
 6. If you want to build the app for real, use 
    [PhoneGap Build](https://build.phonegap.com).
+
+Architecture
+==================
+
+* [jekyll](http://jekyllrb.com/): used to assemble static HTML from the HTML 
+  fragments in `_layouts`, `_includes`, `_resources`, and `_data`. 
+* [grunt.js](http://gruntjs.com/): used to concatenate and minify CSS and
+  JavaScript.
+* [PhoneGap](http://phonegap.com/): used to package up the static HTML as 
+  iOS and Android apps.
+* [GitHub Pages](https://pages.github.com/): for hosting the website.
+* [Bootstrap](http://getbootstrap.com/): for CSS, layout, general theme.
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/): for icons.
 
 Making PhoneGap and Jekyll work together
 ==================
