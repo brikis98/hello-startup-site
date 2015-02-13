@@ -92,7 +92,7 @@ categories:
           and how they're using them. Ultimately, we want to know what font 
           goes with what?
   - id: "wireframing-tools"
-    name: "Wireframing tools"      
+    name: "Wireframing and mockup tools"      
     sites: 
       - name: "Balsamiq"
         url: "http://balsamiq.com/"
@@ -101,6 +101,15 @@ categories:
           Balsamiq Mockups is a rapid wireframing tool that helps you Work 
           Faster &amp; Smarter. It reproduces the experience of sketching on a 
           whiteboard, but using a computer.
+      - name: "moqups"
+        url: "https://moqups.com/"
+        image: "moqups.jpg"
+      - name: "mockingbird"
+        url: "https://gomockingbird.com/"
+        image: "mockingbird.jpg"
+      - name: "Mockup Designer"
+        url: "http://fatiherikli.github.io/mockup-designer/"
+        image: "mockup-designer.jpg"
       - name: "OmniGraffle"
         url: "http://www.omnigroup.com/omnigraffle/"
         image: "omnigraffle.jpg"
@@ -108,18 +117,57 @@ categories:
           OmniGraffle is for creating precise, beautiful graphics. Like website 
           wireframes, an electrical system design, a family tree, or mapping 
           out software classes.
-      - name: "mockingbird"
-        url: "https://gomockingbird.com/"
-        image: "mockingbird.jpg"
-      - name: "Justinmind"
-        url: "http://justinmind.com/"
-        image: "justinmind.jpg"
-      - name: "Fluid"
-        url: "https://www.fluidui.com/"
-        image: "fluid.jpg"
-      - name: "UXPin"
-        url: "http://www.uxpin.com/"
-        image: "ux-pin.jpg"
+      - name: "draw.io"
+        url: "https://www.draw.io"
+        image: "draw-io.jpg"
+  - id: "usability-testing-feedback"
+    name: "Usability testing and user surveys"
+    sites:
+      - name: "UsabilityTools UX Suite"
+        url: "http://usabilitytools.com/ux-suite/"
+        image: "usability-tools-ux-suite.jpg"
+        description: |
+          A suite of remote testing tools, including click testing, web 
+          testing, and surveys.
+      - name: "GhostRec"
+        url: "http://www.ghostrec.com/"
+        image: "ghost-rec.jpg"
+        description: |
+          Record real visitors surfing your website without additional hardware 
+          or software.
+      - name: "Fivesecondtest"
+        url: "http://fivesecondtest.com/"
+        image: "five-second-test.jpg"
+      - name: "Usabilla"
+        url: "https://usabilla.com/"
+        image: "usabilla.jpg"
+      - name: "ClickHeat"
+        url: "http://www.labsmedia.com/clickheat/index.html"
+        image: "click-heat.jpg"
+        description: |
+          ClickHeat is a visual heatmap of clicks on a HTML page, showing hot 
+          and cold click zones. ClickHeat is an OpenSource software, released 
+          under GPL licence, and free of charge.
+      - name: "Clicktale"
+        url: "http://www.clicktale.com/"
+        image: "click-tale.jpg"
+      - name: "Qualaroo"
+        url: "https://qualaroo.com/"
+        image: "qualaroo.jpg"
+      - name: "Silverback"
+        url: "http://silverbackapp.com/"
+        description: "Guerilla usability testing on the Mac made easy"
+        image: "silverback.jpg"
+      - name: "survey.io"
+        url: "http://survey.io/"
+        image: "survey-io.jpg"
+        description: |
+          Have you every wondered who the most passionate users of your product 
+          are? Or why they are using it? We have too! That's why we are 
+          creating tools to enable you to better understand your customers to 
+          help you improve your product. Survey.io is a simple survey tool 
+          originally created as a collaboration between Sean Ellis and 
+          KISSmetrics.
   - id: "design-services"
     name: "Design services and community"
     sites:
