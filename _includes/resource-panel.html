@@ -5,7 +5,12 @@
       {% assign resourceId = resourceHash[0] %}
       {% assign resource = resourceHash[1] %}
       {% if resource.type == type %}
-        <a href="/resources/{{ resourceId }}" class="list-group-item media{% if resource.disabled %} disabled{% endif %}" data-toggle="tooltip" data-placement="top" title="{{ resource.description }}">
+        <a href="/resources/{{ resourceId }}" 
+           class="list-group-item media{% if resource.disabled %} disabled{% endif %}" 
+           data-toggle="tooltip" 
+           data-placement="top" 
+           title="{% if resource.disabled %}[Under construction] {% endif %}{{ resource.description }}">
+
           <div class="media-left"><i class="fa fa-{{ resource.icon }}"></i></div>
           <div class="media-body">{{ resource.name }}</div>        
         </a>
