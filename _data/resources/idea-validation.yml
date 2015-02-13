@@ -133,6 +133,12 @@ categories:
         description: |
           World Bank Open Data: free and open access to data about development 
           in countries around the globe.
+      - name: "Nielsen Research"
+        url: "http://www.nielsen.com/"
+        image: "nielsen.jpg"
+        description: |
+          Nielsen, a leading global information and measurement company, 
+          provides insights & data about what people watch, listen to & buy.
       - name: "Think With Google"
         url: "https://www.thinkwithgoogle.com/"
         image: "think-with-google.jpg"
