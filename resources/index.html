@@ -1,0 +1,15 @@
+---
+layout: default
+inverse_nav: true
+---
+
+{% assign header_content_include = "resource-summary-header-include.html" %}
+{% include header.html %}
+
+<div id="the-resources">
+  <section id="startup-resources">
+    {% assign hide_blurb = true %}
+    {% include startup-resources.html %}
+  </section>
+</div>
+

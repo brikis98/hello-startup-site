@@ -1,0 +1,27 @@
+<a href="/resources/{{ page.resource_key }}">
+  <h1>
+    <span class="startup-resources-header">Startup Resources:</span> 
+    <span class="startup-resources-resource">{{ site.data.resources[page.resource_key].name }}</span>
+  </h1>
+</a>
+{% if page.blurb_include %}
+  {% include {{ page.blurb_include }} %}
+{% elsif page.blurb %}
+  {{ page.blurb }}          
+{% endif %}
+<p>
+  These <a href="/resources">startup resources</a> are based on the book 
+  <a href="/">{{ site.medium_title }}</a> by 
+  <a href="{{ site.homepage }}">{{ site.author }}</a>. 
+  {% include resources-open-source.html %}
+</p>
+<div class="learn-more">
+  <div class="row">
+    <div class="col-lg-6">
+      <a href="/" class="btn btn-default btn-lg btn-block page-scroll">The book &raquo;</a>
+    </div>
+    <div class="col-lg-6">
+      <a href="#the-resources" class="btn btn-primary btn-lg btn-block page-scroll">The resources &raquo;</a>
+    </div>
+  </div>
+</div>                            

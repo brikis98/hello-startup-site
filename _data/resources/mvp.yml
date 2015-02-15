@@ -8,12 +8,45 @@ see_more: |
   <a href="/#part-1-products">Part I, Products</a> for more info.  
 categories:
   - id: "landing-pages"
+# ... https://www.leadpages.net
+# ... http://landerapp.com/
+# ... http://www.hubspot.com/products/landing-pages
+# ... http://quickmvp.com/
+# ... http://kickofflabs.com/
+# ... https://www.instapage.com/ 
+# ... https://www.strikingly.com/
+# ... http://launchrock.co/
+# ... https://www.optimizely.com/
+# ... https://www.yola.com/
+# ... http://www.getresponse.com/features/landing-page-creator.html
+# ... GitHub Pages
+# ... Amazon S3 or EC2
+# ... http://www.videoscribe.co/ (easy videos)
+
   # repl, hot reload, in-browser IDE, jsfiddle, tinkerbin, firebug, dev tools, IDE (lightable), node-dev, apigee
   # design mockup tools (jetstrap, mobile ones), localtunnel, visual event, video creation
   - id: "prototyping-tools" 
+    sites:
+      - name: "Axure"
+        url: "http://www.axure.com/"        
+      - name: "Fluid"
+        url: "https://www.fluidui.com/"
+        image: "fluid.jpg"
+      - name: "HotGloo"
+        url: "http://www.hotgloo.com/"
+      - name: "Justinmind"
+        url: "http://justinmind.com/"
+        image: "justinmind.jpg"
+      - name: "UXPin"
+        url: "http://www.uxpin.com/"
+        image: "ux-pin.jpg"
   # open source libraries, Ruby toolbox, node modules, npm, 
   - id: "libraries"
   # a vertical slice, 3 things you do really well
   - id: "defining-the-mvp"
   # Brett Victor Inventing on Principle, my rapid prototyping talk
   - id: "further-reading"
+    sites:
+      - name: "The Guide to Minimum Viable Products"
+        url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"
+        image: "guide-to-mvps.jpg"
