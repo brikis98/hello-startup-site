@@ -5,3 +5,12 @@ icon: "lightbulb-o"
 type: "products"
 see_more:
 categories:
+  - id: "Idea journal and note taking tools"
+  - id: "Idea lists"
+    sites:
+      - name: "Y Combinator Requests for Startups"
+        url: "https://www.ycombinator.com/rfs/"
+      - name: "Assembly"
+        url: "https://assembly.com/discover"
+        description: |
+          Turn ideas into great products with people around the world.

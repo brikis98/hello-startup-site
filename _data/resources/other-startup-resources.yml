@@ -11,6 +11,13 @@ categories:
         url: "http://steveblank.com/tools-and-blogs-for-entrepreneurs/"
         image: "steve-blank-startup-tools.jpg"
         description: "Gigantic list from Steve Blank"
+      - name: "300 Awesome Free Things"
+        url: "https://medium.com/everything-about-startups-and-entrepreneurship/300-awesome-free-things-e07b3cd5fd5b"
+      - name: "Maqtoob"
+        url: "https://maqtoob.com/"
+        image: "maqtoob.jpg"
+        description: |
+          We help inspiring entrepreneurs discover 1095 business tools.
       - name: "Startup Weekend Resources"
         url: "http://startupweekend.org/resources/"
         image: "startup-weekend-startup-tools.jpg"

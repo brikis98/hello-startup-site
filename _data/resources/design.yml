@@ -141,6 +141,10 @@ categories:
       - name: "Usabilla"
         url: "https://usabilla.com/"
         image: "usabilla.jpg"
+      - name: "Free Copy Critique"
+        url: "http://www.freecopycritique.com/"
+        description: |
+          Get a free copy critique of your website.
       - name: "ClickHeat"
         url: "http://www.labsmedia.com/clickheat/index.html"
         image: "click-heat.jpg"
