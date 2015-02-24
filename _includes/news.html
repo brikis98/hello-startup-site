@@ -1,0 +1,35 @@
+<div class="container">
+  <h2>News</h2>
+  <h3>Check back regularly for the latest updates, talks, and resources!</h3>
+  {% for news in site.data.news.news %}
+    {% if news.url contains '#' %}
+      {% assign anchor_attrs = 'class="page-scroll"' %}
+    {% else %}
+      {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
+    {% endif %}
+    <hr>
+    <div class="row news-item">
+      <div class="col-xs-4">
+        <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
+          <img src="images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive">
+        </a>
+      </div>
+      <div class="col-xs-8">
+        <h4>
+          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
+          <div><small>{{ news.date }}</small></div>
+        </h4>
+        <p>{{ news.description }}</p>
+        <p><a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-cta">{{ news.call_to_action }} &raquo;</a></p>
+      </div>
+    </div>    
+  {% endfor %}   
+  <hr>
+  <div class="learn-more">
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <a href="#whats-in-the-book" class="btn btn-primary btn-lg btn-block page-scroll">About the book &raquo;</a>
+      </div>
+    </div>
+  </div>          
+</div>

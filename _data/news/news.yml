@@ -1,0 +1,27 @@
+- id: "oreilly-webcast-hiring"
+  url: "http://www.oreilly.com/pub/e/3356"
+  title: "Webcast: A Guide to Hiring for your Startup"
+  date: "February 24, 2015"
+  image: "oreilly-logo.jpg"
+  description: |
+    On April 30th, I'll be doing a free O'Reilly Webcast where I reveal 
+    everything I've learned about hiring for startups.
+  call_to_action: "Register now"
+- id: "goodreads-page"
+  url: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
+  title: "Hello, Startup is on GoodReads!"
+  date: "February 15, 2015"
+  image: "goodreads-logo.jpg"
+  description: |
+    If you're a GoodReads user, you can add the book to your to-read list,
+    leave a review, and ask me questions.
+  call_to_action: "Check out <em>Hello, Startup</em> on GoodReads"    
+- id: "early-release"
+  url: "#buy-now"
+  title: "Early release"
+  date: "February 11, 2015"
+  image: "oreilly-early-release.png"
+  description: |
+    <em>Hello, Startup</em> is on now available as part of the O'Reilly
+    Early Release program.
+  call_to_action: "Get your copy now"

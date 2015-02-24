@@ -1858,6 +1858,10 @@ h3 {
   color: #777;
 }
 
+section h3 {
+  margin-bottom: 30px;
+}
+
 h4 {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
@@ -1894,6 +1898,7 @@ p, blockquote, h3 {
 .navbar-right li a {
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 12px;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -2020,7 +2025,7 @@ section {
 }
 
 .buy-buttons {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .circle-icon {
@@ -2033,12 +2038,24 @@ section {
 }
 
 .book-outline {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .book-outline h4 {
   margin-bottom: 30px;
+}
+
+.news-item {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.news-item h4 {
+  margin-top: 0;
+}
+
+.news-item h4 a {
+  color: #333;
 }
 
 .truncate_more, .clearboth {
@@ -2066,10 +2083,6 @@ section {
   margin-right: 5px;
 }
 
-.more-about-author {
-  margin-top: 15px;
-}
-
 .learn-more {
   margin-top: 90px;
 }
@@ -2093,10 +2106,6 @@ section {
 
 .media-left {
   min-width: 26px;
-}
-
-.resource-lists {
-  margin-top: 30px;
 }
 
 footer {
@@ -2276,7 +2285,7 @@ input:required:invalid, input:focus:invalid, .invalid-value {
 
 @media (min-width: 1200px) {
   .navbar-right {
-    margin-right: -28px;
+    margin-right: -68px;
   }
 
   header .container {
