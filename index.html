@@ -3,9 +3,6 @@ layout: default
 body_class: dynamic-nav
 is_home: true
 nav: 
-  - name: "News"
-    title: "News"
-    url: "#news"
   - name: "Book"
     title: "About the book"
     url: "#whats-in-the-book"
@@ -15,6 +12,9 @@ nav:
   - name: "Buy"
     title: "Get the book"
     url: "#buy-now"
+  - name: "News"
+    title: "News"
+    url: "#news"
   - name: "Resources"
     title: "Startup resources"
     url: "#resources"
@@ -23,18 +23,18 @@ nav:
 <header class="gray-section">
   {% include blurb.html %}
 </header>
-<section id="news">
-  {% include news.html %}
-</section>
-<section id="whats-in-the-book" class="gray-section gray-gradient">
+<section id="whats-in-the-book">
   {% include book-outline.html %}
 </section>        
-<section id="about-author">
+<section id="about-author" class="gray-section gray-gradient">
   {% include about-author.html %}
 </section>  
-<section id="buy-now" class="gray-section gray-gradient">
+<section id="buy-now">
   {% include buy-now.html %}
-</section>      
+</section> 
+<section id="news" class="gray-section gray-gradient">
+  {% include news.html %}
+</section>     
 <section id="resources">
   {% include startup-resources.html %}
 </section>        
