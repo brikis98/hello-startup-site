@@ -140,6 +140,10 @@
     load(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
     ga('create', 'UA-57853211-1', 'auto');
+
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push("activateUniversalAnalytics");
+
     ga('send', 'pageview');
   };
 
