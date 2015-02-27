@@ -1,6 +1,5 @@
 name: "Minimum Viable Product"
 description: "How to define a minimum viable product (MVP); how to build prototypes quickly and cheaply."
-disabled: true
 icon: "bolt"
 type: "products"
 see_more: |
@@ -8,45 +7,238 @@ see_more: |
   <a href="/#part-1-products">Part I, Products</a> for more info.  
 categories:
   - id: "landing-pages"
-# ... https://www.leadpages.net
-# ... http://landerapp.com/
-# ... http://www.hubspot.com/products/landing-pages
-# ... http://quickmvp.com/
-# ... http://kickofflabs.com/
-# ... https://www.instapage.com/ 
-# ... https://www.strikingly.com/
-# ... http://launchrock.co/
-# ... https://www.optimizely.com/
-# ... https://www.yola.com/
-# ... http://www.getresponse.com/features/landing-page-creator.html
-# ... GitHub Pages
-# ... Amazon S3 or EC2
-# ... http://www.videoscribe.co/ (easy videos)
-
-  # repl, hot reload, in-browser IDE, jsfiddle, tinkerbin, firebug, dev tools, IDE (lightable), node-dev, apigee
-  # design mockup tools (jetstrap, mobile ones), localtunnel, visual event, video creation
+    name: "Landing Pages"
+    description: |
+      Tools that help you quickly build a landing pages, drive traffic to it, 
+      capture email addresses, and A/B test different copy and designs.
+    sites:
+      - name: "LeadPages"
+        url: "https://www.leadpages.net"
+        image: "lead-pages.jpg"
+      - name: "Lander"
+        url: "http://landerapp.com/"
+        image: "lander.jpg"
+        description: "Create, Publish and Optimize for Free"
+      - name: "Unbounce"
+        url: "http://unbounce.com/"
+        image: "unbounce.jpg"
+        description: "Build, publish & A/B test landing pages without I.T."        
+      - name: "HubSpot Landing Pages"
+        url: "http://www.hubspot.com/products/landing-pages"
+        image: "hubspot-landing-pages.jpg"
+      - name: "QuickMVP"
+        url: "http://quickmvp.com/"
+        image: "quick-mvp.jpg"
+      - name: "KickoffLabs"
+        url: "http://kickofflabs.com/"
+        image: "kick-off-labs.jpg"
+        description: "Smarter Landing Pages, Opt-in Forms, &amp; Email Marketing"
+      - name: "Instapage"
+        url: "https://www.instapage.com/"
+        image: "insta-page.jpg"
+        description: "Build and A/B Test Landing Pages in Minutes with Instapage."
+      - name: "Strikingly"
+        url: "https://www.strikingly.com/"
+        image: "strikingly.jpg"
+        description: |
+          Gorgeous, mobile-friendly websites in minutes.
+      - name: "Launchrock"
+        url: "http://launchrock.co/"
+        image: "launch-rock.jpg"
+        description: |
+          A site builder dedicated to early customer acquisition.
+      - name: "Yola"
+        url: "https://www.yola.com/"
+        image: "yola.jpg"
+        description: |
+          Create a professional, free website in minutes. Get leads, book 
+          appointments and sell online.
+      - name: "Landing Page Creator"
+        url: "http://www.getresponse.com/features/landing-page-creator.html"
+        image: "landing-page-creator.jpg"
+      - name: "GitHub Pages"
+        url: "https://pages.github.com/"
+        image: "github-pages.jpg"
+        description: |
+          Websites for you and your projects. Hosted directly from your GitHub 
+          repository. Just edit, push, and your changes are live.
+      - name: "Host Your Static Website on Amazon S3"
+        url: "https://aws.amazon.com/blogs/aws/host-your-static-website-on-amazon-s3/"
+        image: "amazon-s3-static.jpg"
+  - id: "a-b-testing"
+    name: "A/B Testing"
+    description: |
+      A/B testing and multi-variate testing allow you to test changes to your 
+      products against each other and see which ones perform better.
+    sites: 
+      - name: "Optimizely"
+        url: "https://www.optimizely.com/"
+        image: "optimizely.jpg"
+        description: "One optimization platform for websites and mobile apps"  
+      - name: "Visual Website Optimizer"
+        url: "https://vwo.com"
+        image: "vwo.jpg"
+        description: |
+          Easily change the headline, button, image or any other element to 
+          create multiple variations of your website. VWO will equally divide 
+          your website traffic among all the variations and track which one 
+          works the best for you.
+      - name: "Convert"
+        url: "http://www.convert.com/"
+        image: "convert.jpg"
+        description: "A/B testing software for experts & agencies"
+      - name: "Google Analytics Content Experiments"
+        url: "https://support.google.com/analytics/answer/1745147"
+      - name: "AdPushup"
+        url: "http://www.adpushup.com/"
+        image: "adpushup.jpg"
+        description: |
+          Increase ad revenue from your website with advanced automatic A/B 
+          testing.
+      - name: "Modesty"
+        url: "https://github.com/causes/modesty"
+        description: |
+          Modesty is a simple, scalable, open source split testing and event 
+          tracking framework.
+  - id: "explainer-video"
+    name: "Explainer Video"
+    description: |
+      Tools that make it easy to put together a video that explains your 
+      product.
+    sites:
+      - name: "VideoScribe"
+        url: "http://www.videoscribe.co/"
+        image: "video-scribe.jpg"
+        description: "Make your own whiteboard videos, fast."    
+      - name: "PowToon"
+        url: "http://www.powtoon.com/"
+        image: "pow-toon.jpg"
+        description: |
+          Free business presentation software animated video maker and 
+          PowerPoint alternative
+      - name: "GoAnimate"
+        url: "http://goanimate.com/"
+        image: "go-animate.jpg"
+        description: |
+          Make Professional Animated Videos. Easy learning curve. Low budget. 
+          Simple do-it-yourself tools.
+      - name: "Animaker"
+        url: "http://www.animaker.com/"
+        image: "animaker.jpg"
+        description: |
+          Make Animated Videos on Cloud for free
+      - name: "Raw Shorts"
+        url: "http://www.rawshorts.com/"
+        image: "raw-shorts.jpg"
+        description: |
+          Make an Awesome Explainer Video Today. It's Free.
+      - name: "Renderforest"
+        url: "https://www.renderforest.com/"
+        image: "render-forest.jpg"
+        description: |
+          Renderforest is free online video maker. Easily create slideshows 
+          with music, promotional, explainer or animated business videos, logo 
+          animations, kinetic typography and more.
+      - name: "Camtasia"
+        url: "http://www.techsmith.com/camtasia.html"
+        image: "camtasia.jpg"
+        description: "Screen recording and video editing"
+      - name: "iMovie"
+        url: "https://www.apple.com/mac/imovie/"          
+      - name: "Turn a PowerPoint presentation into a video."
+        url: "https://support.office.com/en-us/article/Turn-your-presentation-into-a-video-c140551f-cb37-4818-b5d4-3e30815c3e83?CorrelationId=57611cdd-c907-4ce1-9cdb-38a1e43ec88a"
+      - name: "Freesound"
+        url: "https://www.freesound.org/"
+        image: "free-sound.jpg"
+        description: |
+          Freesound is a collaborative database of Creative Commons Licensed 
+          sounds. 
+      - name: "Musopen"
+        url: "https://musopen.org/"
+        image: "mus-open.jpg"
+        description: |
+          Musopen is a 501(c)(3) non-profit focused on increasing access to 
+          music by creating free resources and educational materials. We 
+          provide recordings, sheet music, and textbooks to the public for 
+          free, without copyright restrictions. Put simply, our mission is to 
+          set music free.
+      - name: "Envato Market"
+        url: "http://audiojungle.net/"
+        image: "envato-market.jpg"
+        description: |
+          233,539 Royalty Free Audio Files From $1
+      - name: "VoiceBunny"
+        url: "http://voicebunny.com/"
+        image: "voice-bunny.jpg"
+        description: "Get fast, professional voice overs you'll love"
+      - name: "Voices"
+        url: "https://www.voices.com/"
+        image: "voices.jpg"
+        description: "The #1 Marketplace for Voice Overs"
   - id: "prototyping-tools" 
+    name: "Rapid prototyping tools"
     sites:
       - name: "Axure"
-        url: "http://www.axure.com/"        
+        url: "http://www.axure.com/"
+        image: "axure.jpg"        
+        description: |
+          Create Prototypes of Websites & Apps Without Coding
       - name: "Fluid"
         url: "https://www.fluidui.com/"
         image: "fluid.jpg"
+        description: |
+          Fast and friendly mobile prototyping
       - name: "HotGloo"
         url: "http://www.hotgloo.com/"
+        image: "hot-gloo.jpg"
+        description: |
+          A better way to create wireframes and prototypes for web & mobile.
       - name: "Justinmind"
         url: "http://justinmind.com/"
-        image: "justinmind.jpg"
+        image: "just-in-mind.jpg"
+        description: |
+          Interactive wireframes for web and mobile.
       - name: "UXPin"
         url: "http://www.uxpin.com/"
         image: "ux-pin.jpg"
-  # open source libraries, Ruby toolbox, node modules, npm, 
-  - id: "libraries"
-  # a vertical slice, 3 things you do really well
-  - id: "defining-the-mvp"
-  # Brett Victor Inventing on Principle, my rapid prototyping talk
+        description: |
+          UX Design & Wireframing Tools As Beautiful As Your Work
+      - name: "Localtunnel"
+        url: "http://localtunnel.me/"
+        image: "local-tunnel.jpg"
+        description: |
+          Localtunnel allows you to easily share a web service on your local 
+          development machine without messing with DNS and firewall settings. 
+          Localtunnel will assign you a unique publicly accessible url that 
+          will proxy all requests to your locally running webserver.
   - id: "further-reading"
+    name: "Further Reading"
     sites:
       - name: "The Guide to Minimum Viable Products"
         url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"
+        image: "uxpin-guide-to-mvp.jpg"
+        description: |
+          Free ebook about the art and science of building great products with 
+          minimum resources as practiced by companies like Twitter, Dropbox, 
+          Airbnb, and Buffer among others.
+      - name: "Minimum Viable Product: Build a slice across, instead of one layer at a time."
+        url: "https://twitter.com/jopas/status/515301088660959233"
+        image: "mvp-slice-across.jpg"
+      - name: "How Spotify Builds MVP's"
+        url: "http://blog.crisp.se/wp-content/uploads/2014/03/unproject.pdf"
+        image: "spotify-mvp.jpg"
+      - name: "If your product is Great, it doesn't need to be Good."
+        url: "http://paulbuchheit.blogspot.com/2010/02/if-your-product-is-great-it-doesnt-need.html"
+        description: |
+          What's the right approach to new products? Pick three key attributes 
+          or features, get those things very, very right, and then forget about 
+          everything else.
+      - name: "The Guide to Minimum Viable Products"
+        url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"
         image: "guide-to-mvps.jpg"
+      - name: "Startup DNA: Speed Wins"
+        url: "http://www.slideshare.net/brikis98/startup-dna-speed-wins"
+        image: "startup-dna-speed-wins.jpg"
+      - name: "Rapid Prototyping"
+        url: "http://www.slideshare.net/brikis98/rapid-prototyping-34062971"
+        image: "rapid-prototyping.jpg"
