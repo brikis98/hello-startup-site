@@ -5,8 +5,6 @@
 
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
-    console.log($anchor);
-    console.log($anchor.attr('href'));
     $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500, 'easeInOutExpo');
     event.preventDefault();
   };
@@ -59,6 +57,18 @@
     } else {
       showDefaultNav();
     }
+  };
+
+  var newsletterModal = $('#newsletter-modal');
+  var newsLetterModalShown = false;
+  var showNesletterModal = function(event) {
+    if (newsletterModal.length > 0 && !newsLetterModalShown) {
+      newsletterModal.modal();
+    }
+  };
+
+  var newsletterModalVisible = function(event) {
+    newsLetterModalShown = true;
   };
 
   var loadTwitter = function() {
@@ -170,6 +180,8 @@
   $('a.page-scroll').on('click', scrollSmoothly);
   $("img").unveil();
   $('.navbar-collapse a.page-scroll').on('click', toggleMobileNav);
+  $('#news .learn-more').appear().on('appear', showNesletterModal);
+  newsletterModal.on('shown.bs.modal', newsletterModalVisible);
   loadTooltips();
   dynamicNav();
   truncateText();

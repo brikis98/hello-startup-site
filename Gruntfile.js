@@ -22,6 +22,7 @@ module.exports = function(grunt) {
           'javascripts/jquery.easing.min.js',
           'javascripts/jquery.jtruncate.js',
           'javascripts/jquery.unveil.js',
+          'javascripts/jquery.appear.js',
           'javascripts/numeral.js',
           'javascripts/main.js',
           'javascripts/equity.js'

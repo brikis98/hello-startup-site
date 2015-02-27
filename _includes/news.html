@@ -1,29 +1,48 @@
 <div class="container">
   <h2>Latest News</h2>
-  <h3>Check back regularly for the latest updates, talks, and resources!</h3>
-  {% for news in site.data.news.news %}
-    {% if news.url contains '#' %}
-      {% assign anchor_attrs = 'class="page-scroll"' %}
-    {% else %}
-      {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
-    {% endif %}
-    <hr>
-    <div class="row news-item">
-      <div class="col-xs-4">
-        <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
-          <img src="images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive">
-        </a>
+  <h3>Check back regularly for the latest updates, talks, and resources, or just <a href="#" data-toggle="modal" data-target="#newsletter-modal">subscribe to the newsletter</a>!</h3>
+  <div class="modal fade" id="newsletter-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <span class="fa-stack fa-lg pull-left">      
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>      
+          </span> 
+          <h4 class="modal-title">Join the newsletter</h4>          
+        </div>
+        <div class="modal-body">
+          {% include subscribe.html %}  
+        </div>
       </div>
-      <div class="col-xs-8">
-        <h4>
-          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
-          <div><small>{{ news.date }}</small></div>
-        </h4>
-        <p>{{ news.description }}</p>
-        <p><a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-cta">{{ news.call_to_action }} &raquo;</a></p>
-      </div>
-    </div>    
-  {% endfor %}   
+    </div>
+  </div>
+  <div class="news-items">
+    {% for news in site.data.news.news %}
+      {% if news.url contains '#' %}
+        {% assign anchor_attrs = 'class="page-scroll"' %}
+      {% else %}
+        {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
+      {% endif %}
+      <hr>
+      <div class="row news-item">
+        <div class="col-xs-4">
+          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
+            <img src="images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-xs-8">
+          <h4>
+            <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
+            <div><small>{{ news.date }}</small></div>
+          </h4>
+          <p>{{ news.description }}</p>
+          <p><a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-cta">{{ news.call_to_action }} &raquo;</a></p>
+        </div>
+      </div>    
+    {% endfor %} 
+  </div>  
   <hr>
   <div class="learn-more">
     <div class="row">

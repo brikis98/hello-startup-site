@@ -270,7 +270,10 @@ section {
 }
 
 .btn {
-  background-image: none;
+  background-image: none;  
+}
+
+.learn-more .btn {
   margin-top: 10px;
 }
 
@@ -453,6 +456,29 @@ input:required:invalid, input:focus:invalid, .invalid-value {
 
 .wide-column {
   width: 85%;
+}
+
+.subscribe-form label {
+  margin-bottom: 0;
+  font-size: 22px;  
+}
+
+#newsletter-modal .fa-stack {
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.subscribe-form .help-block {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.subscribe-form .v-space {
+  margin-top: 10px;
+}
+
+.offscreen {
+  position: absolute; left: -5000px;
 }
 
 @media (min-width: 768px) {

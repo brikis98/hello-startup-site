@@ -97,9 +97,9 @@
     });
   };
 
-  $('input').each(initializeData);
+  $('.equity-form input').each(initializeData);
   data.on('change', calculateEquityValues);
   data.on('change', updateBoundUIElements);
-  $('input').on('input keyup change', updateData);
+  $('.equity-form input').on('input keyup change', updateData);
   data.trigger('change');
 })();
