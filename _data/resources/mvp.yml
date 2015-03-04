@@ -100,6 +100,15 @@ categories:
         description: |
           Modesty is a simple, scalable, open source split testing and event 
           tracking framework.
+      - name: "How long will your experiment take?"
+        url: "http://www.experimentcalculator.com"
+        image: "experiment-calculator.jpg"
+        description: |
+          A simple calculator that you can use to calculate how long you should
+          run an A/B test to get statistically significant results.
+      - name: "A/B Test Calculator"
+        url: "http://www.abtestcalculator.com/"
+        image: "a-b-test-calculator.jpg"
   - id: "explainer-video"
     name: "Explainer Video"
     description: |
