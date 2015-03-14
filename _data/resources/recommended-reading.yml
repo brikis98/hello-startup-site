@@ -214,6 +214,8 @@ categories:
           business plan, marketing plan or sales plan. Step-by-step strategy of 
           how to successfully organize sales, marketing and business 
           development for a new product or company.
+      - name: "Be a Great Product Leader"
+        url: "http://blog.adamnash.com/2011/12/16/be-a-great-product-leader/"
   - id: "tech-stack"
     name: "Picking a tech stack"
     sites:
@@ -541,6 +543,8 @@ categories:
           took place as Dr. Hamming, his associates and other major thinkers, 
           in computer science and electronics, progressed through the grand 
           challenges of science and engineering in the twentieth century.
+      - name: "Ira Glass on Storytelling"
+        url: "https://www.youtube.com/watch?v=BI23U7U2aUY"
   - id: "courses"
     name: "Startup courses"
     sites:
