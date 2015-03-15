@@ -9,19 +9,35 @@
           {% include resources-open-source.html %}
         </h3>      
       {% endunless %}
-      <div class="row resource-lists">
-        <div class="col-sm-4">
+      <div id="products-list" class="row resource-lists">
+        <div class="col-sm-{{ site.left_column_size }} centered">
+          <div class="fa fa-shopping-cart fa-5x circle-icon"></div>
+          <h4>Products</h4>
+        </div>
+        <div class="col-sm-{{ site.right_column_size }}">
           {% assign type = "products" %}
           {% include resource-panel.html %}
         </div>
-        <div class="col-sm-4">
+      </div>
+      <div id="technologies-list" class="row resource-lists">
+        <div class="col-sm-{{ site.left_column_size }} centered">
+          <div class="fa fa-gears fa-5x circle-icon"></div>
+          <h4>Technologies</h4>
+        </div>
+        <div class="col-sm-{{ site.right_column_size }}">
           {% assign type = "technologies" %}
           {% include resource-panel.html %}
         </div>
-        <div class="col-sm-4">
+      </div>
+      <div id="teams-list" class="row resource-lists">        
+        <div class="col-sm-{{ site.left_column_size }} centered">
+          <div class="fa fa-gears fa-5x circle-icon"></div>
+          <h4>Teams</h4>
+        </div>
+        <div class="col-sm-{{ site.right_column_size }}">
           {% assign type = "teams" %}
           {% include resource-panel.html %}
-        </div>                                          
+        </div>
       </div>
       {% comment %}
         

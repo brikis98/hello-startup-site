@@ -38,15 +38,14 @@
   var navCollapse = $('.navbar-collapse');
   var NAVBAR_CLASS_DEFAULT = "navbar-default";
   var NAVBAR_CLASS_INVERSE = "navbar-inverse";
+  var NAVBAR_ANIMATE_OPTIONS = {duration: 400, easing: 'linear', children: false};
 
   var showDefaultNav = function() {
-    nav.removeClass(NAVBAR_CLASS_INVERSE);
-    nav.addClass(NAVBAR_CLASS_DEFAULT);
+    nav.switchClass(NAVBAR_CLASS_INVERSE, NAVBAR_CLASS_DEFAULT, NAVBAR_ANIMATE_OPTIONS);
   };
 
   var showDarkNav = function() {
-    nav.removeClass(NAVBAR_CLASS_DEFAULT);
-    nav.addClass(NAVBAR_CLASS_INVERSE);
+    nav.switchClass(NAVBAR_CLASS_DEFAULT, NAVBAR_CLASS_INVERSE, NAVBAR_ANIMATE_OPTIONS);
   };
 
   var invertNav = function(event) {

@@ -66,11 +66,32 @@ p, blockquote, h3 {
   display: none;
 }
 
+.navbar-inverse {
+  background-image: none;
+  background-color: #222;
+}
+
 .navbar-inverse .navbar-brand {
   font-family: 'Lato', monospace;
   font-size: 28px;
   text-transform: lowercase;
   color: #5BBA45;
+  padding: 0;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:visited, 
+.navbar-inverse .navbar-nav>.active>a:active {
+  background: #5BBA45 !important;
+  border-radius: 3px;
+  box-shadow: none !important;  
+}
+
+.navbar-inverse .navbar-right li a {
+  /*color: #fff;*/
 }
 
 .navbar-right li a {
@@ -78,11 +99,13 @@ p, blockquote, h3 {
   font-weight: 400;
   font-size: 12px;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 10px 0;
+  text-shadow: none;
 }
 
-.navbar a.page-scroll {
-  padding-top: 20px;
-  padding-bottom: 20px;  
+.navbar a.page-scroll, .navbar a.non-page-scroll {
+  padding-top: 15px;
+  padding-bottom: 15px;  
   line-height: 10px;
 }
 
@@ -179,7 +202,7 @@ section {
   border: 1px solid #CCC;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;  
-  margin: 10px 0 0;
+  margin: 0 0 10px;
   width: 100%;
   height: 64px;
   line-height: 60px;
@@ -202,10 +225,6 @@ section {
   border-radius: 5px 5px 5px 5px;  
 }
 
-.buy-buttons {
-  margin-bottom: 35px;
-}
-
 .circle-icon {
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -219,9 +238,24 @@ section {
   padding-bottom: 50px;
 }
 
-.book-outline h4 {
+.book-outline h4, .resource-lists h4 {
   margin-bottom: 30px;
 }
+
+.resource-lists {
+  padding: 75px 0;
+}
+
+.resource-lists .media .media-left {
+  min-width: 50px;
+  text-align: center;
+}
+
+.resource-lists .media .media-left a {
+  color: #333;
+}
+
+
 
 .news-item {
   margin-bottom: 30px;
@@ -336,17 +370,14 @@ footer {
   transform: scale(1.1);
 }
 
-.outline ol {
+.book-outline ol {
   padding-left: 0;
   margin-left: 20;
 }
 
-.outline li {
-  list-style-position:inside;
-}
-
 .author-image {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .resource-panel {

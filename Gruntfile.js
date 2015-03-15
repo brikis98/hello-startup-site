@@ -23,6 +23,7 @@ module.exports = function(grunt) {
           'javascripts/jquery.jtruncate.js',
           'javascripts/jquery.unveil.js',
           'javascripts/jquery.appear.js',
+          'javascripts/jquery-ui-effects-only.js',
           'javascripts/numeral.js',
           'javascripts/main.js',
           'javascripts/equity.js'

@@ -29,6 +29,8 @@ ios_link: "#"
 android_link: "#"
 ios_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from the Apple App Store."
 android_text: "Buy &quot;Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams&quot; from the Google Play Store."
+left_column_size: 5
+right_column_size: 7
 
 # Build settings
 markdown: kramdown

@@ -3,8 +3,10 @@ layout: default
 inverse_nav: true
 ---
 
-{% assign header_content_include = "resource-header-include.html" %}
-{% include header.html %}
+<header class="gray-section">
+  {% assign header_content_include = "resource-header-include.html" %}
+  {% include header.html %}
+</header>
 
 <div id="the-resources">
   {{ content }}

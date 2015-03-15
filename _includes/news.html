@@ -27,12 +27,12 @@
       {% endif %}
       <hr>
       <div class="row news-item">
-        <div class="col-xs-4">
+        <div class="col-xs-{{ site.left_column_size }}">
           <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
-            <img src="images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive">
+            <img src="/images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive">
           </a>
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-{{ site.right_column_size }}">
           <h4>
             <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
             <div><small>{{ news.date }}</small></div>

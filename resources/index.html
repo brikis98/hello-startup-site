@@ -1,10 +1,22 @@
 ---
 layout: default
 inverse_nav: true
+nav: 
+  - name: "Products"
+    title: "Products"
+    url: "#products-list"
+  - name: "Technologies"
+    title: "Technologies"
+    url: "#technologies-list"
+  - name: "Teams"
+    title: "Teams"
+    url: "#teams-list"
 ---
 
-{% assign header_content_include = "resource-summary-header-include.html" %}
-{% include header.html %}
+<header class="gray-section">
+  {% assign header_content_include = "resource-summary-header-include.html" %}
+  {% include header.html %}
+</header>
 
 <div id="the-resources">
   <section id="startup-resources">

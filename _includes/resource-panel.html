@@ -1,20 +1,22 @@
-<div class="panel panel-default">
-  <div class="panel-heading">{{ type | capitalize }}</div>
-  <div class="list-group">
-    {% for resourceHash in site.data.resources %}
-      {% assign resourceId = resourceHash[0] %}
-      {% assign resource = resourceHash[1] %}
-      {% if resource.type == type %}
-        <a href="/resources/{{ resourceId }}" 
-           class="list-group-item media{% if resource.disabled %} disabled{% endif %}" 
-           data-toggle="tooltip" 
-           data-placement="top" 
-           title="{% if resource.disabled %}[Under construction] {% endif %}{{ resource.description }}">
+{% for resourceHash in site.data.resources %}
+  {% assign resourceId = resourceHash[0] %}
+  {% assign resource = resourceHash[1] %}
+  
+  {% capture media_left %}
+    <i class="fa fa-{{ resource.icon }} fa-2x"></i>
+  {% endcapture %}
 
-          <div class="media-left"><i class="fa fa-{{ resource.icon }}"></i></div>
-          <div class="media-body">{{ resource.name }}</div>        
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>  
+  {% if resource.type == type and resource.disabled != true %}
+    <div class="media">
+      <div class="media-left">
+        <a href="/resources/{{ resourceId }}">{{ media_left }}</a>
+      </div>
+      <div class="media-body">
+        <h5 class="media-heading">
+          <a href="/resources/{{ resourceId }}">{{ resource.name }}</a>
+        </h5>
+        <p>{{ resource.description }}</p>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
