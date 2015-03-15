@@ -270,6 +270,10 @@ section {
   color: #333;
 }
 
+.news-item .news-image {
+  max-width: 200px;
+}
+
 .truncate_more, .clearboth {
   display: inline;
 }
