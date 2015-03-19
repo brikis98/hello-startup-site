@@ -3,24 +3,127 @@ description: |
   Learn how to scale your startup's coding practices to handle more developers, 
   more code, and more complexity and how to scale your startup's performance to
   to handle more users, more traffic, and more data.
-disabled: true
 icon: "line-chart"
 type: "technologies"
-see_more:
+see_more: |
+  See the "Scalability" chapter in 
+  <a href="/#part-2-technologies">Part II, Technologies</a> for more info.  
 categories:
-
-# Scalability patterns
-# http://www.slideshare.net/davemitz/7-stages-of-scaling-web-applications
-# http://highscalability.com/blog/2010/12/1/8-commonly-used-scalable-system-design-patterns.html
-# http://bytepawn.com/readings-in-distributed-systems/
-# http://highscalability.com/blog/2009/7/30/learn-how-to-think-at-scale.html
-# http://highscalability.com/blog/2014/5/21/9-principles-of-high-performance-programs.html
-# http://highscalability.com/blog/2013/8/28/sean-hulls-20-biggest-bottlenecks-that-reduce-and-slow-down.html
-# https://www.youtube.com/watch?v=modXC5IWTJI
-# https://www.youtube.com/watch?v=G-lGCC4KKok
-
-# Profiling and perf debugging strategies
-# http://www.brendangregg.com/methodology.html
-# https://www.goodreads.com/book/show/18058001-systems-performance?ac=1
-# http://www.brendangregg.com/USEmethod/use-linux.html
-# http://highscalability.com/blog/2012/5/16/big-list-of-20-common-bottlenecks.html
+  - id: "scalability-patterns"
+    name: "Scalability Patterns"
+    sites:
+      - name: "Building Software Systems At Google and Lessons Learned"
+        url: "https://www.youtube.com/watch?v=modXC5IWTJI"
+        image: "building-software-systems-at-google.jpg"
+        description: |
+          Jeff Dean's talk at Stanford EE Computer Systems Colloquium. See also 
+          the <a href="http://www.slideshare.net/parallellabs/building-software-systems-at-google-and-lessons-learned">slides</a>.
+      - name: "Scalability at YouTube"
+        url: "https://www.youtube.com/watch?v=G-lGCC4KKok"
+        image: "scalability-youtube.jpg"
+        description: |
+          A talk by one of the original engineers at YouTube, Mike Solomon.
+      - name: "Scaling Pinterest"
+        url: "http://www.infoq.com/presentations/Pinterest"
+        image: "scaling-pinterest.jpg"
+      - name: "Principles of high performance programs"
+        url: "http://blog.libtorrent.org/2012/12/principles-of-high-performance-programs/"
+        image: "principles-high-performance-programs.jpg"
+      - name: "The 7 Stages of Scaling Web Apps"
+        url: "http://www.slideshare.net/davemitz/7-stages-of-scaling-web-applications"
+        image: "7-stages-scaling-web-apps.jpg"
+      - name: "8 Commonly Used Scalable System Design Patterns"
+        url: "http://highscalability.com/blog/2010/12/1/8-commonly-used-scalable-system-design-patterns.html"
+      - name: "Thinking at Scale"
+        url: "http://www.cloudera.com/content/cloudera/en/resources/library/training/thinking-at-scale.html"
+        image: "thinking-at-scale.jpg"
+      - name: "20 Obstacles to Scalability"
+        url: "http://queue.acm.org/detail.cfm?id=2512489"
+        image: "20-obstacles-scalability.jpg"
+      - name: "The Canonical Cloud Architecture "
+        url: "http://highscalability.com/blog/2009/8/7/the-canonical-cloud-architecture.html"
+      - name: "Real World Web: Performance & Scalability"
+        url: "http://develooper.com/talks/rww-mysql-2008.pdf"
+        image: "real-world-performance-and-scalability.jpg"
+      - name: "Scalable Web Architecture and Distributed Systems"
+        url: "http://aosabook.org/en/distsys.html"
+        image: "scalable-web-architecture-distributed-systems.jpg"
+      - name: "Introduction to Architecting Systems for Scale"
+        url: "http://lethain.com/introduction-to-architecting-systems-for-scale/"
+      - name: "How to start learning high scalability"
+        url: "http://leandromoreira.com.br/2014/11/20/how-to-start-to-learn-high-scalability/"
+        image: "start-learning-scalability.jpg"
+      - name: "Google Pro Tip: Use Back-Of-The-Envelope-Calculations To Choose The Best Design"
+        url: "http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html"
+        image: "back-of-the-envelope.jpg"
+      - name: "Latency Numbers Every Programmer Should Know"
+        url: "http://www.eecs.berkeley.edu/~rcs/research/interactive_latency.html"
+        image: "latency-numbers.jpg"      
+  - id: "distributed-systems"
+    name: "Distributed Systems Reading"
+    sites:
+      - name: "Distributed systems theory for the distributed systems engineer"
+        url: "http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/"
+        image: "distributed-systems-theory.jpg"
+      - name: "Readings in Distributed Systems"
+        url: "http://bytepawn.com/readings-in-distributed-systems/"
+        image: "readings-in-distributed-systems.jpg"
+      - name: "Readings in distributed systems"
+        url: "http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html"
+        image: "readings-distributed-systems.jpg"
+      - name: "Papers We Love"
+        url: "https://github.com/papers-we-love/papers-we-love"
+        image: "papers-we-love.jpg"
+        description: |
+          Papers We Love is a community built around reading, discussing and 
+          learning more about academic computer science papers. This repository 
+          serves as a directory of some of the best papers the community can 
+          find, bringing together documents scattered across the web.
+      - name: "What are the seminal papers in distributed systems?"
+        url: "http://www.quora.com/What-are-the-seminal-papers-in-distributed-systems-Why"
+      - name: "Advanced Distributed Systems"
+        url: "https://courses.engr.illinois.edu/cs525/sp2011/sched.htm"
+        image: "advanced-distributed-systems.jpg"
+        description: |
+          Syllabus from the CS 525 course at University of Illinois at 
+          Urbana-Champaign.
+  - id: "profiling-tools"
+    name: "Performance profiling and debugging tools and techniques"
+    sites:
+      - name: "Performance Analysis Methodology"
+        url: "http://www.brendangregg.com/methodology.html"
+        image: "performance-analysis-methodology.jpg"
+        description: |
+          A performance analysis methodology is a procedure that you can follow 
+          to analyze system or application performance. These generally provide 
+          a starting point and then guidance to root cause, or causes.
+      - name: "USE Method: Linux Performance Checklist"
+        url: "http://www.brendangregg.com/USEmethod/use-linux.html"
+        image: "use-method.jpg"
+        description: |
+          The USE Method provides a strategy for performing a complete check of 
+          system health, identifying common bottlenecks and errors. For each 
+          system resource, metrics for utilization, saturation and errors are 
+          identified and checked.
+      - name: "List of performance analysis tools"
+        url: "http://en.wikipedia.org/wiki/List_of_performance_analysis_tools"
+      - name: "Load testing tools"
+        url: "http://en.wikipedia.org/wiki/Load_testing#Load_testing_tools"
+  - id: "further-reading"
+    name: "Further reading"
+    sites:
+      - name: "Systems Performance: Enterprise and the Cloud"
+        url: "http://www.amazon.com/dp/0133390098?ref=hello-startup-20"
+        image: "systems-performance.jpg"
+      - name: "The Art of Scalability"
+        url: "http://www.amazon.com/dp/0137030428?ref=hello-startup-20"
+        image: "art-of-scalability.jpg"
+      - name: "Building Scalable Web Sites"
+        url: "http://www.amazon.com/dp/0596102356/?ref=hello-startup-20"
+        image: "building-scalable-websites.jpg"
+      - name: "Scalability Rules: 50 Principles for Scaling Web Sites"
+        url: "http://www.amazon.com/dp/0321753887?ref=hello-startup-20"
+        image: "scalability-rules.jpg"
+      - name: "High Scalability"
+        url: "http://highscalability.com/"
+        image: "high-scalability.jpg"
