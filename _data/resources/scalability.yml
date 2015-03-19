@@ -1,0 +1,26 @@
+name: "Scalability"
+description: |
+  Learn how to scale your startup's coding practices to handle more developers, 
+  more code, and more complexity and how to scale your startup's performance to
+  to handle more users, more traffic, and more data.
+disabled: true
+icon: "line-chart"
+type: "technologies"
+see_more:
+categories:
+
+# Scalability patterns
+# http://www.slideshare.net/davemitz/7-stages-of-scaling-web-applications
+# http://highscalability.com/blog/2010/12/1/8-commonly-used-scalable-system-design-patterns.html
+# http://bytepawn.com/readings-in-distributed-systems/
+# http://highscalability.com/blog/2009/7/30/learn-how-to-think-at-scale.html
+# http://highscalability.com/blog/2014/5/21/9-principles-of-high-performance-programs.html
+# http://highscalability.com/blog/2013/8/28/sean-hulls-20-biggest-bottlenecks-that-reduce-and-slow-down.html
+# https://www.youtube.com/watch?v=modXC5IWTJI
+# https://www.youtube.com/watch?v=G-lGCC4KKok
+
+# Profiling and perf debugging strategies
+# http://www.brendangregg.com/methodology.html
+# https://www.goodreads.com/book/show/18058001-systems-performance?ac=1
+# http://www.brendangregg.com/USEmethod/use-linux.html
+# http://highscalability.com/blog/2012/5/16/big-list-of-20-common-bottlenecks.html

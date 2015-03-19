@@ -1,16 +1,189 @@
 name: "Ideas"
 description: "How to come up with startup ideas; how to be more creative; a list of links to ready-made ideas you can use."
-disabled: true
 icon: "lightbulb-o"
 type: "products"
 see_more:
 categories:
-  - id: "Idea journal and note taking tools"
-  - id: "Idea lists"
+  - id: "idea-lists"
+    name: "Idea lists"
     sites:
       - name: "Y Combinator Requests for Startups"
         url: "https://www.ycombinator.com/rfs/"
+        image: "rfs.jpg"
+        description: |
+          There are a lot of startup ideas we've been waiting for people to 
+          apply with, sometimes for years. In an effort to be more direct, 
+          we're introducing the RFS (Requests for Startups).
+      - name: "Startup idea list"
+        url: "https://news.ycombinator.com/item?id=55974"
+        image: "startup-idea-list.jpg"
+        description: |
+          A Hacker News discussion where many people freely shared their 
+          startup ideas. See also the 
+          <a href="https://news.ycombinator.com/item?id=4537834">latest version
+          of the discussion</a>.
       - name: "Assembly"
         url: "https://assembly.com/discover"
+        image: "assembly.jpg"
         description: |
           Turn ideas into great products with people around the world.
+      - name: "IdeasWatch"
+        url: "http://www.ideaswatch.com/"
+        image: "ideas-watch.jpg"
+        description: |
+          Get to know 6000+ entrepreneurs and developers from more than 160 
+          countries via sharing and discussing startup ideas. Start a business 
+          together. 
+      - name: "Steal these Startup Ideas: Collection One"
+        url: "http://hackingtheimpossible.com/steal-these-startup-ideas-collection-one/"
+        image: "steal-these-startup-ideas.jpg"
+        description: |
+          See also <a href="http://hackingtheimpossible.com/steal-these-startup-ideas-collection-two/">Collection Two</a>.
+      - name: "SomebodyMakeThis"
+        url: "https://www.reddit.com/r/SomebodyMakeThis/"
+        image: "smt.jpg"
+        description: |
+          Got an idea for something that would be really damn cool, but don't 
+          have the time, money, or skills to pull it off yourself? Post it here!
+          Maybe someone else has the resources, but just lacks the idea.
+      - name: "Notepad of Startup Ideas"
+        url: "http://myasmine.com/notepad-of-startup-ideas/"
+        image: "notepad-startup-ideas.jpg"
+      - name: "100+ Web Start-up Business Ideas"
+        url: "http://www.stevepoland.com/100-web-start-up-business-ideas/"
+      - name: "Want To Become A Billionaire? Just Solve One Of These 10 Problems"
+        url: "http://www.businessinsider.com/billion-dollar-problems-2014-4"
+  - id: "idea-journals"
+    name: "Idea journal and note taking tools"
+    sites:
+      - name: "Notebook"
+        url: "http://www.amazon.com/dp/8883701003?ref=hello-startup-20"
+        image: "moleskine.jpg"
+      - name: "EverNote"
+        url: "https://evernote.com/"
+        image: "evernote.jpg"
+      - name: "Google Docs"    
+        url: "http://docs.google.com"
+        image: "google-docs.jpg"
+      - name: "Google Keep"
+        url: "https://keep.google.com/"
+        image: "google-keep.jpg"
+      - name: "Notes app on your phone"
+        url: "https://www.apple.com/support/icloud/mail-notes/"
+        image: "iphone-notes.jpg"          
+  - id: "broaden-your-knowledge"
+    name: "Broaden your knowledge"
+    description: |
+      See the "top 5" lists section of the "Startup Ideas" chapter.
+    sites: 
+      - name: "Five Books"
+        url: "http://fivebooks.com/"
+        image: "five-books.jpg"
+        description: |
+          We ask experts and authors to recommend the best books in their 
+          subject and explain, in an interview, why they're important.
+      - name: "The Top 100 Films by Genre"
+        url: "http://www.filmsite.org/guinness.html"
+        image: "top-100-films.jpg"
+      - name: "The Best Textbooks on Every Subject"
+        url: "http://lesswrong.com/lw/3gu/the_best_textbooks_on_every_subject/"
+        image: "best-textbooks.jpg"
+        description: |
+          What if we could compile a list of the best textbooks on every 
+          subject? That would be extremely useful. Let's do it.
+      - name: "Coursera"
+        url: "https://www.coursera.org/"
+        image: "coursera.jpg"
+        description: |
+          Take the world's best courses, online, for free.
+      - name: "Udacity"
+        url: "https://www.udacity.com/"
+        image: "udacity.jpg"
+        description: |
+          Serious online education for serious people
+      - name: "Khan Academy"
+        url: "https://www.khanacademy.org/"
+        image: "khan-academy.jpg"
+        description: |
+          Khan Academy offers practice exercises, instructional videos, and a 
+          personalized learning dashboard that empower learners to study at 
+          their own pace in and outside of the classroom. We tackle math, 
+          science, computer programming, history, art history, economics, and 
+          more.
+      - name: "Travel Inspiration"
+        url: "http://www.tripadvisor.com/Inspiration"
+        image: "travel-inspiration.jpg"
+      - name: "Travel books to read before you go"
+        url: "http://www.lonelyplanet.com/travel-tips-and-articles/75843"
+        image: "travel-books.jpg"
+  - id: "further-reading"
+    name: "Further reading"
+    sites: 
+      - name: "Where Good Ideas Come From"
+        url: "http://www.amazon.com/dp/1594485380?ref=hello-startup-20"
+        image: "where-good-ideas-come-from.jpg"
+        description: |
+          The printing press, the pencil, the flush toilet, the battery--these 
+          are all great ideas. But where do they come from? What kind of 
+          environment breeds them? What sparks the flash of brilliance? How do 
+          we generate the breakthrough technologies that push forward our 
+          lives, our society, our culture? See also the popular 
+          <a href="http://www.ted.com/talks/steven_johnson_where_good_ideas_come_from">TED talk</a>.
+      - name: "Steal Like an Artist"
+        url: "http://www.amazon.com/dp/0761169253?ref=hello-startup-20"
+        image: "steal-like-an-artist.jpg"
+        description: |
+          See also the popular 
+          <a href="https://www.youtube.com/watch?v=oww7oB9rjgw">TED talk</a>.
+      - name: "The User Illusion"
+        url: "http://www.amazon.com/dp/0140230122?ref=hello-startup-20%22"
+        image: "user-illusion.jpg"
+        description: |
+          As John Casti wrote, "Finally, a book that really does explain 
+          consciousness." This groundbreaking work by Denmark's leading science 
+          writer draws on psychology, evolutionary biology, information theory, 
+          and other disciplines to argue its revolutionary point: that 
+          consciousness represents only an infinitesimal fraction of our 
+          ability to process information.
+      - name: "Conceptual Blockbusting"
+        url: "http://www.amazon.com/dp/0738205370?ref=hello-startup-20"
+        image: "conceptual-blockbusting.jpg"
+        description: |
+          We all run up against mental blocks, and there’s no better map for 
+          getting around them than Conceptual Blockbusting . This proven and 
+          popular book is packed with eye-opening exercises and original 
+          thought problems that will stretch your mind.
+      - name: "How to get startup ideas"
+        url: "http://paulgraham.com/startupideas.html"
+        description: |
+      - name: "How to choose your startup idea"
+        url: "http://sequoiacapital.tumblr.com/post/33921354769/how-to-choose-your-startup-idea"
+      - name: "Isaac Asimov Asks, “How Do People Get New Ideas?”"
+        url: "http://www.technologyreview.com/view/531911/isaac-asimov-asks-how-do-people-get-new-ideas/"
+      - name: "Finding a Problem Worth Solving"
+        url: "http://www.k9ventures.com/blog/2015/02/10/finding-problem-worth-solving/"
+      - name: "Everything is a Remix"
+        url: "http://everythingisaremix.info/"
+        image: "everything-is-a-remix.jpg"
+        description: |
+      - name: "The Future Doesn't Have to be Incremental"
+        url: "https://www.youtube.com/watch?v=gTAghAJcO1o"
+        image: "future-incremental.jpg"        
+        description: |
+          Founder School talk by Alan Kay.
+      - name: "How to get your ideas to spread"
+        url: "http://www.ted.com/talks/seth_godin_on_sliced_bread"
+        image: "ideas-spread.jpg"
+      - name: "Fear of bad ideas"
+        url: "http://sethgodin.typepad.com/seths_blog/2009/12/fear-of-bad-ideas.html"
+      - name: "Schlep Blindness"
+        url: "http://paulgraham.com/schlep.html"
+      - name: "Everyday Inspiration"
+        url: "https://www.youtube.com/watch?v=bPwgkf1aZ9I"
+        description: |
+          TEDxDeadSea talk by Mahmoud Al-Qudsi.
+      - name: "4 Reasons to Keep an Idea Journal"
+        url: "http://inkwellscholars.org/4-reasons-to-keep-an-idea-journal/"
+        image: "idea-journal.jpg"
+      - name: "Do creative people have more bad ideas than average?"
+        url: "http://www.quora.com/Do-creative-people-have-more-bad-ideas-than-average/answer/Joel-Chan"        

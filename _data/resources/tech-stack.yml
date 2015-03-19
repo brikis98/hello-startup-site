@@ -1,0 +1,13 @@
+name: "Tech Stack"
+description: "How to pick the tech stack for your startup, including the programming language, server-side framework, and database."
+disabled: true
+icon: "gears"
+type: "technologies"
+see_more:
+categories:
+  - id: "programming-language-comparison"
+    name: "Programming language comparison"
+  - id: "server-side-framework-comparison"
+    name: "Server-side framework comparison"
+  - id: "database-comparison"
+    name: "Database comparison"    
