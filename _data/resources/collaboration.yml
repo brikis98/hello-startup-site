@@ -195,6 +195,14 @@ categories:
       - name: "Clerky"
         url: "https://www.clerky.com/"
         image: "clerky.jpg"
+      - name: "Insperity"
+        url: "http://www.insperity.com/"
+        image: "insperity.jpg"
+        description: |
+          Full suite of strategic HR services
       - name: "eshares"
         url: "https://www.esharesinc.com/"  
         image: "e-shares.jpg"
+        description: |  
+          Legally issue electronic shares, options, and notes. Manage a 
+          real-time cap table.
