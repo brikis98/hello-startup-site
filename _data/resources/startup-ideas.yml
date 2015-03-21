@@ -22,6 +22,13 @@ categories:
           startup ideas. See also the 
           <a href="https://news.ycombinator.com/item?id=4537834">latest version
           of the discussion</a>.
+      - name: "What  Has Us Interested at Homebrew..."
+        url: "http://bit.ly/HomebrewWhatIfs"
+        image: "homebrew-what-ifs.jpg"
+        description: |
+          Homebrew What Ifs: here's an incomplete list of hypotheses and 
+          business ideas that we're especially curious about for potential 
+          funding by Homebrew.
       - name: "Assembly"
         url: "https://assembly.com/discover"
         image: "assembly.jpg"
