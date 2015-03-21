@@ -6,6 +6,8 @@ see_more:
 categories:
   - id: "idea-lists"
     name: "Idea lists"
+    description: |
+      Ready-made lists of startup ideas you can use for inspiration. 
     sites:
       - name: "Y Combinator Requests for Startups"
         url: "https://www.ycombinator.com/rfs/"
