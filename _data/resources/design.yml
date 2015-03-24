@@ -96,6 +96,9 @@ categories:
   - id: "wireframing-tools"
     name: "Wireframing and mockup tools"      
     sites: 
+      - name: "Sketch"
+        url: "http://bohemiancoding.com/sketch/"
+        image: "sketch.jpg"
       - name: "Balsamiq"
         url: "http://balsamiq.com/"
         image: "balsamiq.jpg"
