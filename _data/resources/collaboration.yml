@@ -206,3 +206,9 @@ categories:
         description: |  
           Legally issue electronic shares, options, and notes. Manage a 
           real-time cap table.
+      - name: "captable.io"
+        url: "https://captable.io"
+        image: "cap-tables-io.jpg"
+        description: |
+          Build and share your cap table, conveniently and securely in the 
+          cloud. Free.

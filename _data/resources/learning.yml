@@ -1,0 +1,22 @@
+name: "Learning resources"
+description: "Resources for learning."
+disabled: true
+icon: "book"
+type: "teams"
+see_more:
+categories:
+#  Great engineering blogs to follow
+#  Coding Horror
+#  Spolsky
+#  Mine?
+#  Google / Twitter / FB / LI / Netflix / Airbnb / Pinterest?
+#  Great open source leaders to follow?
+#  Great talks to follow?
+#  Talks every programmer should see?
+#  How to maintain a successful project: https://medium.com/@shazow/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a
+#  Use the right license:
+#  http://choosealicense.com/
+#  http://oss-watch.ac.uk/apps/licdiff/
+#  https://www.clahub.com/
+#  http://www.dwheeler.com/essays/floss-license-slide.html
+#  http://www.apache.org/legal/3party.html#category-a
