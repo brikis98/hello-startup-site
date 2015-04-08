@@ -53,6 +53,9 @@ categories:
   - id: "Technical"
     name: "Technical"
     sites:
+      - name: "Coding Resources"
+        url: "https://papaly.com/lokmansalikoon/0rGj/Coding-Resources"
+        image: "coding-resources.jpg"
       - name: "free-for-dev"
         url: "https://github.com/ripienaar/free-for-dev"
         image: "free-for-dev.jpg"
