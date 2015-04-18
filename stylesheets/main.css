@@ -272,6 +272,7 @@ section {
 
 .news-item .news-image {
   max-width: 200px;
+  margin-bottom: 15px;
 }
 
 .truncate_more, .clearboth {

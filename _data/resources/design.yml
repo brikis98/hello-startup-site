@@ -22,6 +22,18 @@ categories:
       - name: "The big badass list of 319 useful Twitter Bootstrap resources"
         url: "http://bootstraphero.com/the-big-badass-list-of-twitter-bootstrap-resources"
         image: "bootstrap-hero.jpg"
+      - name: "GitHub Pages"
+        url: "https://pages.github.com/"
+        image: "github-pages.jpg"
+        description: |
+          Free hosting for static websites on GitHub. Comes with a number of 
+          free themes and templates.
+      - name: "Jekyll Themes"
+        url: "http://jekyllthemes.org/"
+        image: "jekyll-themes.jpg"
+        description: |
+          Free themes/templates for Jekyll, which is the static site generator
+          that powers GitHub Pages.
       - name: "Foundation"
         url: "http://foundation.zurb.com/index.html"
         image: "foundation.jpg"
