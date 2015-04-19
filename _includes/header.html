@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="col-lg-6 col-lg-offset-1 book-3d">
+    <div class="col-lg-5 col-lg-offset-1 book-3d">
       {% if book_is_h1 %}
         <h1>{% include book-image.html %}</h1>
       {% else %}
         {% include book-image.html %}
       {% endif %}
     </div>
-    <div class="col-lg-4 blurb">
+    <div class="col-lg-5 blurb">
       {% include {{ header_content_include }} %}                           
     </div>
   </div>        
