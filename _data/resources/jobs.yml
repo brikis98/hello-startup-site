@@ -161,9 +161,13 @@ categories:
   - id: job-boards
     name: "Job boards"
     sites:
-      - name: "LinkedIn"
-        url: "http://www.linkedin.com/jobs"
-        image: "linkedin.jpg"
+      - name: "LinkedIn Talent Solutions"
+        url: "https://business.linkedin.com/biz/talent-solutions"
+        image: "linkedin-talent-solutions.jpg"
+        description: |
+          Post jobs on LinkedIn, use Recruiter to find and reach out to 
+          passive candidates, set up a Company Page and Career Pages on 
+          LinkedIn, and create personalized recruiting ads.
       - name: "Indeed"
         url: "http://www.indeed.com/"
         image: "indeed.jpg"

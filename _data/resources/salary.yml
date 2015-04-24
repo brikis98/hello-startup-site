@@ -36,3 +36,16 @@ categories:
       - name: "CNN Money Cost of Living Calculator"
         url: "http://money.cnn.com/calculator/pf/cost-of-living/"
         image: "cnn-money-cost-of-living.jpg"
+  - id: "salary-formulas"
+    name: "Salary Formulas"
+    sites:
+      - name: "Introducing Open Salaries at Buffer: Our Transparent Formula and All Individual Salaries"
+        url: "https://open.bufferapp.com/introducing-open-salaries-at-buffer-including-our-transparent-formula-and-all-individual-salaries/"
+        image: "buffer-salary.jpg"
+      - name: "A Counterintuitive System for Startup Compensation"
+        url: "http://firstround.com/review/A-Counterintuitive-System-for-Startup-Compensation/"
+        image: "startup-compensation.jpg"
+      - name: "Fog Creek Professional Ladder"
+        url: "http://joelonsoftware.com/articles/ladder.html"
+
+

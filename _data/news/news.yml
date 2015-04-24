@@ -1,3 +1,14 @@
+- id: "all-chapters"
+  url: "#buy-now"
+  title: "All chapters are now available in the early release!"
+  date: "April 17, 2015"
+  image: "hello-startup-laptop.png"
+  description: |
+    All the chapters of <em>Hello, Startup</em> are now available as part of the
+    Early Release program. The new additions include "Startup Ideas", "Product
+    Design", "Data & Distribution", "Scalability", and "Learning". Check it out
+    and send me your feedback!
+  call_to_action: "Get your copy now"
 - id: "oreilly-webcast-hiring"
   url: "http://www.oreilly.com/pub/e/3356"
   title: "Webcast: A Guide to Hiring for your Startup"
