@@ -1,3 +1,13 @@
+- id: "guide-to-hiring"
+  url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
+  title: "A Guide to Hiring for your Startup"
+  date: "May 7, 2015"
+  image: "guide-to-hiring.png"
+  description: |
+    On April 30, 2015, I gave a talk called "A Guide to Hiring for your Startup", 
+    where I discussed what to look for in a candidates, where to find them, how to 
+    interview them, and how to make an offer they can't refuse.
+  call_to_action: "Check out the video and slides"
 - id: "all-chapters"
   url: "#buy-now"
   title: "All chapters are now available in the early release!"
