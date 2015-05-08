@@ -22,13 +22,23 @@ Running the website
 
 1. Install [grunt.js](http://gruntjs.com/)
 2. Install [jekyll](http://jekyllrb.com/)
-3. `npm install`
-4. `grunt`
-5. http://localhost:4000
+3. `npm start`
+4. http://localhost:4000
 
 The `grunt` command runs `grunt watch`, which will watch for changes in the 
 background and recompile everything as necessary. Jekyll is a bit slow, so it
 can take ~5 seconds for your changes to be visible.
+
+Running with Docker
+==================
+
+As an alternative to installing all the dependencies locally, you can use a 
+Docker image to run this app:
+
+1. `git clone` this repo
+2. `docker run -it -v $(pwd):/src -p 4000:4000 brikis98/hello-startup-site`
+3. http://localhost:4000 (if you're using [Boot2Docker](http://boot2docker.io/),
+   instead of `localhost`, run `boot2docker ip` to get the proper IP).
 
 Running the mobile app
 ==================

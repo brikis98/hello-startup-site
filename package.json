@@ -11,5 +11,9 @@
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-shell": "^1.1.1"
+  },
+  "scripts": {
+    "prestart": "if [ ! -d node_modules ]; then npm install; fi",
+    "start": "grunt"
   }
 }

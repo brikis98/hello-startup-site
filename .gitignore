@@ -15,3 +15,6 @@ _site/
 
 # PhoneGap (i.e. Cordova)
 .cordova
+
+# Vagrant
+.vagrant
