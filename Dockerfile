@@ -12,19 +12,18 @@ RUN npm install -g grunt-cli
 # Install Jekyll
 RUN gem install jekyll
 
+# Copy the package.json file into the image and run npm install in a
+# way that will be cached
+RUN mkdir -p /tmp
+COPY package.json /tmp/package.json
+RUN cd /tmp && npm install
+
 # Source code will be in /src
 RUN mkdir -p /src
 VOLUME ["/src"]
 WORKDIR /src
-
-# Copy the package.json file into the image and run npm install in a
-# way that will be cached
-# Pre-install node packages in a way that is cache-friendly
-COPY package.json /src/package.json
-RUN cd /src && npm install
-
-# Copy the rest of the source code
 COPY . /src
+RUN cp -a /tmp/node_modules /src/
 
 # Jekyll runs on port 4000 by default
 EXPOSE 4000

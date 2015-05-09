@@ -1,0 +1,6 @@
+web:  
+  image: brikis98/hello-startup-site:v1
+  volumes:
+    - .:/src
+  ports:
+    - "4000:4000"
