@@ -50,7 +50,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_version = "1.6.0"
   config.vm.box_check_update = false
 
-  excludes = parse_ignore_file(".gitignore").uniq
+  excludes = (parse_ignore_file(".gitignore") + parse_ignore_file(".dockerignore")).uniq
 
   folders_to_sync.each do |folder|
     config.vm.synced_folder folder[:src], folder[:dest],
@@ -61,7 +61,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network "forwarded_port", guest: 4000, host: 4000
   config.ssh.insert_key = false
-  
+
   config.vm.provider "virtualbox" do |v|
     v.gui = false
     v.name = VAGRANT_FOLDER_NAME + "_boot2docker"
