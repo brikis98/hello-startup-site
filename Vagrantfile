@@ -46,9 +46,10 @@ Vagrant.require_version ">= 1.6.3"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "boot2docker"
 
-  # config.vm.box = "blinkreaction/boot2docker"
-  config.vm.box = "brikis98/boot2docker"
-
+  config.vm.box = "blinkreaction/boot2docker"
+  config.vm.box_version = "1.6.0"
+  config.vm.box_check_update = false
+  
   excludes = parse_ignore_file(".gitignore").uniq
 
   folders_to_sync.each do |folder|
