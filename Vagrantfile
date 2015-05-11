@@ -2,9 +2,13 @@ DOCKER_COMPOSE_FILE = "docker-compose.yml"
 DOCKER_COMPOSE_VOLUMES_KEY = "volumes"
 DOCKER_COMPOSE_VOLUMES_SEPARATOR = ":"
 
+VAGRANTFILE_API_VERSION = "2"
 VAGRANT_ROOT = File.dirname(__FILE__)
 VAGRANT_FOLDER_NAME = File.basename(VAGRANT_ROOT)
 DEFAULT_FOLDERS_TO_SYNC = {:src => VAGRANT_ROOT, :dest => VAGRANT_ROOT}  
+
+# Set default provider
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 
 # Parse .gitignore style files and return the entries within
 def parse_ignore_file(file)
@@ -39,12 +43,11 @@ end
 
 Vagrant.require_version ">= 1.6.3"
 
-Vagrant.configure("2") do |config|
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "boot2docker"
 
-  config.vm.box = "blinkreaction/boot2docker"
-  config.vm.box_version = "1.6.0"
-  config.vm.box_check_update = false
+  # config.vm.box = "blinkreaction/boot2docker"
+  config.vm.box = "brikis98/boot2docker"
 
   excludes = parse_ignore_file(".gitignore").uniq
 
@@ -60,6 +63,9 @@ Vagrant.configure("2") do |config|
     v.name = VAGRANT_FOLDER_NAME + "_boot2docker"
     v.cpus = 1
     v.memory = 2048
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]    
+    v.customize ["modifyvm", :id, "--nictype1", "virtio"]
   end
 
   # Allow Mac OS X docker client to connect to Docker without TLS auth.
