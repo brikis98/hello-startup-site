@@ -32,13 +32,24 @@ can take ~5 seconds for your changes to be visible.
 Running with Docker
 ==================
 
-As an alternative to installing all the dependencies locally, you can use 
-[Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/):
+As an alternative to installing Ruby, Jekyll, and Grunt, if you're a user of
+[Docker](https://www.docker.com/) and [Docker 
+Compose](https://docs.docker.com/compose/), you can run a Docker image of 
+hello-startup-site that has all the dependencies already setup for you.
+
+On Linux:
 
 1. `git clone` this repo
 2. `docker-compose up`
-3. http://localhost:4000 (if you're using [Boot2Docker](http://boot2docker.io/),
-   instead of `localhost`, run `boot2docker ip` to get the proper IP).
+3. Go to `http://localhost:4000` to test 
+
+On OS X, using the [docker-osx-dev](https://github.com/brikis98/docker-osx-dev)
+project:
+
+1. `git clone` this repo
+2. `docker-osx-dev start`
+3. `docker-compose up`
+4. Go to `http://dockerhost:4000` to test
 
 Running the mobile app
 ==================
