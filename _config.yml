@@ -34,4 +34,4 @@ right_column_size: 7
 
 # Build settings
 markdown: kramdown
-exclude: ["www", "mobile/www"]
+exclude: ["www", "mobile/www", "node_modules"]
