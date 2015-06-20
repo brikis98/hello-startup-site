@@ -1,3 +1,13 @@
+- id: "startup-essentials"
+  url: "http://www.oreilly.com/design/free/startup-essentials.csp"
+  title: "Startup Essentials"
+  date: "June 19, 2015"
+  image: "startup-essentials.gif"
+  description: |
+    Just released: a free e-book that is a curated collection of chapters from 
+    the O'Reilly Business Library. It includes a chapter from my book, 
+    <em>Hello, Startup</em>.
+  call_to_action: "Download the free e-book now"
 - id: "guide-to-hiring"
   url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
   title: "A Guide to Hiring for your Startup"
