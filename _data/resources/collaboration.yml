@@ -29,6 +29,7 @@ categories:
       - name: "Hall"
         url: "https://hall.com/"
         image: "hall.jpg"
+        
   - id: "project-management"  
     name: "Project and Team Management"
     sites: 
@@ -69,6 +70,11 @@ categories:
         image: "trac.jpg"
       - name: "Redmine"
         url: "http://www.redmine.org/"
+      - name: "TrackDuck"
+        url: "https://trackduck.com/"
+        image: "trackduck.jpg"
+        description: |
+          "Visual feedback app for web designers and developers."
   - id: "wiki"
     name: "Wiki and Blogging"
     sites: 
