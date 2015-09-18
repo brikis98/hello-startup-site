@@ -66,7 +66,7 @@ categories:
       - name: "The Beginner's Guide to Newspaper Advertising"
         url: "http://www.mediaspacesolutions.com/blog/bid/195723/The-Beginner-s-Guide-to-Newspaper-Advertising"
   - id: "pr"
-    name: "Public Relations"
+    name: "Public Relations, Media, Blogs"
     description: |
       Spread your message via TV, news, radio, blogs, celebrities, influencers,
       and so on.
@@ -144,6 +144,24 @@ categories:
           worth reading for everybody.
       - name: "20+ Free Press Release Distribution Sites"
         url: "http://mashable.com/2007/10/19/press-releases"
+      - name: "TechCrunch"
+        url: "http://techcrunch.com/"
+        image: "techcrunch.jpg"
+      - name: "Mashable"
+        url: "http://mashable.com/"
+        image: "mashable.jpg"
+      - name: "recode"
+        url: "https://recode.net/"
+        image: "recode.jpg"
+      - name: "Lifehacker"
+        url: "http://lifehacker.com/"
+        image: "lifehacker.jpg"
+      - name: "BuzzFeed"
+        url: "http://www.buzzfeed.com/"
+        image: "buzzfeed.jpg"
+      - name: "Gizmodo"
+        url: "http://gizmodo.com/"
+        image: "gizmodo.jpg"
   - id: "email"
     name: "Email marketing"
     description: |
