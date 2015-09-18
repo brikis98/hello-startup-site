@@ -10,12 +10,12 @@ categories:
         url: "http://www.hello-startup.net/"
         image: "hello-startup.jpg"
         description: |
-          This book is the "Hello, World" tutorial for building products, 
-          technologies, and teams in a startup environment. It's based on the 
-          experiences of the author, Yevgeniy Brikman, as well as interviews 
-          with programmers from some of the most successful startups of the 
-          last decade, including Google, Facebook, LinkedIn, Twitter, GitHub, 
-          Stripe, Instagram, AdMob, Pinterest, and many others. If you're at 
+          This book is the "Hello, World" tutorial for building products,
+          technologies, and teams in a startup environment. It's based on the
+          experiences of the author, Yevgeniy Brikman, as well as interviews
+          with programmers from some of the most successful startups of the
+          last decade, including Google, Facebook, LinkedIn, Twitter, GitHub,
+          Stripe, Instagram, AdMob, Pinterest, and many others. If you're at
           all interested in startups, this book is for you.
         image: "hello-startup.jpg"
       - name: "Paul Graham Essays"
@@ -32,40 +32,40 @@ categories:
         url: "http://www.amazon.com/dp/0307887898?ref=hello-startup-20"
         image: "the-lean-startup.jpg"
         description: |
-          Most startups fail. But many of those failures are preventable. The 
-          Lean Startup is a new approach being adopted across the globe, 
-          changing the way companies are built and new products are launched. 
+          Most startups fail. But many of those failures are preventable. The
+          Lean Startup is a new approach being adopted across the globe,
+          changing the way companies are built and new products are launched.
       - name: "Founders at Work"
         url: "http://www.amazon.com/dp/1590597141?ref=hello-startup-20"
         image: "founders-at-work.jpg"
         description: |
-          Founders at Work is a collection of interviews with founders of 
+          Founders at Work is a collection of interviews with founders of
           famous technology companies about what happened in the very earliest
-          days. These people are celebrities now. What was it like when they 
-          were just a couple friends with an idea? Founders like Steve 
-          Wozniak (Apple), Caterina Fake (Flickr), Mitch Kapor (Lotus), Max 
-          Levchin (PayPal), and Sabeer Bhatia (Hotmail) tell you in their own 
-          words about their surprising and often very funny discoveries as 
-          they learned how to build a company. 
+          days. These people are celebrities now. What was it like when they
+          were just a couple friends with an idea? Founders like Steve
+          Wozniak (Apple), Caterina Fake (Flickr), Mitch Kapor (Lotus), Max
+          Levchin (PayPal), and Sabeer Bhatia (Hotmail) tell you in their own
+          words about their surprising and often very funny discoveries as
+          they learned how to build a company.
       - name: "The Hard Thing About Hard Things"
         url: "http://www.amazon.com/dp/0062273205?ref=hello-startup-20"
         image: "hard-things.jpg"
         description: |
-          Ben Horowitz, cofounder of Andreessen Horowitz and one of Silicon 
-          Valley's most respected and experienced entrepreneurs, offers 
-          essential advice on building and running a startup—practical wisdom 
-          for managing the toughest problems business school doesn’t cover, 
+          Ben Horowitz, cofounder of Andreessen Horowitz and one of Silicon
+          Valley's most respected and experienced entrepreneurs, offers
+          essential advice on building and running a startup—practical wisdom
+          for managing the toughest problems business school doesn’t cover,
           based on his popular ben’s blog.
       - name: "Starting Your Startup"
         url: "https://vimeo.com/26134764"
         description: |
-          Choosing your technology stack is one of many decisions you’ll have 
-          to make when creating a company from scratch. Along with this, you’ll 
-          need to figure out who you should found a company with, who you 
-          should take money from, what the company culture should be, 
-          management processes, and who to hire when. Joe Stump will be 
-          covering basic technology stack choices (cloud v. hosted, frameworks, 
-          etc.) as well as other critical decisions one faces when starting a 
+          Choosing your technology stack is one of many decisions you’ll have
+          to make when creating a company from scratch. Along with this, you’ll
+          need to figure out who you should found a company with, who you
+          should take money from, what the company culture should be,
+          management processes, and who to hire when. Joe Stump will be
+          covering basic technology stack choices (cloud v. hosted, frameworks,
+          etc.) as well as other critical decisions one faces when starting a
           startup.
       # The Entrepreneur's Guide to Business Law
   - id: "why-startups"
@@ -75,13 +75,13 @@ categories:
         url: "http://www.wsj.com/articles/SB10001424053111903480904576512250915629460"
         description: |
           Marc Andreessen's famous article that explains why every company is
-          becoming a software company. 
+          becoming a software company.
       - name: "Mobile is Eating the World"
         url: "http://a16z.com/2014/10/28/mobile-is-eating-the-world/"
         image: "mobile-eating-world.jpg"
         description: |
-          There is no point in drawing a distinction between the future of 
-          technology and the future of mobile. They are the same. In other 
+          There is no point in drawing a distinction between the future of
+          technology and the future of mobile. They are the same. In other
           words, technology is now outgrowing the tech industry.
       - name: "The Web is the Real World"
         url: "http://www.theatlantic.com/technology/archive/2014/12/the-web-is-the-real-world/383985/"
@@ -90,7 +90,7 @@ categories:
         url: "https://www.youtube.com/watch?v=gTAghAJcO1o"
       - name: "Work on Stuff that Matters: First Principles"
         url: "http://radar.oreilly.com/2009/01/work-on-stuff-that-matters-fir.html"
-      - name: "Good and Bad Reasons to Become an Entrepreneur"      
+      - name: "Good and Bad Reasons to Become an Entrepreneur"
         url: "https://medium.com/i-m-h-o/good-and-bad-reasons-to-become-an-entrepreneur-decf0766de8d"
         image: "good-bad-reasons-entrepreneur.jpg"
       - name: "Phil Libin at TNW2012"
@@ -113,19 +113,19 @@ categories:
         url: "http://www.amazon.com/dp/1594485380?ref=hello-startup-20"
         image: "where-good-ideas-come-from.jpg"
         description: |
-          The printing press, the pencil, the flush toilet, the battery--these 
-          are all great ideas. But where do they come from? What kind of 
-          environment breeds them? What sparks the flash of brilliance? How do 
-          we generate the breakthrough technologies that push forward our 
-          lives, our society, our culture? Steven Johnson's answers are 
-          revelatory as he identifies the seven key patterns behind genuine 
+          The printing press, the pencil, the flush toilet, the battery--these
+          are all great ideas. But where do they come from? What kind of
+          environment breeds them? What sparks the flash of brilliance? How do
+          we generate the breakthrough technologies that push forward our
+          lives, our society, our culture? Steven Johnson's answers are
+          revelatory as he identifies the seven key patterns behind genuine
           innovation, and traces them across time and disciplines.
       - name: "Conceptual Blockbusting: A Guide to Better Ideas"
         url: "http://www.amazon.com/dp/0738205370?ref=hello-startup-20"
         image: "conceptual-blockbusting.jpg"
         description: |
-          The best-selling guide to overcoming creative blocks and unleashing a 
-          torrent of great ideas-updated for a new generation of problem 
+          The best-selling guide to overcoming creative blocks and unleashing a
+          torrent of great ideas-updated for a new generation of problem
           solvers.
       - name: "Everything is a Remix"
         url: "http://everythingisaremix.info/"
@@ -152,33 +152,33 @@ categories:
         url: "http://www.amazon.com/dp/0321965515?ref=hello-startup-20"
         image: "dont-make-me-think.jpg"
         description: |
-          Since Don’t Make Me Think was first published in 2000, hundreds of 
-          thousands of Web designers and developers have relied on usability 
-          guru Steve Krug’s guide to help them understand the principles of 
-          intuitive navigation and information design. Witty, commonsensical, 
-          and eminently practical, it’s one of the best-loved and most 
+          Since Don’t Make Me Think was first published in 2000, hundreds of
+          thousands of Web designers and developers have relied on usability
+          guru Steve Krug’s guide to help them understand the principles of
+          intuitive navigation and information design. Witty, commonsensical,
+          and eminently practical, it’s one of the best-loved and most
           recommended books on the subject.
       - name: "The Design of Everyday Things"
         url: "http://www.amazon.com/dp/0465067107?ref=hello-startup-20"
         image: "design-of-everyday-things.jpg"
         description: |
-          The Design of Everyday Things is a best-selling book by cognitive 
-          scientist and usability engineer Donald Norman about how design 
-          serves as the communication between object and user, and how to 
-          optimize that conduit of communication in order to make the 
-          experience of using the object pleasurable. One of the main premises 
-          of the book is that although people are often keen to blame 
-          themselves when objects appear to malfunction, it is not the fault 
-          of the user but rather the lack of intuitive guidance that should 
+          The Design of Everyday Things is a best-selling book by cognitive
+          scientist and usability engineer Donald Norman about how design
+          serves as the communication between object and user, and how to
+          optimize that conduit of communication in order to make the
+          experience of using the object pleasurable. One of the main premises
+          of the book is that although people are often keen to blame
+          themselves when objects appear to malfunction, it is not the fault
+          of the user but rather the lack of intuitive guidance that should
           be present in the design.
       - name: "The Non-Designer's Design Book"
         url: "http://www.amazon.com/dp/0133966151?ref=hello-startup-20"
         image: "non-designers-design-book.jpg"
         description: |
-          This book explains basic, universal Web design principles and 
-          techniques to novices. Using lots of full-color examples, Robin and 
-          John demonstrate how Web design is different from print design, how 
-          to create Web pages, how to make graphics and where to find them, and 
+          This book explains basic, universal Web design principles and
+          techniques to novices. Using lots of full-color examples, Robin and
+          John demonstrate how Web design is different from print design, how
+          to create Web pages, how to make graphics and where to find them, and
           how to get your well-designed Web site up for everyone to admire.
       - name: "The Inmates Are Running the Asylum"
         url: "http://www.amazon.com/dp/0672326140?ref=hello-startup-20"
@@ -187,33 +187,33 @@ categories:
         url: "http://www.amazon.com/dp/product/0470110120?ref=hello-startup-20"
         image: "how-to-measure-anything.jpg"
         description: |
-          A revealing look at the power of measurement in business and the 
-          world at large, this book asserts that there are no actual 
+          A revealing look at the power of measurement in business and the
+          world at large, this book asserts that there are no actual
           'intangibles' and that virtually any business quality can be measured.
       - name: "Made to Stick: Why Some Ideas Survive and Others Die"
         url: "http://www.amazon.com/dp/product/1400064287?ref=hello-startup-20"
         image: "made-to-stick.jpg"
         description: |
-          Why do some ideas thrive while others die? And how do we improve the 
-          chances of worthy ideas? In Made to Stick, accomplished educators and 
-          idea collectors Chip and Dan Heath tackle head-on these vexing 
+          Why do some ideas thrive while others die? And how do we improve the
+          chances of worthy ideas? In Made to Stick, accomplished educators and
+          idea collectors Chip and Dan Heath tackle head-on these vexing
           questions.
       - name: "Crossing the Chasm"
         url: "http://www.amazon.com/dp/0060517123?ref=hello-startup-20"
         image: "crossing-the-chasm.jpg"
         description: |
-          A marketing book by Geoffrey A. Moore [1] that focuses on the 
-          specifics of marketing high tech products during the early start up 
-          period. Moore's exploration and expansion of the diffusions of 
-          innovations model has had a significant and lasting impact on high 
+          A marketing book by Geoffrey A. Moore that focuses on the
+          specifics of marketing high tech products during the early start up
+          period. Moore's exploration and expansion of the diffusions of
+          innovations model has had a significant and lasting impact on high
           tech entrepreneurship.
       - name: "The Four Steps to the Epiphany"
         url: "http://www.amazon.com/dp/0989200507?ref=hello-startup-20"
         image: "four-steps-epiphany.jpg"
         description: |
-          The essential book for anyone bringing a product to market, writing a 
-          business plan, marketing plan or sales plan. Step-by-step strategy of 
-          how to successfully organize sales, marketing and business 
+          The essential book for anyone bringing a product to market, writing a
+          business plan, marketing plan or sales plan. Step-by-step strategy of
+          how to successfully organize sales, marketing and business
           development for a new product or company.
       - name: "Be a Great Product Leader"
         url: "http://blog.adamnash.com/2011/12/16/be-a-great-product-leader/"
@@ -224,28 +224,28 @@ categories:
         url: "http://www.amazon.com/dp/B0090J3SYW?ref=hello-startup-20"
         image: "nosql-distilled.jpg"
         description: |
-          The need to handle increasingly larger data volumes is one factor 
-          driving the adoption of a new class of nonrelational “NoSQL” 
-          databases. Advocates of NoSQL databases claim they can be used to 
-          build systems that are more performant, scale better, and are easier 
-          to program. NoSQL Distilled is a concise but thorough introduction to 
-          this rapidly emerging technology. Pramod J. Sadalage and Martin 
-          Fowler explain how NoSQL databases work and the ways that they may 
-          be a superior alternative to a traditional RDBMS. The authors 
-          provide a fast-paced guide to the concepts you need to know in order 
-          to evaluate whether NoSQL databases are right for your needs and, 
+          The need to handle increasingly larger data volumes is one factor
+          driving the adoption of a new class of nonrelational “NoSQL”
+          databases. Advocates of NoSQL databases claim they can be used to
+          build systems that are more performant, scale better, and are easier
+          to program. NoSQL Distilled is a concise but thorough introduction to
+          this rapidly emerging technology. Pramod J. Sadalage and Martin
+          Fowler explain how NoSQL databases work and the ways that they may
+          be a superior alternative to a traditional RDBMS. The authors
+          provide a fast-paced guide to the concepts you need to know in order
+          to evaluate whether NoSQL databases are right for your needs and,
           if so, which technologies you should explore further.
       - name: "Designing Data-Intensive Applications"
         url: "http://dataintensive.net/"
         image: "designing-data-intensive.jpg"
         description: |
-          NoSQL… Big Data… Scalability… CAP Theorem… Eventual Consistency… 
-          Sharding… Nice buzzwords, but how does the stuff actually work? As 
-          software engineers, we need to build applications that are reliable, 
-          scalable and maintainable in the long run. We need to understand the 
-          range of available tools and their trade-offs. For that, we have to 
-          dig deeper than buzzwords. This book will help you navigate the 
-          diverse and fast-changing landscape of technologies for storing and 
+          NoSQL… Big Data… Scalability… CAP Theorem… Eventual Consistency…
+          Sharding… Nice buzzwords, but how does the stuff actually work? As
+          software engineers, we need to build applications that are reliable,
+          scalable and maintainable in the long run. We need to understand the
+          range of available tools and their trade-offs. For that, we have to
+          dig deeper than buzzwords. This book will help you navigate the
+          diverse and fast-changing landscape of technologies for storing and
           processing data.
       - name: "You can't not have a framework"
         url: "http://blog.ryanflorence.com/you-cant-not-have-a-framework.html"
@@ -255,13 +255,13 @@ categories:
         url: 'http://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html'
   - id: "clean-code"
     name: "Clean code"
-    sites: 
+    sites:
       - name: "Code Complete"
         url: "http://www.amazon.com/dp/0735619670?ref=hello-startup-20"
         image: "code-complete.jpg"
         description: |
-          Widely considered one of the best practical guides to programming, 
-          Steve McConnell's original Code Complete has been helping developers 
+          Widely considered one of the best practical guides to programming,
+          Steve McConnell's original Code Complete has been helping developers
           write better software for more than a decade.
       - name: "Clean Code"
         url: "http://www.amazon.com/dp/0132350882?ref=hello-startup-20"
@@ -270,22 +270,22 @@ categories:
         url: "http://www.amazon.com/dp/0321503627?ref=hello-startup-20"
         image: "growing-oo-software.jpg"
         description: |
-          Test-Driven Development (TDD) is now an established technique for 
-          delivering better software faster. TDD is based on a simple idea: 
-          Write tests for your code before you write the code itself. However, 
-          this "simple" idea takes skill and judgment to do well. Now there's 
+          Test-Driven Development (TDD) is now an established technique for
+          delivering better software faster. TDD is based on a simple idea:
+          Write tests for your code before you write the code itself. However,
+          this "simple" idea takes skill and judgment to do well. Now there's
           a practical guide to TDD that takes you beyond the basic concepts.
       - name: "Refactoring: Improving the Design of Existing Code"
         url: "http://www.amazon.com/dp/0201485672?ref=hello-startup-20"
         image: "refactoring.jpg"
         description: |
-          Refactoring is about improving the design of existing code. It is 
-          the process of changing a software system in such a way that it does 
-          not alter the external behavior of the code, yet improves its 
-          internal structure. With refactoring you can even take a bad design 
-          and rework it into a good one. This book offers a thorough 
-          discussion of the principles of refactoring, including where to spot 
-          opportunities for refactoring, and how to set up the required tests. 
+          Refactoring is about improving the design of existing code. It is
+          the process of changing a software system in such a way that it does
+          not alter the external behavior of the code, yet improves its
+          internal structure. With refactoring you can even take a bad design
+          and rework it into a good one. This book offers a thorough
+          discussion of the principles of refactoring, including where to spot
+          opportunities for refactoring, and how to set up the required tests.
       - name: "Readme Driven Development"
         url: "http://tom.preston-werner.com/2010/08/23/readme-driven-development.html"
       - name: "Rich Hickey: Are We There Yet?"
@@ -299,7 +299,7 @@ categories:
       - name: "Joel on Software"
         url: "http://www.joelonsoftware.com/"
         description: |
-          Joel Spolsky's popular blog on software development. 
+          Joel Spolsky's popular blog on software development.
   - id: "software-delivery"
     name: "Software delivery"
     sites:
@@ -307,10 +307,10 @@ categories:
         url: "http://www.amazon.com/dp/0321601912?ref=hello-startup-20"
         image: "continuous-delivery.jpg"
         description: |
-          In too many organizations, build, testing & deployment processes can 
-          take six months or more. This text demonstrates how to dramatically 
-          increase speed while reducing risk & improving code quality at the 
-          same time. It covers configuration management, source code control, 
+          In too many organizations, build, testing & deployment processes can
+          take six months or more. This text demonstrates how to dramatically
+          increase speed while reducing risk & improving code quality at the
+          same time. It covers configuration management, source code control,
           release planning, auditing, compliance & more.
       - name: "The Virtues of Monitoring"
         url: "http://www.paperplanes.de/2011/1/5/the_virtues_of_monitoring.html"
@@ -332,46 +332,46 @@ categories:
         url: "http://www.amazon.com/dp/0932633439?ref=hello-startup-20"
         image: "peopleware.jpg"
         description: |
-          Demarco and Lister demonstrate that the major issues of software 
-          development are human, not technical. Their answers aren't easy--just 
+          Demarco and Lister demonstrate that the major issues of software
+          development are human, not technical. Their answers aren't easy--just
           incredibly successful.
       - name: "The Mythical Man-Month"
         url: "http://www.amazon.com/dp/0201835959?ref=hello-startup-20"
         image: "mythical-man-month.jpg"
         description: |
-          Few books on software project management have been as influential and 
-          timeless as The Mythical Man-Month. With a blend of software 
-          engineering facts and thought-provoking opinions, Fred Brooks offers 
+          Few books on software project management have been as influential and
+          timeless as The Mythical Man-Month. With a blend of software
+          engineering facts and thought-provoking opinions, Fred Brooks offers
           insight for anyone managing complex projects.
       - name: "Drive: The Surprising Truth About What Motivates Us"
         url: "http://www.amazon.com/dp/1594488843?ref=hello-startup-20"
         image: "drive.jpg"
         description: |
-          Forget everything you thought you knew about how to motivate 
-          people—at work, at school, at home. It's wrong. As Daniel H. Pink 
-          explains in his paradigm-shattering book Drive, the secret to high 
-          performance and satisfaction in today's world is the deeply human 
-          need to direct our own lives, to learn and create new things, and to 
+          Forget everything you thought you knew about how to motivate
+          people—at work, at school, at home. It's wrong. As Daniel H. Pink
+          explains in his paradigm-shattering book Drive, the secret to high
+          performance and satisfaction in today's world is the deeply human
+          need to direct our own lives, to learn and create new things, and to
           do better by ourselves and our world.
       - name: "Delivering Happiness: A Path to Profits, Passion, and Purpose"
         url: "http://www.amazon.com/dp/0446563048?ref=hello-startup-20"
         image: "delivering-happiness.jpg"
         description: |
-          The visionary CEO of Zappos explains how an emphasis on corporate 
+          The visionary CEO of Zappos explains how an emphasis on corporate
           culture can lead to unprecedented success.
       - name: "Built to Last: Successful Habits of Visionary Companies"
         url: "http://www.amazon.com/dp/0060566108?ref=hello-startup-20"
         image: "built-to-last.jpg"
         description: |
-          Drawing upon a six-year research project at the Stanford University 
-          Graduate School of Business, Collins and Porras took eighteen truly 
-          exceptional and long-lasting companies -- they have an average age of 
-          nearly one hundred years and have outperformed the general stock 
-          market by a factor of fifteen since 1926 -- and studied each company 
-          in direct comparison to one of its top competitors. They examined 
-          the companies from their very beginnings to the present day -- as 
-          start-ups, as midsize companies, and as large corporations. 
-          Throughout, the authors asked: "What makes the truly exceptional 
+          Drawing upon a six-year research project at the Stanford University
+          Graduate School of Business, Collins and Porras took eighteen truly
+          exceptional and long-lasting companies -- they have an average age of
+          nearly one hundred years and have outperformed the general stock
+          market by a factor of fifteen since 1926 -- and studied each company
+          in direct comparison to one of its top competitors. They examined
+          the companies from their very beginnings to the present day -- as
+          start-ups, as midsize companies, and as large corporations.
+          Throughout, the authors asked: "What makes the truly exceptional
           companies different from other companies?"
       - name: "The Netflix Culture Deck"
         url: "http://www.slideshare.net/reed2001/culture-1798664"
@@ -379,16 +379,16 @@ categories:
       - name: "The HubSpot Culture Code"
         url: "http://www.slideshare.net/HubSpot/the-hubspot-culture-code-creating-a-company-we-love"
         image: "hubspot-culture-code.jpg"
-      - name: "From Vision to Values: The Importance of Defining Your Core" 
+      - name: "From Vision to Values: The Importance of Defining Your Core"
         url: "https://www.linkedin.com/pulse/20121029044359-22330283-to-manage-hyper-growth-get-your-launch-trajectory-right"
         image: "vision-to-values.jpg"
       - name: "How great leaders inspire action"
         url: "http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action"
         image: "how-great-leaders-inspire-action.jpg"
         description: |
-          Simon Sinek has a simple but powerful model for inspirational 
-          leadership all starting with a golden circle and the question "Why?" 
-          His examples include Apple, Martin Luther King, and the Wright 
+          Simon Sinek has a simple but powerful model for inspirational
+          leadership all starting with a golden circle and the question "Why?"
+          His examples include Apple, Martin Luther King, and the Wright
           brothers.
       - name: "15 rules for communicating at GitHub"
         url: "http://ben.balter.com/2014/11/06/rules-of-communicating-at-github/"
@@ -423,11 +423,11 @@ categories:
         url: "http://www.amazon.com/dp/0201616416?ref=hello-startup-20"
         image: "xp-explained.jpg"
         description: |
-          Describes how to improve your software development by integrating 
-          accountability, transparency and responsibility into your daily 
+          Describes how to improve your software development by integrating
+          accountability, transparency and responsibility into your daily
           development process. This book helps you how to: involve the whole
-          team; increase technical collaboration through pair programming and 
-          continuous integration; reduce defects through developer testing; 
+          team; increase technical collaboration through pair programming and
+          continuous integration; reduce defects through developer testing;
           and more.
       - name: "The Open-Office Trap"
         url: "http://www.newyorker.com/business/currency/the-open-office-trap"
@@ -437,36 +437,36 @@ categories:
       - name: "Gary Hamel: Reinventing the Technology of Human Accomplishment"
         url: "http://www.managementexchange.com/video/gary-hamel-reinventing-technology-human-accomplishment"
         description: |
-          Watch Gary Hamel, celebrated management thinker and author and 
-          co-founder of the Management Innovation eXchange (MIX), make the 
-          case for reinventing management for the 21st century. In this 
-          fast-paced, idea-packed, 15-minute video essay, Hamel paints a 
-          vivid picture of what it means to build organizations that are 
-          fundamentally fit for the future—resilient, inventive, inspiring 
+          Watch Gary Hamel, celebrated management thinker and author and
+          co-founder of the Management Innovation eXchange (MIX), make the
+          case for reinventing management for the 21st century. In this
+          fast-paced, idea-packed, 15-minute video essay, Hamel paints a
+          vivid picture of what it means to build organizations that are
+          fundamentally fit for the future—resilient, inventive, inspiring
           and accountable.
-  - id: "startup-hiring"          
+  - id: "startup-hiring"
     name: "Startup hiring"
     sites:
       - name: "Cracking the Coding Interview"
         url: "http://www.amazon.com/dp/098478280X?ref=hello-startup-20"
         image: "cracking-the-coding-interview.jpg"
         description: |
-          Now in the 5th edition, Cracking the Coding Interview gives you the 
-          interview preparation you need to get the top software developer 
-          jobs. This is a deeply technical book and focuses on the software 
-          engineering skills to ace your interview. The book is over 500 pages 
-          and includes 150 programming interview questions and answers, as 
-          well as other advice. 
+          Now in the 5th edition, Cracking the Coding Interview gives you the
+          interview preparation you need to get the top software developer
+          jobs. This is a deeply technical book and focuses on the software
+          engineering skills to ace your interview. The book is over 500 pages
+          and includes 150 programming interview questions and answers, as
+          well as other advice.
       - name: "Programming Interviews Exposed: Secrets to Landing Your Next Job"
         url: "http://www.amazon.com/dp/047012167X?ref=hello-startup-20"
         image: "programming-interviews-exposed.jpg"
         description: |
-          The pressure is on during the interview process but with the right 
-          preparation, you can walk away with your dream job. This classic 
-          book uncovers what interviews are really like at America's top 
-          software and computer companies and provides you with the tools to 
-          succeed in any situation. The authors take you step-by-step through 
-          new problems and complex brainteasers they were asked during recent 
+          The pressure is on during the interview process but with the right
+          preparation, you can walk away with your dream job. This classic
+          book uncovers what interviews are really like at America's top
+          software and computer companies and provides you with the tools to
+          succeed in any situation. The authors take you step-by-step through
+          new problems and complex brainteasers they were asked during recent
           technical interviews.
       - name: "Tips for Finding Software Engineering Jobs"
         url: "https://docs.google.com/document/d/1aFOWFfIjQkBLlEsfmwttqmG-vB-FmWn39I1y6Kz9whM/edit"
@@ -492,14 +492,14 @@ categories:
         url: "http://www.amazon.com/dp/0060891548?ref=hello-startup-20"
         image: "on-writing-well.jpg"
         description: |
-          On Writing Well has been praised for its sound advice, its clarity 
-          and the warmth of its style. It is a book for everybody who wants to 
-          learn how to write or who needs to do some writing to get through 
-          the day, as almost everybody does in the age of e-mail and the 
-          Internet. Whether you want to write about people or places, science 
-          and technology, business, sports, the arts or about yourself in the 
-          increasingly popular memoir genre, On Writing Well offers you 
-          fundamental priciples as well as the insights of a distinguished 
+          On Writing Well has been praised for its sound advice, its clarity
+          and the warmth of its style. It is a book for everybody who wants to
+          learn how to write or who needs to do some writing to get through
+          the day, as almost everybody does in the age of e-mail and the
+          Internet. Whether you want to write about people or places, science
+          and technology, business, sports, the arts or about yourself in the
+          increasingly popular memoir genre, On Writing Well offers you
+          fundamental priciples as well as the insights of a distinguished
           writer and teacher.
       - name: "The Start-Up of You"
         url: "http://www.amazon.com/dp/B0050DIWHU?ref=hello-startup-20"
@@ -508,41 +508,41 @@ categories:
         url: "http://www.amazon.com/dp/0596001088?ref=hello-startup-20"
         image: "cathedral-bazaar.jpg"
         description: |
-          The Cathedral and the Bazaar: Musings on Linux and Open Source by an 
-          Accidental Revolutionary (abbreviated CatB) is an essay, and later a 
-          book, by Eric S. Raymond on software engineering methods, based on 
-          his observations of the Linux kernel development process and his 
-          experiences managing an open source project, fetchmail. It examines 
+          The Cathedral and the Bazaar: Musings on Linux and Open Source by an
+          Accidental Revolutionary (abbreviated CatB) is an essay, and later a
+          book, by Eric S. Raymond on software engineering methods, based on
+          his observations of the Linux kernel development process and his
+          experiences managing an open source project, fetchmail. It examines
           the struggle between top-down and bottom-up design.
       - name: "So Good They Can't Ignore You"
         url: "http://www.amazon.com/dp/1455509124?ref=hello-startup-20"
         image: "so-good-they-cant-ignore-you.jpg"
         description: |
-          In this eye-opening account, Cal Newport debunks the long-held belief 
-          that "follow your passion" is good advice.  Not only is the cliché 
-          flawed-preexisting passions are rare and have little to do with how 
-          most people end up loving their work-but it can also be dangerous, 
+          In this eye-opening account, Cal Newport debunks the long-held belief
+          that "follow your passion" is good advice.  Not only is the cliché
+          flawed-preexisting passions are rare and have little to do with how
+          most people end up loving their work-but it can also be dangerous,
           leading to anxiety and chronic job hopping.
       - name: "Timothy Gowers: The Importance of Mathematics"
         url: "https://www.youtube.com/watch?v=BsIJN4YMZZo&feature=youtube_gdata_player"
         image: "importance-of-math.jpg"
         description: |
-          This video is a lucid, dynamic presentation of the deep and important 
-          question of the relevance of mathematics to society, delivered by 
+          This video is a lucid, dynamic presentation of the deep and important
+          question of the relevance of mathematics to society, delivered by
           one of the best mathematicians of the modern age.
       - name: "Richard Hamming, You and Your Research"
         url: "https://www.youtube.com/watch?v=a1zDuOPkMSw&feature=youtube_gdata_player"
         description: |
-          This course is intended to instill a "style of thinking" that will 
-          enhance one's ability to function as a problem solver of complex 
-          technical issues. With respect, students sometimes called the course 
-          "Hamming on Hamming" because he relates many research collaborations, 
-          discoveries, inventions and achievements of his own. This collection 
-          of stories and carefully distilled insights relates how those 
-          discoveries came about. Most importantly, these presentations provide 
-          objective analysis about the thought processes and reasoning that 
-          took place as Dr. Hamming, his associates and other major thinkers, 
-          in computer science and electronics, progressed through the grand 
+          This course is intended to instill a "style of thinking" that will
+          enhance one's ability to function as a problem solver of complex
+          technical issues. With respect, students sometimes called the course
+          "Hamming on Hamming" because he relates many research collaborations,
+          discoveries, inventions and achievements of his own. This collection
+          of stories and carefully distilled insights relates how those
+          discoveries came about. Most importantly, these presentations provide
+          objective analysis about the thought processes and reasoning that
+          took place as Dr. Hamming, his associates and other major thinkers,
+          in computer science and electronics, progressed through the grand
           challenges of science and engineering in the twentieth century.
       - name: "Ira Glass on Storytelling"
         url: "https://www.youtube.com/watch?v=BI23U7U2aUY"
@@ -553,7 +553,7 @@ categories:
         url: "https://startupclass.co/"
         image: "how-to-start-a-startup.jpg"
         description: |
-          Y Combinator's How to Start a Startup. Everything we know about how 
+          Y Combinator's How to Start a Startup. Everything we know about how
           to start a startup, for free, from some of the world experts.
       - name: "Peter Thiel's CS 183: Startup"
         url: "http://blakemasters.com/peter-thiels-cs183-startup"
@@ -565,9 +565,9 @@ categories:
         url: "https://www.coursera.org/course/startup"
         image: "startup-engineering.jpg"
         description: |
-          Spiritual sequel to Peter Thiel's CS183 course on startups. Bridges 
-          the gap between academic computer science and production software 
-          engineering. Free class on Coursera. 
+          Spiritual sequel to Peter Thiel's CS183 course on startups. Bridges
+          the gap between academic computer science and production software
+          engineering. Free class on Coursera.
 
 
 

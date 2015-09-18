@@ -1,47 +1,364 @@
 name: "Distribution"
 description: "Help users find your startup through marketing, viral marketing, advertising, email, SEO, PR, and sales."
-disabled: true
 icon: "microphone"
 type: "products"
-see_more:
+see_more: |
+  See the "Data & Distribution" chapter in
+  <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
-# http://www.useronboard.com/features-vs-benefits/
-# http://startupsheartcustomers.com/
-# http://www.quicksprout.com/2011/10/17/the-startup-guide-to-building-a-killer-sales-team/
-# https://www.hey.press/
-# http://www.adpushup.com/blog/startup-marketing-101-how-to-start-content-marketing/
-# https://medium.com/@MailPad/a-quickstart-guide-to-finding-startup-users-4b1448cf4738
-# https://github.com/mmccaff/PlacesToPostYourStartup
-# http://www.useronboard.com/
-# http://www.enterprisesales.nyc/
-# https://hitenism.com/startup-sales-tools/
-# Facebook
-# LinkedIn
-# Twitter
-# Google Plus
-# Tumblr
-# LinkedIn Influencer
-# Medium
-# Pinterest
-# Submit to BuzzFeed?
-# fiverr has lots of PR stuff
-# Reach out to bloggers and influencers; help them first (long b4): http://stonemaiergames.com/kickstarter-lesson-74-help-them-first/
-# Meetup.com
-# YouTube
-# Vimeo
-# Kickstarter
-# IndieGoGo
-# Advertising: Facebook, LinkedIn, Twitter, Google, YouTube
-# Search for online messageboards, communities, podcasts,
-# Press releases
-# ProductHunt
-# Betalist
-# Inbound marketing
-# Reddit
-# Hacker News
-# blog
-# open source
-# give talks
-# how to go viral: http://stonemaiergames.com/kickstarter-lesson-149-how-to-go-viral-in-two-easy-steps/
-# Rahul and Adam's posts on virality
-# http://mashable.com/2007/10/19/press-releases/#zxgPXBAO9SkL
+  - id: "word-of-mouth"
+    name: "Word of Mouth"
+    description: |
+      Existing customers tell new customers about your product.
+    sites:
+      - name: "User Acquisition: Viral Factor Basics"
+        url: "http://blog.adamnash.com/2012/04/04/user-acquisition-viral-factor-basics/"
+        image: "viral-factor-basics.jpg"
+      - name: "How to Model Viral Growth: The Hybrid Model"
+        url: "https://www.linkedin.com/pulse/20121002124206-18876785-how-to-model-viral-growth-the-hybrid-model"
+        image: "how-to-model-viral-growth.jpg"
+  - id: "advertising"
+    name: "Advertising"
+    description: |
+      Figure out where your potential customers are already directing their
+      attention and pay money to put a message about your product there.
+    sites:
+      - name: "Google AdWords"
+        url: "https://www.google.com/adwords/"
+        image: "adwords.jpg"
+      - name: "Facebook Ads"
+        url: "https://www.facebook.com/business/products/ads"
+        image: "facebook-ads.jpg"
+      - name: "Twitter Ads"
+        url: "https://ads.twitter.com"
+        image: "twitter-ads.jpg"
+      - name: "LinkedIn Ads"
+        url: "https://www.linkedin.com/ads/"
+        image: "linkedin-ads.jpg"
+      - name: "Yahoo Ads"
+        url: "https://advertising.yahoo.com/"
+        image: "yahoo-ads.jpg"
+      - name: "YouTube Ads"
+        url: "https://www.youtube.com/yt/advertise/"
+        image: "youtube-ads.jpg"
+      - name: "Doubleclick"
+        url: "https://www.doubleclickbygoogle.com/"
+        image: "doubleclick.jpg"
+      - name: "AdMob"
+        url: "https://www.google.com/admob/"
+        image: "admob.jpg"
+      - name: "Carbon Ads"
+        url: "http://carbonads.net/"
+        image: "carbon-ads.jpg"
+      - name: "How to Buy TV Advertising on a Budget"
+        url: "http://www.inc.com/guides/2010/09/how-to-buy-tv-advertising-on-a-budget.html"
+      - name: "How to Buy Radio Advertising on a Budget"
+        url: "http://www.inc.com/guides/2010/09/how-to-buy-radio-advertising-on-a-budget.html"
+      - name: "The Beginner's Guide to Newspaper Advertising"
+        url: "http://www.mediaspacesolutions.com/blog/bid/195723/The-Beginner-s-Guide-to-Newspaper-Advertising"
+  - id: "pr"
+    name: "Public Relations"
+    description: |
+      Spread your message via TV, news, radio, blogs, celebrities, influencers,
+      and so on.
+    sites:
+      - name: "What is the best free media contact database?"
+        url: "https://www.quora.com/What-is-the-best-free-media-contact-database"
+        image: "best-free-media-contact-db.jpg"
+      - name: "JustReachOut"
+        url: "https://justreachout.io/"
+        image: "just-reach-out.jpg"
+        description: |
+          Find journalists. Perfect your pitch. Reach out and get press.
+      - name: "Buzzsumo"
+        url: "http://buzzsumo.com/"
+        image: "buzzsumo.jpg"
+        description: |
+          Analyze what content performs best for any topic or competitor. Find
+          the key influencers to promote your content.
+      - name: "Hey.Press"
+        url: "https://www.hey.press/"
+        image: "hey-press.jpg"
+        description: |
+          Find relevant journalists. For free.
+      - name: "Pressfarm"
+        url: "https://press.farm/"
+        image: "press-farm.jpg"
+        description: |
+          Find journalists to write about your startup. We'll give you their
+          twitter and bio for free (get all 867 emails for just $9).
+      - name: "Save $9, Here Are The TechCrunch Staff’s Email Addresses"
+        url: "http://techcrunch.com/2014/07/14/please-dont-spam-us/"
+        image: "techcrunch-email.jpg"
+      - name: "The Hacker's Guide to Getting Press"
+        url: "http://austenallred.com/user-acquisition/book/chapter/press/"
+        image: "hackers-guide-press.jpg"
+      - name: "A Beginner’s Guide To Public Relations For Tech Startups"
+        url: "https://blog.kissmetrics.com/guide-to-public-relations/"
+        image: "beginners-guide-pr.jpg"
+      - name: "The 6 Step Guide to Getting Free Press for Your Startup"
+        url: "http://okdork.com/2014/08/12/how-to-do-pr-for-your-startup-without-spending-any-money/"
+        image: "six-step-guide-pr.jpg"
+      - name: "Places To Post Your Startup"
+        url: "https://github.com/mmccaff/PlacesToPostYourStartup"
+        image: "places-to-post-startup.jpg"
+        description: |
+          An open source collection of places where you can post your startup to
+          get beta users.
+      - name: "27 Websites to Submit your Startup after Launch"
+        url: "https://www.reddit.com/r/startups/comments/298a8l/27_websites_to_submit_your_startup_after_launch/"
+      - name: "Massive List of Web App Directories to Promote Your Startup"
+        url: "http://justinmcgill.net/massive-list-of-web-app-directories-to-promote-your-startup/"
+        image: "promote-startup-list.jpg"
+      - name: "SaaS Marketing Plan: 100 Places to Promote Your App"
+        url: "http://sixteenventures.com/50-places-to-promote-your-app"
+      - name: "Kickstarter Lesson #74: Help Them First"
+        url: "http://stonemaiergames.com/kickstarter-lesson-74-help-them-first/"
+        description: |
+          This is part of the Stonemaier Games series of posts on how to run
+          a successful Kickstarter campaign for board games, but the advice
+          in these posts applies to almost all marketing efforts, so it's well
+          worth reading for everybody.
+      - name: "Kickstarter Lesson #43: Press Releases"
+        url: "http://stonemaiergames.com/kickstarter-lesson-43-press-releases/"
+        description: |
+          This is part of the Stonemaier Games series of posts on how to run
+          a successful Kickstarter campaign for board games, but the advice
+          in these posts applies to almost all marketing efforts, so it's well
+          worth reading for everybody.
+      - name: "Kickstarter Lesson #5: Connecting with Bloggers"
+        url: "http://stonemaiergames.com/kickstarter-lesson-5-connecting-with-bloggers/"
+        description: |
+          This is part of the Stonemaier Games series of posts on how to run
+          a successful Kickstarter campaign for board games, but the advice
+          in these posts applies to almost all marketing efforts, so it's well
+          worth reading for everybody.
+      - name: "20+ Free Press Release Distribution Sites"
+        url: "http://mashable.com/2007/10/19/press-releases"
+  - id: "email"
+    name: "Email marketing"
+    description: |
+      Use email to acquire, engage, and retain users.
+    sites:
+      - name: "How to Send Email Like a Startup"
+        url: "https://www.sendwithus.com/resources/guide"
+        image: "send-email-like-startup.jpg"
+        description: |
+          This guide is a practical resource for developing a set of
+          transactional emails that will move your new users through the sales
+          funnel toward becoming happy, engaged, and paying customers.
+      - name: "Email Marketing Field Guide"
+        url: "http://mailchimp.com/resources/guides/email-marketing-field-guide/"
+        image: "email-marketing-field-guide.jpg"
+      - name: "The Ultimate Guide To Successful Email Marketing"
+        url: "http://www.getvero.com/resources/guides/email-marketing-guide/"
+        image: "ultimate-guide-email-marketing.jpg"
+      - name: "A Beginner’s Guide to Successful Email Marketing"
+        url: "https://blog.kissmetrics.com/beginners-guide-email-marketing/"
+      - name: "MailChimp"
+        url: "http://mailchimp.com/"
+        image: "mailchimp.jpg"
+  - id: "seo"
+    name: "Search Engine Optimization"
+    description: |
+      Optimize your website so it ranks highly in search engines.
+    sites:
+      - name: "Google Search Engine Optimization Starter Guide"
+        url: "http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf"
+        image: "google-seo-starter-guide.jpg"
+      - name: "The Beginner's Guide to SEO"
+        url: "https://moz.com/beginners-guide-to-seo"
+        image: "moz-seo-guide.jpg"
+      - name: "Search Engine Land’s Guide To SEO"
+        url: "http://searchengineland.com/guide/seo"
+        image: "search-engine-land-guide-seo.jpg"
+      - name: "SEO: A Comprehensive Guide for Beginners"
+        url: "https://blog.kissmetrics.com/seo-guide/"
+  - id: "social-media"
+    name: "Social Media"
+    description: |
+      Spread the word through social networks.
+    sites:
+      - name: "Facebook Pages"
+        url: "https://www.facebook.com/about/pages"
+        image: "facebook-pages.jpg"
+      - name: "Twitter for Business"
+        url: "https://business.twitter.com/"
+        image: "twitter-business.jpg"
+      - name: "LinkedIn Company Pages"
+        url: "https://business.linkedin.com/marketing-solutions/company-pages/get-started"
+        image: "linkedin-company-pages.jpg"
+      - name: "Google+ Brands"
+        url: "https://www.google.com/+/brands/"
+        image: "google-brands.jpg"
+      - name: "Instagram for Business"
+        url: "https://business.instagram.com/"
+        image: "instagram-business.jpg"
+      - name: "Pinterest for Business"
+        url: "https://business.pinterest.com/"
+        image: "pinterest-business.jpg"
+      - name: "Tumblr for Business"
+        url: "https://www.tumblr.com/business"
+        image: "tumblr-business.jpg"
+      - name: "YouTube"
+        url: "https://www.youtube.com/"
+        image: "youtube.jpg"
+      - name: "Vimeo for Business"
+        url: "https://vimeo.com/business"
+        image: "vimeo-business.jpg"
+  - id: "communities"
+    name: "Communities"
+    description: |
+      Find or create communities, messageboards, meetup groups, etc. that are
+      interested in your products.
+    sites:
+      - name: "Meetup"
+        url: "http://www.meetup.com/"
+        image: "meetup.jpg"
+      - name: "Reddit"
+        url: "https://www.reddit.com/"
+        image: "reddit.jpg"
+      - name: "Hacker News"
+        url: "https://news.ycombinator.com/"
+        image: "Hacker News"
+      - name: "Product Hunt"
+        url: "http://www.producthunt.com/"
+        image: "product-hunt.jpg"
+      - name: "BetaList"
+        url: "http://betalist.com/"
+        image: "beta-list.jpg"
+      - name: "LinkedIn Groups"
+        url: "http://www.linkedin.com/directory/groups/"
+        image: "linkedin-groups.jpg"
+      - name: "Quora"
+        url: "https://www.quora.com/"
+        image: "quora.jpg"
+      - name: "Stack Exchange"
+        url: "http://stackexchange.com/"
+        image: "stack-exchange.jpg"
+      - name: "Kickstarter"
+        url: "https://www.kickstarter.com/"
+        image: "kickstarter.jpg"
+      - name: "IndieGoGo"
+        url: "https://www.indiegogo.com/"
+        image: "indiegogo.jpg"
+  - id: "inbound-marketing"
+    name: "Inbound Marketing"
+    description: |
+      Attract customers to your brand by creating content and teaching your
+      audience, using blogs, talks, seminars, open source, etc.
+    sites:
+      - name: "What Is Inbound Marketing?"
+        url: "http://www.hubspot.com/inbound-marketing"
+        image: "hubspot-inbound-marketing.jpg"
+      - name: "Medium"
+        url: "https://medium.com/"
+        image: "medium.jpg"
+      - name: "LinkedIn Pulse"
+        url: "https://www.linkedin.com/pulse/discover"
+        image: "linkedin-pulse.jpg"
+        description: |
+          Write long-form content on LinkedIn as an "influencer".
+      - name: "WordPress"
+        url: "https://wordpress.org/"
+        image: "wordpress.jpg"
+      - name: "Tumblr"
+        url: "https://www.tumblr.com/"
+        image: "tumblr.jpg"
+      - name: "Ghost"
+        url: "https://ghost.org/"
+        image: "ghost.jpg"
+      - name: "Jekyll"
+        url: "http://jekyllrb.com/"
+        image: "jekyll.jpg"
+      - name: "GitHub"
+        url: "https://github.com/"
+        image: "github.jpg"
+        description: |
+          Open source as much of your code as possible.
+      - name: "SlideShare"
+        url: "http://www.slideshare.net/"
+        image: "slideshare.jpg"
+      - name: "YouTube"
+        url: "https://www.youtube.com/"
+        image: "youtube.jpg"
+      - name: "Vimeo"
+        url: "https://vimeo.com/"
+        image: "vimeo.jpg"
+  - id: "sales"
+    name: "Sales"
+    description: |
+      Use automated sales, inbound sales, and outbound sales to close the deal.
+    sites:
+      - name: "The Enterprise Sales Guide"
+        url: "http://www.enterprisesales.nyc/"
+        image: "enterprise-sales.jpg"
+        description: |
+          The process of selling enterprise software demystified.
+      - name: "The Ultimate Guide To Startup Sales Tools "
+        url: "http://www.slideshare.net/NicPoulos1/the-ultimate-guide-to-startup-sales-tools-2015"
+        image: "startup-sales-tools"
+      - name: "The Ultimate Sales Hiring Guide For B2B Startup Founders!"
+        url: "http://blog.close.io/sales-hiring-101-for-startups"
+        image: "sales-hiring-guide.jpg"
+      - name: "The Startup Guide to Building a Killer Sales Team"
+        url: "http://www.quicksprout.com/2011/10/17/the-startup-guide-to-building-a-killer-sales-team/"
+        image: "startup-guide-sales-team.jpg"
+  - id: "further-reading"
+    name: "Further Reading"
+    sites:
+      - name: "Made to Stick: Why Some Ideas Survive and Others Die"
+        url: "http://www.amazon.com/dp/product/1400064287?ref=hello-startup-20"
+        image: "made-to-stick.jpg"
+        description: |
+          Why do some ideas thrive while others die? And how do we improve the
+          chances of worthy ideas? In Made to Stick, accomplished educators and
+          idea collectors Chip and Dan Heath tackle head-on these vexing
+          questions.
+      - name: "Crossing the Chasm"
+        url: "http://www.amazon.com/dp/0060517123?ref=hello-startup-20"
+        image: "crossing-the-chasm.jpg"
+        description: |
+          A marketing book by Geoffrey A. Moore that focuses on the
+          specifics of marketing high tech products during the early start up
+          period. Moore's exploration and expansion of the diffusions of
+          innovations model has had a significant and lasting impact on high
+          tech entrepreneurship.
+      - name: "Purple Cow"
+        url: "http://www.amazon.com/dp/1591843170?ref=hello-startup-20"
+        image: "purple-cow.jpg"
+        description: |
+          Transform Your Business by Being Remarkable, by Seth Godin.
+      - name: "Permission Marketing"
+        url: "http://www.amazon.com/dp/0684856360?ref=hello-startup-20"
+        image: "permission-marketing.jpg"
+        description: |
+          Turning Strangers into Friends and Friends into Customers, by Seth Godin.
+      - name: "Confessions of an Advertising Man"
+        url: "http://www.amazon.com/dp/190491537X?ref=hello-startup-20"
+        image: "confessions-ad-man.jpg"
+        description: |
+          David Ogilvy was considered the "father of advertising" and a creative
+          genius by many of the biggest global brands. First published in 1963,
+          this seminal book revolutionized the world of advertising and became
+          a bible for the 1960s ad generation.
+      - name: "Peter Thiel’s CS183: Startup - Class 9 Notes"
+        url: "http://blakemasters.com/post/22405055017/peter-thiels-cs183-startup-class-9-notes-essay"
+        description: |
+          Distribution is something of a catchall term. It essentially refers
+          to how you get a product out to consumers. More generally, it can
+          refer to how you spread the message about your company.
+      - name: "User Acquisition: The Five Sources of Traffic"
+        url: "http://blog.adamnash.com/2012/03/28/user-acquisition-five-sources-of-traffic/"
+      - name: "Fiverr"
+        url: "https://www.fiverr.com/"
+        image: "fiverr.jpg"
+        description: |
+          Fiverr: The marketplace for creative &amp; professional services
+      - name: "Guide to sales and marketing for startups"
+        url: "http://startupsheartcustomers.com/"
+        image: "startups-heart-customers.jpg"
+        description: |
+          The guide to sales and marketing for technical startup people.
+      - name: "A Quick Start Guide To Finding Startup Users"
+        url: "https://medium.com/@MailPad/a-quickstart-guide-to-finding-startup-users-4b1448cf4738"
