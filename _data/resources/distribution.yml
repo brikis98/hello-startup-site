@@ -229,7 +229,7 @@ categories:
         image: "reddit.jpg"
       - name: "Hacker News"
         url: "https://news.ycombinator.com/"
-        image: "Hacker News"
+        image: "hacker-news.jpg"
       - name: "Product Hunt"
         url: "http://www.producthunt.com/"
         image: "product-hunt.jpg"
@@ -306,7 +306,7 @@ categories:
           The process of selling enterprise software demystified.
       - name: "The Ultimate Guide To Startup Sales Tools "
         url: "http://www.slideshare.net/NicPoulos1/the-ultimate-guide-to-startup-sales-tools-2015"
-        image: "startup-sales-tools"
+        image: "startup-sales-tools.jpg"
       - name: "The Ultimate Sales Hiring Guide For B2B Startup Founders!"
         url: "http://blog.close.io/sales-hiring-101-for-startups"
         image: "sales-hiring-guide.jpg"
