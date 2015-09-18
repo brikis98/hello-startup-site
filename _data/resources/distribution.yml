@@ -158,7 +158,7 @@ categories:
         image: "lifehacker.jpg"
       - name: "BuzzFeed"
         url: "http://www.buzzfeed.com/"
-        image: "buzzfeed.jpg"
+        image: "BuzzFeed.jpg"
       - name: "Gizmodo"
         url: "http://gizmodo.com/"
         image: "gizmodo.jpg"
