@@ -186,6 +186,9 @@ categories:
       - name: "Monster"
         url: "http://www.monster.com/"
         image: "monster.jpg"
+# https://startupdeveloperjobs.com/    
+# http://www.jobsintech.io/
+# https://weworkremotely.com/  
   - id: "further-reading"
     name: "Further reading"
     sites:
@@ -204,3 +207,4 @@ categories:
         image: "10x-developer-not-a-myth.jpg"
       - name: "10x programmers? Let's do the Math!"
         url: "https://medium.com/@guimonz/10x-programmers-lets-do-the-math-257424a86dbe"
+      # https://www.reddit.com/r/startups/comments/35mjw8/what_i_ask_founders_before_joining_an_earlystage/

@@ -3,30 +3,48 @@ description: "How does equity work? How much are your stock options worth? Use t
 icon: "calculator"
 type: "teams"
 see_more: |
-  See the "Getting a Job at a Startup" chapter in 
+  See the "Getting a Job at a Startup" chapter in
   <a href="/#part-3-teams">Part III, Teams</a> for more info.
 categories:
   - id: "equity-calculator"
     name: "Equity Calculator"
     description: |
       How much are your stock options worth? Is it worth taking a lower salary for
-      them? This calculator can help you answer that question. Note: this is no 
-      more than a <em>very</em> rough estimate. It doesn't take into account 
-      taxes, vesting, and dilution, and you have to guess at a lot of the 
-      numbers, so it's only useful to get a ballpark figure. Also, bear in mind 
-      that roughly 
+      them? This calculator can help you answer that question. Note: this is no
+      more than a <em>very</em> rough estimate. It doesn't take into account
+      taxes, vesting, and dilution, and you have to guess at a lot of the
+      numbers, so it's only useful to get a ballpark figure. Also, bear in mind
+      that roughly
       <a href="http://www.wsj.com/articles/SB10000872396390443720204578004980476429190" target="_blank">3 out of 4 startups fail</a>,
-      so in many cases, the stock is worth nothing. See the "Getting a Job at a 
-      Startup" chapter in <em>Hello, Startup</em> and the 
-      <a href="#further-reading">further reading</a> section below for more 
+      so in many cases, the stock is worth nothing. See the "Getting a Job at a
+      Startup" chapter in <em>Hello, Startup</em> and the
+      <a href="#further-reading">further reading</a> section below for more
       info.
     include: "equity-calculator.html"
   - id: "equity-tables"
     name: "Equity Tables"
     description: |
-      These tables show how much equity the average startup employee gets, 
+      These tables show how much equity the average startup employee gets,
       depending on when they join the company and their position.
     include: "equity-tables.html"
+  - id: "splitting-equity-founders"
+    name: "Splitting Equity Between Founders"
+    sites:
+      - name: "Co-Founder Equity Calculator"
+        url: "http://foundrs.com/"
+        image: "cofounder-equity-calculator.jpg"
+      - name: "Legal and Accounting Basics for Startups"
+        url: "http://startupclass.samaltman.com/courses/lec18/"
+        image: "legal-accounting-basics-for-startups.jpg"
+        description: |
+          "In the top YC companies, which we call those with the highest
+          valuations, there are zero instances where the founders have a
+          significantly disproportionate equity split."
+      - name: "The 4 Key Drivers When Calculating Equity Splits Between Founders"
+        url: "http://www.forbes.com/sites/georgedeeb/2014/04/30/the-4-key-drivers-when-calculating-equity-splits-between-founders/"
+      - name: "How to Divide Founder Equity: 4 Criteria to Discuss"
+        url: "http://nextviewventures.com/blog/how-to-divide-founder-equity/"
+        image: "how-to-divide-equity.jpg"
   - id: "further-reading"
     name: "Further Reading"
     sites:
@@ -56,3 +74,7 @@ categories:
       - name: "How I negotiated my startup compensation"
         url: "https://keen.io/blog/29904565692/how-i-negotiated-my-startup-compensation"
         image: "how-i-negotiated-startup-compensation.jpg"
+# http://siliconhillslawyer.com/2014/01/01/safe-yc-founders-investment/
+# http://siliconhillslawyer.com/2013/08/15/founder-convertible-notes-startups/
+
+

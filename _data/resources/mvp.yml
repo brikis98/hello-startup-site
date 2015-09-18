@@ -62,6 +62,7 @@ categories:
         description: |
           Websites for you and your projects. Hosted directly from your GitHub 
           repository. Just edit, push, and your changes are live.
+      # https://gohugo.io/
       - name: "Host Your Static Website on Amazon S3"
         url: "https://aws.amazon.com/blogs/aws/host-your-static-website-on-amazon-s3/"
         image: "amazon-s3-static.jpg"

@@ -50,6 +50,8 @@ categories:
         image: "html5up.jpg"
       - name: "40 Free Branding &amp; Identity Mockup Templates"
         url: "http://designinstruct.com/print-design/free-branding-identity-mockups/"
+      # http://w3layouts.com/free-responsive-html5-css3-website-templates/
+      # https://github.com/spf13/hugoThemes
   - id: "mobile-templates"
     name: "Mobile templates"
     sites: 
@@ -217,6 +219,7 @@ categories:
           winner receives a cash payment for their work. Through more than 
           371,806 design contests, we’ve paid out $93,422,757 to our designer 
           community to date.
+      # https://www.graphicsprings.com
   - id: "design-checklists"
     name: "Design checklists"
     sites:
@@ -334,5 +337,5 @@ categories:
         description: |
           A List Apart explores the design, development, and meaning of web 
           content, with a special focus on web standards and best practices.
-
+# https://developer.apple.com/design/tips/
 

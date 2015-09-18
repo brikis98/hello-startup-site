@@ -26,6 +26,8 @@ categories:
       - name: "Business Model vs Business Plan"
         url: "http://steveblank.com/category/business-model-versus-business-plan/"
         description: "By Steve Blank"
+      # http://www.nickkolenda.com/psychological-pricing-strategies/
+      # http://mattermark.com/important-financial-indicators-for-startups-at-every-stage-of-growth/
   - id: "payment"
     name: "Payment Tools"
     sites:

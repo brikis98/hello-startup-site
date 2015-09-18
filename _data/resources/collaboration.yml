@@ -87,6 +87,7 @@ categories:
       - name: "Blogger"
         url: "http://www.blogger.com/"
         image: "blogger.jpg"
+      # TODO: GitHub Pages
       - name: "Tumblr"
         url: "https://www.tumblr.com/"
         image: "tumblr.jpg"
