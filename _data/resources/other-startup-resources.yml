@@ -6,7 +6,12 @@ see_more:
 categories:
   - id: "general"
     name: "General"
-    sites: 
+    sites:
+      - name: "Startup Checklist"
+        url: "http://www.atomic-squirrel.net/startup-checklist/?ref=hello-startup-other-resources"
+        image: "startup-checklist.jpg"
+        description: |
+          A checklist of everything you need to do to launch a startup.
       - name: "Startup Tools"
         url: "http://steveblank.com/tools-and-blogs-for-entrepreneurs/"
         image: "steve-blank-startup-tools.jpg"
@@ -39,14 +44,14 @@ categories:
         image: "spark-labs-startup-tools.jpg"
         description: "From Spark Labs"
       - name: "Listd.org"
-        url: "http://listd.org/"   
+        url: "http://listd.org/"
         image: "listd.jpg"
       - name: "HN Tools of The Trade, 2014 Edition"
         url: "https://github.com/cjbarber/ToolsOfTheTrade"
       - name: "The Startups We Use to Build Our Startup"
         url: "https://medium.com/coffee-time-1/the-startups-we-use-to-build-our-startup-1335a44da524"
         image: "startups-use-to-build-startup.jpg"
-      - name: "Startup Resources"     
+      - name: "Startup Resources"
         url: "http://www.gsbeclub.org/startup-resources"
         description: "From The Stanford GSB Entrepreneur Club"
         image: "stanford-startup-resources.jpg"
@@ -60,7 +65,7 @@ categories:
         url: "https://github.com/ripienaar/free-for-dev"
         image: "free-for-dev.jpg"
         description: |
-          A list of software and SaaS, PaaS etc offerings that have free tiers 
+          A list of software and SaaS, PaaS etc offerings that have free tiers
           for devs.
       - name: "The Distributed Developer Stack Field Guide"
         url: "http://sites.oreilly.com/odewahn/dds-field-guide/"

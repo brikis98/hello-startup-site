@@ -4,10 +4,13 @@
       <h2>Startup Resources</h2>
       {% unless hide_blurb %}
         <h3>
-          Based on the contents of <em>{{ site.short_title }}</em>, here is a list 
-          of tools, links, and checklists to help you build a startup. 
-          {% include resources-open-source.html %}
-        </h3>      
+          Based on the contents of <em>{{ site.short_title }}</em>, here is a list
+          of tools, links, and checklists to help you build a startup.
+          {% include resources-open-source.html %} You should also check out the
+          <a href="http://www.atomic-squirrel.net/startup-checklist/?ref=hello-startup-resources" target="_blank">The Startup Checklist</a>,
+          which is a comprehensive collection of everything you need to do to
+          launch a startup.
+        </h3>
       {% endunless %}
       <div id="products-list" class="row resource-lists">
         <div class="col-sm-{{ site.left_column_size }} centered">
@@ -29,7 +32,7 @@
           {% include resource-panel.html %}
         </div>
       </div>
-      <div id="teams-list" class="row resource-lists">        
+      <div id="teams-list" class="row resource-lists">
         <div class="col-sm-{{ site.left_column_size }} centered">
           <div class="fa fa-gears fa-5x circle-icon"></div>
           <h4>Teams</h4>
@@ -40,13 +43,13 @@
         </div>
       </div>
       {% comment %}
-        
+
         TODO: When these apps are available, re-enable this section and update the
               screenshots.
       <h3>
-        All of these resources are also available in the <em>{{ site.mobile_app_name }}</em>, available for 
-        <a href="{{ site.ios_link }}" class="tracked" data-trk="get-app-apple-store-link-resources" target="_blank" title="{{ site.ios_text }}">iOS</a> 
-        and 
+        All of these resources are also available in the <em>{{ site.mobile_app_name }}</em>, available for
+        <a href="{{ site.ios_link }}" class="tracked" data-trk="get-app-apple-store-link-resources" target="_blank" title="{{ site.ios_text }}">iOS</a>
+        and
         <a href="{{ site.android_link }}" class="tracked" data-trk="get-app-play-store-link-resources" target="_blank" title="{{ site.android_text }}">Android</a>!
       </h3>
       <div class="row">
@@ -65,7 +68,7 @@
             <img src="images/download-play-store.png" alt="{{ site.android_text }}"/>
           </a>
         </div>
-      </div> 
+      </div>
       {% endcomment %}
     </div>
   </div>
