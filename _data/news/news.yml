@@ -4,9 +4,10 @@
   date: "September 21, 2015"
   image: "atomic-squirrel-logo.png"
   description: |
-    I just founded a company called Atomic Squirrel, and our goal is to help
-    you launch your startup. Check out the Startup Checklist, which contains
-    a comprehensive list of tasks for launching your own company.
+    For the last few months, I've been working on a new project: founding a
+    company. It's called Atomic Squirrel, and our goal is to help you launch
+    your startup. Check out our Startup Checklist, which contains a
+    comprehensive list of tasks for launching your own company.
   call_to_action: "Read the full blog post"
 - id: "startup-essentials"
   url: "http://www.oreilly.com/design/free/startup-essentials.csp"
