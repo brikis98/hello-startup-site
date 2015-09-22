@@ -108,6 +108,13 @@ categories:
       - name: "The 6 Step Guide to Getting Free Press for Your Startup"
         url: "http://okdork.com/2014/08/12/how-to-do-pr-for-your-startup-without-spending-any-money/"
         image: "six-step-guide-pr.jpg"
+      - name: "Promotehour"
+        url: "http://www.promotehour.com/"
+        image: "promote-hour.jpg"
+        description: |
+          A free list of 130+ places to promote a startup. The list also has
+          few important metrics like brief description, traffic opportunity, &
+          cost of submission.
       - name: "Places To Post Your Startup"
         url: "https://github.com/mmccaff/PlacesToPostYourStartup"
         image: "places-to-post-startup.jpg"
