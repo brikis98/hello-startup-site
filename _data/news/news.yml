@@ -1,11 +1,21 @@
+- id: "atomic-squirrel-startup-checklist"
+  url: "http://www.ybrikman.com/writing/2015/09/21/introducing-atomic-squirrel-startup-checklist/"
+  title: "Introducing Atomic Squirrel and The Startup Checklist"
+  date: "September 21, 2015"
+  image: "atomic-squirrel-logo.png"
+  description: |
+    I just founded a company called Atomic Squirrel, and our goal is to help
+    you launch your startup. Check out the Startup Checklist, which contains
+    a comprehensive list of tasks for launching your own company.
+  call_to_action: "Read the full blog post"
 - id: "startup-essentials"
   url: "http://www.oreilly.com/design/free/startup-essentials.csp"
   title: "Startup Essentials"
   date: "June 19, 2015"
   image: "startup-essentials.gif"
   description: |
-    Just released: a free e-book that is a curated collection of chapters from 
-    the O'Reilly Business Library. It includes a chapter from my book, 
+    Just released: a free e-book that is a curated collection of chapters from
+    the O'Reilly Business Library. It includes a chapter from my book,
     <em>Hello, Startup</em>.
   call_to_action: "Download the free e-book now"
 - id: "guide-to-hiring"
@@ -14,8 +24,8 @@
   date: "May 7, 2015"
   image: "guide-to-hiring.png"
   description: |
-    On April 30, 2015, I gave a talk called "A Guide to Hiring for your Startup", 
-    where I discussed what to look for in a candidates, where to find them, how to 
+    On April 30, 2015, I gave a talk called "A Guide to Hiring for your Startup",
+    where I discussed what to look for in a candidates, where to find them, how to
     interview them, and how to make an offer they can't refuse.
   call_to_action: "Check out the video and slides"
 - id: "all-chapters"
@@ -35,7 +45,7 @@
   date: "February 24, 2015"
   image: "oreilly-logo.jpg"
   description: |
-    On April 30th, I'll be doing a free O'Reilly Webcast where I reveal 
+    On April 30th, I'll be doing a free O'Reilly Webcast where I reveal
     everything I've learned about hiring for startups.
   call_to_action: "Register now"
 - id: "goodreads-page"
@@ -46,7 +56,7 @@
   description: |
     If you're a GoodReads user, you can add the book to your to-read list,
     leave a review, and ask me questions.
-  call_to_action: "Check out <em>Hello, Startup</em> on GoodReads"    
+  call_to_action: "Check out <em>Hello, Startup</em> on GoodReads"
 - id: "early-release"
   url: "#buy-now"
   title: "Early release"
