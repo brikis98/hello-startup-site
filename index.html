@@ -2,10 +2,13 @@
 layout: default
 body_class: dynamic-nav
 is_home: true
-nav: 
+nav:
   - name: "Book"
     title: "About the book"
     url: "#whats-in-the-book"
+  - name: "Reviews"
+    title: "What people are saying"
+    url: "#reviews"
   - name: "Author"
     title: "About the author"
     url: "#about-author"
@@ -25,16 +28,19 @@ nav:
 </header>
 <section id="whats-in-the-book">
   {% include book-outline.html %}
-</section>        
-<section id="about-author" class="gray-section gray-gradient">
+</section>
+<section id="reviews" class="gray-section gray-gradient">
+  {% include reviews.html %}
+</section>
+<section id="about-author">
   {% include about-author.html %}
-</section>  
-<section id="buy-now">
+</section>
+<section id="buy-now" class="gray-section gray-gradient">
   {% include buy-now.html %}
-</section> 
-<section id="news" class="gray-section gray-gradient">
+</section>
+<section id="news">
   {% include news.html %}
-</section>     
-<section id="resources">
+</section>
+<section id="resources" class="gray-section gray-gradient">
   {% include startup-resources.html %}
-</section>        
+</section>

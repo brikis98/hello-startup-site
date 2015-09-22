@@ -1,0 +1,37 @@
+<div class="news-items">
+  {% for news in include.news %}
+    {% if news.url contains '#' %}
+      {% assign anchor_attrs = 'class="page-scroll"' %}
+    {% else %}
+      {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
+    {% endif %}
+    <hr>
+    <div class="row news-item">
+      <div class="col-sm-{{ site.left_column_size }}">
+        <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
+          <img src="/images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive news-image">
+        </a>
+      </div>
+      <div class="col-sm-{{ site.right_column_size }}">
+        <h4>
+          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
+          {% if news.date %}
+            <div><small>{{ news.date }}</small></div>
+          {% endif %}
+        </h4>
+        {% if news.secondary_image %}
+          <p>
+            <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-secondary-image">
+              <img src="/images/{{ news.secondary_image }}" alt="{{ news.title }}">
+            </a>
+          </p>
+        {% endif %}
+        <p>{{ news.description }}</p>
+        {% if news.call_to_action %}
+          <p><a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-cta">{{ news.call_to_action }} &raquo;</a></p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  <hr>
+</div>

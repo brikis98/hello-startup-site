@@ -6,49 +6,24 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <span class="fa-stack fa-lg pull-left">      
+          <span class="fa-stack fa-lg pull-left">
             <i class="fa fa-square fa-stack-2x"></i>
-            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>      
-          </span> 
-          <h4 class="modal-title">Join the newsletter</h4>          
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="modal-title">Join the newsletter</h4>
         </div>
         <div class="modal-body">
-          {% include subscribe.html %}  
+          {% include subscribe.html %}
         </div>
       </div>
     </div>
   </div>
-  <div class="news-items">
-    {% for news in site.data.news.news %}
-      {% if news.url contains '#' %}
-        {% assign anchor_attrs = 'class="page-scroll"' %}
-      {% else %}
-        {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
-      {% endif %}
-      <hr>
-      <div class="row news-item">
-        <div class="col-sm-{{ site.left_column_size }}">
-          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
-            <img src="/images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive news-image">
-          </a>
-        </div>
-        <div class="col-sm-{{ site.right_column_size }}">
-          <h4>
-            <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
-            <div><small>{{ news.date }}</small></div>
-          </h4>
-          <p>{{ news.description }}</p>
-          <p><a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-cta">{{ news.call_to_action }} &raquo;</a></p>
-        </div>
-      </div>    
-    {% endfor %} 
-  </div>  
-  <hr>
+  {% include render-news.html news=site.data.news.news %}
   <div class="learn-more">
     <div class="row">
       <div class="col-lg-4 col-lg-offset-4">
         <a href="#resources" class="btn btn-primary btn-lg btn-block page-scroll">Startup resources &raquo;</a>
       </div>
     </div>
-  </div>          
+  </div>
 </div>

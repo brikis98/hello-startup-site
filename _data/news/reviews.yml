@@ -1,0 +1,77 @@
+- id: "jay-kreps-review"
+  url: "https://www.linkedin.com/in/jaykreps"
+  title: "Jay Kreps, CEO, Confluent Inc"
+  image: "reviews/jay-kreps.jpg"
+  description: |
+    There is a huge gap between a good CS education and what is considered
+    "common knowledge" in start-up engineering teams. Most of us had to learn
+    this stuff through blogs, coworkers, and, of course, the school of hard
+    knocks. But <em>Hello, Startup</em> finally collects a lot of this wisdom
+    into one place. I wish I'd had a book like this when I was getting my start
+    in the industry.
+- id: "eugene-mirkin-review"
+  url: "https://www.linkedin.com/in/mirkin"
+  title: "Eugene Mirkin, Entrepreneur in Residence, Array Ventures"
+  image: "reviews/eugene-mirkin.jpg"
+  description: |
+    Jim will give you a guided and well-informed look at what it takes to build
+    a software startup. There is no jargon or fluff&mdash;just practical,
+    simple, and proven advice, presented in an easily readable book. If you’ve
+    ever wondered, "How do I come up with startup ideas?" or "What technology
+    should I use for this project?" or "How do I get awesome startups to hire
+    me?" then <em>Hello, Startup</em> is for you.
+- id: "bowei-gai-review"
+  url: "https://www.linkedin.com/in/boweigai"
+  title: "Bowei Gai, Co-Founder and CEO of CardMunch"
+  image: "reviews/bowei-gai.jpg"
+  description: |
+    As a startup founder, you are expected to learn an unbelievable amount of
+    knowledge from an incredibly diverse set of disciplines in a very short
+    period of time. While I treasure the experience of beating my head against
+    the wall and eventually figuring things out, I wish I had this guide when I
+    first got started.
+- id: "sean-ammirati-review"
+  url: "https://www.linkedin.com/in/seanammirati"
+  title: "Sean Ammirati, Partner, Birchmere Ventures"
+  image: "reviews/sean-ammirati.jpg"
+  description: |
+    With the exploding interest in technology startups, <em>Hello Startup</em>
+    is a uniquely practical and entertaining book on how-to develop startups.
+    I wish I had this resource at the start of my entrepreneurial journey.
+- id: "sadek-drobi-review"
+  url: "https://fr.linkedin.com/in/drobi"
+  title: "Sadek Drobi, Co-Founder of prismic.io"
+  image: "reviews/sadek-drobi.jpg"
+  description: |
+    Like Jim, I started my career working for big, established companies. I'm
+    now the co-founder of my own company, prismic.io, and this experience is
+    teaching me a lot every single day. This book captures a lot of these
+    learnings and explains not only how, but also why a startup can be a great
+    way to unleash your true potential.
+- id: "brent-vincent-review"
+  url: "https://www.linkedin.com/in/brentvincent"
+  title: "Brent Vincent, Founder of Adacio"
+  image: "reviews/brent-vincent.jpg"
+  description: |
+   If every computer science department gave out this book as a graduation gift,
+   two good things would happen across the tech industry. The worst tech
+   companies would go out of business, and the good ones would become
+   dramatically more productive.
+- id: "oreilly-store-review"
+  url: "http://shop.oreilly.com/product/0636920034360.do"
+  title: "O'Reilly Store"
+  image: "oreilly-logo.jpg"
+  secondary_image: "reviews/oreilly-rating.png"
+  description: |
+    "This is a must book to have to finally understand how stock options
+    work, tackle the construction of MVPs and evolution, open your mind
+    on this new world where everyone is connected, avoid common
+    mistakes, and much more." &mdash; Alexandre Blanquart, Developer
+- id: "goodreads-review"
+  url: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
+  title: "Goodreads"
+  image: "goodreads-logo.jpg"
+  secondary_image: "reviews/goodreads-rating.png"
+  description: |
+    "I am not aware of a better book that accurately covers so much, to
+    this depth, while being readable." &mdash; Bill Boz, Developer

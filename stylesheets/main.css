@@ -524,7 +524,7 @@ input:required:invalid, input:focus:invalid, .invalid-value {
 
 @media (min-width: 1200px) {
   .navbar-right {
-    margin-right: -30px;
+    margin-right: -117px;
   }
 
   header .container {
