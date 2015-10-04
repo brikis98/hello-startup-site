@@ -141,6 +141,24 @@ categories:
           the hood of beautiful websites to find out what fonts they're using
           and how they're using them. Ultimately, we want to know what font
           goes with what?
+  - id: "color-palettes"
+    name: "Color Palettes"
+    sites:
+      - name: "Adobe Color CC"
+        url: "https://color.adobe.com/create/color-wheel"
+        image: "adobe-color-cc.jpg"
+      - name: "Paletton"
+        url: "http://paletton.com/"
+        image: "paletton.jpg"
+      - name: "Coolors"
+        url: "https://coolors.co/"
+        image: "coolors.jpg"
+      - name: "Dribbble Color Search"
+        url: "https://dribbble.com/colors"
+        image: "dribbble-colors.jpg"
+      - name: "Colour Lovers Palettes"
+        url: "http://www.colourlovers.com/palettes"
+        image: "colour-lovers-palettes.jpg"
   - id: "wireframing-tools"
     name: "Wireframing and mockup tools"
     sites:
