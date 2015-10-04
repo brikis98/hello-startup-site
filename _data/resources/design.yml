@@ -3,7 +3,7 @@ description: "Everything you need to design a user experience for your startup, 
 icon: "paint-brush"
 type: "products"
 see_more: |
-  See the "Ideas, Design, MVP" chapter in 
+  See the "Ideas, Design, MVP" chapter in
   <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
   - id: "website-templates"
@@ -13,7 +13,7 @@ categories:
         url: "http://getbootstrap.com/"
         image: "bootstrap.jpg"
         description: |
-          Bootstrap is the most popular HTML, CSS, and JS framework for 
+          Bootstrap is the most popular HTML, CSS, and JS framework for
           developing responsive, mobile first projects on the web.
       - name: "Start Bootstrap"
         url: "http://startbootstrap.com/"
@@ -26,7 +26,7 @@ categories:
         url: "https://pages.github.com/"
         image: "github-pages.jpg"
         description: |
-          Free hosting for static websites on GitHub. Comes with a number of 
+          Free hosting for static websites on GitHub. Comes with a number of
           free themes and templates.
       - name: "Jekyll Themes"
         url: "http://jekyllthemes.org/"
@@ -54,7 +54,7 @@ categories:
       # https://github.com/spf13/hugoThemes
   - id: "mobile-templates"
     name: "Mobile templates"
-    sites: 
+    sites:
       - name: "Ratchet"
         url: "http://goratchet.com/"
         image: "ratchet.jpg"
@@ -74,8 +74,8 @@ categories:
         url: "http://marvelapp.github.io/devices.css/"
         image: "css-flat-mobile-devices.jpg"
         description: |
-          We've created several minimal iPhone, Android, Lumia and iPad devices 
-          in pure CSS to showcase the prototypes our users make on Marvel. 
+          We've created several minimal iPhone, Android, Lumia and iPad devices
+          in pure CSS to showcase the prototypes our users make on Marvel.
           Grab the code, remix and enjoy!
   - id: "email-templates"
     name: "Email templates"
@@ -99,17 +99,51 @@ categories:
         url: "https://www.google.com/fonts"
         image: "google-fonts.jpg"
         description: "Free, open source fonts with CDN hosting by Google."
+      - name: "Adobe Typekit"
+        url: "https://typekit.com/"
+        image: "adobe-typekit.jpg"
+        description: |
+          Typekit is a subscription font service that brings thousands of fonts
+          from foundry partners into one library for quick browsing, easy use
+          on the web or in applications, and endless typographic inspiration.
+      - name: "Fonts by Hoefler & Co."
+        url: "http://www.typography.com/"
+        image: "hoefler-co.jpg"
+  - id: "font-pairing"
+    name: "Font pairing"
+    sites:
+      - name: "Google Web Fonts Typographic Project"
+        url: "http://femmebot.github.io/google-type/"
+        image: "google-font-pairings.jpg"
+        description: |
+          Hand-picked tales from Aesop’s fables with hand-picked type from
+          Google Fonts.
+      - name: "Font Pair"
+        url: "http://fontpair.co/"
+        image: "font-pair.jpg"
+        description: |
+          Font Pair helps designers pair Google Fonts together.
+      - name: "Just My Type"
+        url: "http://justmytype.co/"
+        image: "just-my-type.jpg"
+        description: |
+          A collection of font pairings from Typekit and H&FJ.
+      - name: "Type Genius"
+        url: "http://www.typegenius.com/"
+        image: "type-genius.jpg"
+        description: |
+          Find the perfect font combo for your next project.
       - name: "typ.io: What font goes with what?"
         url: "http://www.typ.io/"
         image: "typ.io.jpg"
         description: |
-          We're revealing designers' decisions for all to see; peeking under 
-          the hood of beautiful websites to find out what fonts they're using 
-          and how they're using them. Ultimately, we want to know what font 
+          We're revealing designers' decisions for all to see; peeking under
+          the hood of beautiful websites to find out what fonts they're using
+          and how they're using them. Ultimately, we want to know what font
           goes with what?
   - id: "wireframing-tools"
-    name: "Wireframing and mockup tools"      
-    sites: 
+    name: "Wireframing and mockup tools"
+    sites:
       - name: "Sketch"
         url: "http://bohemiancoding.com/sketch/"
         image: "sketch.jpg"
@@ -117,8 +151,8 @@ categories:
         url: "http://balsamiq.com/"
         image: "balsamiq.jpg"
         description: |
-          Balsamiq Mockups is a rapid wireframing tool that helps you Work 
-          Faster &amp; Smarter. It reproduces the experience of sketching on a 
+          Balsamiq Mockups is a rapid wireframing tool that helps you Work
+          Faster &amp; Smarter. It reproduces the experience of sketching on a
           whiteboard, but using a computer.
       - name: "moqups"
         url: "https://moqups.com/"
@@ -133,8 +167,8 @@ categories:
         url: "http://www.omnigroup.com/omnigraffle/"
         image: "omnigraffle.jpg"
         description: |
-          OmniGraffle is for creating precise, beautiful graphics. Like website 
-          wireframes, an electrical system design, a family tree, or mapping 
+          OmniGraffle is for creating precise, beautiful graphics. Like website
+          wireframes, an electrical system design, a family tree, or mapping
           out software classes.
       - name: "draw.io"
         url: "https://www.draw.io"
@@ -146,13 +180,13 @@ categories:
         url: "http://usabilitytools.com/ux-suite/"
         image: "usability-tools-ux-suite.jpg"
         description: |
-          A suite of remote testing tools, including click testing, web 
+          A suite of remote testing tools, including click testing, web
           testing, and surveys.
       - name: "GhostRec"
         url: "http://www.ghostrec.com/"
         image: "ghost-rec.jpg"
         description: |
-          Record real visitors surfing your website without additional hardware 
+          Record real visitors surfing your website without additional hardware
           or software.
       - name: "Fivesecondtest"
         url: "http://fivesecondtest.com/"
@@ -168,8 +202,8 @@ categories:
         url: "http://www.labsmedia.com/clickheat/index.html"
         image: "click-heat.jpg"
         description: |
-          ClickHeat is a visual heatmap of clicks on a HTML page, showing hot 
-          and cold click zones. ClickHeat is an OpenSource software, released 
+          ClickHeat is a visual heatmap of clicks on a HTML page, showing hot
+          and cold click zones. ClickHeat is an OpenSource software, released
           under GPL licence, and free of charge.
       - name: "Clicktale"
         url: "http://www.clicktale.com/"
@@ -185,11 +219,11 @@ categories:
         url: "http://survey.io/"
         image: "survey-io.jpg"
         description: |
-          Have you every wondered who the most passionate users of your product 
-          are? Or why they are using it? We have too! That's why we are 
-          creating tools to enable you to better understand your customers to 
-          help you improve your product. Survey.io is a simple survey tool 
-          originally created as a collaboration between Sean Ellis and 
+          Have you every wondered who the most passionate users of your product
+          are? Or why they are using it? We have too! That's why we are
+          creating tools to enable you to better understand your customers to
+          help you improve your product. Survey.io is a simple survey tool
+          originally created as a collaboration between Sean Ellis and
           KISSmetrics.
   - id: "design-services"
     name: "Design services and community"
@@ -198,26 +232,26 @@ categories:
         url: "https://dribbble.com/"
         image: "dribbble.jpg"
         description: |
-          What are you working on? Dribbble is a community of designers 
-          answering that question each day. Web designers, graphic designers, 
-          illustrators, icon artists, typographers, logo designers, and other 
-          creative types share small screenshots (shots) that show their work, 
+          What are you working on? Dribbble is a community of designers
+          answering that question each day. Web designers, graphic designers,
+          illustrators, icon artists, typographers, logo designers, and other
+          creative types share small screenshots (shots) that show their work,
           process, and current projects.
       - name: "DesignCrowd"
         url: "http://www.designcrowd.com/"
         image: "design-crowd.jpg"
         description: |
-          DesignCrowd is an online marketplace providing logo, website, print 
-          and graphic design services by providing access to freelance graphic 
-          designers and design studios around the world. 
+          DesignCrowd is an online marketplace providing logo, website, print
+          and graphic design services by providing access to freelance graphic
+          designers and design studios around the world.
       - name: "99designs"
         url: "http://99designs.com/"
         image: "99designs.jpg"
         description: |
-          99designs pioneered the design contest, where designers submit 
-          competing designs in response to a customer’s design brief—and the 
-          winner receives a cash payment for their work. Through more than 
-          371,806 design contests, we’ve paid out $93,422,757 to our designer 
+          99designs pioneered the design contest, where designers submit
+          competing designs in response to a customer’s design brief—and the
+          winner receives a cash payment for their work. Through more than
+          371,806 design contests, we’ve paid out $93,422,757 to our designer
           community to date.
       # https://www.graphicsprings.com
   - id: "design-checklists"
@@ -227,9 +261,9 @@ categories:
         url: "http://www.uxbooth.com/articles/quick-usability-checklist/"
         image: "usability-checklist.jpg"
         description: |
-          After reviewing websites for a few months, I’ve begun to see general 
-          patterns emerge that make a site more or less usable. In this post, 
-          I’d like to highlight some of the more common problems designers 
+          After reviewing websites for a few months, I’ve begun to see general
+          patterns emerge that make a site more or less usable. In this post,
+          I’d like to highlight some of the more common problems designers
           should address on their own sites in a Usability checklist of sorts.
       - name: "25-point Website Usability Checklist"
         url: "http://drpete.co/topic/25-point-website-usability-checklist"
@@ -243,18 +277,18 @@ categories:
       - name: "Web standards checklist"
         url: "http://www.maxdesign.com.au/articles/checklist/"
         description: |
-          A site built to web standards should adhere to standards (HTML, 
-          XHTML, XML, CSS, XSLT, DOM, MathML, SVG etc) and pursue best 
-          practices (valid code, accessible code, semantically correct code, 
-          user-friendly URLs etc). In other words, a site built to web 
-          standards should ideally be lean, clean, CSS-based, accessible, 
+          A site built to web standards should adhere to standards (HTML,
+          XHTML, XML, CSS, XSLT, DOM, MathML, SVG etc) and pursue best
+          practices (valid code, accessible code, semantically correct code,
+          user-friendly URLs etc). In other words, a site built to web
+          standards should ideally be lean, clean, CSS-based, accessible,
           usable and search engine friendly.
       - name: "Aaron Cannon’s Web Accessibility Checklist"
         url: "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
         description: |
-          When I wrote the below checklist, I attempted to answer the question, 
-          ‘What concise pieces of advice can I give to designers that will have 
-          the greatest impact on accessibility in the majority of cases?’ 
+          When I wrote the below checklist, I attempted to answer the question,
+          ‘What concise pieces of advice can I give to designers that will have
+          the greatest impact on accessibility in the majority of cases?’
   - id: "personas"
     name: "User Personas"
     sites:
@@ -262,32 +296,32 @@ categories:
         url: "http://www.ux-lady.com/introduction-to-user-personas/"
         image: "intro-to-user-personas.jpg"
         description: |
-          From all over the techniques and tools related to design process and 
-          User experience, only personas appears as a consistent common 
-          denominator, even in methods against the use of extensive 
-          “deliverables” as Lean UX. Most of the point of view agree in that 
-          the secret of a great user experiences strategy lies on this tool, 
+          From all over the techniques and tools related to design process and
+          User experience, only personas appears as a consistent common
+          denominator, even in methods against the use of extensive
+          “deliverables” as Lean UX. Most of the point of view agree in that
+          the secret of a great user experiences strategy lies on this tool,
           even so the building process varies significantly.
       - name: "Personas - Development Impact and You"
         url: "http://diytoolkit.org/tools/personas-2/"
         image: "personas-dev-impact.jpg"
         description: |
-          Personas are portraits of fictional but realistic individuals that 
-          are used as a common reference point to communicate particular groups 
-          in your intended audience. Personas are created by drawing together 
-          the characteristics of similar people – their behaviours, motivations 
-          and the like – into one ‘archetype’ through which the group can be 
-          understood. By creating a fictional character to embody these 
-          characteristics, you don’t lose the little details that make someone 
-          the person they are. In this way, Personas help ensure that your 
-          work stays focused on people, rather than an abstract description 
+          Personas are portraits of fictional but realistic individuals that
+          are used as a common reference point to communicate particular groups
+          in your intended audience. Personas are created by drawing together
+          the characteristics of similar people – their behaviours, motivations
+          and the like – into one ‘archetype’ through which the group can be
+          understood. By creating a fictional character to embody these
+          characteristics, you don’t lose the little details that make someone
+          the person they are. In this way, Personas help ensure that your
+          work stays focused on people, rather than an abstract description
           of the group they are said to represent.
       - name: "Personas"
         url: "http://www.usability.gov/how-to-and-tools/methods/personas.html"
         description: |
-          The purpose of personas is to create reliable and realistic 
-          representations of your key audience segments for reference. These 
-          representations should be based on qualitative and some quantitative 
+          The purpose of personas is to create reliable and realistic
+          representations of your key audience segments for reference. These
+          representations should be based on qualitative and some quantitative
           user research and web analytics.
   - id: "further-reading"
     name: "Further Reading"
@@ -335,7 +369,7 @@ categories:
         url: "http://alistapart.com/topics/design"
         image: "a-list-apart.jpg"
         description: |
-          A List Apart explores the design, development, and meaning of web 
+          A List Apart explores the design, development, and meaning of web
           content, with a special focus on web standards and best practices.
 # https://developer.apple.com/design/tips/
 

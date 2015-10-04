@@ -3,13 +3,13 @@ description: "How to define a minimum viable product (MVP); how to build prototy
 icon: "bolt"
 type: "products"
 see_more: |
-  See the "Idea, Design, MVP" chapter in 
-  <a href="/#part-1-products">Part I, Products</a> for more info.  
+  See the "Idea, Design, MVP" chapter in
+  <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
   - id: "landing-pages"
     name: "Landing Pages"
     description: |
-      Tools that help you quickly build a landing pages, drive traffic to it, 
+      Tools that help you quickly build a landing pages, drive traffic to it,
       capture email addresses, and A/B test different copy and designs.
     sites:
       - name: "LeadPages"
@@ -22,7 +22,7 @@ categories:
       - name: "Unbounce"
         url: "http://unbounce.com/"
         image: "unbounce.jpg"
-        description: "Build, publish & A/B test landing pages without I.T."        
+        description: "Build, publish & A/B test landing pages without I.T."
       - name: "HubSpot Landing Pages"
         url: "http://www.hubspot.com/products/landing-pages"
         image: "hubspot-landing-pages.jpg"
@@ -51,7 +51,7 @@ categories:
         url: "https://www.yola.com/"
         image: "yola.jpg"
         description: |
-          Create a professional, free website in minutes. Get leads, book 
+          Create a professional, free website in minutes. Get leads, book
           appointments and sell online.
       - name: "Landing Page Creator"
         url: "http://www.getresponse.com/features/landing-page-creator.html"
@@ -60,7 +60,7 @@ categories:
         url: "https://pages.github.com/"
         image: "github-pages.jpg"
         description: |
-          Websites for you and your projects. Hosted directly from your GitHub 
+          Websites for you and your projects. Hosted directly from your GitHub
           repository. Just edit, push, and your changes are live.
       # https://gohugo.io/
       - name: "Host Your Static Website on Amazon S3"
@@ -70,25 +70,25 @@ categories:
         url: "http://formspree.io/"
         image: "form-spree.jpg"
         description: |
-          Just send your form to our URL and we'll forward it to your email. 
+          Just send your form to our URL and we'll forward it to your email.
           No PHP, Javascript or sign up required — perfect for static sites!
   - id: "a-b-testing"
     name: "A/B Testing"
     description: |
-      A/B testing and multi-variate testing allow you to test changes to your 
+      A/B testing and multi-variate testing allow you to test changes to your
       products against each other and see which ones perform better.
-    sites: 
+    sites:
       - name: "Optimizely"
         url: "https://www.optimizely.com/"
         image: "optimizely.jpg"
-        description: "One optimization platform for websites and mobile apps"  
+        description: "One optimization platform for websites and mobile apps"
       - name: "Visual Website Optimizer"
         url: "https://vwo.com"
         image: "vwo.jpg"
         description: |
-          Easily change the headline, button, image or any other element to 
-          create multiple variations of your website. VWO will equally divide 
-          your website traffic among all the variations and track which one 
+          Easily change the headline, button, image or any other element to
+          create multiple variations of your website. VWO will equally divide
+          your website traffic among all the variations and track which one
           works the best for you.
       - name: "Convert"
         url: "http://www.convert.com/"
@@ -103,12 +103,12 @@ categories:
         url: "http://www.adpushup.com/"
         image: "adpushup.jpg"
         description: |
-          Increase ad revenue from your website with advanced automatic A/B 
+          Increase ad revenue from your website with advanced automatic A/B
           testing.
       - name: "Modesty"
         url: "https://github.com/causes/modesty"
         description: |
-          Modesty is a simple, scalable, open source split testing and event 
+          Modesty is a simple, scalable, open source split testing and event
           tracking framework.
       - name: "How long will your experiment take?"
         url: "http://www.experimentcalculator.com"
@@ -122,24 +122,24 @@ categories:
   - id: "explainer-video"
     name: "Explainer Video"
     description: |
-      Tools that make it easy to put together a video that explains your 
+      Tools that make it easy to put together a video that explains your
       product.
     sites:
       - name: "VideoScribe"
         url: "http://www.videoscribe.co/"
         image: "video-scribe.jpg"
-        description: "Make your own whiteboard videos, fast."    
+        description: "Make your own whiteboard videos, fast."
       - name: "PowToon"
         url: "http://www.powtoon.com/"
         image: "pow-toon.jpg"
         description: |
-          Free business presentation software animated video maker and 
+          Free business presentation software animated video maker and
           PowerPoint alternative
       - name: "GoAnimate"
         url: "http://goanimate.com/"
         image: "go-animate.jpg"
         description: |
-          Make Professional Animated Videos. Easy learning curve. Low budget. 
+          Make Professional Animated Videos. Easy learning curve. Low budget.
           Simple do-it-yourself tools.
       - name: "Animaker"
         url: "http://www.animaker.com/"
@@ -155,31 +155,31 @@ categories:
         url: "https://www.renderforest.com/"
         image: "render-forest.jpg"
         description: |
-          Renderforest is free online video maker. Easily create slideshows 
-          with music, promotional, explainer or animated business videos, logo 
+          Renderforest is free online video maker. Easily create slideshows
+          with music, promotional, explainer or animated business videos, logo
           animations, kinetic typography and more.
       - name: "Camtasia"
         url: "http://www.techsmith.com/camtasia.html"
         image: "camtasia.jpg"
         description: "Screen recording and video editing"
       - name: "iMovie"
-        url: "https://www.apple.com/mac/imovie/"          
+        url: "https://www.apple.com/mac/imovie/"
       - name: "Turn a PowerPoint presentation into a video."
         url: "https://support.office.com/en-us/article/Turn-your-presentation-into-a-video-c140551f-cb37-4818-b5d4-3e30815c3e83?CorrelationId=57611cdd-c907-4ce1-9cdb-38a1e43ec88a"
       - name: "Freesound"
         url: "https://www.freesound.org/"
         image: "free-sound.jpg"
         description: |
-          Freesound is a collaborative database of Creative Commons Licensed 
-          sounds. 
+          Freesound is a collaborative database of Creative Commons Licensed
+          sounds.
       - name: "Musopen"
         url: "https://musopen.org/"
         image: "mus-open.jpg"
         description: |
-          Musopen is a 501(c)(3) non-profit focused on increasing access to 
-          music by creating free resources and educational materials. We 
-          provide recordings, sheet music, and textbooks to the public for 
-          free, without copyright restrictions. Put simply, our mission is to 
+          Musopen is a 501(c)(3) non-profit focused on increasing access to
+          music by creating free resources and educational materials. We
+          provide recordings, sheet music, and textbooks to the public for
+          free, without copyright restrictions. Put simply, our mission is to
           set music free.
       - name: "Envato Market"
         url: "http://audiojungle.net/"
@@ -194,12 +194,12 @@ categories:
         url: "https://www.voices.com/"
         image: "voices.jpg"
         description: "The #1 Marketplace for Voice Overs"
-  - id: "prototyping-tools" 
+  - id: "prototyping-tools"
     name: "Rapid prototyping tools"
     sites:
       - name: "Axure"
         url: "http://www.axure.com/"
-        image: "axure.jpg"        
+        image: "axure.jpg"
         description: |
           Create Prototypes of Websites & Apps Without Coding
       - name: "Fluid"
@@ -226,10 +226,18 @@ categories:
         url: "http://localtunnel.me/"
         image: "local-tunnel.jpg"
         description: |
-          Localtunnel allows you to easily share a web service on your local 
-          development machine without messing with DNS and firewall settings. 
-          Localtunnel will assign you a unique publicly accessible url that 
+          Localtunnel allows you to easily share a web service on your local
+          development machine without messing with DNS and firewall settings.
+          Localtunnel will assign you a unique publicly accessible url that
           will proxy all requests to your locally running webserver.
+# Preorder tools:
+# https://open.tilt.com/
+# https://www.trycelery.com/
+# https://docs.shopify.com/manual/configuration/store-customization/page-specific/product-page/can-customers-pre-order-products
+# https://www.backerkit.com/preorders
+# http://www.woothemes.com/products/woocommerce-pre-orders/
+# https://plasso.co/
+# http://www.shopio.com/
   - id: "further-reading"
     name: "Further Reading"
     sites:
@@ -237,8 +245,8 @@ categories:
         url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"
         image: "uxpin-guide-to-mvp.jpg"
         description: |
-          Free ebook about the art and science of building great products with 
-          minimum resources as practiced by companies like Twitter, Dropbox, 
+          Free ebook about the art and science of building great products with
+          minimum resources as practiced by companies like Twitter, Dropbox,
           Airbnb, and Buffer among others.
       - name: "Minimum Viable Product: Build a slice across, instead of one layer at a time."
         url: "https://twitter.com/jopas/status/515301088660959233"
@@ -249,8 +257,8 @@ categories:
       - name: "If your product is Great, it doesn't need to be Good."
         url: "http://paulbuchheit.blogspot.com/2010/02/if-your-product-is-great-it-doesnt-need.html"
         description: |
-          What's the right approach to new products? Pick three key attributes 
-          or features, get those things very, very right, and then forget about 
+          What's the right approach to new products? Pick three key attributes
+          or features, get those things very, very right, and then forget about
           everything else.
       - name: "The Guide to Minimum Viable Products"
         url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"

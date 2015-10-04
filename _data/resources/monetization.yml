@@ -3,12 +3,12 @@ description: "Startup business models; information on IPO's and acquisitions; re
 icon: "dollar"
 type: "products"
 see_more: |
-  See the "Idea, Design, MVP" chapter in 
+  See the "Idea, Design, MVP" chapter in
   <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
   - id: "business-models"
     name: "Startup Business Models"
-    sites: 
+    sites:
       - name: "Startup Business Models"
         url: "https://gist.github.com/ndarville/4295324"
         image: "business-models.jpg"
@@ -19,8 +19,8 @@ categories:
         url: "http://www.businessmodelgeneration.com/canvas/bmc"
         image: "business-model-canvas.jpg"
         description: |
-          The Business Model Canvas, is a strategic management and 
-          entrepreneurial tool. It allows you to describe, design, challenge, 
+          The Business Model Canvas, is a strategic management and
+          entrepreneurial tool. It allows you to describe, design, challenge,
           invent, and pivot your business model. It's based on the book
           <em>Business Model Generation</em>.
       - name: "Business Model vs Business Plan"
@@ -42,8 +42,8 @@ categories:
         url: "https://squareup.com/"
         image: "square.jpg"
         description: |
-          Credit Card Processing and Business Solutions. The Square Reader 
-          attaches to your mobile phone and allows you to accept credit card 
+          Credit Card Processing and Business Solutions. The Square Reader
+          attaches to your mobile phone and allows you to accept credit card
           payments.
       - name: "Amazon Payments"
         url: "https://payments.amazon.com/merchant"
@@ -80,7 +80,7 @@ categories:
         url: "http://carbonads.net/"
         image: "carbon.jpg"
         description: |
-          The best way to reach designers and developers through a single, 
+          The best way to reach designers and developers through a single,
           relevant, tasteful ad.
       - name: "RevenueHits"
         url: "http://www.revenuehits.com/"
@@ -100,8 +100,8 @@ categories:
         url: "http://webstore.amazon.com/"
         image: "amazon-webstore.jpg"
         description: |
-          Take your business to a whole new level with your own customized 
-          eCommerce site, on your owndomain—backed by Amazon technology and 
+          Take your business to a whole new level with your own customized
+          eCommerce site, on your owndomain—backed by Amazon technology and
           expertise.
       - name: "Shopify"
         url: "http://www.shopify.com/"
@@ -112,8 +112,16 @@ categories:
         url: 'https://estoreify.com/'
         image: "estoreify.jpg"
         description: |
-          Everything you need to create your own white label store in just 5 
+          Everything you need to create your own white label store in just 5
           minutes.
+# Preorder tools:
+# https://open.tilt.com/
+# https://www.trycelery.com/
+# https://docs.shopify.com/manual/configuration/store-customization/page-specific/product-page/can-customers-pre-order-products
+# https://www.backerkit.com/preorders
+# http://www.woothemes.com/products/woocommerce-pre-orders/
+# https://plasso.co/
+# http://www.shopio.com/
   - id: "ipo-acquisition"
     name: "IPO's and Acquisitions"
     sites:

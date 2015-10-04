@@ -208,6 +208,10 @@ categories:
         image: "search-engine-land-guide-seo.jpg"
       - name: "SEO: A Comprehensive Guide for Beginners"
         url: "https://blog.kissmetrics.com/seo-guide/"
+# App Store Optimization
+# http://www.tune.com/
+# https://searchman.com/
+# http://appnique.com/
   - id: "social-media"
     name: "Social Media"
     description: |
@@ -240,6 +244,8 @@ categories:
       - name: "Vimeo for Business"
         url: "https://vimeo.com/business"
         image: "vimeo-business.jpg"
+      # Hootsuite
+      # Buffer
   - id: "communities"
     name: "Communities"
     description: |
