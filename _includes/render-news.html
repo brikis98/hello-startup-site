@@ -5,16 +5,25 @@
     {% else %}
       {% assign anchor_attrs = 'target="_blank" class="tracked"' %}
     {% endif %}
+    {% capture title %}{% if news.title %}{{ news.title }}{% else %}{{ news.name }}{% endif %}{% endcapture %}
     <hr>
     <div class="row news-item">
       <div class="col-sm-{{ site.left_column_size }}">
         <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-image">
-          <img src="/images/{{ news.image }}" alt="{{ news.title }}" class="img-responsive news-image">
+          {% if news.image %}
+            <img src="/images/{{ news.image }}" alt="{{ title }}" class="img-responsive news-image">
+          {% else %}
+            <div class="panel panel-default">
+              <div class="panel-body no-screenshot">
+                No Image
+              </div>
+            </div>
+          {% endif %}
         </a>
       </div>
       <div class="col-sm-{{ site.right_column_size }}">
         <h4>
-          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ news.title }}</a>
+          <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-title">{{ title }}</a>
           {% if news.date %}
             <div><small>{{ news.date }}</small></div>
           {% endif %}
@@ -22,7 +31,7 @@
         {% if news.secondary_image %}
           <p>
             <a href="{{ news.url }}" {{ anchor_attrs }} data-trk="news-{{news.id}}-secondary-image">
-              <img src="/images/{{ news.secondary_image }}" alt="{{ news.title }}">
+              <img src="/images/{{ news.secondary_image }}" alt="{{ title }}">
             </a>
           </p>
         {% endif %}

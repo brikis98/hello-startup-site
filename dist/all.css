@@ -2076,7 +2076,10 @@ section {
   color: #333;
 }
 
-
+.interview-item h4.custom-spacing {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
 
 .news-item {
   margin-bottom: 30px;

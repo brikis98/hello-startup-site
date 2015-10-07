@@ -1,0 +1,12 @@
+{% assign interview = include.interview %}
+<div class="row news-item interview-item">
+  <div class="col-sm-4">
+    <a href="{{ interview.url }}" target="_blank">
+      <img src="/images/{{ interview.image }}" alt="{{ interview.name }}">
+    </a>
+  </div>
+  <div class="col-sm-8">
+    <a href="{{ interview.url }}" target="_blank"><h4 class="custom-spacing">{{ interview.name }}</h4></a>
+    {{ interview.description }}
+  </div>
+</div>

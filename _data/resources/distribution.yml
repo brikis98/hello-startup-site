@@ -246,6 +246,7 @@ categories:
         image: "vimeo-business.jpg"
       # Hootsuite
       # Buffer
+      # https://www.thunderclap.it/
   - id: "communities"
     name: "Communities"
     description: |
@@ -255,6 +256,7 @@ categories:
       - name: "Meetup"
         url: "http://www.meetup.com/"
         image: "meetup.jpg"
+      # Lanyrd
       - name: "Reddit"
         url: "https://www.reddit.com/"
         image: "reddit.jpg"

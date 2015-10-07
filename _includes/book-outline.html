@@ -19,49 +19,7 @@
       <h4>Part I: Products</h4>
     </div>
     <div class="col-sm-{{ site.right_column_size }}">
-      <ol>
-        <li>
-          <dl id="chapter-why-startups">
-            <dt>Why Startups</dt>
-            <dd>
-              Why today, more than any other time in history, startups are your best
-              opportunity to build products that touch millions of lives; what is a
-              startup; why you should work at a startup; why you shouldn't work at a
-              startup.
-            </dd>
-          </dl>
-        </li>
-        <li>
-          <dl id="chapter-idea-design-mvp">
-            <dt>Startup Ideas</dt>
-            <dd>
-              How to come up with startup ideas; idea journals, constraints, and pain
-              points; ideas vs. execution; Boyd's Law; how to use the customer
-              development process to quickly and cheaply validate your ideas.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-data-distribution-iteration">
-            <dt>Product Design</dt>
-            <dd>
-              Design skills everyone should learn; how to design a user interface that
-              doesn't make users feel stupid; principles of user-centered design,
-              including personas, emotional design, simplicity, and usability testing;
-              principles of visual design, including copywriting, reuse, layout, typography,
-              contrast and repetition, and colors; how to design a Minimum Viable Product
-              (MVP).
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-data-distribution-iteration">
-            <dt>Data and Distribution</dt>
-            <dd>
-              Metrics every startup should measure; data-driven product development;
-              A/B testing; why the best product doesn't always win; marketing,
-              viral growth, and sales strategies for startups.
-            </dd>
-        </li>
-      </ol>
+      {% include outline-part-1.html %}
     </div>
   </div>
   <div class="row book-outline" id="part-2-technologies">
@@ -70,51 +28,7 @@
       <h4>Part II: Technologies</h4>
     </div>
     <div class="col-sm-{{ site.right_column_size }}">
-      <ol start="5">
-        <li>
-          <dl id="chapter-picking-a-tech-stack">
-            <dt>Picking a Tech Stack</dt>
-            <dd>
-              How to decide between building software in-house, buying a commercial
-              product, and using open source; how to pick the initial tech stack; how to
-              evolve a tech stack and rewrites; how to evaluate programming languages,
-              frameworks, and databases.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-principles-of-clean-code">
-            <dt>Clean Code</dt>
-            <dd>
-              Why a programmer's job is not to write code, but to understand it; how code
-              layout, naming, error handling, Don't Repeat Yourself (DRY), the Single
-              Responsibility Principle (SRP), loose coupling, and high cohesion lead to
-              code that's easier to understand; why functional programming leads to code
-              that's easier to reuse; why refactoring is the essence of writing code well.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-practices-of-clean-code">
-            <dt>Scalability</dt>
-            <dd>
-              How to scale a startup to more users and more developers; how to make changes
-              to your code without being afraid; how Test Driven Development (TDD) leads to
-              better code; how to introduce design reviews, pair coding, and code reviews at
-              your startup; why the Readme is the most important file in your code base;
-              if you can't measure it, you can't fix it; how to do back-of-the-envelope
-              calculations to reason about performance.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-software-delivery">
-            <dt>Software Delivery</dt>
-            <dd>
-              What happens to the code <em>after</em> you write it; why you should use source
-              control, an open source build system, and continuous integration; how to
-              set up configuration management, automated deployment, and continuous
-              delivery; how to instrument your code with logging, monitoring, and alerting.
-            </dd>
-        </li>
-      </ol>
+      {% include outline-part-2.html %}
     </div>
   </div>
   <div class="row book-outline" id="part-3-teams">
@@ -123,49 +37,16 @@
       <h4>Part III: Teams</h4>
     </div>
     <div class="col-sm-{{ site.right_column_size }}">
-      <ol start="9">
-        <li>
-          <dl id="chapter-startup-culture">
-            <dt>Startup Culture</dt>
-            <dd>
-              Why you should define your company's mission and values; trade-offs between a
-              management-driven hierarchy and a flat organization; the role of culture in
-              hiring, promotions, and motivation; how to design the ideal office for
-              programmers; trade-offs with working remotely; communication policies and
-              process at a startup.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-getting-a-job-at-a-startup">
-            <dt>Getting a Job at a Startup</dt>
-            <dd>
-              How to find a startup job using your network; how to get your resume noticed;
-              how to get good at interviews, whiteboard coding, and asking good questions;
-              how to evaluate a job offer; how to think about salary and equity; how to
-              negotiate a job offer.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-hiring-for-your-startup">
-            <dt>Hiring for your Startup</dt>
-            <dd>
-              Why people are the most important part of a startup; who to hire, including
-              co-founders, early hires, generalists, and specialists; how to find great
-              candidates and engineering branding; why whiteboard coding is terrible and
-              what to do about it; how to make an offer they can't refuse.
-            </dd>
-        </li>
-        <li>
-          <dl id="chapter-learning-and-teaching">
-            <dt>Learning</dt>
-            <dd>
-              The most interesting software developer in the world; why you should write
-              blog posts, articles, papers, and books; why you should talk at meetup
-              groups, tech talks, and conferences; why you should open source almost all of
-              your code; why you should share almost everything you know.
-            </dd>
-        </li>
-      </ol>
+      {% include outline-part-3.html %}
+    </div>
+  </div>
+  <div class="row book-outline" id="interviews">
+    <div class="col-sm-{{ site.left_column_size }} centered">
+      <div class="fa fa-users fa-5x circle-icon"></div>
+      <h4>Interviews</h4>
+    </div>
+    <div class="col-sm-{{ site.right_column_size }}">
+      {% include interviews.html %}
     </div>
   </div>
   <div class="learn-more">

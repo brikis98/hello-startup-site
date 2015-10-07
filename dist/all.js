@@ -6523,7 +6523,7 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
           fjs = d.getElementsByTagName(s)[0];
 
       if (d.getElementById(id)) return;
-      
+
       js = d.createElement(s);
       js.id = id;
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=180189308723492&version=v2.0";
@@ -6571,7 +6571,7 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
 
   var truncateText = function() {
     $('.book-outline dd').jTruncate({
-      length: 200,
+      length: 125,
       moreText: " (more)",
       lessText: " (less)"
     });
