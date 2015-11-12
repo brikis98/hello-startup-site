@@ -1,11 +1,3 @@
-{% for interview in site.data.interviews limit:4 %}
+{% for interview in site.data.interviews %}
   {% include render-interview.html interview=interview %}
 {% endfor %}
-<p>
-  <a href="#interview-collapse" data-toggle="collapse" aria-expanded="false" aria-controls="interview-collapse">(show all interviews)</a>
-</p>
-<div id="interview-collapse" class="collapse">
-  {% for interview in site.data.interviews offset:4 %}
-    {% include render-interview.html interview=interview %}
-  {% endfor %}
-</div>

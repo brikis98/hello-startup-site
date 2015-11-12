@@ -1,0 +1,10 @@
+<div class="row">
+  {% for save_link in site.data.save_links %}
+    {% capture save_text %}Add {{ site.short_title }} on {{ save_link.name }}{% endcapture %}
+    <div class="col-sm-3">
+      <a href="{{ save_link.url }}" class="buy-link tracked" data-trk="save-{{ save_link.id }}-button-save-the-book" target="_blank" title="{{ save_text }}">
+        <img src="images/{{ save_link.image }}" alt="{{ save_text }}" class="buy-button">
+      </a>
+    </div>
+  {% endfor %}
+</div>

@@ -3,16 +3,26 @@
     <div class="col-md-12">
       <h2>The Book</h2>
       <h3>
-        <em>{{ site.short_title }}</em> is a practical, actionable, how-to guide to startups.
-        The book consists of three parts: Products, Technologies, and Teams. Below is the
-        list of chapters in each part, and under each chapter, an outline of the concrete
-        techniques, tools, and skills you will learn from reading it. Although at its core,
-        this is a book for programmers, by programmers, only Part II, Technologies, is
-        significantly technical. Parts I and III should be accessible to technical and
-        non-technical audiences alike.
+        When you learn a new programming language, the traditional first step
+        is to go through a "Hello, World" tutorial that teaches you everything
+        you need to know to get a basic program working, such as one that
+        prints the text "Hello, World" to the screen. This book is the
+        "Hello, World" tutorial for building products, technologies, and teams
+        in a startup environment.
       </h3>
     </div>
   </div>
+  <h4>Outline</h4>
+  <h3>
+    <em>{{ site.short_title }}</em> is a practical, actionable, how-to guide to
+    startups. The book consists of three parts: Products, Technologies, and
+    Teams. Although at its core, this is a book for programmers, by
+    programmers, only Part II, Technologies, is significantly technical. Parts
+    I and III should be accessible to technical and non-technical audiences
+    alike. Below is the list of chapters in each part, and under each chapter,
+    a sampling of the concrete techniques, tools, and skills you will learn
+    from reading it.
+  </h3>
   <div class="row book-outline" id="part-1-products">
     <div class="col-sm-{{ site.left_column_size }} centered">
       <div class="fa fa-shopping-cart fa-5x circle-icon"></div>
@@ -40,14 +50,16 @@
       {% include outline-part-3.html %}
     </div>
   </div>
-  <div class="row book-outline" id="interviews">
-    <div class="col-sm-{{ site.left_column_size }} centered">
-      <div class="fa fa-users fa-5x circle-icon"></div>
-      <h4>Interviews</h4>
-    </div>
-    <div class="col-sm-{{ site.right_column_size }}">
-      {% include interviews.html %}
-    </div>
+  <h4 id="interviews">Interviews</h4>
+  <h3>
+    Part of the research for <em>{{ site.short_title }}</em> included interviews
+    with programmers from some of the most successful startups of the last decade,
+    including early employees of Google, Facebook, LinkedIn, Twitter, GitHub,
+    Stripe, Instagram, AdMob, Pinterest, and many others. You can find their
+    profiles below.
+  </h3>
+  <div class="row">
+    {% include interviews.html %}
   </div>
   <div class="learn-more">
     <div class="row">

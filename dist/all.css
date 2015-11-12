@@ -2025,7 +2025,7 @@ section {
   border-radius: 5px 5px 5px 5px;
   margin: 0 0 10px;
   width: 100%;
-  height: 64px;
+  height: 65px;
   line-height: 60px;
   background-color: #fff;
   text-align: center;
@@ -2053,6 +2053,7 @@ section {
   border: 1px solid #555;
   background-color: #555;
   padding: 30px;
+  width: 50%;
 }
 
 .book-outline {
@@ -2074,6 +2075,10 @@ section {
 
 .resource-lists .media .media-left a {
   color: #333;
+}
+
+.interview-item {
+  height: 200px;
 }
 
 .interview-item h4.custom-spacing {
