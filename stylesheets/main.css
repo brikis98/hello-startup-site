@@ -536,6 +536,7 @@ input:required:invalid, input:focus:invalid, .invalid-value {
 
   header .blurb {
     padding-top: 60px;
+    padding-bottom: 20px;
   }
 }
 

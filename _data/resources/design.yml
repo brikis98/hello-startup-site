@@ -50,8 +50,15 @@ categories:
         image: "html5up.jpg"
       - name: "40 Free Branding &amp; Identity Mockup Templates"
         url: "http://designinstruct.com/print-design/free-branding-identity-mockups/"
-      # http://w3layouts.com/free-responsive-html5-css3-website-templates/
-      # https://github.com/spf13/hugoThemes
+      - name: "100 Free Responsive HTML5 CSS3 Website Templates"
+        url: "http://w3layouts.com/free-responsive-html5-css3-website-templates/"
+        image: "100-free-templates.jpg"
+      - name: "Hugo Themes"
+        url: "http://themes.gohugo.io/"
+        image: "hugo-themes-site.jpg"
+      - name: "One Page Love"
+        url: "https://onepagelove.com/"
+        image: "one-page-love.jpg"
   - id: "mobile-templates"
     name: "Mobile templates"
     sites:
@@ -271,7 +278,12 @@ categories:
           winner receives a cash payment for their work. Through more than
           371,806 design contests, we’ve paid out $93,422,757 to our designer
           community to date.
-      # https://www.graphicsprings.com
+      - name: "Graphic Springs"
+        url: "https://www.graphicsprings.com"
+        image: "graphic-springs.jpg"
+        description: |
+          Online logo maker. Creating the logo is free, but if you want to
+          download it, it's $39.99.
   - id: "design-checklists"
     name: "Design checklists"
     sites:
@@ -389,5 +401,9 @@ categories:
         description: |
           A List Apart explores the design, development, and meaning of web
           content, with a special focus on web standards and best practices.
-# https://developer.apple.com/design/tips/
+      - name: "UI Design Do’s and Don’ts"
+        url: "https://developer.apple.com/design/tips/"
+        image: "apple-ui-dos-donts.jpg"
+        design: |
+          Apple's list of design concepts for building iOS apps.
 

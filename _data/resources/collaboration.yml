@@ -3,12 +3,12 @@ description: "Tools that help your team work together productively, such as GitH
 icon: "users"
 type: "teams"
 see_more: |
-  See the "Startup Culture" chapter in 
+  See the "Startup Culture" chapter in
   <a href="/#part-3-teams">Part III, Teams</a> for more info.
 categories:
   - id: "team-communication"
     name: "Team Communication"
-    sites: 
+    sites:
       - name: "Slack"
         url: "https://slack.com/"
         image: "slack.jpg"
@@ -29,9 +29,9 @@ categories:
       - name: "Hall"
         url: "https://hall.com/"
         image: "hall.jpg"
-  - id: "project-management"  
+  - id: "project-management"
     name: "Project and Team Management"
-    sites: 
+    sites:
       - name: "Asana"
         url: "https://asana.com/"
         image: "asana.jpg"
@@ -48,7 +48,7 @@ categories:
         image: "i-done-this.jpg"
   - id: "bug-tracking"
     name: "Bug Tracking"
-    sites: 
+    sites:
       - name: "JIRA"
         url: "https://www.atlassian.com/software/jira/"
         image: "jira.jpg"
@@ -71,7 +71,7 @@ categories:
         url: "http://www.redmine.org/"
   - id: "wiki"
     name: "Wiki and Blogging"
-    sites: 
+    sites:
       - name: "Confluence"
         url: "https://www.atlassian.com/software/confluence"
         image: "confluence.jpg"
@@ -99,7 +99,7 @@ categories:
         image: "linkedin-pulse.jpg"
   - id: "document-file-sharing"
     name: "Document and File Sharing"
-    sites: 
+    sites:
       - name: "DropBox"
         url: "https://www.dropbox.com"
         image: "dropbox.jpg"
@@ -148,15 +148,16 @@ categories:
       - name: "ClinchPad"
         url: "https://clinchpad.com/"
         image: "clinch-pad.jpg"
+      # https://www.intercom.io/
   - id: "customer-service"
     name: "Customer Service"
-    sites: 
+    sites:
       - name: "ZenDesk"
         url: "https://www.zendesk.com/"
         image: "zendesk.jpg"
       - name: "Groove"
         url: "https://www.groovehq.com/"
-        image: "groove.jpg"      
+        image: "groove.jpg"
       - name: "SalesForce Desk"
         url: "http://www.desk.com/"
         image: "salesforce-desk.jpg"
@@ -174,7 +175,7 @@ categories:
         image: "get-satisfaction.jpg"
   - id: "payroll-expenses-legal"
     name: "Payroll, Expenses, and Legal"
-    sites: 
+    sites:
       - name: "Expensify"
         url: "https://www.expensify.com/"
         image: "expensify.jpg"
@@ -202,14 +203,14 @@ categories:
         description: |
           Full suite of strategic HR services
       - name: "eshares"
-        url: "https://www.esharesinc.com/"  
+        url: "https://www.esharesinc.com/"
         image: "e-shares.jpg"
-        description: |  
-          Legally issue electronic shares, options, and notes. Manage a 
+        description: |
+          Legally issue electronic shares, options, and notes. Manage a
           real-time cap table.
       - name: "captable.io"
         url: "https://captable.io"
         image: "cap-tables-io.jpg"
         description: |
-          Build and share your cap table, conveniently and securely in the 
+          Build and share your cap table, conveniently and securely in the
           cloud. Free.
