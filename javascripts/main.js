@@ -2,10 +2,18 @@
   "use strict";
 
   var isMobile = $('body').hasClass('mobile');
+  var changeHeaderOn = 90;
+  var enableDynamicNav = $('body').hasClass('dynamic-nav');
+  var nav = $('.navbar');
+  var navCollapse = $('.navbar-collapse');
+  var NAVBAR_CLASS_DEFAULT = "navbar-default";
+  var NAVBAR_CLASS_INVERSE = "navbar-inverse";
+  var NAVBAR_ANIMATE_OPTIONS = {duration: 400, easing: 'linear', children: false};
 
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
-    $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500, 'easeInOutExpo');
+    var fudgeFactor = $anchor.hasClass('js-fudge-scroll') ? changeHeaderOn : 0;
+    $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top - fudgeFactor}, 1500, 'easeInOutExpo');
     event.preventDefault();
   };
 
@@ -31,14 +39,6 @@
 
     ga('send', props);
   };
-
-  var changeHeaderOn = 90;
-  var enableDynamicNav = $('body').hasClass('dynamic-nav');
-  var nav = $('.navbar');
-  var navCollapse = $('.navbar-collapse');
-  var NAVBAR_CLASS_DEFAULT = "navbar-default";
-  var NAVBAR_CLASS_INVERSE = "navbar-inverse";
-  var NAVBAR_ANIMATE_OPTIONS = {duration: 400, easing: 'linear', children: false};
 
   var showDefaultNav = function() {
     nav.switchClass(NAVBAR_CLASS_INVERSE, NAVBAR_CLASS_DEFAULT, NAVBAR_ANIMATE_OPTIONS);
