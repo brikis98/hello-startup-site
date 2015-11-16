@@ -10,7 +10,7 @@
     {% for buy_link in site.data.buy_links %}
       {% capture buy_text %}Buy {{ site.short_title }} on {{ buy_link.name }}{% endcapture %}
       <div class="col-sm-6">
-        <a href="{{ buy_link.url }}" class="buy-link tracked" data-trk="buy-{{ buy_link.id }}-button-get-the-book" target="_blank" title="{{ buy_text }}">
+        <a href="{{ buy_link.url }}" class="buy-link tracked" data-trk="buy-{{ buy_link.id }}-button-get-the-book" data-value="{{ buy_link.value }}" target="_blank" title="{{ buy_text }}">
           <img src="images/{{ buy_link.image }}" alt="{{ buy_text }}" class="buy-button">
         </a>
       </div>

@@ -2,15 +2,19 @@
   name: "Amazon"
   url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
   image: "amazon-small.png"
+  value: 20
 - id: "barnes-noble"
   name: "Barnes & Noble"
   url: "http://www.barnesandnoble.com/w/hello-startup-yevgeniy-brikman/1121522751"
   image: "barnes-noble-small.png"
+  value: 20
 - id: "oreilly"
   name: "O'Reilly Media Store"
   url: "http://shop.oreilly.com/product/0636920034360.do"
   image: "oreilly-store-small.gif"
+  value: 35
 - id: "safari"
   name: "Safari Books Online"
   url: "https://www.safaribooksonline.com/library/view/hello-startup/9781491910016/"
   image: "safari-store-small.gif"
+  value: 0

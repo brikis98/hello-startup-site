@@ -6425,10 +6425,18 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
   "use strict";
 
   var isMobile = $('body').hasClass('mobile');
+  var changeHeaderOn = 90;
+  var enableDynamicNav = $('body').hasClass('dynamic-nav');
+  var nav = $('.navbar');
+  var navCollapse = $('.navbar-collapse');
+  var NAVBAR_CLASS_DEFAULT = "navbar-default";
+  var NAVBAR_CLASS_INVERSE = "navbar-inverse";
+  var NAVBAR_ANIMATE_OPTIONS = {duration: 400, easing: 'linear', children: false};
 
   var scrollSmoothly = function(event) {
     var $anchor = $(this);
-    $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top}, 1500, 'easeInOutExpo');
+    var fudgeFactor = $anchor.hasClass('js-fudge-scroll') ? changeHeaderOn : 0;
+    $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top - fudgeFactor}, 1500, 'easeInOutExpo');
     event.preventDefault();
   };
 
@@ -6437,12 +6445,15 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
     var url = anchor.attr('href');
     var trk = anchor.attr('data-trk');
     var target = anchor.attr('target');
+    var valueString = anchor.attr('data-value');
+    var value = valueString ? parseInt(valueString, 10) : 0;
 
     var props = {
       'hitType': 'event',
       'eventCategory': 'outbound',
       'eventAction': 'click-' + trk,
-      'eventLabel': url
+      'eventLabel': url,
+      'eventValue': value
     };
 
     if (target !== "_blank") {
@@ -6454,14 +6465,6 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
 
     ga('send', props);
   };
-
-  var changeHeaderOn = 90;
-  var enableDynamicNav = $('body').hasClass('dynamic-nav');
-  var nav = $('.navbar');
-  var navCollapse = $('.navbar-collapse');
-  var NAVBAR_CLASS_DEFAULT = "navbar-default";
-  var NAVBAR_CLASS_INVERSE = "navbar-inverse";
-  var NAVBAR_ANIMATE_OPTIONS = {duration: 400, easing: 'linear', children: false};
 
   var showDefaultNav = function() {
     nav.switchClass(NAVBAR_CLASS_INVERSE, NAVBAR_CLASS_DEFAULT, NAVBAR_ANIMATE_OPTIONS);
