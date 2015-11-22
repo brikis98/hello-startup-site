@@ -1,3 +1,12 @@
+- id: "hello-startup-number-one-new-release"
+  url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
+  title: "Number one new release on Amazon!"
+  date: "November 22, 2015"
+  image: "amazon-number-one-new-release.png"
+  description: |
+    <em>Hello, Startup</em> is now the number one new release in "Computers &
+    Technology" on Amazon!
+  call_to_action: "Buy <em>Hello, Startup</em> on Amazon"
 - id: "hello-startup-release"
   url: "#buy-now"
   title: "Hello, Startup has been released!"
