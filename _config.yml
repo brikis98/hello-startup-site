@@ -36,3 +36,5 @@ right_column_size: 7
 # Build settings
 markdown: kramdown
 exclude: ["www", "mobile/www", "node_modules"]
+gems:
+  - jekyll-redirect-from
