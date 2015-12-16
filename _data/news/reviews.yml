@@ -57,6 +57,15 @@
    two good things would happen across the tech industry. The worst tech
    companies would go out of business, and the good ones would become
    dramatically more productive.
+- id: "amazon-review"
+  url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
+  title: "Amazon"
+  image: "amazon-logo.png"
+  secondary_image: "reviews/amazon-rating.png"
+  description: |
+    "An easy to read book about everything involved in building a startup. Must
+    read for anyone thinking of starting a company or joining an early
+    stage startup." &mdash; Dmitriy, Software Engineer
 - id: "oreilly-store-review"
   url: "http://shop.oreilly.com/product/0636920034360.do"
   title: "O'Reilly Store"
