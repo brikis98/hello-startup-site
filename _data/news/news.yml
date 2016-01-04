@@ -1,3 +1,12 @@
+- id: "hello-startup-cornell-mba-list"
+  url: "http://www.johnson.cornell.edu/Entrepreneurship-and-Innovation-Institute/Resources/Blogs-Books"
+  title: "Recommended books for entrepreneurs"
+  date: "January 4, 2016"
+  image: "johnson-school-logo.png"
+  description: |
+    <em>Hello, Startup</em> is now listed on the Cornell Business School list of
+    recommended books for entrepreneurs!
+  call_to_action: "Check out the list!"
 - id: "hello-startup-number-one-new-release"
   url: "http://www.amazon.com/Hello-Startup-Programmers-Building-Technologies/dp/1491909900"
   title: "Number one new release on Amazon!"
