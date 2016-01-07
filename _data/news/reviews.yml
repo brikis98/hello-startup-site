@@ -7,6 +7,14 @@
     "An easy to read book about everything involved in building a startup. Must
     read for anyone thinking of starting a company or joining an early
     stage startup." &mdash; Dmitriy, Software Engineer
+- id: "goodreads-review"
+  url: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
+  title: "Goodreads"
+  image: "goodreads-logo.jpg"
+  secondary_image: "reviews/goodreads-rating.png"
+  description: |
+    "I am not aware of a better book that accurately covers so much, to
+    this depth, while being readable." &mdash; Bill Boz, Developer
 - id: "oreilly-store-review"
   url: "http://shop.oreilly.com/product/0636920034360.do"
   title: "O'Reilly Store"
@@ -16,14 +24,6 @@
     "This is the kind of great book that comes once in a while such as
     'Business Model Generation' or 'The Startup Owner's Manual'" &mdash;
     Jeocentric, Architect, Developer
-- id: "goodreads-review"
-  url: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
-  title: "Goodreads"
-  image: "goodreads-logo.jpg"
-  secondary_image: "reviews/goodreads-rating.png"
-  description: |
-    "I am not aware of a better book that accurately covers so much, to
-    this depth, while being readable." &mdash; Bill Boz, Developer
 - id: "jay-kreps-review"
   url: "https://www.linkedin.com/in/jaykreps"
   title: "Jay Kreps, CEO, Confluent Inc"
