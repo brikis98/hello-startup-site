@@ -3,16 +3,16 @@ description: "Learn how to keep track all of your server metrics, business metri
 icon: "heartbeat"
 type: "technologies"
 see_more: |
-  See the "Software Delivery" chapter in 
+  See the "Software Delivery" chapter in
   <a href="/#part-2-technologies">Part II, Technologies</a> for more info.
 categories:
   - id: "logging"
     name: "Logging Tools"
     description: |
-      Logging is your first layer of monitoring. Make sure you understand log 
+      Logging is your first layer of monitoring. Make sure you understand log
       levels, log formats, and log aggregation.
     sites:
-      - name: "Apache Logging Services" 
+      - name: "Apache Logging Services"
         url: "http://logging.apache.org/"
         image: "apache-logging.jpg"
         description: "log4j, log4php, log4net, log4cxx, etc"
@@ -20,10 +20,10 @@ categories:
         url: "http://logstash.net/"
         image: "logstash.jpg"
         description: |
-          logstash is a tool for managing events and logs. You can use it to 
-          collect logs, parse them, and store them for later use (like, for 
-          searching). Speaking of searching, logstash comes with a web 
-          interface for searching and drilling into all of your logs. It is 
+          logstash is a tool for managing events and logs. You can use it to
+          collect logs, parse them, and store them for later use (like, for
+          searching). Speaking of searching, logstash comes with a web
+          interface for searching and drilling into all of your logs. It is
           fully free and fully open source.
       - name: "Loggly"
         url: "https://www.loggly.com/"
@@ -63,9 +63,9 @@ categories:
   - id: "business-metrics"
     name: "Business Metrics"
     description: |
-      Tools to monitor what are your users are actually doing in the product. 
+      Tools to monitor what are your users are actually doing in the product.
       These are the metrics the CEO and product team look at.
-    sites:  
+    sites:
       - name: "Google Analytics"
         url: "http://www.google.com/analytics/"
         image: "google-analytics.jpg"
@@ -94,9 +94,9 @@ categories:
     name: "Application Metrics"
     description: |
       Tools to monitor what your application code, both on the server-side (QPS,
-      latency, through put, error counts) and on the client-side (load time, 
+      latency, through put, error counts) and on the client-side (load time,
       payload size, crashes).
-    sites:  
+    sites:
       - name: "New Relic"
         url: "https://newrelic.com/"
         image: "new-relic.jpg"
@@ -122,16 +122,16 @@ categories:
         url: "http://www.lognormal.com/boomerang/doc/"
         image: "boomerang.jpg"
         description: |
-          boomerang is an open source piece of javascript that you add to your 
-          web pages, where it measures the performance of your website from 
-          your end user's point of view. It has the ability to send this data 
-          back to your server for further analysis. With boomerang, you find 
+          boomerang is an open source piece of javascript that you add to your
+          web pages, where it measures the performance of your website from
+          your end user's point of view. It has the ability to send this data
+          back to your server for further analysis. With boomerang, you find
           out exactly how fast your users think your site is.
   - id: "process-monitoring"
     name: "Process Monitoring"
     description: |
       Tools to keep processes up and running after a crash or reboot.
-    sites:  
+    sites:
       - name: "Monit"
         url: "http://mmonit.com/monit/"
         image: "monit.jpg"
@@ -150,7 +150,7 @@ categories:
     name: "Code Metrics"
     description: |
       Tools to measure code coverage, bug counts, lines of code, etc.
-    sites:  
+    sites:
       - name: "Jenkins"
         url: "http://jenkins-ci.org/"
         image: "jenkins.jpg"
@@ -171,7 +171,7 @@ categories:
     description: |
       Tools to measure how the hardware is doing: CPU usage, memory usage, hard
       drive usage, and network traffic.
-    sites:  
+    sites:
       - name: "Nagios"
         url: "http://www.nagios.org/"
         image: "nagios.jpg"
@@ -199,31 +199,35 @@ categories:
       Tools to alert you when your metrics are out of line.
     sites:
       - name: "PagerDuty"
-        url: "http://www.pagerduty.com/" 
+        url: "http://www.pagerduty.com/"
         image: "pager-duty.jpg"
       - name: "VictorOps"
-        url: "http://victorops.com/" 
+        url: "http://victorops.com/"
         image: "victor-ops.jpg"
       - name: "pingability"
-        url: "http://pingability.com/" 
+        url: "http://pingability.com/"
         image: "pingability.jpg"
       - name: "Mist.io"
-        url: "https://mist.io/" 
+        url: "https://mist.io/"
         image: "mist-io.jpg"
       - name: "BigPanda"
-        url: "http://bigpanda.io/" 
+        url: "http://bigpanda.io/"
         image: "big-panda.jpg"
       - name: "OpsGenie"
-        url: "http://www.opsgenie.com/" 
+        url: "http://www.opsgenie.com/"
         image: "ops-genie.jpg"
   - id: "further-reading"
     name: "Further Reading"
     description: |
-      More reading on monitoring and why it's such a fragmented eco-system.
+      More reading on monitoring and metrics
     sites:
+      - name: "MonitoringScape"
+        url: "https://bigpanda.io/monitoringscape/"
+        image: "monitoring-scape.jpg"
       - name: "#monitoringsucks"
-        url: "https://github.com/monitoringsucks" 
+        url: "https://github.com/monitoringsucks"
       - name: "The Virtues of Monitoring"
-        url: "http://www.paperplanes.de/2011/1/5/the_virtues_of_monitoring.html" 
-      # http://a16z.com/2015/08/21/16-metrics/
-
+        url: "http://www.paperplanes.de/2011/1/5/the_virtues_of_monitoring.html"
+      - name: "16 Startup Metrics"
+        url: "http://a16z.com/2015/08/21/16-metrics/"
+        image: "16-startup-metrics.jpg"

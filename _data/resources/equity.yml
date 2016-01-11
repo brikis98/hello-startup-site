@@ -48,6 +48,9 @@ categories:
   - id: "further-reading"
     name: "Further Reading"
     sites:
+      - name: "The Open Guide to Equity Compensation"
+        url: "https://github.com/jlevy/og-equity-compensation"
+        image: "open-guide-equity-compensation.jpg"
       - name: "An Introduction to Stock &amp; Options for the Tech Entrepreneur or Startup Employee"
         url: "http://www.scribd.com/doc/55945011/An-Introduction-to-Stock-Options-for-the-Tech-Entrepreneur-or-Startup-Employee"
         image: "intro-to-stock-for-tech.jpg"
@@ -76,5 +79,3 @@ categories:
         image: "how-i-negotiated-startup-compensation.jpg"
 # http://siliconhillslawyer.com/2014/01/01/safe-yc-founders-investment/
 # http://siliconhillslawyer.com/2013/08/15/founder-convertible-notes-startups/
-
-
