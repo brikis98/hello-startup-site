@@ -3,7 +3,7 @@ description: "Images, photos, graphics, clip art, icons, and image editors you c
 icon: "image"
 type: "products"
 see_more: |
-  See the "Idea, Design, MVP" chapter in 
+  See the "Idea, Design, MVP" chapter in
   <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
   - id: "free-stock-photos"
@@ -17,8 +17,8 @@ categories:
         url: "https://commons.wikimedia.org/wiki/Main_Page"
         image: "wikimedia.jpg"
         description: |
-          Wikimedia Commons is a media file repository making available public 
-          domain and freely-licensed educational media content (images, sound 
+          Wikimedia Commons is a media file repository making available public
+          domain and freely-licensed educational media content (images, sound
             and video clips) to everyone, in their own language.
       - name: "Flickr"
         url: "https://www.flickr.com/search/advanced/"
@@ -29,7 +29,7 @@ categories:
         image: "unsplash.jpg"
         description: "Free High-Resolution Photos"
       - name: "picjumbo"
-        url: "http://picjumbo.com/"        
+        url: "http://picjumbo.com/"
         image: "picjumbo.jpg"
         description: "Totally free photos for your commercial &amp; personal works"
       - name: "Little Visuals"
@@ -37,7 +37,7 @@ categories:
         image: "little-visuals.jpg"
         description: "Sign up to get 7 hi-res images zipped up in your inbox every 7 days."
       - name: "Gratisography"
-        url: "http://www.gratisography.com/"        
+        url: "http://www.gratisography.com/"
         description: "Free, use as you please, high-resolution pictures"
       - name: "Morguefile.com"
         url: "http://www.morguefile.com/"
@@ -51,7 +51,7 @@ categories:
         url: "http://nos.twnsnd.co/"
         image: "new-old-stock.jpg"
         description: |
-          Vintage photos from the public archives free of known copyright 
+          Vintage photos from the public archives free of known copyright
           restrictions.
       - name: "StockSnap.io"
         url: "https://stocksnap.io/"
@@ -72,6 +72,9 @@ categories:
         image: "im-free.jpg"
         description: |
           A curated collection of free resources, all for commercial use.
+      - name: "Good Free Photos"
+        url: "http://www.goodfreephotos.com/"
+        image: "good-free-photos.png"
   - id: "paid-stock-photos"
     name: "Paid Stock Photography"
     sites:
@@ -79,7 +82,7 @@ categories:
         url: "http://www.istockphoto.com/"
         image: "istock.jpg"
         description: |
-          Explore millions of royalty-free images, illustrations, videos, and 
+          Explore millions of royalty-free images, illustrations, videos, and
           music clips at ridiculously great prices
       - name: "Creative Market - Handcrafted Fonts, Graphics, Themes and More"
         url: "https://creativemarket.com/"
@@ -91,7 +94,7 @@ categories:
         image: "big-stock.jpg"
       - name: "Shutterstock"
         url: "http://www.shutterstock.com/"
-        image: "shutter-stock.jpg"        
+        image: "shutter-stock.jpg"
       - name: "Stocksy United"
         url: "http://www.stocksy.com/"
         image: "stocksy.jpg"
@@ -110,14 +113,14 @@ categories:
         url: "http://fortawesome.github.io/Font-Awesome/"
         image: "font-awesome.jpg"
         description: |
-          Font Awesome gives you scalable vector icons that can instantly be 
-          customized — size, color, drop shadow, and anything that can be done 
+          Font Awesome gives you scalable vector icons that can instantly be
+          customized — size, color, drop shadow, and anything that can be done
           with the power of CSS.
       - name: "glyphicons"
         url: "http://glyphicons.com/"
         image: "glyphicons.jpg"
         description: |
-          GLYPHICONS is a library of precisely prepared monochromatic icons and 
+          GLYPHICONS is a library of precisely prepared monochromatic icons and
           symbols, created with an emphasis on simplicity and easy orientation.
       - name: "FlatIcon"
         url: "http://www.flaticon.com/"
@@ -143,21 +146,21 @@ categories:
         url: "http://www.adobe.com/products/photoshopfamily.html"
         image: "photoshop.jpg"
         description: |
-          The most famous image editor in the world. Very powerful, but 
+          The most famous image editor in the world. Very powerful, but
           expensive.
       - name: "GIMP"
         url: "http://www.gimp.org/"
         image: "gimp.jpg"
         description: |
-          GIMP is the GNU Image Manipulation Program. It is a freely 
-          distributed piece of software for such tasks as photo retouching, 
+          GIMP is the GNU Image Manipulation Program. It is a freely
+          distributed piece of software for such tasks as photo retouching,
           image composition and image authoring.
       - name: "Paint.net"
-        url: "http://www.getpaint.net/"   
+        url: "http://www.getpaint.net/"
         image: "paint-net.jpg"
         description: |
-          Paint.NET is free image and photo editing software for PCs that run 
-          Windows.   
+          Paint.NET is free image and photo editing software for PCs that run
+          Windows.
       - name: "Pixlr"
         url: "https://pixlr.com/"
         image: "pixlr.jpg"
@@ -170,8 +173,8 @@ categories:
         url: "http://www.sumopaint.com/home/"
         image: "sumo-paint.jpg"
         description: |
-          Sumo Paint is an online image editor, without need to install 
-          anything to your device. It's the most versatile photo editor and 
+          Sumo Paint is an online image editor, without need to install
+          anything to your device. It's the most versatile photo editor and
           painting application that works in a browser.
       - name: "Photoshop Express"
         url: "http://www.photoshop.com/products/photoshopexpress"
