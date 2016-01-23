@@ -148,6 +148,7 @@ categories:
           the hood of beautiful websites to find out what fonts they're using
           and how they're using them. Ultimately, we want to know what font
           goes with what?
+      # https://designschool.canva.com/blog/calligraphy-fonts/
   - id: "color-palettes"
     name: "Color Palettes"
     sites:
@@ -284,6 +285,9 @@ categories:
         description: |
           Online logo maker. Creating the logo is free, but if you want to
           download it, it's $39.99.
+      # http://logomakr.com/
+      # http://www.designmantic.com/
+      # http://www.squarespace.com/logo/
   - id: "design-checklists"
     name: "Design checklists"
     sites:

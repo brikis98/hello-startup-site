@@ -1,3 +1,12 @@
+- id: "mvp-is-a-process"
+  url: "http://themacro.com/articles/2016/01/minimum-viable-product-process/"
+  title: "A Minimum Viable Product Is Not a Product, It's a Process"
+  date: "January 22, 2016"
+  image: "macro-mvp.png"
+  description: |
+    I published a blog post on The Macro, Y Combinator's blog, that discusses
+    one of the most common causes of startup failure.
+  call_to_action: "Learn why an MVP is not a product, but a process"
 - id: "hello-startup-cornell-mba-list"
   url: "http://www.johnson.cornell.edu/Entrepreneurship-and-Innovation-Institute/Resources/Blogs-Books"
   title: "Recommended books for entrepreneurs"
