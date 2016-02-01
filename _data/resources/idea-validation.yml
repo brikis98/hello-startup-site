@@ -3,24 +3,24 @@ description: "Quick and cheap ways to do some market research to find out if you
 icon: "check"
 type: "products"
 see_more: |
-  See the "Idea, Design, MVP" chapter in 
+  See the "Idea, Design, MVP" chapter in
   <a href="/#part-1-products">Part I, Products</a> for more info.
 categories:
   - id: "ads"
     name: "Advertising Sites"
     description: |
       You can validate an idea by using the tools from advertising networks to
-      research their userbase. For example, you can use Google's Keyword Planner 
-      to see how many people search for specific terms or Facebook's Ad Design 
+      research their userbase. For example, you can use Google's Keyword Planner
+      to see how many people search for specific terms or Facebook's Ad Design
       to see how many people have a specific interest. Optionally, you can even
-      purchase some ads and guage interest in your idea by seeing how many 
+      purchase some ads and guage interest in your idea by seeing how many
       clicks you get.
     sites:
       - name: "Google AdWords Keyword Planner"
         url: "https://adwords.google.com/ko/KeywordPlanner/Home"
         image: "adwords.jpg"
         description: |
-          Plan your Search Network campaigns and learn what your customers are 
+          Plan your Search Network campaigns and learn what your customers are
           looking for
       - name: "Facebook Ads"
         url: "https://www.facebook.com/ads"
@@ -64,9 +64,9 @@ categories:
         url: "http://aytm.com/"
         image: "aytm.jpg"
         description: |
-          AYTM.com - Ask Your Target Market - is the leading innovator in 
-          online Market Research. Our survey tool with built-in experts and a 
-          20MM+ worldwide panel helps brands and agencies gain insights from 
+          AYTM.com - Ask Your Target Market - is the leading innovator in
+          online Market Research. Our survey tool with built-in experts and a
+          20MM+ worldwide panel helps brands and agencies gain insights from
           their precise target markets.
       - name: "SurveyMonkey"
         url: "https://www.surveymonkey.com/"
@@ -75,14 +75,14 @@ categories:
         url: "http://www.google.com/insights/consumersurveys/home"
         image: "google-surveys.jpg"
         description: |
-          Imagine surveying the web with a tool so precise it could predict the 
-          2012 presidential election. With Google Consumer Surveys, you choose 
-          your target audience, type your question and watch the results roll 
+          Imagine surveying the web with a tool so precise it could predict the
+          2012 presidential election. With Google Consumer Surveys, you choose
+          your target audience, type your question and watch the results roll
           in within hours.
   - id: "web-analytics"
     name: "Website Analytics"
     description: |
-      If there are competitors or similar products, you can research their 
+      If there are competitors or similar products, you can research their
       website traffic and usage to guage the size of the market.
     sites:
       - name: "comScore"
@@ -96,10 +96,22 @@ categories:
         image: "alexa.jpg"
       - name: "Moz Open Site Explorer"
         url: "https://moz.com/researchtools/ose"
+      # http://follow.net/
+      # https://www.compete.com/
+      # http://www.similarweb.com/
+  # - id: "funding-research"
+  # CrunchBase
+  # AngelList
+  # KickStarter
+  # IndieGoGo
+  # SeedTable
+  # http://www.seed-db.com/
+  # http://startupdatatrends.com/
+  # Owler
   - id: "mobile-analytics"
     name: "Mobile Analytics"
     description: |
-      If there are competitors or similar products, you can research their 
+      If there are competitors or similar products, you can research their
       mobile traffic and usage to guage the size of the market.
     sites:
       - name: "Xyo"
@@ -113,6 +125,9 @@ categories:
         url: "http://www.distimo.com/"
         image: "distimo.jpg"
         description: "App Analytics, Conversion Tracking, App Download &amp; Revenue Data"
+      # https://www.apptweak.com/
+      # https://www.apptopia.com/
+      # http://www.mopapp.com/
   - id: "trends"
     name: "Trends"
     sites:
@@ -137,13 +152,13 @@ categories:
         url: "http://data.worldbank.org/"
         image: "world-bank.jpg"
         description: |
-          World Bank Open Data: free and open access to data about development 
+          World Bank Open Data: free and open access to data about development
           in countries around the globe.
       - name: "Nielsen Research"
         url: "http://www.nielsen.com/"
         image: "nielsen.jpg"
         description: |
-          Nielsen, a leading global information and measurement company, 
+          Nielsen, a leading global information and measurement company,
           provides insights & data about what people watch, listen to & buy.
       - name: "Think With Google"
         url: "https://www.thinkwithgoogle.com/"

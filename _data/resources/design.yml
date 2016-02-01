@@ -51,7 +51,7 @@ categories:
       - name: "40 Free Branding &amp; Identity Mockup Templates"
         url: "http://designinstruct.com/print-design/free-branding-identity-mockups/"
       - name: "100 Free Responsive HTML5 CSS3 Website Templates"
-        url: "http://w3layouts.com/free-responsive-html5-css3-website-templates/"
+        url: "https://w3layouts.com/"
         image: "100-free-templates.jpg"
       - name: "Hugo Themes"
         url: "http://themes.gohugo.io/"
@@ -59,6 +59,7 @@ categories:
       - name: "One Page Love"
         url: "https://onepagelove.com/"
         image: "one-page-love.jpg"
+      # http://xlandings.com/
   - id: "mobile-templates"
     name: "Mobile templates"
     sites:
@@ -99,6 +100,7 @@ categories:
         url: "https://www.campaignmonitor.com/email-templates/#gallery"
         image: "campaign-monitor-email-templates.jpg"
         description: "Email templates from Campaign Monitor"
+      # https://beefree.io/index.html
   - id: "fonts"
     name: "Fonts"
     sites:
@@ -288,6 +290,7 @@ categories:
       # http://logomakr.com/
       # http://www.designmantic.com/
       # http://www.squarespace.com/logo/
+      # http://www.logodust.com/
   - id: "design-checklists"
     name: "Design checklists"
     sites:
