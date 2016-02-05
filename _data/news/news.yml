@@ -1,3 +1,12 @@
+- id: "startup-ideas-validation"
+  url: "http://www.slideshare.net/brikis98/startup-ideas-and-validation"
+  title: "Startup Ideas and Validation"
+  date: "February 5, 2016"
+  image: "startup-ideas-validation-screenshot.png"
+  description: |
+    This is a talk on how to come up with startup ideas and how to use
+    validation to pick the ones worth working on.
+  call_to_action: "Check out the slides"
 - id: "mvp-is-a-process"
   url: "http://themacro.com/articles/2016/01/minimum-viable-product-process/"
   title: "A Minimum Viable Product Is Not a Product, It's a Process"
