@@ -127,6 +127,15 @@ categories:
           your end user's point of view. It has the ability to send this data
           back to your server for further analysis. With boomerang, you find
           out exactly how fast your users think your site is.
+      - name: "CoScale"
+        url: "http://www.coscale.com/"
+        image: "coscale.jpg"
+        description: |
+          CoScale provides full stack web performance monitoring, combining
+          server and application metrics, page load times, and custom metrics
+          and events. CoScale simplifies monitoring and troubleshooting with
+          automated anomaly detection and contextual insights, so you can act
+          proactively on performance changes that impact your business.
   - id: "process-monitoring"
     name: "Process Monitoring"
     description: |
