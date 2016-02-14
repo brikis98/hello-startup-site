@@ -242,6 +242,12 @@ categories:
   - id: "further-reading"
     name: "Further Reading"
     sites:
+      - name: "A Minimum Viable Product Is Not a Product, It’s a Process"
+        url: "http://themacro.com/articles/2016/01/minimum-viable-product-process/"
+        image: "mvp-is-a-process.jpg"
+        description: |
+          A blog post that discusses one of the most common causes of startup
+          failure and how to use the MVP process to avoid it.
       - name: "The Guide to Minimum Viable Products"
         url: "http://www.uxpin.com/guide-to-minimum-viable-products.html"
         image: "uxpin-guide-to-mvp.jpg"

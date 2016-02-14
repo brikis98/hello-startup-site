@@ -113,8 +113,8 @@ categories:
         url: "https://www.reddit.com/r/Jobbit"
         image: "reddit.jpg"
         description: |
-          See also 
-          <a href="https://www.reddit.com/r/jobs/" target="_blank">r/jobs</a> and 
+          See also
+          <a href="https://www.reddit.com/r/jobs/" target="_blank">r/jobs</a> and
           <a href="https://www.reddit.com/r/startups" target="_blank">r/startups</a>
       - name: "SlashDot"
         url: "http://slashdot.org/job_board.pl"
@@ -165,8 +165,8 @@ categories:
         url: "https://business.linkedin.com/biz/talent-solutions"
         image: "linkedin-talent-solutions.jpg"
         description: |
-          Post jobs on LinkedIn, use Recruiter to find and reach out to 
-          passive candidates, set up a Company Page and Career Pages on 
+          Post jobs on LinkedIn, use Recruiter to find and reach out to
+          passive candidates, set up a Company Page and Career Pages on
           LinkedIn, and create personalized recruiting ads.
       - name: "Indeed"
         url: "http://www.indeed.com/"
@@ -186,12 +186,15 @@ categories:
       - name: "Monster"
         url: "http://www.monster.com/"
         image: "monster.jpg"
-# https://startupdeveloperjobs.com/    
+# https://startupdeveloperjobs.com/
 # http://www.jobsintech.io/
-# https://weworkremotely.com/  
+# https://weworkremotely.com/
   - id: "further-reading"
     name: "Further reading"
     sites:
+      - name: "A Guide to Hiring for your Startup"
+        url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
+        image: "guide-to-hiring.jpg"
       - name: "The Hiring Post"
         url: "http://sockpuppet.org/blog/2015/03/06/the-hiring-post/"
         image: "the-hiring-post.jpg"
@@ -199,7 +202,7 @@ categories:
         url: "http://www.ybrikman.com/writing/2011/04/26/your-job-posting-sucks/"
         image: "your-job-posting-sucks.jpg"
       - name: "The Anatomy of the Perfect Sales Hiring Process"
-        url: "http://firstround.com/review/the-anatomy-of-the-perfect-sales-hiring-process/"      
+        url: "http://firstround.com/review/the-anatomy-of-the-perfect-sales-hiring-process/"
       - name: "Shit Recruiters Say"
         url: "http://www.ybrikman.com/writing/2013/05/07/shit-recruiters-say/"
       - name: "The 10x developer is NOT a myth"

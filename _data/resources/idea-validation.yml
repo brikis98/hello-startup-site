@@ -177,6 +177,13 @@ categories:
   - id: "further-reading"
     name: "Further Reading"
     sites:
+      - name: "Startup Ideas and Validation"
+        url: "http://www.ybrikman.com/writing/2016/02/14/startup-ideas-and-validation/"
+        image: "startup-ideas-validation.jpg"
+        description: |
+          Every startup begins with an idea. This is a talk that discusses how
+          to come up with startup ideas and validation techniques you can use
+          to pick the ideas worth working on.
       - name: "The Four Steps to the Epiphany"
         url: "http://www.amazon.com/dp/0989200507/?tag=hello-startup-20"
         image: "four-steps.jpg"

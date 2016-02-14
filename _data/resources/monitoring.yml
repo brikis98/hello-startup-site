@@ -230,6 +230,14 @@ categories:
     description: |
       More reading on monitoring and metrics
     sites:
+      - name: "Agility Requires Safety"
+        url: "http://www.ybrikman.com/writing/2016/02/14/agility-requires-safety/"
+        image: "agility-requires-safety.jpg"
+        description: |
+          To go faster in a car, you need not only a powerful engine, but also
+          safety mechanisms like brakes, air bags, and seat belts. This is a
+          talk that discusses the safety mechanisms that allow you to build
+          software faster.
       - name: "MonitoringScape"
         url: "https://bigpanda.io/monitoringscape/"
         image: "monitoring-scape.jpg"

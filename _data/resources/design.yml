@@ -363,6 +363,9 @@ categories:
   - id: "further-reading"
     name: "Further Reading"
     sites:
+      - name: "A Crash Course on Design for Developers"
+        url: "http://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
+        image: "crash-course-design-developers.jpg"
       - name: "The Non-Designer's Design Book"
         url: "http://www.amazon.com/dp/0133966151/?tag=hello-startup-20"
         image: "non-designers-design-book.jpg"
