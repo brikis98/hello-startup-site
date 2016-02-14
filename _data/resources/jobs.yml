@@ -195,6 +195,10 @@ categories:
       - name: "A Guide to Hiring for your Startup"
         url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
         image: "guide-to-hiring.jpg"
+        description: |
+          A talk that discusses what to look for in candidates, where to find
+          them, how to interview them, and how to make an offer they can’t
+          refuse.
       - name: "The Hiring Post"
         url: "http://sockpuppet.org/blog/2015/03/06/the-hiring-post/"
         image: "the-hiring-post.jpg"
