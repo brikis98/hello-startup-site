@@ -366,6 +366,11 @@ categories:
       - name: "A Crash Course on Design for Developers"
         url: "http://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
         image: "crash-course-design-developers.jpg"
+        description: |
+          This is a talk that introduces the basic tools of user-centered and
+          visual design. It’s targeted at developers and any other design
+          newbies who want to improve the design of their websites, mobile
+          apps, resumes, slide decks, and so on.
       - name: "The Non-Designer's Design Book"
         url: "http://www.amazon.com/dp/0133966151/?tag=hello-startup-20"
         image: "non-designers-design-book.jpg"
