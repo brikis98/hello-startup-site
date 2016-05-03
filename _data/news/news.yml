@@ -1,3 +1,13 @@
+- id: "introducing-gruntwork"
+  url: "http://www.ybrikman.com/writing/2016/04/25/introducing-gruntwork-up-and-running-aws-2-weeks/"
+  title: "Introducing Gruntwork"
+  date: "May 3, 2016"
+  image: "gruntwork-logo.png"
+  description: |
+    My company, Atomic Squirrel, has merged with Phoenix DevOps to create a new company called Gruntwork. We can get
+    you up and running on AWS with DevOps best practices and world-class infrastructure in about 2 weeks. You focus on
+    your product. We'll take care of the grunt work.
+  call_to_action: "Learn more about Gruntwork"
 - id: "startup-ideas-validation"
   url: "http://www.ybrikman.com/writing/2016/02/14/startup-ideas-and-validation/"
   title: "Startup Ideas and Validation"
