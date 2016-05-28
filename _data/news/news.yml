@@ -1,3 +1,15 @@
+- id: "why-best-devs-give-away-almost-everything"
+  url: "http://themacro.com/articles/2016/05/why-the-best-give-away/"
+  title: "Why the Best Companies and Developers Give Away Almost Everything They Do"
+  date: "May 26, 2016"
+  image: "macro-why-the-best-give-away.png"
+  description: |
+    Why do so many software companies and developers give away so much of their work in the form of open source,
+    writing, and speaking? Why would they invest thousands of hours and millions of dollars into a project and then
+    release it for free to everyone, even their competitors? In this blog post on Y Combinator's The Macro, I dive into
+    the key reasons why the best companies and developers share almost everything they do, discuss some of the common
+    objections to sharing, and by the end, I hope to convince you and your company to start sharing too.
+  call_to_action: "Read more on The Macro"
 - id: "introducing-gruntwork"
   url: "http://www.ybrikman.com/writing/2016/04/25/introducing-gruntwork-up-and-running-aws-2-weeks/"
   title: "Introducing Gruntwork"
