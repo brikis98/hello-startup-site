@@ -9,3 +9,4 @@ node_modules
 .vagrant
 _site
 dist
+.jekyll-metadata
