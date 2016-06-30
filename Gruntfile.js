@@ -45,10 +45,10 @@ module.exports = function(grunt) {
     },
     shell: {
       jekyllBuild : {
-        command : 'jekyll build'
+        command : 'bundle exec jekyll build --incremental'
       },
       jekyllServe : {
-        command : 'jekyll serve'
+        command : 'bundle exec jekyll serve --incremental --host 0.0.0.0'
       }
     },
     connect: {
