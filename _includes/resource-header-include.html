@@ -6,8 +6,10 @@
 </a>
 {% if page.blurb_include %}
   {% include {{ page.blurb_include }} %}
+{% elsif layout.blurb_include %}
+  {% include {{ layout.blurb_include }} %}
 {% elsif page.blurb %}
-  {{ page.blurb }}          
+  {{ page.blurb }}
 {% endif %}
 <p>
   These <a href="/resources">startup resources</a> are based on the book 

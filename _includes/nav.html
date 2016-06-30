@@ -1,6 +1,6 @@
 {% unless page.skip_nav %}
   <div class="nav-wrapper">
-    <nav class="navbar navbar-fixed-top {% if page.inverse_nav %}navbar-inverse{% else %}navbar-default{% endif %}">
+    <nav class="navbar navbar-fixed-top {% if page.inverse_nav or layout.inverse_nav %}navbar-inverse{% else %}navbar-default{% endif %}">
       <div class="container">
         <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -18,6 +18,8 @@
             </li>
             {% if page.nav_include %}
               {% include {{ page.nav_include }} %}
+            {% elsif layout.nav_include %}
+              {% include {{ layout.nav_include }} %}
             {% elsif page.nav %}
               {% for item in page.nav %}
                 <li><a class="page-scroll" href="{{ item.url }}" title="{{ item.title }}">{{ item.name }}</a></li>
