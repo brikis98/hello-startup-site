@@ -197,6 +197,7 @@ categories:
       - name: "Clerky"
         url: "https://www.clerky.com/"
         image: "clerky.jpg"
+# http://www.binpress.com/license/generator
       - name: "Insperity"
         url: "http://www.insperity.com/"
         image: "insperity.jpg"

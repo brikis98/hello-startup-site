@@ -1,3 +1,14 @@
+- id: "gruntwork-infrastructure-packages"
+  url: "https://blog.gruntwork.io/gruntwork-infrastructure-packages-7434dc77d0b1"
+  title: "Gruntwork Infrastructure Packages: world-class infrastructure, all of the control, none of the work."
+  date: "July 26, 2016"
+  image: "gruntwork-packages.jpeg"
+  description: |
+    An Infrastructure Package is a reusable, battle-tested, documented, configurable, best-practices definition of a
+        piece of infrastructure. We think it’s a better way to build and manage infrastructure. And today, we’re unveiling
+        the full list of Gruntwork Infrastructure Packages and releasing the documentation as open source so previous
+        customers can find info from a Google search and future customers can explore our packages directly.
+  call_to_action: "Read more on The Gruntwork Blog"
 - id: "why-best-devs-give-away-almost-everything"
   url: "http://themacro.com/articles/2016/05/why-the-best-give-away/"
   title: "Why the Best Companies and Developers Give Away Almost Everything They Do"
