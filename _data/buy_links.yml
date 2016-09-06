@@ -18,3 +18,8 @@
   url: "https://www.safaribooksonline.com/library/view/hello-startup/9781491910016/"
   image: "safari-store-small.gif"
   value: 0
+- id: "yes24"
+  name: "Yes24.com (Korean translation)"
+  url: "http://www.yes24.com/24/goods/31869272"
+  image: "yes24-logo.png"
+  value: 28
