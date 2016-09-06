@@ -1,3 +1,11 @@
+- id: "korean-translation"
+  url: "http://www.yes24.com/24/goods/31869272"
+  title: "\"Hello, Startup\" is now available in Korean!"
+  date: "September 6, 2016"
+  image: "hello-startup-korean-cover.jpeg"
+  description: |
+    A Korean translation of "Hello, Startup" is now available!
+  call_to_action: "Grab a copy on yes24.com"
 - id: "gruntwork-infrastructure-packages"
   url: "https://blog.gruntwork.io/gruntwork-infrastructure-packages-7434dc77d0b1"
   title: "Gruntwork Infrastructure Packages: world-class infrastructure, all of the control, none of the work."
@@ -5,9 +13,9 @@
   image: "gruntwork-packages.jpeg"
   description: |
     An Infrastructure Package is a reusable, battle-tested, documented, configurable, best-practices definition of a
-        piece of infrastructure. We think it’s a better way to build and manage infrastructure. And today, we’re unveiling
-        the full list of Gruntwork Infrastructure Packages and releasing the documentation as open source so previous
-        customers can find info from a Google search and future customers can explore our packages directly.
+    piece of infrastructure. We think it’s a better way to build and manage infrastructure. And today, we’re unveiling
+    the full list of Gruntwork Infrastructure Packages and releasing the documentation as open source so previous
+    customers can find info from a Google search and future customers can explore our packages directly.
   call_to_action: "Read more on The Gruntwork Blog"
 - id: "why-best-devs-give-away-almost-everything"
   url: "http://themacro.com/articles/2016/05/why-the-best-give-away/"
