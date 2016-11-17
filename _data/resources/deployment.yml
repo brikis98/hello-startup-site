@@ -1,5 +1,5 @@
 name: "Deployment Tools"
-description: "Instead of deploying code manually, learn about tools such as Chef, Puppet, Ansible, and Docker."
+description: "Instead of deploying code manually, learn about tools such as Terraform, Chef, Puppet, Ansible, and Docker."
 icon: "cloud-upload"
 type: "technologies"
 see_more: |
@@ -9,6 +9,9 @@ categories:
   - id: "configuration-management"
     name: "Configuration Management and Deployment Automation"
     sites:
+      - name: "Terraform"
+        url: "https://www.terraform.io/"
+        image: "terraform.png"
       - name: "Chef"
         url: "https://www.chef.io/"
         image: "chef.jpg"
@@ -109,6 +112,13 @@ categories:
   - id: "further-reading"
     name: "Further Reading"
     sites:
+      - name: "Terraform: Up & Running"
+        url: "http://www.terraformupandrunning.com/"
+        image: "terraform-up-and-running-cover-3d-medium-transparent.png"
+        description: |
+          This book is the fastest way to get up and running with Terraform, an open source tool that allows you to
+          define your infrastructure as code and to deploy and manage that infrastructure across a variety of cloud
+          providers (e.g., AWS, Azure, Google Cloud, DigitalOcean).
       - name: "Agility Requires Safety"
         url: "http://www.ybrikman.com/writing/2016/02/14/agility-requires-safety/"
         image: "agility-requires-safety.jpg"

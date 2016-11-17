@@ -1,3 +1,13 @@
+- id: "terraform-up-running-early-release"
+  url: "http://www.terraformupandrunning.com/"
+  title: "\"Terraform: Up & Running\" is now available as an early release!"
+  date: "November 17, 2016"
+  image: "terraform-up-and-running-cover-early-release.jpg"
+  description: |
+    I wrote another book! This book is the fastest way to get up and running with Terraform, an open source tool that
+    allows you to manage your infrastructure as code across a variety of cloud providers. It's now available in the
+    O'Reilly Store as an early release.
+  call_to_action: "Get your copy now"
 - id: "korean-translation"
   url: "http://www.yes24.com/24/goods/31869272"
   title: "\"Hello, Startup\" is now available in Korean!"
