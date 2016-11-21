@@ -1,3 +1,12 @@
+- id: "yours-productly"
+  url: "http://yoursproductly.com/yevgeniy-brikman/"
+  title: "Yevgeniy Brikman on the Yours Productly Podcast"
+  date: "November 21, 2016"
+  image: "yours-productly.png"
+  description: |
+    I did an interview for the Yours Productly podcast where I talk about startups, product design, coming up with
+    startup ideas, minimal viable products, learning, writing, and more.
+  call_to_action: "Listen to the podcast"
 - id: "terraform-up-running-early-release"
   url: "http://www.terraformupandrunning.com/"
   title: "\"Terraform: Up & Running\" is now available as an early release!"
