@@ -60,7 +60,8 @@ categories:
         url: "https://onepagelove.com/"
         image: "one-page-love.jpg"
       # http://xlandings.com/
-  - id: "mobile-templates"
+      # https://templated.co/
+- id: "mobile-templates"
     name: "Mobile templates"
     sites:
       - name: "Ratchet"

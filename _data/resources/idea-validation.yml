@@ -22,6 +22,7 @@ categories:
         description: |
           Plan your Search Network campaigns and learn what your customers are
           looking for
+      # http://keywordtool.io/
       - name: "Facebook Ads"
         url: "https://www.facebook.com/ads"
         image: "facebook-ads.jpg"
@@ -195,6 +196,6 @@ categories:
       - name: "The 16-Step Guide to Evaluating the Viability of Any Product Idea"
         url: "http://www.shopify.com/blog/13640265-the-16-step-guide-to-evaluating-the-viability-of-any-product-idea"
         image: "16-step-guide-viability-product-idea.jpg"
-
+# https://www.upupgrow.com/blog/2016/12/20/how-to-validate-demand-for-your-product
 
 
