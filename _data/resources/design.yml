@@ -61,7 +61,7 @@ categories:
         image: "one-page-love.jpg"
       # http://xlandings.com/
       # https://templated.co/
-- id: "mobile-templates"
+  - id: "mobile-templates"
     name: "Mobile templates"
     sites:
       - name: "Ratchet"
