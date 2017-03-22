@@ -1,3 +1,13 @@
+- id: "teraform-up-and-running-published"
+  url: "http://www.terraformupandrunning.com/"
+  title: |
+    <em>Terraform: Up & Running</em> has been published!
+  date: "March 22, 2017"
+  image: "terraform-up-and-running-cover-medium.jpg"
+  description: |
+    The final version of my second book, <em>Terraform: Up & Running</em>, has been published, and the ebook and print
+    edition are now available online and in your local bookstores!
+  call_to_action: "Get your copy"
 - id: "devrant"
   url: "https://www.devrant.io/podcasts/episode-2-yevgeniy-brikman"
   title: "Yevgeniy Brikman on the devRant Podcast"
