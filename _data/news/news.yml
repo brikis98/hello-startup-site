@@ -1,3 +1,13 @@
+- id: "startup-dna"
+  url: "http://www.ybrikman.com/writing/2017/05/09/startup-dna/"
+  title: |
+    Startup DNA: the formula behind successful startups in Silicon Valley
+  date: "May 5, 2017"
+  image: "startup-dna-cover-small.png"
+  description: |
+    “Successful startups are all alike; every unsuccessful startup is unsuccessful in its own way.” These are my
+    personal observations on a few of the most important traits that make startups successful.
+  call_to_action: "Check out the video and slides"
 - id: "truth-about-startups"
   url: "http://www.ybrikman.com/writing/2017/05/05/the-truth-about-startups/"
   title: |
