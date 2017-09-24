@@ -6515,7 +6515,7 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
   };
 
   var loadLinkedIn = function() {
-    $.getScript("http://platform.linkedin.com/in.js?async=true", function success() {
+    $.getScript("//platform.linkedin.com/in.js?async=true", function success() {
       IN.init({});
     });
   };
