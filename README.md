@@ -31,23 +31,12 @@ Running with Docker
 ==================
 
 As an alternative to installing Ruby, Jekyll, and Grunt, if you're a user of
-[Docker](https://www.docker.com/) and [Docker
-Compose](https://docs.docker.com/compose/), you can run a Docker image of
+[Docker](https://www.docker.com/), you can run a Docker image of
 hello-startup-site that has all the dependencies already setup for you.
-
-On Linux:
 
 1. `git clone` this repo
 2. `docker-compose up`
 3. Go to `http://localhost:4000` to test
-
-On OS X, using the [docker-osx-dev](https://github.com/brikis98/docker-osx-dev)
-project:
-
-1. `git clone` this repo
-2. `docker-osx-dev`
-3. `docker-compose up`
-4. Go to `http://dockerhost:4000` to test
 
 Architecture
 ==================
@@ -59,6 +48,7 @@ Architecture
 * [PhoneGap](http://phonegap.com/): used to package up the static HTML as
   iOS and Android apps.
 * [GitHub Pages](https://pages.github.com/): for hosting the website.
+* [CloudFlare](https://www.cloudflare.com/): free SSL and CDN.    
 * [Bootstrap](http://getbootstrap.com/): for CSS, layout, general theme.
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/): for icons.
 
