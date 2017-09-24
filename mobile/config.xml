@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.hello.startup" version="1.0.0">
   <name>Hello, Startup</name>
   <description>A collection of startup resources based on the book "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams" by Yevgeniy Brikman.</description>
-  <author href="http://www.hello-startup.net" email="feedback@hello-startup.net">Yevgeniy Brikman</author>
+  <author href="https://www.hello-startup.net" email="feedback@hello-startup.net">Yevgeniy Brikman</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>

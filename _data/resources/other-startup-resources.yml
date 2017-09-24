@@ -8,7 +8,7 @@ categories:
     name: "General"
     sites:
       - name: "Startup Checklist"
-        url: "http://www.atomic-squirrel.net/startup-checklist/"
+        url: "https://www.atomic-squirrel.net/startup-checklist/"
         image: "startup-checklist.jpg"
         description: |
           A checklist of everything you need to do to launch a startup.

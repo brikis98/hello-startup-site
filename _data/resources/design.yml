@@ -365,7 +365,7 @@ categories:
     name: "Further Reading"
     sites:
       - name: "A Crash Course on Design for Developers"
-        url: "http://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
+        url: "https://www.ybrikman.com/writing/2015/10/07/crash-course-design-for-developers/"
         image: "crash-course-design-developers.jpg"
         description: |
           This is a talk that introduces the basic tools of user-centered and

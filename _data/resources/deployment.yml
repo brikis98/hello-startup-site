@@ -113,14 +113,14 @@ categories:
     name: "Further Reading"
     sites:
       - name: "Terraform: Up & Running"
-        url: "http://www.terraformupandrunning.com/"
+        url: "https://www.terraformupandrunning.com/"
         image: "terraform-up-and-running-cover-3d-medium-transparent.png"
         description: |
           This book is the fastest way to get up and running with Terraform, an open source tool that allows you to
           define your infrastructure as code and to deploy and manage that infrastructure across a variety of cloud
           providers (e.g., AWS, Azure, Google Cloud, DigitalOcean).
       - name: "Agility Requires Safety"
-        url: "http://www.ybrikman.com/writing/2016/02/14/agility-requires-safety/"
+        url: "https://www.ybrikman.com/writing/2016/02/14/agility-requires-safety/"
         image: "agility-requires-safety.jpg"
         description: |
           To go faster in a car, you need not only a powerful engine, but also

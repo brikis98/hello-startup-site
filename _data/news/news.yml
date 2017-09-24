@@ -1,5 +1,5 @@
 - id: "startup-dna"
-  url: "http://www.ybrikman.com/writing/2017/05/09/startup-dna/"
+  url: "https://www.ybrikman.com/writing/2017/05/09/startup-dna/"
   title: |
     Startup DNA: the formula behind successful startups in Silicon Valley
   date: "May 5, 2017"
@@ -9,7 +9,7 @@
     personal observations on a few of the most important traits that make startups successful.
   call_to_action: "Check out the video and slides"
 - id: "truth-about-startups"
-  url: "http://www.ybrikman.com/writing/2017/05/05/the-truth-about-startups/"
+  url: "https://www.ybrikman.com/writing/2017/05/05/the-truth-about-startups/"
   title: |
     The Truth About Startups
   date: "April 7, 2017"
@@ -20,7 +20,7 @@
     startups in my career.
   call_to_action: "Check out the video and slides"
 - id: "teraform-up-and-running-published"
-  url: "http://www.terraformupandrunning.com/"
+  url: "https://www.terraformupandrunning.com/"
   title: |
     <em>Terraform: Up & Running</em> has been published!
   date: "March 22, 2017"
@@ -48,7 +48,7 @@
     startup ideas, minimal viable products, learning, writing, and more.
   call_to_action: "Listen to the podcast"
 - id: "terraform-up-running-early-release"
-  url: "http://www.terraformupandrunning.com/"
+  url: "https://www.terraformupandrunning.com/"
   title: "\"Terraform: Up & Running\" is now available as an early release!"
   date: "November 17, 2016"
   image: "terraform-up-and-running-cover-early-release.jpg"
@@ -89,7 +89,7 @@
     objections to sharing, and by the end, I hope to convince you and your company to start sharing too.
   call_to_action: "Read more on The Macro"
 - id: "introducing-gruntwork"
-  url: "http://www.ybrikman.com/writing/2016/04/25/introducing-gruntwork-up-and-running-aws-2-weeks/"
+  url: "https://www.ybrikman.com/writing/2016/04/25/introducing-gruntwork-up-and-running-aws-2-weeks/"
   title: "Introducing Gruntwork"
   date: "May 3, 2016"
   image: "gruntwork-logo.png"
@@ -99,7 +99,7 @@
     your product. We'll take care of the grunt work.
   call_to_action: "Learn more about Gruntwork"
 - id: "startup-ideas-validation"
-  url: "http://www.ybrikman.com/writing/2016/02/14/startup-ideas-and-validation/"
+  url: "https://www.ybrikman.com/writing/2016/02/14/startup-ideas-and-validation/"
   title: "Startup Ideas and Validation"
   date: "February 5, 2016"
   image: "startup-ideas-validation-screenshot.png"
@@ -144,7 +144,7 @@
     available online and in your local bookstores!
   call_to_action: "Get your copy now"
 - id: "atomic-squirrel-startup-checklist"
-  url: "http://www.ybrikman.com/writing/2015/09/21/introducing-atomic-squirrel-startup-checklist/"
+  url: "https://www.ybrikman.com/writing/2015/09/21/introducing-atomic-squirrel-startup-checklist/"
   title: "Introducing Atomic Squirrel and The Startup Checklist"
   date: "September 21, 2015"
   image: "atomic-squirrel-logo.png"
@@ -165,7 +165,7 @@
     <em>Hello, Startup</em>.
   call_to_action: "Download the free e-book now"
 - id: "guide-to-hiring"
-  url: "http://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
+  url: "https://www.ybrikman.com/writing/2015/05/07/guide-to-hiring-for-your-startup/"
   title: "A Guide to Hiring for your Startup"
   date: "May 7, 2015"
   image: "guide-to-hiring.png"

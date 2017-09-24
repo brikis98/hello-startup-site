@@ -7,7 +7,7 @@ categories:
     name: "Startup overview"
     sites:
       - name: "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams"
-        url: "http://www.hello-startup.net/"
+        url: "https://www.hello-startup.net/"
         image: "hello-startup.jpg"
         description: |
           This book is the "Hello, World" tutorial for building products,

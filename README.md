@@ -2,15 +2,15 @@ Hello, Startup Website
 ==================
 
 This is the website and mobile app for [Hello, Startup: A Programmer's Guide to
-Building Products, Technologies, and Teams](http://www.hello-startup.net), an
-O'Reilly book by [Yevgeniy Brikman](http://www.ybrikman.com).
+Building Products, Technologies, and Teams](https://www.hello-startup.net), an
+O'Reilly book by [Yevgeniy Brikman](https://www.ybrikman.com).
 
 Status
 ==================
 
-* The *Hello, Startup* website is available at http://www.hello-startup.net.
+* The *Hello, Startup* website is available at https://www.hello-startup.net.
 * Contributions, especially to the list of
-  [Startup Resources](http://www.hello-startup.net/#resources), are welcome via
+  [Startup Resources](https://www.hello-startup.net/#resources), are welcome via
   pull request (see instructions below).
 * The mobile app version is currently on pause as the market doesn't seem big
   enough for it.
@@ -65,7 +65,7 @@ Architecture
 The Startup Resources
 ==================
 
-The [Startup Resources](http://www.hello-startup.net/#resources) are generated
+The [Startup Resources](https://www.hello-startup.net/#resources) are generated
 from [YAML](http://www.yaml.org/) data files in the `_data` folder (see the
 [Jekyll Data Files](http://jekyllrb.com/docs/datafiles/) documentation for
 more info). These resources are a work in progress and I welcome contributions

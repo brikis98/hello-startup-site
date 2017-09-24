@@ -112,6 +112,7 @@ categories:
     name: "Free Clip Art and Icons"
     sites:
       # https://thenounproject.com/
+      # https://icons8.com
       - name: "Font Awesome, the iconic font and CSS toolkit"
         url: "http://fortawesome.github.io/Font-Awesome/"
         image: "font-awesome.jpg"
