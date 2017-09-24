@@ -5,20 +5,20 @@ twitter_title: "Hello, Startup: A Programmer's Guide to Building Products, Techn
 short_title: "Hello, Startup"
 medium_title: "Hello, Startup: A Programmer's Guide to Building Products, Technologies, and Teams"
 email: feedback@hello-startup.net
-image: "http://www.hello-startup.net/images/hello-startup-large.jpg"
+image: "https://www.hello-startup.net/images/hello-startup-large.jpg"
 baseurl: ""
-url: "http://www.hello-startup.net"
+url: "https://www.hello-startup.net"
 twitter_username: brikis98
 twitter_url: "https://twitter.com/brikis98"
-homepage: "http://www.ybrikman.com"
+homepage: "https://www.ybrikman.com"
 github: "https://github.com/brikis98"
 goodreads_author: "https://www.goodreads.com/author/show/13496405.Yevgeniy_Brikman"
 goodreads_book: "https://www.goodreads.com/book/show/24915480-hello-startup-a-programmer-s-guide-to-building-products-technologies"
 site_github: "https://github.com/brikis98/hello-startup-site"
-company: "http://www.atomic-squirrel.net"
-blog: "http://www.ybrikman.com/writing"
-talks: "http://ybrikman.com/talks"
-photos: "http://ybrikman.com/photos"
+company: "https://www.gruntwork.io"
+blog: "https://www.ybrikman.com/writing"
+talks: "https://www.ybrikman.com/talks"
+photos: "https://www.ybrikman.com/photos"
 linkedin: "https://www.linkedin.com/in/jbrikman"
 #buy_oreilly_link: "http://www.jdoqocy.com/click-7745743-11290546?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920034360.do%3Fcmp%3Daf-code-books-video-product_cj_0636920034360_%25zp&amp;cjsku=0636920034360"
 buy_oreilly_link: "http://shop.oreilly.com/product/0636920034360.do"
@@ -34,7 +34,15 @@ left_column_size: 5
 right_column_size: 7
 
 # Build settings
-markdown: kramdown
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
 exclude: ["www", "mobile/www", "node_modules"]
+timezone: 'America/Los_Angeles'
+
+# Plugins (GitHub Pages only support a few)
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
