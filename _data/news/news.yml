@@ -1,3 +1,12 @@
+- id: "how-to-build-startup"
+  url: "https://blog.gruntwork.io/how-we-built-a-distributed-self-funded-family-friendly-profitable-startup-93635feb5ace"
+  title: |
+    How we built a distributed, self-funded, family-friendly, profitable startup
+  date: "February 14, 2018"
+  image: "logo_with_text_new_website_small.png"
+  description: |
+    The story of how we built Gruntwork.
+  call_to_action: "Read the blog post"
 - id: "startup-dna"
   url: "https://www.ybrikman.com/writing/2017/05/09/startup-dna/"
   title: |
