@@ -1,3 +1,14 @@
+- id: "the-10-1-rule"
+  url: "https://www.ybrikman.com/writing/2018/08/12/the-10-to-1-rule-of-writing-and-programming/"
+  title: |
+    The 10:1 rule of writing and programming
+  date: "August 12, 2018"
+  image: "editing.jpg"
+  description: |
+    Writing prose and writing code have a lot in common, but perhaps the biggest similarity is that neither writers nor
+    programmers can get things done on time. Writers are notorious for missing deadlines. Programmers are notorious for
+    being wildly off with estimates. The question is, why?
+  call_to_action: "Read the blog post"
 - id: "how-to-build-startup"
   url: "https://blog.gruntwork.io/how-we-built-a-distributed-self-funded-family-friendly-profitable-startup-93635feb5ace"
   title: |
