@@ -1,5 +1,5 @@
 web:  
-  image: brikis98/hello-startup-site
+  build: .
   volumes:
     - .:/src
   ports:

@@ -1,14 +1,11 @@
-FROM gliderlabs/alpine:3.2
+FROM ruby:2.4.2
 MAINTAINER Yevgeniy Brikman <jim@ybrikman.com>
 
-# Install all the dependencies for Jekyll
-RUN apk-install bash build-base libffi-dev zlib-dev libxml2-dev libxslt-dev ruby ruby-dev nodejs
-
-# Install Jekyll
-RUN gem install bundler jekyll --no-ri --no-rdoc
-
-# Install nokogiri separately because it's special
-RUN gem install nokogiri -v 1.6.7.2 -- --use-system-libraries
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
+    apt-get install -y curl ca-certificates jq && \
+    curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
+    apt-get install -y nodejs && \
+    rm -rf /var/lib/apt/lists/*
 
 # Install grunt
 RUN npm install -g grunt-cli
@@ -30,7 +27,7 @@ RUN bundle install
 RUN mkdir -p /src
 VOLUME ["/src"]
 WORKDIR /src
-ADD . /src
+COPY . /src
 
 # Jekyll runs on port 4000 by default
 EXPOSE 4000
