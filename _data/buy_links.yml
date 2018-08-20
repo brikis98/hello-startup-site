@@ -23,3 +23,13 @@
   url: "http://www.yes24.com/24/goods/31869272"
   image: "yes24-logo.png"
   value: 28
+- id: "amazon-cn"
+  name: "Amazon.cn (Chinese translation)"
+  url: "https://www.amazon.cn/dp/B07FSRBGJV"
+  image: "amazon-cn-logo.png"
+  value: 15
+- id: "item-jd"
+  name: "JD.com (Chinese translation)"
+  url: "https://item.jd.com/12411566.html"
+  image: "jd-logo.png"
+  value: 15
