@@ -1,3 +1,11 @@
+- id: "chinese-translation"
+  url: "https://www.amazon.cn/dp/B07FSRBGJV"
+  title: "\"Hello, Startup\" is now available in Chinese!"
+  date: "August 20, 2018"
+  image: "hello-startup-cover-chinese.jpg"
+  description: |
+    A Chinese translation of "Hello, Startup" is now available!
+  call_to_action: "Grab a copy on amazon.cn"
 - id: "the-10-1-rule"
   url: "https://www.ybrikman.com/writing/2018/08/12/the-10-to-1-rule-of-writing-and-programming/"
   title: |
