@@ -112,7 +112,7 @@ categories:
       - name: "Datadog"
         url: "https://www.datadoghq.com/"
         image: "data-dog.jpg"
-      - name: "Stacify"
+      - name: "Stackify"
         url: "http://stackify.com"
         image: "stackify.jpg"
       - name: "Localytics"
