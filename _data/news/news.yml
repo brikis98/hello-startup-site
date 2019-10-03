@@ -1,3 +1,14 @@
+- id: "terraform-up-running-2nd-edition"
+  url: "https://www.terraformupandrunning.com"
+  title: "\"Terraform: Up & Running,\" 2nd edition, has been published"
+  date: "October 3, 2019"
+  image: "terraform_up&running_2e_cover_small.png"
+  description: |
+    "Terraform: Up & Running," 2nd edition, has been published! It's nearly double the length of the 1st edition
+    (~160 more pages), including two completely new chapters (Production-grade Terraform Code and How to Test Terraform
+    Code), and major changes to all the original chapters and code examples (everything is now updated through Terraform
+    0.12).
+  call_to_action: "Get a copy"
 - id: "1-million-arr"
   url: "https://blog.gruntwork.io/how-we-got-to-1-million-in-annual-recurring-revenue-with-0-in-fundraising-340ed2b4e158"
   title: "How we got to $1 million in annual recurring revenue with $0 in fundraising"
