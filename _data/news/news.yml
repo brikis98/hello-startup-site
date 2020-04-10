@@ -1,3 +1,15 @@
+- id: "se-radio-interview"
+  url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
+  title: "SE Radio Interview: Yevgeniy Brikman on Infrastructure as Code Best Practices"
+  date: "April 7, 2020"
+  image: "se-radio-interview.png"
+  description: |
+    Check out Yevgeniy Brikman's podcast interview with Software Engineering Radio on Infrastructure as Code best
+    practices. The discussion covers similarities and differences between conventional software engineering and
+    code-driven infrastructure; factoring code into modules; layering; terraform code organization for micro-services;
+    releases and tagging; code reviews; unit testing infrastructure; deployment of infrastructure; ownership and code
+    structure models; and open source and re-usable libraries.
+  call_to_action: "Listen to the podcast!"
 - id: "terraform-up-running-2nd-edition"
   url: "https://www.terraformupandrunning.com"
   title: "\"Terraform: Up & Running,\" 2nd edition, has been published"
