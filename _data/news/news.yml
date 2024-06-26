@@ -1,3 +1,15 @@
+- id: "fundamentals-of-devops-early-release"
+  url: "https://www.fundamentals-of-devops.com/?ref=hello-startup-website-news-early-release"
+  title: "[NEW BOOK] <em>Fundamentals of DevOps and Software Delivery</em> is now available as an early release!"
+  date: "June 25, 2024"
+  image: "fundamentals-of-devops-2d-cover-early-release-small.png"
+  description: |
+    I've written a new book! It's called <em>Fundamentals of DevOps and Software Delivery</em>. It's a hands-on guide to
+    software delivery—that is, all the processes, tools, and techniques that are required to run software in production
+    and maintain it on an ongoing basis—and DevOps, one of the methodologies used today to make software delivery
+    vastly more efficient. The early release of the ebook is available now on O'Reilly; if you prefer to wait for the
+    print version, you can pre-order it now on Amazon and Barnes & Noble.
+  call_to_action: "Get the early release now!"
 - id: "se-radio-interview"
   url: "https://www.se-radio.net/2020/04/episode-405-yevgeniy-brikman-on-infrastructure-as-code-best-practices/"
   title: "SE Radio Interview: Yevgeniy Brikman on Infrastructure as Code Best Practices"
