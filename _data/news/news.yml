@@ -1,3 +1,14 @@
+- id: "fundamentals-of-devops-published"
+  url: "https://www.fundamentals-of-devops.com/?ref=tuar-website-news-published"
+  title: |
+    [NEW BOOK] <em>Fundamentals of DevOps and Software Delivery</em> has been published!
+  date: "June 25, 2024"
+  image: "fundamentals-of-devops-cover-2d-color-small.png"
+  description: |
+    The final version of <em>Fundamentals of DevOps and Software Delivery</em> has been published! It's a hands-on guide
+    to all the processes, tools, and techniques that are required to run software in production and maintain it on an
+    ongoing basis.
+  call_to_action: "Get your copy now!"
 - id: "fundamentals-of-devops-early-release"
   url: "https://www.fundamentals-of-devops.com/?ref=hello-startup-website-news-early-release"
   title: "[NEW BOOK] <em>Fundamentals of DevOps and Software Delivery</em> is now available as an early release!"
