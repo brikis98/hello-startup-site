@@ -7,7 +7,8 @@
   description: |
     The final version of <em>Fundamentals of DevOps and Software Delivery</em> has been published! It's a hands-on guide
     to all the processes, tools, and techniques that are required to run software in production and maintain it on an
-    ongoing basis.
+    ongoing basis. Learn more about why I wrote the book, and why you may want to read it, in this
+    <a href="https://www.ybrikman.com/blog/2025/06/02/fundamentals-of-devops-published/" target="_blank">announcement blog post</a>.
   call_to_action: "Get your copy now!"
 - id: "fundamentals-of-devops-early-release"
   url: "https://www.fundamentals-of-devops.com/?ref=hello-startup-website-news-early-release"
