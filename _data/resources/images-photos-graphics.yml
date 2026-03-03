@@ -92,6 +92,12 @@ categories:
         image: "creative-market.jpg"
         description: |
           Ready-to-use design assets from 6,748 independent creators
+      - name: "Can Stock Photo"
++       url: "http://www.canstockphoto.com/"
++       image: "csp.jpg"
++       description: |
++         Can Stock Photo offers over 20 million professional royalty free 
++         stock photos at prices you can afford.
       - name: "Bigstock"
         url: "http://www.bigstockphoto.com/"
         image: "big-stock.jpg"
